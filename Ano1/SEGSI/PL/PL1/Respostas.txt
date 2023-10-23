@@ -1,0 +1,32 @@
+1
+1.1-> Usa CHAP e/ou PAP
+1.2->O user para se autenticar envia um request de autenticação, com um par de valores (username e password) e o servidor responde ao pedido
+1.3->aliceads1
+1.4->Password é transmitida em texto simples, qualquer atacante que esteja a ouvir a comunicação facilmente obtem estes dados do utilizador.
+
+2.
+
+Numa primeira análise vemos várias mensagens, com ids associados, portanto podemos concluir que estamos perante
+um servidor radius a autenticar vários utilizadores ou a responder a requests do mesmo clinete.
+
+Os endereços ip de destino e origem são os mesmos, portanto, este cenário deve estar a acontecer em localhost (ambos os clientes e servidor).
+Estes comentários acima refletem o pacote Radius (não o simples)
+
+Olhando para o pacote radius simples, conseguimos analisar um utilizador/cliente a tentar autenticar-se com o servidor radius. 
+São trocadas um total de 4 mensagens.
+O cliente, primeiro, envia uma pedido de autenticação (request)
+O servidor radius responde com um access-challenge
+O cliente responde, resolvendo o desafio, confirmando assim que se trata daquele cliente em si (e não um terceiro desconhecido)
+O servidor radius responde de forma afirmativa, autenticando o cliente.
+
+2.2-> A questão do desafio resume-se em provar que a entidade com quem estamos a contactar é ela mesma.
+A lógica por trás de enviar um desafio, o cliente resolvê-lo e enviar a resposta (que assumindo que correu tudo bem, será igual à do servidor), é provar a sua identidade. Confirmando que é quem diz ser.
+
+2.3->
+
+2.4->
+
+3
+Análise da captura:
+-O cliente e o servidor (?) iniciam uma sessão TCP (típico three-way handshake)
+-

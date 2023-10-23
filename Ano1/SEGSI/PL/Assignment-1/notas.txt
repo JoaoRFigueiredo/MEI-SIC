@@ -1,0 +1,7 @@
+CAPTURA 3 
+(ftp) transferencia de ficheiros
+o cliente quer transferir/baixar ficheiros para/de um servidor microsoft.
+Quer-se autenticar como um administrador, dado pela mensagem de request USER administrator. 
+O servidor pede as suas credenciais, e o cliente transmite-as em plain text. 
+A password e o username não possuem qualquer encriptação/hashing process.
+Um atacante que apanhe estes pacotes, já possui os dados de acesso do cliente.
