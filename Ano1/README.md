@@ -2,13 +2,13 @@
 
 ## Semestre 1
 
-### ARMDD - [Armazéns de dados](/MEI-SIC/Ano1/ARMDD/)
+### ARMDD - [Armazéns de dados](/Ano1/ARMDD/)
 
-### SEGSI - [Segurança de Sistemas e Informação](/MEI-SIC/Ano1/SEGSI/)
+### SEGSI - [Segurança de Sistemas e Informação](/Ano1/SEGSI/)
 
-### MINDD - [Mineração de Dados](/MEI-SIC/Ano1/MINDD/)
+### MINDD - [Mineração de Dados](/Ano1/MINDD/)
 
-### ENGREQ - [Engenharia de Requisitos](/MEI-SIC/Ano1/ENGREQ/)
+### ENGREQ - [Engenharia de Requisitos](/Ano1/ENGREQ/)
 
 ## Semestre 2
 
