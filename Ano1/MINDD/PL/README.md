@@ -23,7 +23,7 @@
 
 ## Guião 4 - Ensemble Learning and Parameter Optimization
 
-- **Tópico Principal:** Aprendizado de conjunto e otimização de parâmetros.
+- **Tópico Principal:** Aprendizagem de conjunto e otimização de parâmetros.
 - **Informações Adicionais:**
   - Compreensão de técnicas de aprendizado de conjunto.
   - Estratégias para otimizar hiperparâmetros de modelos.
