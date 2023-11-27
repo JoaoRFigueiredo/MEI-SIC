@@ -1,4 +1,8 @@
-# Guiões Práticos
+# Guiões Práticos e Projetos
+
+## Projeto 1 - Predictive Modeling of Loan Default: A Data Mining Approach
+
+
 
 ## Guião 1 - Dataframes (Pandas)
 
@@ -48,3 +52,18 @@
 - **Informações Adicionais:**
   - Introdução às redes neuronais e o seu uso em Mineração de Dados.
   - Implementação prática e exemplos.
+
+
+## Guião 8 - Time Series
+
+- **Tópico Principal:** Séries Temporais.
+- **Informações Adicionais:**
+  - Introdução às  séries temporais e previsões.
+  - Séries temporais estacionárias.
+
+# Guião 9 - Non-Stationary Time Series
+
+- **Tópico Principal:** Séries Temporais não estacionárias.
+- **Informações Adicionais:**
+  - Introdução às  séries temporais não estacionárias e previsões.
+  - Séries temporais não estacionárias.
