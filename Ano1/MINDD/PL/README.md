@@ -2,7 +2,7 @@
 
 ## Projeto 1 - Predictive Modeling of Loan Default: A Data Mining Approach
 
-
+## Projeto 2 - Time Series Forecasting: A Data Mining Approach
 
 ## Guião 1 - Dataframes (Pandas)
 
@@ -67,3 +67,19 @@
 - **Informações Adicionais:**
   - Introdução às  séries temporais não estacionárias e previsões.
   - Séries temporais não estacionárias.
+
+# Guião 10 - Time Series Forecasting Machine Learning
+
+- **Tópico Principal:** Previsões de séries temporais com Machine Learning.
+- **Informações Adicionais:**
+  - Introdução às  Previsões de séries temporais com Machine Learning.
+  - Single-step e multi-step.
+
+
+# Guião 11 - Time Series Forecasting Deep Learning
+
+- **Tópico Principal:** Previsões de séries temporais com Deep Learning.
+- **Informações Adicionais:**
+  - Introdução às  Previsões de séries temporais com Deep Learning.
+  - Single-step e multi-step.
+
