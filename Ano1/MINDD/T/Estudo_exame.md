@@ -1,3 +1,10 @@
+# Índice
+
+- [Modelos Preditivos](#modelos-preditivos)
+- [Avaliação de Modelos](#avaliação-de-modelos)
+
+
+
 # Modelos Preditivos
 
 ## Aprendizagem Baseada em Instâncias (KNN)
@@ -118,6 +125,137 @@
 | 4. Capaz de classificar amostras com valores ausentes | 4. Não capta dependências entre variáveis               |
 | 5. Considera todos os atributos como igualmente importantes | 5. Desempenho pode ser afetado pela presença de atributos correlacionados |
 | 6. Complexidade computacional linear em todas as variáveis do problema |                                                      |
+
+
+# Avaliação de Modelos
+
+- Estimativa de Desempenho:
+    - Obter uma estimativa fiável do erro de previsão
+    - Devemos Repetir os testes várias vezes
+    - Estimativa final = média de estimativas individuais
+    - Os dados utilizados para avaliação de qualquer modelo não podem ser usados durante o desenvolvimento do modelo
+- Métodos:
+    - Holdout
+        - Dividir os dados (aleatóriamente) em 2 conjuntos diferentes:
+            - Treino -> 2/3 do conjunto inicial
+                - Maior o conjunto = melhor o modelo
+            - Teste ->  1/3 do conjunto inicial
+                - Maior o conjunto = mais fiável a estimativa de erro
+        - Limitações:
+            - Só é possível aplicar quando existe um grande número de dados e todas as classes estiverem bem representadas
+            - O modelo é altamente dependente da composição dos conjuntos
+            - Os conjuntos de treino e teste não são independentes
+    - Holdout Repetido
+        - O método holdout pode ser repetido várias vezes em ordem a melhorar a estimativa do desempenho do modelo
+    - Cross-Validation
+        - A validação cruzada é uma técnica importante na avaliação de modelos de machine learning. Consiste em dividir o conjunto de dados em K partições (folds), treinando o modelo em K-1 folds e avaliando-o no fold restante. Esse processo é repetido K vezes, garantindo que cada parte dos dados seja usada tanto para treinamento quanto para avaliação. 
+        - O erro do modelo é então calculado como a média dos erros de previsão obtidos nas K iterações da validação cruzada. Essa abordagem ajuda a fornecer uma avaliação mais robusta do desempenho do modelo, reduzindo o impacto de uma única divisão inadequada dos dados.
+        - A validação cruzada é essencial para evitar a superestimação ou subestimação do desempenho do modelo, fornecendo uma visão mais confiável sobre como o modelo generaliza para diferentes conjuntos de dados.
+    -  Vantagens da Validação Cruzada
+        - **Utiliza o máximo de dados possível para treino:** A validação cruzada permite que o modelo seja treinado com o máximo de dados disponíveis, o que é crucial para desenvolver modelos mais robustos e generalizados.
+        - **Conjuntos de teste mutuamente exclusivos - cobrem todo o conjunto de dados:** A abordagem de validação cruzada garante que todos os dados sejam utilizados tanto para treinamento quanto para teste. Isso é fundamental para avaliar o desempenho do modelo em diferentes partes do conjunto de dados, garantindo uma avaliação abrangente.
+        - **Estratificação reduz a variância das estimativas:** A estratificação, quando aplicada na validação cruzada, ajuda a reduzir a variância das estimativas do modelo. Isso significa que as métricas de desempenho são mais consistentes e confiáveis, mesmo quando o conjunto de dados pode ter variações significativas.
+    - Leave One out
+        - Em cada iteração um único caso é deixado fora do conjunto de treino
+        - Na sua essência, é semelhante a VC com n-fold vezes
+        - Na Validação Cruzada Leave-One-Out, para uma amostra de tamanho n, o modelo é treinado em n-1 exemplos e testado com o exemplo excluído. Esse processo é repetido n vezes, onde o erro é a soma dos erros em cada teste dividido por n.
+
+            - **Amostragem não estratificada:** O teste é realizado apenas em um exemplo por vez, sem considerar estratificação nas classes.
+
+            - **Procedimento determinístico:** Não há amostragem aleatória envolvida, tornando o procedimento determinístico.
+
+            - **Computacionalmente dispendioso:** Esta abordagem é adequada para amostras muito pequenas devido à sua natureza computacionalmente custosa.
+
+            - **Estimativa do desempenho do modelo com elevada variância:** Como o teste ocorre em um único exemplo por vez, a estimativa do desempenho do modelo pode ter uma variância elevada.
+    - Bootstrap
+        - No método de bootstrap, um conjunto de treino é formado selecionando n instâncias do conjunto inicial de dados com reposição, o que implica que, para grandes amostras, o conjunto de treino terá aproximadamente 63.2% das instâncias originais devido à probabilidade de seleção com repetição.
+        - O conjunto de teste, formado pelas instâncias não selecionadas para o conjunto de treino (out-of-bag samples), em um método bootstrap é composto por aproximadamente 36.8% das instâncias originais para grandes amostras, sendo esse procedimento de amostragem repetido k vezes para obter uma estimativa final do erro.
+- Que método usar e Quando?
+    - Para grandes conjuntos de dados, o método mais adequado é o Holdout repetido.
+    - Em conjuntos de dados de tamanho médio, k-fold (especialmente com k=10) é frequentemente escolhido, sendo comum repetir o processo k-fold várias vezes para aumentar a significância estatística e diminuir a variância.
+    - A subamostragem aleatória é uma opção, embora menos frequentemente utilizada.
+    - Para pequenos conjuntos de dados, Bootstrap e leave-one-out são escolhas comuns, sendo o Bootstrap a opção mais frequente com um grande número de repetições (por exemplo, 200).
+- Avaliação de Modelos Regressão
+    - 2 tipos de erros de previsão:
+        - Erros dependentes da escala
+        - Erros percentuais
+
+![Erro-escala](images/erro-escala.png) 
+
+![Erro percentual](images/erro-percentual.png)
+
+- Matriz de confusão
+    - ![Alt text](images/matriz-confusao.png)
+    - Possuímos 4 classes/tipos de previsões:
+        - TP -> True Positives, aka, dados previstos como positivos e são, na realidade, positivos
+        - FP -> False Positives, aka, dados previstos como positivos, mas na realidade são negativos
+        - TN -> True Negatives, aka, dados previstos como Negativos e são, na realidade, negativos
+        - FN -> False Negatives, aka, dados previstos como negativos, mas, na realidade, são positivos
+- Métricas para avaliação de desempenho
+    - Accuracy:
+        - Número de previsões corretas em relação ao nº total de previsões realizadas
+        - Accuracy = (TP + TN) / (TP + TN + FP + FN)
+        - O erro associado pode ser calculado subtraíndo a 1, a accuracy obtida
+        - Taxa de erro = 1 - accuracy
+    - Kappa
+        - Avalia se a accuracy foi gerada aleatóriamente
+        - ![kappa](images/kappa.png)
+        - Uma interpretação comum da estatística Kappa:
+            - Menor que 0.20: Acordo Pobre
+            - Entre 0.20 e 0.40: Acordo Fraco
+            - Entre 0.40 e 0.60: Acordo Moderado
+            - Entre 0.60 e 0.80: Bom Acordo
+            - Entre 0.80 e 1.0: Muito Boa Concordância
+    - Limitações da Accuracy:
+        - Todas as classes previstas têm a mesma importância, logo não é adequada
+        - especialmente para conjuntos de dados desbalanceados
+        - classes com custos diferentes
+    - Matrizes de custos
+        - Usadas para calcular o custo associado às previsões realizadas por um modelo
+        - Exemplo:
+            -   ![Alt text](images/custo.png)  
+        - Esxitem métricas sensíveis ao custo:
+            - Recall -> taxa de acerto na classe positiva
+            - Specificity -> taxa de acerto na classe negativa
+    - Taxa de Acerto Balanceada
+        - Balanced Accuracy = (recall + specificity) / 2
+    - Precision
+        - Percentagem de previsões **positivas** corretas
+            - precision = (TP)/(TP+FP)
+    - Recall
+        - Percentagem de exemplos positivos corretamente previstos
+            - recall = (TP)/(TP + FN)
+    - F1
+        - Medida harmónica ponderada entre a precision e recall
+            - F1 = $$ 2 * \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}$$
+    - Classificação Multi-Classe
+        - Não existe classe positiva e negativa
+        - Existem n-matrizes binárias, uma para cada classe
+        - desempenho global é calculado através de medidas micro e macro-média
+        - ![Alt text](images/micro-macro.png)
+- Como comparar o desempenho de vários modelos?
+    - Accuracy por si não chega, eis um exemplo que demonstra tal:
+        - Dados dois modelos:
+            - Modelo M1: Precisão (Accuracy) de 85%, avaliado em 30 instâncias.
+            - Modelo M2: Precisão (Accuracy) de 75%, avaliado em 5000 instâncias.
+
+       - A comparação direta entre M1 e M2 com base na precisão isoladamente não é suficiente para determinar qual é melhor, pois a quantidade de instâncias testadas também é um fator relevante. Para uma avaliação mais robusta, seria necessário considerar outras métricas ou contextos específicos de aplicação.
+    - Curva ROC e AUC
+        - A Curva ROC (Receiver Operating Characteristic) e a AUC (Área Sob a Curva) são métricas eficazes para comparar modelos em diferentes pontos de operação. Estas métricas fornecem uma representação visual da taxa de verdadeiros positivos em função da taxa de falsos positivos, permitindo a análise do desempenho do modelo em diversos limiares de classificação. A AUC, que representa a área sob a curva ROC, oferece uma medida agregada da capacidade discriminativa do modelo, sendo uma métrica útil para avaliar e comparar classificadores.
+    - ![Alt text](images/roc.png)
+
+
+
+
+
+
+
+ 
+
+
+
+
+
 
 
 
