@@ -2,6 +2,9 @@
 
 - [Modelos Preditivos](#modelos-preditivos)
 - [Avaliação de Modelos](#avaliação-de-modelos)
+- [Regras de Associação](#regras-de-associação)
+- [Text Mining](#)
+- [Séries Temporais](#)
 
 
 
@@ -244,7 +247,145 @@
         - A Curva ROC (Receiver Operating Characteristic) e a AUC (Área Sob a Curva) são métricas eficazes para comparar modelos em diferentes pontos de operação. Estas métricas fornecem uma representação visual da taxa de verdadeiros positivos em função da taxa de falsos positivos, permitindo a análise do desempenho do modelo em diversos limiares de classificação. A AUC, que representa a área sob a curva ROC, oferece uma medida agregada da capacidade discriminativa do modelo, sendo uma métrica útil para avaliar e comparar classificadores.
     - ![Alt text](images/roc.png)
 
+# Regras de Associação
 
+- Têm por objetivo gerar todas as associações para as quais a presença de um ou vários itens específicos numa transação impliquem a presença de outros itens
+- ![regras_descrição](images/regras.png)
+- Regras de classificação vs Regras de associação
+
+| Características                | Regras de Classificação                                  | Regras de Associação                                      |
+|--------------------------------|---------------------------------------------------------|------------------------------------------------------------|
+| Atributo Objetivo              | Apenas um atributo objetivo                               | Vários atributos objetivo                                  |
+| Especificação de Classes       | Especificam a classe para todas as instâncias            | Aplicáveis em apenas alguns casos                          |
+| Medidas de Avaliação           | Accuracy, Precision, Recall, entre outras                | Suporte, Confiança, Interesse, entre outras                 |
+| Tipo de Aprendizagem           | Supervisionada                                           | Não supervisionada                                        |
+
+- Regras de associação (Tipos):
+    - **Úteis**
+        - Exemplo: Quem compra X compra Y
+    - **Triviais**
+        - Todos os inquiridos em estado de gravidez são do sexo feminino
+    - **Inexplicáveis**
+        - Na abertura de uma determinada loja o artigo mais vendido foram os guardanapos
+- Conceitos básicos
+    - As Regras de Associação são calculadas a partir dos dados e têm natureza probabilística
+    - Regras de Associação devem ser interpretadas com cuidado
+        - $$ A \Rightarrow B $$ 
+            - não implica causalidade, mas sim co-ocorrência
+        - Se observarmos um conjunto de itens de A, também deveremos observar um outro conjunto de itens de B
+- Medidas de avaliação
+    - Medidas subjetivas
+        - Variam de utilizador para utilizador
+            - Logo os algoritmos usam medidas objetivas baseadas em conceitos da área da Estatística
+    - Medidas objetivas
+        - **Suporte**
+            - É a significância estatística da Regra de associação, que mede a frequência dos itens na base de dados
+            - Exemplo:
+                - Possuímos a seguinte regra:
+                    - $$  \{A1, A4\} \Rightarrow \{A6\}  $$
+                    - O suporte desta regra seria a % de "cestos" em que a ocorrência   {A1, A4\} e {A6} ocorre
+        - **Confiança**
+            - Probabilidade condicional de que a presença de um conjunto de itens (antecedente) resultará na presença de outro item específico (consequente).
+            - Mede o poder de previsão da Regra de Associação
+            - Exemplo:
+                - Possuímos a seguinte regra:
+                    - $$  \{A1, A4\} \Rightarrow \{A6\}  $$
+                    - A confiança desta regra equivale à % de casos em que a ocorrência \{A1, A4\} corretamente prevê a ocorrência de {A6}
+        - **Suporte e Confiança**
+            - ![Alt text](images/suporte-confiança.png)
+        - **Cobertura**
+            - Definição: A cobertura de uma regra de associação mede a frequência absoluta com que o antecedente e o consequente aparecem juntos na base de dados.
+            - Fórmula: $$ \text{Cobertura}(A \Rightarrow B) = \frac{\text{Suporte}(A \cup B)}{\text{Total de Instâncias na Base de Dados}} $$
+            - Interpretação: Uma cobertura alta indica que a regra é aplicável a uma grande parte da base de dados.
+        - **Interesse**
+            - Definição: O interesse de uma regra de associação reflete o quão surpreendente ou informativa é a associação entre o antecedente e o consequente, considerando-se as taxas de ocorrência esperadas.
+            - Fórmula: $$ \text{Interesse}(A \Rightarrow B) = \frac{\text{Suporte}(A) \times \text{Suporte}(B)}{\text{Suporte}(A \cup B)}  $$
+            - Interpretação: Um interesse alto indica que a associação entre o antecedente e o consequente é mais forte do que seria esperado ao acaso.
+        - **Leverage**
+            - Definição: O leverage de uma regra de associação indica a diferença entre a ocorrência conjunta real do antecedente e do consequente e a ocorrência esperada se fossem independentes.
+            - Fórmula: $$ \text{Leverage}(A \Rightarrow B) = \text{Suporte}(A \cap B) - \text{Suporte}(A) \times \text{Suporte}(B)   $$
+            - Interpretação: Um leverage alto sugere uma associação mais forte do que o esperado na situação de independência. Pode identificar associações não apenas por frequência, mas também pela dependência entre antecedente e consequente.
+- Especificação do problema
+    - **Dados**
+        - Um conjunto de transações D, D = { T | T é um conjunto de itens }
+        - Existe um suporte mínimo e uma confiança mínima
+    - **Obter**
+        - Todas as regras de asssociação, A -> B (s:sup, c:conf), tais que ambos são superiores aos valores mínimos estabelecidos
+        -  É uma aproximação exaustiva
+            - Listar todas as possíveis regras de associação
+            - Calcular o suporte e a confiança para cada regra
+            - Cortar as regras que não verificam Supmin e Confmin
+            - **Computacionalmente impossível**
+- Complexidade da Extração de Regras de Associação
+    - Número total de regras de associação
+    - ![Alt text](images/regras-numero.png)
+- Algoritmo Apriori
+    - Envolve 2 passos:
+        - Gerar conjuntos de itens frequentes
+        - Gerar Regras de Associação Fortes
+    - Princípio do Algoritmo
+        - Se um conjunto de itens não satisfaz o Suporte mínimo então podemos ignorar todos os seus super-conjuntos, ou seja, o suporte de um conjunto de itens nunca excede o suporte dos seus subconjuntos
+    - Construção de Conjuntos Frequentes
+        - Se os conjuntos forem gerados por enumeração exaustiva, o nº de item-sets no nível K é dado por:
+        -  ![Alt text](images/conjuntos-gerados.png)  
+        -  Existem diferentes maneiras de gerar conjuntos frequentes:
+            - Evitar o mais possível a geração de conjuntos candidatos não necessários, ou seja, conjuntos com pelo menos um item infrequente.
+            - Assegurar que o conjunto de candidatos gerado é completo
+            - Não gerar o mesmo conjunto candidato mais do que uma vez
+        -  ![Alt text](images/frequentes.png) 
+- Otimização da Geração de Regras
+    - Como gerar eficientemente regras a partir dos conjuntos frequentes de itens.
+    - Em geral, a confiança não obedece à propriedade anti-monótona que suporte verifica:
+    Conf(ABC->D) pode ser maior ou menor do que Conf(AF->D)
+    - A Confiança é anti-monótna, pois depende do nº de itenms do lado esquerdo da regra
+    - Mas, regras geradas a partir do mesmo conjunto de itens frequentes apresentam a propriedade anti-monótona
+    - Por exemplo, L =  {A, B, C, D}:
+        - $$   \text{Conf}(ABC \Rightarrow D) \geq \text{Conf}(AB \Rightarrow CD) \geq \text{Conf}(A \Rightarrow BCD)   $$
+- Geração de Regras
+    - Dado um conjunto frequente de itens  L, o objetivo é encontrar todos os subconjuntos não vazios $$ f \subseteq L $$ para os quais a regra $$ f \Rightarrow L - f $$ satisfaça a confiança mínima.
+        - Se {A, B, C, D} conjunto frequente de itens, começam-se por gerar as regras com elevada confiança - regras com apenas um item no lado direito da regra.
+        - $$ABC \Rightarrow D$$, 
+        - $$ABD \Rightarrow C$$, 
+        - $$ACD \Rightarrow B$$, 
+        - $$BCD \Rightarrow A$$, 
+        - $$AB \Rightarrow CD$$, 
+        - $$AC \Rightarrow BD$$, 
+        - $$AD \Rightarrow BC$$, 
+        - $$BC \Rightarrow AD$$, 
+        - $$BD \Rightarrow AC$$, 
+        - $$CD \Rightarrow AB$$, 
+        - $$A \Rightarrow BCD$$, 
+        - $$B \Rightarrow ACD$$, 
+        - $$C \Rightarrow ABD$$, 
+        - $$D \Rightarrow ABC$$ 
+- ![Alt text](images/regras-apriori.png)
+- Avaliação APRIORI (Fatores de complexidade)
+    - Número total de itens
+    - Média de itens por transação
+    - Número de conjuntos frequentes
+    - Número médio de itens por conjunto frequente
+    - Suporte mínimo
+    - Número de transações
+    - Número de passagens pela base de dados (k ou k+1, onde k é o tamanho do maior conjunto frequente)
+    - Rápido
+    - Necessita grande espaço de memória
+    - Faz muitos acessos à base de dados ("hard disk")
+- **Avaliação de Regras de Associação**
+    - Limitações do Modelo Suporte/Confiança
+        -  Modelo Suporte/Confiança tem recebido muitas críticas ao longo dos últimos anos:
+            - O número de regras geradas pelo modelo é geralmente muito  grande, dificultando o processo de análise por parte do utilizador
+            -  Grande parte dos resultados minerados é composto por regras óbvias, redundantes ou, até mesmo, contraditórias
+    - Medidas Objetivas
+        - Devem depender apenas dos dados - data-driven
+        - Devem ser independentes do domínio – domain-independent
+        - Devem necessitar do mínimo de informação do utilizador (apenas valores limite para filtrar relações de baixa qualidade)
+- Propriedades das Medidas Objetivas
+    - P1: Propriedade de Inversão
+    - P2: Propriedade adição Nula
+    - P3: Propriedade de Escala
+-  Regras Fortes Não Interessantes
+    - ![Alt text](images/regras-nao-fortes.png)  
+-        
 
 
 
