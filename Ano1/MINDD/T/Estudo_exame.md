@@ -3,7 +3,7 @@
 - [Modelos Preditivos](#modelos-preditivos)
 - [Avaliação de Modelos](#avaliação-de-modelos)
 - [Regras de Associação](#regras-de-associação)
-- [Text Mining](#)
+- [Text Mining](#text-mining)
 - [Séries Temporais](#)
 
 
@@ -385,26 +385,189 @@
     - P3: Propriedade de Escala
 -  Regras Fortes Não Interessantes
     - ![Alt text](images/regras-nao-fortes.png)  
--        
 
 
+# Text Mining
 
+- É o processo de extração de conhecimento interessante/relevante a partir de dados textuais (não estruturados ou estruturados)
+- 80% da informação nas empresas é não estruturada
+    - Daí a relevância de Text Mining
+- Etapas de Text Mining:
+    - Recuperação de Informação
+    - Extração de Informação
+    - Mineração
+    - Interpretação
+- Importância?
+    - Pesquisa de informações específicas
+    - Análise Qualitativa e quantitativa
+    - Encontrar conhecimento novo, implícito em textos
+- Enquadramento do Text Mining
+    - ![Alt text](images/tm-enquadramento.png)
+- Níveis de Processamento de Texto
+    - Palavra
+    - Frase
+    - Coleção de Documentos
+- Processamento de Documentos ao nível de Palavras
+    - Representação através de Palavras
+        - Um documento pode ser descrito através de paalvras-chave
+        - Palavras-chave = pontos de acesso ao documento
+        - Uma palavra que seja identifcada como importante -> termo que caracteriza o documento
+        - Várias palavras podem ser mapeadas para um termo
+    - Propriedades das palavras (dificuldades)
+        - Palavras sinónimas
+        - Palavras homónimas
+        - Polissemia
+- Theasurus
+    - O Thesaurus é uma ferramenta linguística que se assemelha a um dicionário, mas destaca-se por fornecer sinônimos em vez de definições. Essencial para explorar as relações entre palavras, incluindo hierarquias como geral-para-específico e específico-para-geral, o Thesaurus oferece uma ampla gama de sinônimos, proporcionando um recurso valioso para aprimorar a expressão e a precisão na linguagem.
+- Conjunto de palavras Representativo
+    - Este conjunto de palavras de um documento deve ser avaliado pelos fatores:
+        - **Exaustividade**  mede a quantidade de assuntos distintos que o conjunto de palavras é capaz de reconhecer. Quanto maior, maior é a abragência e menor a precisão
+        - **Especificdade** é a capacidade dos termos do conjunto descreverem corretamente os tópicos de um documento. Quanto mais específico, menor é a abrangência e maior é a precisão
+- Fases de Processo de Criação Conj Palavras
+    - Identificação de termos
+    - Remoção de stopwords
+    - Normalização morfológica
+    - Seleção de termos
+- Identifcar Termos
+    - Implementação de um analisador léxico (parser) para identificar palavras nos documentos, excluindo símbolos e caracteres de controle ou formatação. O processo inclui:
+        - Reconhecimento de nomes próprios, seja através da detecção de palavras iniciadas em maiúscula ou por meio de um dicionário dedicado.
+        - Conversão de todos os caracteres para minúsculas, com exceção dos nomes próprios.
+        - Substituição de múltiplos espaços e tabulações por um único espaço.
+        - Padronização de datas e números.
+        - Eliminação de hífenes, sinais de pontuação, e outros elementos não essenc
+    - Termos compostos:
+        - Identificação de termos que coocorrem com frequência numa coleção de documentos, o sistema apresenta as expressões identificadas e solicita as corretas
+        - Utilização de um dicionário de expressões que indica quais as palavras que devem ser combinadas
+- StopWords
+    - São palavras sem valor linguístico
+    - Essas palavras desempenham o papel de conectores entre frases, visando facilitar a organização da linguagem. Incluem artigos, preposições, pronomes, conjunções, alguns adjectivos e advérbios, além de derivações dos verbos de ligação como ter, estar, ser e haver, os quais ocorrem com alta frequência nas frases.
+    - Representam 20%-30% das palavras nos documentos
+    - São dependentes da língua
+    - Exemplo da remoção de stopwords:
+        - ![Alt text](images/stopwords.png)
+- Normalização Morfológica
+    - As variações morfológicas são eliminadas através da identificação do radical da palavra. Os prefixos e os sufixos são retirados e os radicais resultantes são adicionados à estrutura de índice
+    - Características de género, número e grau das palavras, são eliminados:
+        - várias palavras são mapeadas para um único termo
+        - aumenta a abrangência das consultas
+        - diminui a precisão, impossibilidade de fazer pesquisas por palavras específicas
+        - pode reduzir o tamanho de um índice até 50%
+        - Potencialmente mais poderoso, mas menos eficiente
+    - Existem 2 formas de aplicar Normalização Morfológica
+        - Stemming
+        - Lemmatization
+    - Pode originar 2 tipos de erros:
+        - Overstemming
+        - Understemming
+    - Exemplo de Normalização Morfológica
+        - ![Alt text](images/normalizacao.png)
+- Seleção dos termos
+    - Diferentes palavras-chaves apresentam diferentes relevâncias
+    - Frequência de palavras nos textos
+        - Número de palavras frequentes é baixo
+        - Número de palavras com baixa frequência é alto
+    - Filtros para selecionar termos:
+        - Nº máximo de características
+        - Frequência do termo
+        - Ganho de informação
+        - Informação mútua
+        - Chi-Squared
+- Frequência de um termo
+    - Nº de vezes que o termo ocorre em d (documento)
+    - A relvância de um termo não está proporcionalmente relacionada com a frequência, exemplo:
+        - Um termo que aparece 10 vezes mais que outro num dado documento, não é 10 vezes mais relevante
+    - Termos raros são mais informativos
+    - Termos raros devem ter pesos altos
+    - Termos frequentes são menos informativos
+    - Termos frequentes devem ter pesos positivos, mas mais baixos que os raros
+- Ponderação TF-IDF
+    - TF = Term frequency
+        - $$ \text{TF}(t, d) = \frac{\text{Number of times term } t \text{ appears in document } d}{\text{Total number of terms in document } d} $$
+    - IDF = Inverse Document frequency
+        - representa o número de documentos que contêm o termo no corpus
+        - $$ \text{IDF}(t, D) = \log\left(\frac{\text{Total number of documents in the corpus } N}{\text{Number of documents containing term } t}\right) $$
+    - TF-IDF = TF * IDF
+        - Esta pomderação aumenta com:
+            - Nº de ocorrências do termo num documento
+            - A raridade do termo na coleção de documentos
+- Cálculo de relevância da palavra.
+    - Pode envolver:
+        - Análise estrutural
+        - Posição sintática
+        - análise semântica
+- Processamento de documentos a nível de frases
+    - Frases tem a vantagem de permitir indetificar com maior precisão o sentido do texto
+    - Frases possuem:
+        - Palavras contíguas frequentes e palavras não contíguas frequentes
+    - A maneira mais simples de gerar frases é através da pesquisa de n-grams frequentes
+- Análise Sintática de frases
+    - A análise sintática de frases permite diferenciar palavras e atribuirlhes grau de importância diferente:
+    - Este tipo de análise é explorado pela área Linguagem Natural – atribui tags às palavras de acordo com a sua função na frase: nome, predicado, verbo
+- Modelos de recuperação de Informação
+    - São modelos conceptuais ou abordagens genéricas para a recuperação de informação de natureza não-estruturada (normalmente de texto), dentro de grandes coleções que satisfaz uma query
+    - podem ser utilizados em qualquer tipo de documento
+    - basta modificar o tipo de atributo – palavras – pelo tipo de atributo adequado ao tipo de documento em questão
+- Modelo booleano
+    1. **Documentos como Conjuntos de Palavras:**
+   - Os documentos são tratados como conjuntos de palavras.
 
+    2. **Operadores Booleanos (and, or, not):**
+    - Uso desses operadores para unir, interseccionar e retirar partes de conjuntos.
 
- 
+    3. **Expressões Booleanas Flexíveis:**
+    - As expressões permitem descrições complexas e flexíveis.
+- Modelo Espaço Vetorial
+    1. **Representação do Documento por Vetor de Termos:**
+    - Cada documento é representado por um vetor de termos.
 
+    2. **Associação de Pesos aos Termos:**
+    - Cada termo possui um valor associado (denominado peso) indicando sua importância no documento.
 
-
-
-
-
-
-
-
-
-
-
-
+    3. **Estrutura do Vetor de Termos:**
+    - O vetor de termos é composto por pares de elementos na forma: { (palavra_1, peso_1), (palavra_2, peso_2), ... (palavra_n, peso_n) }.
+    - ![Alt text](images/simi-vet.png)
+- Similaridade entre documentos
+    - Medida usada -> co-seno do ângulo entre os vectores
+    - $$\text{Similaridade}(\mathbf{D_1}, \mathbf{D_2}) = \frac{\mathbf{D_1} \cdot \mathbf{D_2}}{\|\mathbf{D_1}\| \cdot \|\mathbf{D_2}\|} $$
+- Operações Text Mining sobre Documentos
+    - Sumarização de documentos
+        - Produzir um sumário a partir de um documento original
+        - 2 aproximações são possíveis:
+            - Seleção de frases do documento com base no peso
+                - Peso(F) = LocalizaçãonoTexto(F) + FreqPalavras(F) + PresAdicionalnoutrasFrases()
+            - Significado das frases no documento
+    - Classificação de documentos
+        - Categorias de acordo com o seu conteúdo
+        - Construir um modelo que atribui automaticamente a categoria a documentos não classificados
+    - Tipos de classificação:
+        - Binária
+        - Multi-classe
+        - Multi-etiqueta
+    - Classificação Bayesiana
+        - É baseado no teorema de Bayes
+        - Nesta classificação a melhor classe é a mais provável, designada por máxima probabilidade à posteriori
+- Clustering de documentos
+    - Clustering é o processo de descoberta de grupos naturais de modo não supervisionado
+    - A operação chave na operação de clustering é a medida de similaridade usada para comparar documentos: a medida mais usada – similaridade coseno
+    - Algoritmos de clustering mais usados na segmentação de documentos:
+        - Algoritmo K-Means
+        - Algoritmos de clustering hierárquico aglomerativo …
+- Avaliação de pesquisas
+    - O resultado de pesquisas em documentos é avaliado através de métricas provenientes da área – Bibliometria
+    - A eficiência e a eficácia de uma pesquisa é avaliada de acordo com a sua capacidade em recuperar o máximo possível de documentos relevantes ao mesmo tempo que filtra o maior número de documentos irrelevantes
+- Avaliação de resultados
+    - Para uma coleção de documentos conhecida, quando uma pesquisa dispara uma busca o conjunto de documentos é dividido em quatro segmentos lógicos:
+    - ![Alt text](images/mc-doc.png)
+- Medidas de avaliação de resultados
+    - Precisão 
+        - Mede a habilidade do sistema em recuperar documentos relevantes às necessidades de informação de um utilizador
+        - $$ \text{Precision} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Positives}}$$
+    - Abrangência
+        - Fração de documentos relevantes na coleção que são recuperados
+        - $$ \text{Recall} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}}$$
+    - Fallout
+        - mede a proporção de documentos não-relevantes recuperados relativamente a todos os documentos não-relevantes disponíveis
+        - $$\text{Fallout} = \frac{\text{False Positives}}{\text{False Positives} + \text{True Negatives}}$$
 
 
 
