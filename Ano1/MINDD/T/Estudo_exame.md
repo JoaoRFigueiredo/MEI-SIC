@@ -474,7 +474,7 @@
         - Chi-Squared
 - Frequência de um termo
     - Nº de vezes que o termo ocorre em d (documento)
-    - A relvância de um termo não está proporcionalmente relacionada com a frequência, exemplo:
+    - A relevância de um termo não está proporcionalmente relacionada com a frequência, exemplo:
         - Um termo que aparece 10 vezes mais que outro num dado documento, não é 10 vezes mais relevante
     - Termos raros são mais informativos
     - Termos raros devem ter pesos altos
@@ -487,7 +487,7 @@
         - representa o número de documentos que contêm o termo no corpus
         - $$ \text{IDF}(t, D) = \log\left(\frac{\text{Total number of documents in the corpus } N}{\text{Number of documents containing term } t}\right) $$
     - TF-IDF = TF * IDF
-        - Esta pomderação aumenta com:
+        - Esta ponderação aumenta com:
             - Nº de ocorrências do termo num documento
             - A raridade do termo na coleção de documentos
 - Cálculo de relevância da palavra.
