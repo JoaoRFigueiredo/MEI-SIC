@@ -1,0 +1,2 @@
+Nível de granularidade:
+As vendas da empresa por: data, produto, cliente, funcionário, moeda, território, vendasGlobais(imposto de envio e imposto de quantidade), morada e métodos de envio.  

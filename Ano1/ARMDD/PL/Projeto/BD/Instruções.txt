@@ -1,0 +1,8 @@
+1. Copiar os 2 ficheiros fornecidos para a pasta "Data" do SQL Server (C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\DATA).
+
+2. Efectuar o Attach da base de dados "Bikes&Bikes" seguindo os seguintes passos:
+	a. Executar o Microsoft SQL Server Management Studio.  
+	b. Clicar com o botão direito do rato sobre Databases e seleccionar a opção Attach.
+	c. Adicionar a base de dados através do botão de comando Add.
+
+	

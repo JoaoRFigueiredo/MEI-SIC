@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Create Date Dimension", "Create Date Dimension\Create Date Dimension.dwproj", "{D5C56EBD-0349-4A23-8E87-7FA33E29E954}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5C56EBD-0349-4A23-8E87-7FA33E29E954}.Development|Default.ActiveCfg = Development
+		{D5C56EBD-0349-4A23-8E87-7FA33E29E954}.Development|Default.Build.0 = Development
+		{D5C56EBD-0349-4A23-8E87-7FA33E29E954}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {328E04D6-2332-4BC9-ABF0-CD5B5A5022E0}
+	EndGlobalSection
+EndGlobal
