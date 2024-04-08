@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Deployment Tutorial", "Deployment Tutorial\Deployment Tutorial.dtproj", "{33CF9E25-FFAD-47CD-BE99-549EFF3D8617}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33CF9E25-FFAD-47CD-BE99-549EFF3D8617}.Development|Default.ActiveCfg = Development
+		{33CF9E25-FFAD-47CD-BE99-549EFF3D8617}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51B7D69B-090B-48A4-B5E5-86DBFC63B6EF}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,596 @@
+# Resumo dos artigos
+
+## Artigo 1 - Hybrid Recommendation Network Model with a Synthesis of Social Matrix Factorization and Link Probability Functions
+
+- O estudo dá emfâse na importância de fazer ligações sociais no melhoramento das recomendações, em itens como produtos, filmes, músicas, noticías
+- Existe uma discussão sobre a eficácia de incorporar redes sociais e redes estruturadas item-relatioal em sistemas de recomendação para melhor accuracy de previsão
+- Recall como medida de avaliação por causa da ambiguidade de ratings de 0
+- O paper inclui uma análise experimental com um dataset público, last.fm
+
+## Artigo 2 - A semantic and social-based collaborative recommendation of friends in social networks
+
+- O paper discute a a similaridade no cálculo entre utilizadores baseado na localização geográfica e tags atríbuidas
+- Atribuí importância na credibilidade da informação nas recomendações e propões melhorias
+- Refere a existência de trabalhos no âmbito de recomendações sociais e de utilizador nas redes sociais
+- Avalia uma metodologia híbrida ao combinar aspetos semânticos e fator sociais
+- Descreve um estudo feito na base de dados da yelp para recomendação de restaurantes
+- A proposta mistura user-based collaborative filtering com recomendações sociais e semânticas para melhorar a accuracy de recomendações em redes sociais
+
+## Artigo 3 - Taste Transitivity for Collaborative Filtering: A Stochastic Network Dynamics Approach
+
+- O estudo é à volta de um dataset de filmes e users
+- Utilizadores com muitas reviews (movie likes) não são tidos em consideração (professional reviewers e spammers), para focar no average reviewer
+- Fornece várias métricas de análise: densidade, average, number of ties
+- O estudo revela importância na transitivity taste, movie popularity e user activity by genre
+- Quanto ao sistema de recomendação, utiliza uma rede estocástica para melhorar o collaborative filtering
+
+
+### O foco do artigo é mais em filmes (tipo fórum de filmes) e não em redes sociais. Excluir!
+
+
+## Artigo 4 - An Attention-Based Friend Recommendation Model in Social  Network
+
+
+- Propõe um sistema de recomendação de amigos baseado num mecanismo de atenção multi-nível
+- O modelo foca-se nas preferências dos utilizadores em itens, itens diferentes and características de amigos
+- É usado uma matriz de fatorização/fatorização em matriz como função objetiva do modelo
+- O modelo, ABFR, proposto demonstra melhor desempenho que certos modelos existentes
+- Trabalhos relacionados, incluem sistemas de recomendação social e mecanismos de atenção na influência social
+- Métricas como a MAE e DCG, são usadas para avaliar o modelo
+
+
+## Artigo 6 - Personalized advertisement system using social relationship based user modeling
+
+- Utiliza content-based filtering e social filtering para recomendações de anúncios personalizados
+- Resolve o problema de cold-start e escassez e novos tulizadores
+- A arquiterua do sistema possui 2 partes: fornecer anúncios antes do conteúdo e permitir users para clicar em mais informações
+- Usa técnicas de CF e FPN baseados nos perfis dos users e informação das redes sociais
+- A qualidade das recomendações demonstra melhor accuracy que o tradicional CF
+- As relações sociais influencia a melhoria da accuracy das previsões em técnicas de CF
+
+
+## Artigo 7 - Optimizing Parallel Collaborative Filtering Approaches for Improving Recommendation Systems Performance
+
+- Possui 2 cenários de estudo?
+- Cenário de Active users all ratings (AUAR) -> identifica os utilizadores mais ativos em cada partição e replica os seus ratings nas outras para melhorar o ratings totais. Melhora o collaborative filtering ao introduzir mais utilizadores, mas pode aumentar a escassez e erros de previsão
+- Cenário de Active Users Selected Ratings (AUSR) -> Replica ratings de users ativos ao longo das partições, enquanto "ataca" o problema de escassez ao encontrar "partition overleap". possui melhor performance de collaborative filtering em termos de tempo e qualidade
+-  Desafios: Aumentar a complexidade de informação em redes sociais emporra os algoritmos de recomendação aos seus limites. Irão haver problemas de escalabilidade com o aumento de nós e "pontas", portanto são necessárias partições para processamento paralelo
+- Métodos de replicação de "pontas": Estratégias para replicar, seletivamente, ratings em partições terão impacto na complexidade do algoritmo e informação adicionada. Replicação indiscriminada poderá ter impacto negativo na performance do algoritmo de recomendação
+- O número de users afeta o tempo de execução do algoritmo
+- Cenários diferentes mostram métricas (average density, fallback ratio, RMSE) a variar
+
+## Artigo 8 - Handling uncertainty in social media textual information  for improving venue recommendation formulation quality in social  networks
+
+- Parâmetros de QoS para venues são: custo, serviço e atributos atmosféricos
+- Textual review exploitatin envolve Classificação sentimental e inferência de rating
+- Resultados mostram estabilidade de MAE e variabilidade de dataset
+- O algoritmo de recomendação de venues combina ratings, métricas de QoS e similaridade de venues
+- Ratings de utilizadores nas redes sociais são usados para computar métricas de confiança
+- Níveis de granularidade melhoram a accuracy das previsões
+- A fórmula de Modified user-user rating tem em consideração níveis de confiança e influência
+- O algoritmo melhora a satisfação do utilizador ao usar informação textual para recomendações personalizadas
+- Existem abordagens diferentes para lidar com termos positivos e negativos na classificação de documentos (cenas de tex mining)
+
+## Artigo 11 - P2PCF: A collaborative filtering based recommender system for peer to peer social networks
+
+- Sistema de recomendação P2PCF
+	- Foca-se na privacidade de rados em redes sociais P2P
+	- Usa Collaborative filtering
+	- Recomendações são geradas por amigos, localmente
+	- Atinge recals e coverage comparáveis a sistemas centralizados
+- Collaborative filtering:
+	- Baseado na concordância em itens passados pelos utilizadores
+	- Propostas memory-based and model-based
+	- Prático e com sucesso em sistemas de recomendação
+- Processo de recomendação
+	- Considera as reações dos utilizadores e interesses
+	- Calcula scores de popularidade para posts (publicações)
+	- Utiliza a similaridade de amigos nas recomendações
+
+
+# Artigo 12 - Social recommender systems: techniques, domains, metrics, datasets and future scope
+
+- Location-Based Social Network
+	- Utilizadores escrevem reviws sobre sítios que visitaram para recomendações de sítios
+	- Modelos híbridos combinam técnicas de CF, CBF para interesses dinâmicos dos utilizadores
+- Recomendações em turísmo
+	- Metodologia híbrida, usa filtros demográficos, CBF e CF
+	- Usa relações sociais para recomendações em grupo e individuais
+- Sistema de recomendação social semântico
+	- Framework híbrida que combina CBF com rede social semântica baseada em CF
+	- Perfis de peritos de uma área específica para descobrir comunidades de peritos
+- Autoencoders em sistemas de recomendações
+	- São usados para extrair features, reduzir barulho e prever ratings ausentes
+	- Deep learning demonstra resultados promissores em sistemas de recomendação
+- Plataformas de redes sociais
+	- irrelevante
+- Métricas de avaliação
+	- Coverage, AUC, Accuracy, RMSE, MAE, precision, recall and NDG
+	- Precision and recall são importante para as top-k recomendações
+
+## Artigo 13 - Social movie recommender system based on deep autoencoder network using Twitter data
+
+- Sistema de recomendação
+	- Foi usada a restricted Boltzman machine para prever ratings
+	- Incorporam collaborative filtering e deep learning para recomendações accurate
+	- Usam um time-aware collaborative filtering e um stacked denoising autoencoder para lidar com escassez e cold-start
+	- Combina CF e CBF para melhores recomendações
+- Autoencoder em sistemas de recomendação
+	- reconstroi os dados de entrada para representar features
+	- Usado para prever taing e melhorar a qualidade de recomendações
+	- RMSE e MAE usados para avaliar
+- Deep Learning em Sistemas de recomendação
+	- Melhoram a qualidade de recomendações
+	- É aplicado em análise sentimental no twitter e recomendações personalizadas
+	- Classificações em redes neuronais e modelos híbridos para melhor performance
+
+## Artigo 15 - A study on features of social recommender systems
+
+- Sistemas de recomendação sociais
+	- Combinam CF e CBF
+	- Têm de lidar com métricas de confiança, fatores de recomendação e preocupações de privacidade
+	- Melhor performance com TrustMF and reputation-based trust
+- Desafios
+	- Escassez de dados, cold-start e o sistema recomendar itens populares
+	- Necessidade de os sistemas lidarem com escassez e fornecer resultados resultados relevantes
+- Features do SR
+	- Utilizam redes sociais para recomendações
+	- Categorizar pesquisa em contexto, tag, grupo e mais
+	- Incorporar filtragem semântica, dinâmica temporal, ligações sociais heterógeneas
+- Técnicas de recomendação
+	- Collaborative filtering tem limitações como escassez e cold-start
+	- CF e CBF misturados oferecem melhores resultados
+	- Uso de dados demográficos e regressões para prever preferências dos utilizadores
+
+
+## Artigo 16 - Exploiting multi-attention network with contextual influence for point-of-interest recommendation
+
+- Contexto
+	- Redes sociais à base do local geram check-in data para reocmendações de POIS (points of interest)
+	- Escassez de dados e informação implícita desafiam recomendações de POIS
+- Abordagem
+	- O modelo MANC usa informação contextual para recomendação de POIs e users
+	- Usa redes de atenção para a aprendizagem de features e eficácia de recomendações
+- Resultados	
+	- MANC demonstra melhores resultados que estados de arte em experiências
+	- Pesquisa futura pretende incorporar informação auxiliar adicional
+- Metodologia
+	- São usadas redes de atenção a nível de amigo para recomendações personalizadas
+	- Tuning de parâmetros e comparações com baseline models demonstram a eficácia de MANC
+
+
+## Artigo 17 - Social Collaborative Mutual Learning for Item Recommendation
+
+- não tem grande coisa de redes coisas e apenas em modelos/algoritmos na recomendação de itens, excluído!
+
+## Artigo 18 - A novel recommendation approach based on users’ weighted trust relations and the rating similarities
+
+- Recommendation Competence calculation
+	- Introduz peso de atividade para medir utilizadores em base dos seus ratings atribuidos
+	- Define um set de recomendações correta de acordo com um threshold
+- Novel Recommendation Approach
+	- Incorpora social trust e relações de similaridade
+	- Existe um equilíbrio entre influence of trust e relações de similaridade 
+	- Em termos de métricas de erro, tem melhor desempenho que algoritmos de estado de arte
+- SocialMF method
+	- Incorpora trust propagation numa framework de matriz de fatorização para recomendações sociais
+	- Consideraos vizinhos socias confiáveis diretos e semelhantes para user feature vector calculation
+- Conclusões
+	- Destaque na importância de sistemas de recomendação sociais
+	- Combina trust approach  com similarity approach
+- Estudo pra excluir em príncipio!
+
+
+## Artigo 20 - Web 2.0 Recommendation service by multi-collaborative filtering trust network algorithm
+
+- sistemas de recomendação trust-aware enfrentam desafios em recomendar conteúdo de users indiretamente conectados
+- Referral systems são baseados em trust networks
+- O multi-collaborative filtering trust network algorithm improves prediction accuracy em plataforms web 2.0
+- Atributos e fatores de confiança em redes sociais influenciam o desenvolvimento de modelos de métricas de confiança
+- **Estudo para excluir, apenas refere redes sociais!**
+
+
+## Artigo 22 - Collaborative Filtering beyond the User-Item Matrix: A Survey
+of the State of the Art and Future Challenges
+
+- Social Connections Analysis
+	- Desenvolver métodos para analisar e prever ligações em sistemas de recomendação é crucial para associar comportamentos de utilizadores
+- Group Recommendation
+	- Este tipo de recomendações são importantes para cenários como escolha de filme para família ou sugestões de eventos em comunidades online
+- Economics in recommendations
+	- Usar modelos económicos (não de baratos, mas sim de vertente económica) pode melhorar os sistemas de recomendação, especialmente em e-commerce
+- User-Contributed Information
+	- è vital usar informação fornecida pelo utilizador,  como tags e reviews, para melhorar recomendações
+- Collaborative filtering
+	- Técnicas de fatorização em matriz, desempenham um papel fulcral em melhorar accuracy e escalabilidade
+
+## Artigo 25 - A Hybrid Recommendation Method Integrating the Social Trust Network and Local Social Influence of Users
+
+- Trust network construction
+	- Esta rede é construída em base das redes sociais dos utilizadores
+	- A performance das recomendações depende na qualidade da web of trust
+- Rating prediction process
+	- Usa as ratings para prever a rating final de um dado user
+	- Calcula o MAE para a accuracy de previsão
+- Hybrid Recommendation Method
+	- Método híbrido de collaborative filtering
+	- Incorpora a rede social de confiança do utilizador com o fator de LSi para melhor accuracy de previsão
+- Experimental Analysis
+	- Demonstra vantagens em determinar utilizadores referenciados com um two-step method
+	- Compara previsõesem thresholds diferenets de similaridade PCC
+
+## Artigo 26 - Exploiting Rating Abstention Intervals for Addressing Concept Drift in Social Network Recommender Systems
+
+- O foco do estudo é melhorar recomendações com base em fatores como, nível de influência, "força de empate", influenciadores específicos a uma categoria
+- Resultados com experiências em datasets demonstram que incorporar rating age e nível de influência melhoram a qualidade de recomendação
+- Apresenta um modelo que representa oa confiança dos utilizadores nos sistemas de recomendação, usando modelos linguistico difusos e ontologias
+- Rating age interval ser incluído nos algoritmos leva a uma melhor performance em comparação métodos de filtragem colaborative tradicionais
+- O estudo sugere que a performance de sistemas de recomendação pode ser melhorada ao incorporrar informação de redes sociais and influenciadores especificos de uma categoria
+
+## Artigo 29 - A Survey of Collaborative Filtering-Based Recommender Systems: From Traditional Methods to Hybrid Methods Based on Social Networks
+
+- Challenges in CF-based recommendation
+	- Dimensionalidade alta em big data tem impacto na eficácia
+- Abordagens
+	- Informação contextual como tempo e relações de confiança melhoram a accuracy de recomendação
+- Técnicas de CF-based híbridas
+	- Misturar cf tradicional com com redes sociais para lidar com escassez de dados
+- Técnicas
+	- métodos tradicionais  CF-based, memory-based híbrida, algoritmos model-based CF
+- Model-based CF
+	- Oferece maior escalabilidade que sistemas de recomendação memory-based 
+- Processo de recomendação
+	- Involve clustering, calculo de similaridade e recomendação de itens aos utilizadores
+
+
+## Artigo 30 - Research Issues, Innovation and Associated Approaches for Recommendation on Social Networks
+
+- Social Trust Ensemble (STE) e SocialMF são técnicas para utilizar a informação das redes sociais dos utilizadores para recomendações
+- Integrar informação social como valores de confiança e features do utilizadores melhora a recomendação
+- Recomendações à base de recurso involve o cálculo de similaridade
+- Escassez, cold-start e accuracy das recomendações são desafios
+- Modelos Dynamix Graph-Based embedding (DGE) geram recomendações em real-time ao modelar as interaçõe sociais e padrões comportamentais
+
+
+## Artigo 31 - High-Performance Technique for Item Recommendation in Social Networks using Multiview Clustering
+
+- Apenas descreve algoritmos e explica os mesmos.
+- Refere redes sociais e usa dados da mesma, mas o foco do paper é em modelos e algoritmos
+- Excluir!
+
+
+## Artigo 35 - An intelligent recommender system using social trust path  for recommendations in web-based social networks
+
+- Integração de informação de redes sociais e caminhos de confiança para melhorar os SR
+- Introduz algoritmos como MoleTrust e MeTrust para inferência e gestão de confiança
+- É importante considerar as amizades dos utilizadores e tags para as recomendações
+- Resultados demonstram melhores resultados em comparação a métodos tradicionais de collaborative filtering
+
+
+## Artigo 36 - A Matrix Factorization Algorithm for Efficient Recommendations in Social Rating Networks Using Constrained Optimization
+
+- O paper é á volta de um algoritmo
+- Exluir!
+
+## Artigo 40 - PR-RCUC: A POI Recommendation Model Using Region-Based Collaborative Filtering and User-Based Mobile Context
+
+- Paper é á volta de localização e recomendações
+- Modelo combina CBF region-based com user-based mobile context para recomendar POI
+- Utiliza clustering de localizações para melhorar o CBF tradicional com o fator região
+- O modelo é melhor que outros algoritmos de recomendação
+- O modelo proposto (combinação) melhora a performance do sistema de recomendação
+- Contexto da distância geográfica é destacado como o mais importante user-based mobile context para POIs
+
+
+## Artigo 42 - Recommendation of scholarly venues based on dynamic user interests
+
+- Distância euclidiana é utilizada para medir similaridade em pesquisadores.
+- Pesquisadores com muitos locais similares são considerados ativos.
+- Ponderação de significância é aplicada a pesquisadores com menos locais coavaliados.
+- O estudo recomenda locais acadêmicos com base na relevância para os pesquisadores.
+- Vários algoritmos como filtragem colaborativa e descida de gradiente estocástica são usados para recomendações
+- Diferentes métricas de similaridade como cosseno, correlação de Pearson e distância euclidiana são aplicadas.
+- O sistema PVR favorece pesquisadores que têm seguido um local por vários anos.
+- Experimentos offline conduzidos usando o conjunto de dados do CiteULike.
+- Desafios em identificar locais acadêmicos relevantes no ambiente diverso atual são destacados.
+- A importância dos pesquisadores estarem cientes de locais especializados e das agências de financiamento compreenderem os interesses de pesquisa é enfatizada.
+
+## Artigo 43 - Presenting a hybrid model in social networks recommendation system  architecture development
+
+- São discutidos vários níveis de competência (competent, proficient, expert) e as suas representações matemáticas
+- Explora os desafios de comparar campos/variáveis comom métodos como a distância de Manhattan e a normalização de atributos
+- Explica várias abordagens, Content-based filtering, collaborative filtering e híbrido
+- Foram feitas experiências com datasets do linkedin usando métodos comom OMFW e NNOMFW para calcular similaridade e melhorar a accuracy de recomendações
+- Métricas como RMSE, MAe, precision, recall e F1 são usadas para lidar avaliar sistemas de recomendação
+- É destacada a importância de medidas de similaridade e lógica difusa em sistemas de recomendação
+- Propõe um abordagem híbrida para recomendar pessoas organizacionais no linkedin baseado em característica específicas e comunicaçãoes de supply-chain
+
+
+## Artigo 45 - ImprovedGCN: An efficient and accurate recommendation system employing lightweight graph convolutional networks in social media
+
+- ImprovedGCN-single atribui valores específicos aos parâmetros para uma eficácia aprimorada.
+- A normalização simétrica sqrt no ImprovedGCN é crucial para a estabilidade durante a agregação de vizinhança.
+- A formulação em matriz simplifica a representação do ImprovedGCN para comparação com trabalhos existentes.
+- APPNP combina PageRank Personalizado com GCN para uma propagação de dados aprimorada.
+- NGCF simplifica GCN para filtragem colaborativa eliminando ativações não lineares.
+- ImprovedGCN simplifica GCN para filtragem colaborativa removendo complexidade desnecessária.
+
+## Artigo 47 - Behavior-based location recommendation on location-based social networks
+
+- Behavior-based Location Recommendation (BLR) Method
+	- Utiliza a repetitividade e similaridade de comportamentos dos utilizadores com novel spatial model para melhores recomendações de locais
+	- Propõe um modelo behaviour transition para prever o comportamento de utilizadores ao usar o histórico e o comportamento de utilizadores semelhantes
+	- lida com escassez e cold-start e métodos de recomendação de locais
+- Modelos à base de probabilidades espaciais
+	- Modelos como BLR têm melhor performance que modelos baseline ao considerar behaviour-based e user-specific spacial probability models
+	- Modelos de user-specific spatial probability são cruciais para recomendações personalizadas de locais
+- Time interval determination
+	- Discute abordagens de equal-lenght e equal-frequency para determinar intervalos de tempo na geração de comportamentos
+	- Considera intervalos de tempo variáveis para acomodar níveis de atividade diferenets ao longo do dia
+
+
+## Artigo 51 - CTF-ARA: An adaptive method for POI recommendation based on check-in and temporal features
+
+- K-means Algorithm
+	- Objetivo é minimizar a soma do erro quadrado dos clusters
+	- Tem de iterar para converger
+- User Activity Clustering Algorithm (UAC)
+	- É descrito em base de passos fornecidos
+- Similar User Filtering
+	- Filtra utilizadores semelhantes para utilizador alvo em base de features de semelhança
+- Experimental analysis
+	- Precision e recall são usados para avaliação
+	- CTF-ARA demonstra bons resultados
+- Proposed MEthod
+	- Framework de recomendação de POI adaptada
+	- Inclui k-means, user filtering, CTF-ARA para recomendações
+- Geography-based POI recommendations
+	- Influência geográfica na recomendação de POIs
+	- Vários métodos são usados para recomendar
+
+
+## Artigo 52 - A comprehensive social matrix factorization for recommendations with prediction and feedback mechanisms by fusing trust relationships and social tags
+
+- Para melhorar a accuracy de recomendações, é proposto um método qie incorpora relações de confiança e tags sociais
+- O método mapeia o utilizador e features para um espaço partilhadom obtendo relações de similaridade e melhora performance
+- Resultados experimentais demonstram melhor performance em comparação a métodos tradicionais de recomendações sociais
+- O algoritmo considera várias relações sociais para melhorar a qualidade da recomendação
+
+
+## Artigo 58 - A Graph Neural Network Framework for Social Recommendations
+
+- Objective Function Optimization
+	- Existe uma finção para prever ratings
+	- RMSprop é usado como um otimizador para implementação
+	- É usado item embedding, user embedding e opinion embedding no modelo
+- GraphRec+ Model
+	- É apresentada uma rede neural em grafo para recomendações sociais
+	- Interações juntas são capturadas e opiniões no grafo user-item
+	- Mecanismos de atenção para diferentes tipos de agregação são implementados
+- Performance Evaluation
+	- São comparados vários sistemas de recomendação em base de diferentes métricas
+	- Destaca-se a eficácia de usufruir de informação de redes sociais nos sistemas de recomendação
+	- Modelos com redes neuronais demonstram superioridade em SR
+
+
+## Artigo 59 - Pruning trust–distrust network via reliability and risk estimates for quality recommendations
+
+- Trust and Distrust Combination
+	- Os autores lidam com o conflito das opiniões mas ignoram a quantidade
+- Experimental Evaluation
+	- A técnica proposta melhora a qualidade de recomendação ao usar preferências, confiança e informação não-confiável
+- Risk Assessment Policies
+	- Políticas nº 4 e 5, quantificam o risco em base de ignorância, conflito, grau de refutação ao assegurar verdade(?)
+- Trust Propagation Framework
+	- A framework proposta, visa eliminar associadas de risco e utilizar os restantes para propragar verdade
+- Related Work
+	- O artigo aborda a construção de redes de confiança, técnicas de propagação de confiança e políticas de avaliação de risco no contexto das redes sociais e de recomendação colaborativa.
+
+
+## Artigo 60 - Recommender systems based on collaborative filtering and resource allocation
+
+- Population Inference
+	- Aumentar tamanho de amostra leva a uma estimativa mais accurate de parâmetros de população
+- Similarity Extraction
+	- Métodos como correlação de pearson e similaridade de cossenos são usados em collaborative filtering de Sr
+- Reliability Measures
+	- Incorporar a fiabilidade das semelhanças melhora a precisão na filtragem colaborativa baseada no utilizador.
+- Performance Evaluation
+	- MAE e AUC são usados para avaliar
+- Algorithm Comparison
+	- Experiências mostram a eficácia de diferentes algoritmos na extração de fiabildiade para SR
+
+
+## Artigo 61 - A social recommendation method based on the integration of social relationship and product popularity
+
+- Collaborative Filtering (CF):
+	- Calcula a similaridade de Pearson para encontrar utilizador bastante semelhantes e prever ratings do utilizador alvo
+- Personal Trust CF (PT-CF):
+	- Calcula a confiança entre utilizadores nos itens que deram rating e faz recomendação aos vizinhos de confiança
+- Item-Level Trust CF (ILT-CF):
+	- Usa confiança item-level na filtragem para recomendações
+- Recommendation Method Integration:
+	- Integra similaridade, confiança e reputação no Collaborative filtering para melhorar a ligação de utilizadores e qualidade de recomendação
+- Social Network Analysis:
+	- Propõe um método de recomendação que integra redes sociais e relações de confiança para melhorar performance
+
+## Artigo 62 - Collaborative Deep Forest Learning for Recommender Systems
+
+- Collaborative Deep Forest Learning (CDFL) é uma abordagem prosposta para SR, que mostra uma boa performance em vários datasets
+- O método opera diretamente em grafos user-item, usufruindo de deep learning para modelos de recomendação
+- Esta proposta é tem melhor performance que modelos de estado de arte em datasets como, Epiniosna nd flixster, como melhorias significativas no MAE e RMSE
+- Usa framework nod2vec, para apresender latent features e atinge melhores resultados
+- São usados baseline models e deep learning models para comparações
+
+## Artigo 64 - Facebook single and cross domain data for recommendation systems
+
+
+- Filtragem Colaborativa Baseada no Utilizador:
+	- Utiliza γ = 25 para melhorar a precisão.
+	- Incorpora a técnica de encolhimento para a média com o parâmetro ω = 0.8.
+	- Previsão de classificação de referência calculada usando desvios das médias dos utilizadores.
+- Extração de Preferências e Informações de Amizade:
+	- Extrai dados de redes sociais para sistemas de recomendação.
+	- Difere de outros estudos ao inferir interesses do utilizador a partir de conteúdo em vez de classificações explícitas.
+	- Utiliza recomendações entre domínios com base nas preferências do utilizador.
+- Dados do Facebook para Sistemas de Recomendação:
+	- Estudos limitados sobre a utilização de dados do Facebook para recomendações.
+	- O estudo de Bourke et al. (2011) focou-se na alavancagem do grafo social para recomendações de itens.
+- Recomendações Entre Domínios:
+	- Os dados do Facebook enriquecem as classificações explícitas para resultados comparáveis.
+	- Examina cenários em que dados entre domínios do Facebook melhoram as recomendações de itens.
+
+
+## Artigo 65 - Hybrid Recommender Systems based on  Content Feature Relationship
+
+- Sistemas de Recomendação (RS):
+	- Vários algoritmos como CorKNN, CB, NNCosKNN, CBCF, PureSVD50 e ICB são comparados para recomendações dos principais n.
+	- Os RSs baseados em conteúdo utilizam perfis TF-IDF para as preferências do utilizador e a similaridade dos itens.
+	- O algoritmo proposto ICB concentra-se na melhoria dos RSs.
+- Relação de Características de Conteúdo:
+	- A matriz C é usada para calcular a similaridade dos itens com base nas relações entre características.
+	- O método FRISE+ supera os outros, especialmente para características de itens esparsos como ano e diretor.
+- Sistemas de Recomendação Híbridos e Filtragem Colaborativa (CF):
+	- Os algoritmos híbridos combinam CF e métodos baseados em conteúdo.
+	- Os algoritmos de CF dependem das interações entre utilizador e item para recomendações.
+- Melhoria de Desempenho:
+	- Extrair relações entre características de conteúdo melhora o desempenho do algoritmo de CF.
+	- A abordagem pode ser aplicada à análise de documentos e à recuperação de informações.
+
+Artigo para exclir em princípio!
+
+
+## Artigo 68 - Modeling Trust-Aware Recommendations With Temporal Dynamics in Social Networks
+
+- Trust-Aware Recommendations
+	- Foram propostos vários modelos e algoritmos pafra lidar com problemas de escassez ou cold-start
+- Matrix Factorization
+	- O uso desta técnica para recomendações cross-domain, demonstra melhoria na accuracy de previsão ao aprender latent features para os utilizadores e itens
+- Comparison of Results
+	- O modelo TrustCTR teve melhor performance que outros modelos em domínios diferenets, especificamente em melhorar a precisão para utilizadores de cold-start e heavy raters
+- Cross-Domain Recommender Systems
+	- Estes sistemas transferem conhecimento de domínios distintos para recomendarem itens a utilizadores, em base de ratings de utilizadores semelhantes em domínios diferenets
+
+
+## Artigo 71 - Design of a dynamic and robust recommender system based on item  context, trust, rating matrix and rating time using social networks analysis
+
+- Cálculo da similaridade para vértices usando centralidade de grau e parâmetros do caminho mais curto.
+- Métodos de previsão de classificação baseados em utilizador e item são detalhados.
+- Vários algoritmos resistentes a ataques de manipulação em sistemas de recomendação são discutidos.
+- Estratégias de atualização incremental baseadas em comunidades de rede são propostas.
+- Um modelo dinâmico e robusto de sistema de recomendação que aborda lacunas relacionadas à confiança é apresentado.
+- O método proposto envolve a injeção de ataques de manipulação, criação de redes sociais, deteção de comunidades e recomendação de utilizadores.
+- Trabalhos anteriores e características relacionadas em sistemas de recomendação são revistos.
+
+
+## Artigo 75 - A Contextual Recurrent Collaborative Filtering framework for modelling sequences of venue checkins
+
+- Sistemas de Recomendação de Locais Sensíveis ao Contexto:
+	- Utilizam dados de check-in de utilizadores em Redes Sociais Baseadas em Localização (LBSNs) para recomendações personalizadas de locais.
+	- As técnicas de Factorização de Matrizes (MF) são comumente usadas para gerar listas classificadas de locais.
+	- O framework CRCF proposto integra a Arquitetura Recorrente de Atenção Contextual (CARA) para capturar as preferências dinâmicas do utilizador de forma eficaz.
+- Comparação de Frameworks:
+	- Os scores Trisk demonstram o equilíbrio entre risco e recompensa nas arquiteturas CRCF, DRCF e CARA.
+	- O CRCF supera o DRCF e o CARA em termos de medidas de risco e recompensa, especialmente em experiências com utilizadores novos.
+- Redes Neurais Profundas para Recomendações:
+	- Modelos RNN como LSTM e GRU são utilizados para capturar as preferências de curto prazo do utilizador para sistemas de recomendação.
+	- Vários algoritmos de DNN, como MLP, CNN e RNN, têm sido utilizados para aumentar a precisão das recomendações.
+- Análise de Efetividade:
+	- Experimentos abrangentes em conjuntos de dados do mundo real demonstram a eficácia do CRCF para Recomendações de Locais Sensíveis ao Contexto.
+	- A abordagem dinâmica de amostragem negativa melhora o desempenho dos frameworks CRCF, DRCF e CARA, especialmente em cenários de utilizadores novos.
+
+
+
+## Artigo 79 - Social network data to alleviate cold-start in recommender system: A systematic review
+
+- Técnicas de Sistemas de Recomendação:
+	- A Factorização de Matrizes (MF) e suas extensões foram empregadas em 50% dos artigos.
+	- Técnicas híbridas foram utilizadas em 20% dos artigos.
+- Bases de Dados e Artigos de Pesquisa:
+	- Um total de 387 artigos foram encontrados em várias bases de dados de pesquisa.
+	- 85 artigos foram pré-selecionados para leitura completa, com 10 artigos passando por síntese final.
+- Informações de Redes Sociais em Sistemas de Recomendação:
+	- Utilização de dados de redes sociais para mitigar problemas de início frio em Sistemas de Recomendação baseados em Filtragem Colaborativa (CF).
+	- Incorporação de características latentes das redes sociais para melhorar a precisão das recomendações.
+- Resultados Experimentais:
+	- Resolução bem-sucedida do problema de início frio com aumento de até 5% na precisão.
+	- Introdução de um RS baseado em localização e um framework de Filtragem Colaborativa Consciente de Conteúdo Baseado em Feedback Implícito (ICCF) para recomendações melhoradas.
+- Principal Questão de Pesquisa:
+	- Foco em saber se o uso de dados de amigos em redes sociais melhora as recomendações em cenários de início frio.
+	- Ênfase na aplicação de técnicas de CF e informações de redes sociais para aprimoramento de recomendações.
+
+
+## Artigo 80 - Exploiting Rating Abstention Intervals for Addressing Concept Drift in Social Network Recommender Systems
+
+- Participantes eram utilizadores do facebook com uma média de 195 amigos
+- Satisfação do utilizador é medida em base da frequência do uso do facebook
+- O estudo involve a análise de forla de empate entre amigos do facebook
+- A pesquisa foca-se em melhorar sistemas de recomendação ao incorporar informação de redes sociais
+- Experiências foram realizadas usando intervalos de valores de abstenção de ratings diferneets, com 60 dias sendo o valor ótimo
+- O intervalo de abstenção de ratings melhorou a qualidade da recomendação
+- O estudo teve como objetivo melhorar o collaborative filtering (algortimos) ao considerar níveis de influência de categorias de produto
+
+
+## Artigo 84 - Comparison-based interactive collaborative filtering
+
+- O documento discute a fusão de listas usando processadores para melhorar a eficiência.
+- Introduz o conceito de "gosto bruto" para categorizar os utilizadores com base em preferências.
+- O algoritmo DPC é apresentado, focando na complexidade da sonda e reconstrução de preferências.
+- O documento faz referência a várias obras sobre filtragem colaborativa e algoritmos de previsão de preferências.
+- Sistemas de recomendação interativos baseados em comparação com garantias de pior caso são destacados.
+- O algoritmo DP é analisado quanto à correção e à complexidade da sonda por jogador.
+- O modelo interativo aborda o problema de início frio em sistemas de recomendação.
+
+
+## Artigo 85 - An Empirical Comparison of Social, Collaborative Filtering, and Hybrid Recommenders
+
+- O estudo avalia a classificação de empates em algoritmos de recomendação em diferentes cortes.
+- Os resultados são comparados com estudos anteriores em conjuntos de dados do TREC.
+- A Tabela VI revela que os métodos que dependem do tamanho do conjunto geram mais empates na classificação.
+- O estudo compara a cobertura do utilizador e o desempenho para diferentes recomendadores.
+- Algoritmos híbridos melhoram o desempenho dos métodos colaborativos e a cobertura dos recomendadores sociais.
+- Os recomendadores híbridos ponderados têm deficiências na determinação dos pesos ótimos.
+ -O estudo concentra-se nos recomendadores sociais e em abordagens híbridas que combinam informações sociais com classificações.
+- Notação e fórmulas são usadas para definir interações entre utilizador-item e recomendações.
+- O estudo propõe uma métrica de cobertura para abordar a incompletude das avaliações baseadas em precisão em sistemas de recomendação.
+
+
+## Artigo 86 - Cross-platform dynamic goods recommendation system based on reinforcement learning and social networks
+
+- Modelo de Problema de Agrupamento de Utilizadores:
+	- Tecnologia de aprendizagem por reforço dinâmico projetada para conexão de utilizadores e previsão de preferência de compra.
+	- Cálculo de probabilidade para rótulo de classe com base no vetor de entrada.
+- Grafo de Rede Social e Comportamento do Utilizador:
+	- Previsão e criação de conexões de utilizador com base em matrizes de comportamento social e de compras.
+	- Definição das preferências de compra dos utilizadores e equilíbrio entre relacionamentos sociais e filtragem colaborativa.
+- Experimentos de Simulação e Análise de Resultados:
+	- Método de coleta de dados inter-plataforma para informações de utilizadores.
+	- Método de aprendizagem da ação RL com regras de atualização de pesos.
+- Conclusão:
+	- Proposta de algoritmos para previsão de amigos e preferências de compras dos utilizadores.
+	- Estabelecimento de modelos diretos e potenciais para relacionamentos e preferências.
+- Impacto da Integração de Redes Sociais:
+	- Aplicação de modelos de recomendação inter-plataforma para melhorar a precisão e a cobertura da recomendação de amigos.
+
+
+## Artigo 91 - Social Matching: A Framework and	Research Agenda
+
+- Afirmação 1: Os sistemas de correspondência social requerem informações pessoais sensíveis dos utilizadores.
+- Afirmação 2: Modelos explícitos em algoritmos de correspondência social resultam em correspondências melhores.
+- Afirmação 3: As redes sociais egocêntricas são benéficas para a correspondência social, enquanto as redes baseadas na população apresentam desafios.
+- Questões de Pesquisa: Abordar a combinação de correspondência social com espaços online, transição entre interações físicas e online, restrições de contexto organizacional e medidas de segurança.
+- Afirmação 7: A relevância do feedback do utilizador e as estratégias de resposta do sistema são cruciais para a correspondência social.
+- Afirmação 8: As avaliações dos sistemas de correspondência social devem priorizar os objetivos e conquistas dos utilizadores.
+- Preocupações com a Privacidade: A correspondência baseada em informações públicas reduz os riscos de privacidade, enquanto mecanismos de adesão voluntária e manipulação cuidadosa dos dados são essenciais.
+- Exemplos de Sistemas: PHOAKS e Answer Garden facilitam a interação social com base em interesses compartilhados sem perfis de utilizador explícitos.
+
+
+## Artigo 92 - Collaborative Filtering beyond the User-Item Matrix: A Survey of the State of the Art and Future Challenges
+
+- A pesquisa em recomendação social foca na exploração de redes sociais para recomendação de itens.
+- As melhorias na CF baseada em utilizador incluem fatores de ponderação de vizinhos e esquemas de busca de vizinhos recursivos.
+- A CF baseada em itens recomenda itens com base em itens classificados pelo utilizador e métricas de similaridade.
+- Abordagens baseadas em modelos como MF têm chamado a atenção por incorporar informações adicionais.
+- Os desafios incluem integrar interação e recomendação de forma eficaz.
+- A recomendação de long tail visa melhorar as recomendações para itens menos populares.
+- Pesquisas futuras podem focar na utilização de informações adicionais e informações associadas à interação para melhorar as recomendações.

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Create CSV Date Dimension", "Create CSV Date Dimension\Create CSV Date Dimension.dtproj", "{F69B5605-683D-4A90-8242-4A6202E0FC14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F69B5605-683D-4A90-8242-4A6202E0FC14}.Development|Default.ActiveCfg = Development
+		{F69B5605-683D-4A90-8242-4A6202E0FC14}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {416C95F6-9929-4673-AE97-AB3AA40BEC8E}
+	EndGlobalSection
+EndGlobal

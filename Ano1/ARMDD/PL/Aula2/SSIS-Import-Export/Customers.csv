@@ -1,0 +1,1044 @@
+FirstName;MiddleInitial;LastName;BirthDate;MaritalStatus;Gender;EmailAddress;YearlyIncome;TotalChildren;NumberChildrenAtHome;Education;Occupation;HouseOwnerFlag;NumberCarsOwned;AddressLine1;AddressLine2;City;State;ZIP;Phone
+Stacy;P;Sanz;22/02/1950 00:00;M;F;ssanz@humongousinsurance.com;50000;2;1;Partial Co;Professional;1;2;3828 Baltic Sea Ct;;Lake Oswego;OR;97034;497-555-0111
+Trevor;L;Griffin;27/01/1951 00:00;M;M;tgriffin@humongousinsurance.com;50000;2;1;High Schoo;Professional;1;2;3947 Alhambra Valley Rd;;Lake Oswego;OR;97034;872-555-0163
+Kyle;;Allen;10/07/1951 00:00;S;M;kallen@humongousinsurance.com;60000;2;1;Partial Co;Professional;0;1;463 Creekside Drive;;Lake Oswego;OR;97034;236-555-0164
+Gregory;C;Deng;10/11/1953 00:00;S;M;gdeng@humongousinsurance.com;70000;4;3;Partial Co;Professional;0;1;5307 Wildberry Court;;Lake Oswego;OR;97034;635-555-0127
+Claudia;J;Wu;10/09/1944 00:00;S;F;cwu@humongousinsurance.com;80000;5;0;Bachelors;Management;1;2;5458 Birchwood;;Lake Oswego;OR;97034;1 (11) 500 555-0118
+Terry;L;Anand;25/11/1946 00:00;M;M;tanand@humongousinsurance.com;130000;4;4;Partial Co;Professional;1;4;5536 Court Lane;;Lake Oswego;OR;97034;1 (11) 500 555-0187
+Haley;L;Green;23/03/1953 00:00;M;F;hgreen@humongousinsurance.com;80000;4;2;Partial Co;Professional;1;2;6706 Ridgeview Dr;;Lake Oswego;OR;97034;1 (11) 500 555-0138
+Dakota;A;Coleman;15/07/1953 00:00;S;M;dcoleman@humongousinsurance.com;90000;4;2;Partial Co;Professional;0;2;8185 Sol Street;;Lake Oswego;OR;97034;1 (11) 500 555-0125
+Melvin;;Lal;07/05/1952 00:00;S;M;mlal@humongousinsurance.com;70000;5;2;Partial Hi;Skilled Manual;1;2;8325 Newcastle Rd;;Lake Oswego;OR;97034;1 (11) 500 555-0176
+Lindsey;S;She;25/06/1950 00:00;S;F;lshe@humongousinsurance.com;80000;5;2;High Schoo;Management;1;2;8390 Galloway Dr;;Lake Oswego;or;97034;1 (11) 500 555-0160
+Hunter;A;Green;21/11/1952 00:00;M;M;hgreen@lucernepublishing.com;10000;3;0;Partial Co;Manual;1;2;9903 Highway 6 South;;Houston;TX;77003;1 (11) 500 555-0142
+Todd;;Liu;17/01/1953 00:00;M;M;tliu@lucernepublishing.com;10000;2;1;High Schoo;Manual;1;2;Ohms Road;;Houston;TX;77003;1 (11) 500 555-0183
+Amanda;;Reed;08/11/1968 00:00;M;F;areed@lucernepublishing.com;20000;1;1;Partial Co;Manual;1;1;99450 Highway 59 North;;Humble;TX;77338;1 (11) 500 555-0163
+Connor;S;Patterson;02/11/1968 00:00;S;M;cpatterson@lucernepublishing.com;110000;1;1;Graduate D;Management;0;2;12345 Sterling Avenue;;Irving;TX;75061;148-555-0148
+Tyrone;C;Romero;17/08/1947 00:00;M;M;tromero@lucernepublishing.com;10000;2;1;Partial Hi;Clerical;1;2;90025 Sterling St;;Irving;TX;75061;1 (11) 500 555-0116
+Katherine;M;Murphy;05/04/1977 00:00;S;F;kmurphy@lucernepublishing.com;40000;0;0;Partial Hi;Clerical;0;2;9500b E. Central Texas Expressway;;Killeen;TX;76541;435-555-0124
+Candace;;Rodriguez;09/05/1949 00:00;S;F;crodriguez@lucernepublishing.com;30000;3;0;Partial Co;Clerical;0;2;Lone Star Factory;;La Marque;TX;77568;1 (11) 500 555-0158
+Alexa;;Ramirez;19/03/1973 00:00;S;F;aramirez@lucernepublishing.com;60000;0;0;Partial Co;Skilled Manual;1;2;509 Nafta Boulevard;;Laredo;TX;78040;702-555-0170
+Sebastian;;Rivera;07/02/1974 00:00;S;M;srivera@lucernepublishing.com;60000;0;0;Partial Co;Professional;0;2;Town East Center;;Mesquite;TX;75149;924-555-0166
+Kelli;M;Guo;06/11/1963 00:00;S;F;kguo@lucernepublishing.com;50000;4;2;Bachelors;Professional;0;2;5700 Legacy Dr;;Plano;TX;75074;734-555-0155
+Cassie;;Pal;09/12/1969 00:00;M;F;cpal@treyresearch.net;70000;5;5;Graduate D;Professional;1;2;318 Liana Lane;;Puyallup;WA;98371;221-555-0144
+Tonya;M;Yuan;21/10/1967 00:00;S;F;tyuan@treyresearch.net;120000;0;1;Bachelors;Management;0;4;3610 Barberry Court;;Puyallup;WA;98371;317-555-0193
+Michele;T;Munoz;05/02/1967 00:00;S;F;mmunoz@treyresearch.net;120000;0;1;Bachelors;Management;0;4;5826 Norman Avenue;;Puyallup;WA;98371;731-555-0116
+Bruce;N;Gil;18/10/1979 00:00;S;M;bgil@treyresearch.net;50000;0;0;Partial Co;Skilled Manual;1;1;6178 E. 87th Street;;Puyallup;WA;98371;716-555-0124
+Angela;;Bryant;19/05/1978 00:00;M;F;abryant@treyresearch.net;40000;0;0;Partial Hi;Clerical;1;2;6594 Jefferson St.;;Puyallup;WA;98371;148-555-0152
+Henry;F;Malhotra;19/09/1975 00:00;S;M;hmalhotra@treyresearch.net;50000;0;0;Partial Co;Skilled Manual;1;2;6827 Seagull Court;;Puyallup;WA;98371;271-555-0142
+Rachael;J;Garcia;19/10/1975 00:00;S;F;rgarcia@treyresearch.net;50000;0;0;High Schoo;Skilled Manual;1;2;711 Houston Ct.;;Puyallup;WA;98371;126-555-0174
+Arturo;F;She;23/10/1957 00:00;S;M;ashe@treyresearch.net;50000;2;0;High Schoo;Skilled Manual;0;2;7463 Hackney Lane;;Puyallup;wa;98371;1 (11) 500 555-0130
+Angel;C;Bell;14/04/1974 00:00;S;M;abell@thephone-company.com;50000;0;0;High Schoo;Professional;0;2;840 Charlotte Ave.;;Puyallup;WA;98371;516-555-0185
+Philip;W;Vazquez;18/02/1964 00:00;S;M;pvazquez@thephone-company.com;50000;4;4;Bachelors;Skilled Manual;0;3;9170 Treat Blvd.;;Puyallup;WA;98371;573-555-0185
+Barb;;Raje;17/05/1945 00:00;M;F;braje@adatum.com;20000;4;0;High Schoo;Skilled Manual;1;2;3235 Mi Casa Court;;Birmingham;AL;35203;1 (11) 500 555-0155
+Jillian;G;Engineer;16/02/1946 00:00;M;F;jengineer@adatum.com;30000;2;0;Partial Co;Clerical;1;2;7725 Luddington Lane;;Birmingham;AL;35203;1 (11) 500 555-0184
+Sarah;;Martin;06/12/1948 00:00;M;F;smartin@adatum.com;30000;3;0;Partial Co;Clerical;1;2;656 Cox Creek Pkwy.;;Florence;AL;35630;1 (11) 500 555-0155
+Meeghan;A;Gonzalez;16/06/1951 00:00;M;F;mgonzalez@adatum.com;30000;3;0;High Schoo;Skilled Manual;1;2;2525 Electrics Blvd.;;Huntsville;AL;35801;1 (11) 500 555-0130
+Ian;E;Evans;17/11/1952 00:00;M;M;ievans@adatum.com;30000;3;0;High Schoo;Skilled Manual;1;2;Parkway City Mall;;Huntsville;AL;35801;1 (11) 500 555-0136
+Kristine;;Rubio;19/09/1957 00:00;S;F;krubio@adatum.com;50000;2;0;High Schoo;Professional;0;2;39950 Airport Blvd.;;Mobile;AL;36602;1 (11) 500 555-0165
+Tabitha;A;Rubio;05/10/1958 00:00;S;F;trubio@adatum.com;130000;0;1;Graduate D;Management;1;1;574 Atlanta Highway;;Montgomery;Al;36104;1 (11) 500 555-0116
+Marvin;;Castro;12/12/1958 00:00;S;M;mcastro@adatum.com;130000;0;1;Graduate D;Management;0;2;4584 Hamiliton Ave.;;Chandler;AZ;85225;1 (11) 500 555-0158
+Albert;;Gutierrez;12/09/1957 00:00;S;M;agutierrez@adatum.com;70000;2;1;Partial Co;Professional;0;0;7656 Ramsey Circle;;Chandler;AZ;85225;984-555-0146
+Catherine;D;Gray;24/11/1951 00:00;S;F;cgray@adventure-works.com;50000;2;1;High Schoo;Professional;0;2;8671 Appalachia Dr.;;Burbank;CA;91502;801-555-0118
+Catherine;D;Grey;24/11/1951 00:00;S;F;cgrey@adventure-works.com;50000;2;1;High Schoo;Professional;0;2;8671 Appalachia Dr.;;Burbank;CA;91502;801-555-0118
+Catherine;D;Gray;24/11/1951 00:00;S;F;cgray@adventure-works.com;50000;2;1;High Schoo;Professional;0;2;8671 Appalachia Drive;;Burbank;CA;91502;801-555-0118
+Miguel;M;Lopez;22/06/1956 00:00;M;M;mlopez@adventure-works.com;120000;3;4;High Schoo;Professional;1;4;8680 Newell Ave.;;Burbank;CA;91502;1 (11) 500 555-0171
+Paula;L;Suarez;17/10/1955 00:00;M;F;psuarez@adventure-works.com;110000;3;4;Partial Co;Professional;1;4;878 Amador Ct;;Burbank;CA;91502;1 (11) 500 555-0137
+Andy;;Ruiz;15/07/1933 00:00;M;M;aruiz@adventure-works.com;60000;2;0;Graduate D;Management;1;2;8809 Diablo View Road;;Burbank;CA;91502;174-555-0117
+Jarrod;;Sai;20/11/1933 00:00;M;M;jsai@adventure-works.com;90000;4;0;Bachelors;Management;0;1;9365 G St.;;Burbank;CA;91502;898-555-0153
+Christina;;Kelly;14/10/1964 00:00;S;F;ckelly@adventure-works.com;110000;3;2;Bachelors;Management;1;4;9919 Macarthur Avenue;;Burbank;CA;91502;402-555-0161
+Chris;;Kelly;14/10/1964 00:00;S;M;ckelly@adatum.com;110000;3;2;Bachelors;Management;1;4;9365 G St.;9365 G St.;Burbank;CA;91502;402-555-0161
+Christine;;Kelly;14/10/1964 00:00;S;F;kelly@adventure-works.com;110000;3;2;Bachelors;Management;1;4;9919 MCArthur Ave.;;Burbank;CA;91502;402-555-0161
+Sophia;C;Collins;09/03/1956 00:00;M;F;scollins@adventure-works.com;70000;3;2;Partial Co;Professional;1;0;1435 Ash Lane;;Burlingame;CA;94010;302-555-0155
+Matthew;;Thompson;03/08/1934 00:00;M;M;mthompson@adventure-works.com;60000;2;0;Graduate D;Management;1;2;1500 Grant Street;;Burlingame;CA;94010;386-555-0130
+Louis;A;Sharma;13/09/1955 00:00;M;M;lsharma@adventure-works.com;70000;4;3;High Schoo;Professional;1;1;2098 Chilpancingo Pkwy.;;Burlingame;CA;94010;934-555-0118
+Shane;A;Perez;01/05/1955 00:00;M;M;sperez@adventure-works.com;70000;4;3;High Schoo;Professional;1;1;2118 Little Dr.;;Burlingame;CA;94010;809-555-0132
+Cameron;L;Martin;24/06/1955 00:00;M;M;cmartin@adventure-works.com;90000;2;1;High Schoo;Professional;0;1;2223 Stillwater Court;;Burlingame;CA;94010;133-555-0115
+Carmen;;Sanchez;11/10/1963 00:00;S;F;csanchez@adatum.com;70000;0;0;Bachelors;Professional;0;1;870 N. 54th Ave.;;Chandler;AZ;85225;1 (11) 500 555-0167
+Terry;;Goel;06/10/1960 00:00;M;M;tgoel@adatum.com;60000;1;0;Partial Co;Skilled Manual;1;1;9980 S Alma School Road;;Chandler;AZ;85225;1 (11) 500 555-0149
+Jorge;L;Zeng;21/04/1965 00:00;S;M;jzeng@adatum.com;80000;5;5;Bachelors;Professional;1;4;2551 East Warner Road;;Gilbert;AZ;85233;1 (11) 500 555-0169
+Theodore;R;Munoz;12/07/1946 00:00;S;M;tmunoz@adatum.com;10000;5;0;High Schoo;Skilled Manual;1;2;3294 Buena Vista;;Lemon Grove;AZ;85284;1 (11) 500 555-0122
+Leonard;L;Sharma;02/02/1937 00:00;S;M;lsharma@adatum.com;40000;2;0;Bachelors;Management;0;2;6441 Co Road;;Lemon Grove;AZ;85252;1 (11) 500 555-0192
+Hunter;;Martin;03/10/1978 00:00;S;M;hmartin@adatum.com;40000;0;0;High Schoo;Skilled Manual;0;2;Factory Stores Of America;;Mesa;AZ;85201;535-555-0195
+Eugene;L;Hu;15/05/1959 00:00;S;M;ehu@adatum.com;50000;4;0;Graduate D;Skilled Manual;1;0;137 Lancelot Dr;;Phoenix;AZ;85004;128-555-0137
+Anna;;Wilson;18/05/1942 00:00;S;F;awilson@adatum.com;120000;2;4;Graduate D;Management;0;3;7709 West Virginia Avenue;;Phoenix;AZ;85004;404-555-0164
+Olivia;R;Ross;10/08/1943 00:00;S;F;oross@adatum.com;120000;2;4;Bachelors;Management;1;4;9228 Via Del Sol;;Phoenix;AZ;85004;378-555-0156
+Priscilla;;Xie;06/12/1945 00:00;S;F;pxie@adatum.com;60000;4;0;Bachelors;Management;1;2;Arcadia Crossing;;Phoenix;AZ;85004;208-555-0112
+Caitlin;C;Gray;10/04/1948 00:00;M;F;cgray@adatum.com;40000;2;1;High Schoo;Professional;1;2;Prime Outlets-new River;;Phoenix;AZ;85004;769-555-0123
+Riley;;Morris;10/03/1952 00:00;M;F;rmorris@adatum.com;70000;5;2;Partial Co;Professional;1;2;25250 N 90th St;;Scottsdale;AZ;85257;463-555-0160
+Anna;J;Kelly;07/02/1932 00:00;S;F;akelly@adatum.com;80000;3;0;Graduate D;Management;1;1;7750 E Mcdowell Rd;;Scottsdale;AZ;85257;787-555-0191
+Christine;S;Sharma;05/07/1962 00:00;S;F;csharma@adatum.com;70000;5;4;Partial Co;Professional;0;3;253731 West Bell Road;;Surprise;AZ;85374;367-555-0149
+Robert;R;Hughes;03/03/1962 00:00;M;M;rhughes@adatum.com;80000;5;4;Partial Co;Professional;0;3;6500 East Grant Road;;Tucson;AZ;85701;107-555-0186
+Marshall;;Nath;27/03/1935 00:00;S;M;mnath@adatum.com;30000;4;0;High Schoo;Professional;1;2;Factory Stores/tucson;;Tucson;AZ;85701;243-555-0116
+Misty;C;Aggarwal;11/09/1938 00:00;S;F;maggarwal@adatum.com;100000;2;3;Graduate D;Management;1;3;Alhambra Marketplace;;Alhambra;CA;91801;225-555-0135
+Casey;;Bhat;13/06/1938 00:00;M;F;cbhat@adatum.com;170000;1;1;Graduate D;Management;1;4;Viejas Outlet Center;;Alpine;CA;91901;167-555-0116
+Isaac;;Hall;22/04/1962 00:00;S;M;ihall@adatum.com;20000;1;0;Graduate D;Clerical;1;0;4659 Montoya;;Altadena;CA;91001;1 (11) 500 555-0116
+Allen;;Engineer;22/04/1961 00:00;S;M;aengineer@adatum.com;20000;1;0;Graduate D;Clerical;1;0;8513 Hurlstone Ct.;;Altadena;CA;91001;1 (11) 500 555-0133
+Monique;;Alvarez;21/02/1962 00:00;M;F;malvarez@adatum.com;30000;5;0;Graduate D;Clerical;1;0;99700 Bell Road;;Auburn;CA;95603;1 (11) 500 555-0132
+Geoffrey;;Engineer;09/04/1980 00:00;S;M;gengineer@adatum.com;10000;0;0;Partial Co;Manual;0;1;3250 Baldwin Park Blvd;;Baldwin Park;CA;91706;1 (11) 500 555-0119
+Tanya;;Hernandez;17/10/1978 00:00;S;F;thernandez@adatum.com;20000;0;0;Bachelors;Clerical;0;0;3723 Mt. Sequoia Ct.;;Barstow;CA;92311;1 (11) 500 555-0183
+Makayla;;Richardson;07/03/1943 00:00;M;F;mrichardson@adatum.com;30000;1;0;Bachelors;Clerical;0;0;Factory Merchants;;Barstow;CA;92311;1 (11) 500 555-0139
+Deborah;L;Bhat;03/06/1961 00:00;M;F;dbhat@adatum.com;20000;1;1;Partial Co;Manual;1;0;72502 Eastern Ave.;;Bell Gardens;CA;90201;1 (11) 500 555-0136
+Kristin;K;Lal;07/01/1969 00:00;M;F;klal@adatum.com;10000;2;2;High Schoo;Manual;1;0;2082 S. Bascom Ave.;;Bellflower;CA;90706;1 (11) 500 555-0114
+Andre;R;Fernandez;02/11/1969 00:00;S;M;afernandez@adatum.com;20000;0;0;Partial Co;Manual;1;1;2292 Springlake Drive;;Bellflower;CA;90706;1 (11) 500 555-0184
+Priscilla;;Jai;06/09/1969 00:00;S;F;pjai@adatum.com;40000;0;0;Graduate D;Clerical;0;0;2748 Pine St.;;Bellflower;CA;90706;1 (11) 500 555-0137
+Stephanie;A;Phillips;21/09/1968 00:00;S;F;sphillips@adatum.com;10000;2;2;High Schoo;Manual;0;1;2755 Fairfield Ave;;Bellflower;CA;90706;1 (11) 500 555-0166
+Frederick;;Mehta;23/10/1968 00:00;M;M;fmehta@adatum.com;10000;2;2;High Schoo;Manual;0;1;3462 Briarcliff Ct.;;Bellflower;CA;90706;1 (11) 500 555-0161
+Tracy;;Anand;20/06/1953 00:00;S;F;tanand@adatum.com;90000;4;2;Partial Co;Professional;0;2;4159 Apple Drive;;Bellflower;CA;90706;1 (11) 500 555-0115
+Kaitlin;M;Fernandez;18/06/1953 00:00;S;F;kfernandez@adatum.com;110000;3;4;Bachelors;Management;1;4;428 Silverado Dr.;;Bellflower;CA;90706;1 (11) 500 555-0152
+Levi;D;Srini;15/09/1950 00:00;M;M;lsrini@adatum.com;80000;5;2;High Schoo;Management;1;2;478 Grant St;;Bellflower;CA;90706;1 (11) 500 555-0140
+Aimee;E;Xu;24/03/1971 00:00;M;F;axu@adatum.com;90000;0;0;Partial Hi;Professional;0;4;4782 Mt. Whitney Dr.;;Bellflower;CA;90706;1 (11) 500 555-0170
+Jerome;M;Alvarez;02/11/1970 00:00;S;M;jalvarez@adatum.com;100000;0;5;High Schoo;Management;0;4;4912 La Vuelta;;Bellflower;CA;90706;1 (11) 500 555-0181
+Bianca;E;She;13/09/1941 00:00;M;F;bshe@adatum.com;90000;5;0;Bachelors;Management;1;2;492 Loveridge Circle;;Bellflower;CA;90706;358-555-0112
+Barbara;;Shan;01/07/1963 00:00;S;F;bshan@adatum.com;60000;3;2;Bachelors;Professional;0;2;5048 Hawthrone Dr;;Bellflower;CA;90706;1 (11) 500 555-0169
+Cassie;R;Bhat;18/01/1963 00:00;M;F;cbhat@adatum.com;70000;0;0;Bachelors;Professional;1;1;5485 Wee Donegal;#27;Bellflower;CA;90706;1 (11) 500 555-0115
+Nicholas;;Miller;15/04/1980 00:00;S;M;nmiller@adatum.com;20000;0;0;Partial Hi;Manual;0;2;5648 California St.;;Bellflower;CA;90706;1 (11) 500 555-0151
+Frederick;L;Fernandez;08/05/1970 00:00;S;M;ffernandez@adatum.com;40000;2;2;Partial Co;Clerical;1;0;6064 Madrid;;Bellflower;CA;90706;1 (11) 500 555-0152
+Jonathan;W;Simmons;07/08/1970 00:00;S;M;jsimmons@adatum.com;40000;2;2;Partial Co;Clerical;0;2;6180 Ryan Court;;Bellflower;CA;90706;1 (11) 500 555-0178
+Kristina;;Sanchez;24/02/1953 00:00;S;F;ksanchez@adatum.com;30000;1;0;Bachelors;Skilled Manual;1;1;6228 La Cadena;;Bellflower;CA;90706;139-555-0193
+Jason;;Turner;04/10/1955 00:00;S;M;jturner@adatum.com;40000;1;0;Partial Co;Clerical;1;1;6239 Boyd Road;;Bellflower;CA;90706;471-555-0166
+Miranda;;Perry;26/09/1958 00:00;M;F;mperry@adatum.com;50000;4;0;Graduate D;Skilled Manual;1;0;6521 D Bel Air Dr;;Bellflower;CA;90706;777-555-0114
+Hailey;J;Wright;09/11/1958 00:00;M;F;hwright@adatum.com;50000;4;0;Graduate D;Skilled Manual;1;0;682 Ada Dr.;;Bellflower;CA;90706;117-555-0123
+Darryl;H;Zhu;24/08/1967 00:00;M;M;dzhu@adatum.com;20000;1;1;Partial Co;Manual;1;1;7214 Elliott Dr;;Bellflower;CA;90706;1 (11) 500 555-0132
+Evan;L;Morris;20/01/1967 00:00;S;M;emorris@adatum.com;20000;1;1;Partial Co;Manual;0;1;7566 Keller Ridge Dr.;;Bellflower;CA;90706;1 (11) 500 555-0182
+Carmen;;Rodriguez;27/04/1967 00:00;M;F;crodriguez@adatum.com;40000;0;0;Bachelors;Clerical;1;0;7801 Esperanza;;Bellflower;CA;90706;1 (11) 500 555-0174
+Christy;M;Shen;01/02/1965 00:00;M;F;cshen@adatum.com;20000;2;2;High Schoo;Manual;1;0;782 Veale Avenue;;Bellflower;CA;90706;1 (11) 500 555-0134
+Dalton;;Price;02/11/1966 00:00;M;M;dprice@adatum.com;30000;2;2;Partial Co;Manual;1;0;7901 Moccasin Ct.;;Bellflower;CA;90706;1 (11) 500 555-0139
+Corey;M;Xu;16/07/1966 00:00;M;M;cxu@adatum.com;40000;0;0;Bachelors;Skilled Manual;1;0;9069 Muir Road;;Bellflower;CA;90706;1 (11) 500 555-0147
+Calvin;C;Pal;23/03/1965 00:00;M;M;cpal@adatum.com;30000;2;2;Partial Co;Clerical;1;1;182 Perry Way;;Berkeley;CA;94704;1 (11) 500 555-0131
+Mason;C;Morgan;16/03/1964 00:00;M;M;mmorgan@adatum.com;30000;2;2;Partial Co;Clerical;1;2;1893 Argyll Ave.;;Berkeley;CA;94704;1 (11) 500 555-0137
+Xavier;;Phillips;13/11/1963 00:00;S;M;xphillips@adatum.com;40000;1;0;Bachelors;Skilled Manual;1;0;2059 Brookdale Dr;;Berkeley;CA;94704;1 (11) 500 555-0124
+Clarence;E;Lu;15/06/1977 00:00;S;M;clu@adatum.com;30000;0;0;Partial Co;Clerical;1;1;2086 Rotherham Dr.;;Berkeley;CA;94704;1 (11) 500 555-0126
+Janelle;M;Verma;07/03/1974 00:00;S;F;jverma@adatum.com;10000;0;0;Partial Hi;Manual;0;2;2313 Santa Cruz Drive;;Berkeley;CA;94704;1 (11) 500 555-0170
+Luis;;Evans;22/01/1973 00:00;S;M;levans@adatum.com;50000;1;0;Graduate D;Skilled Manual;0;0;2528 Fall Creek Road;;Berkeley;CA;94704;735-555-0159
+Morgan;W;Simmons;22/08/1973 00:00;S;F;msimmons@adatum.com;50000;1;0;Graduate D;Skilled Manual;0;0;3200 Glenmount Drive;;Berkeley;CA;94704;626-555-0115
+Sarah;;Hayes;16/03/1971 00:00;S;F;shayes@adatum.com;50000;1;1;Graduate D;Skilled Manual;0;0;3467 Monzeneda Way;;Berkeley;CA;94704;855-555-0114
+Jamie;;Gil;19/06/1971 00:00;M;M;jgil@adatum.com;50000;1;1;Graduate D;Skilled Manual;1;0;4535 Sun Hill Lane;;Berkeley;CA;94704;465-555-0168
+Terrance;M;Patel;24/01/1970 00:00;S;M;tpatel@adatum.com;50000;1;1;Bachelors;Skilled Manual;1;1;4691 Frisbie Court;;Berkeley;CA;94704;786-555-0131
+Jeremiah;E;Williams;26/10/1969 00:00;S;M;jwilliams@adatum.com;60000;1;0;Graduate D;Professional;0;0;5607 Willow Creek Ct.;;Berkeley;CA;94704;845-555-0111
+Alicia;;Chande;14/09/1968 00:00;S;F;achande@adatum.com;50000;2;2;Bachelors;Skilled Manual;0;1;5935 Isabel;;Berkeley;CA;94704;751-555-0139
+Lauren;;Stewart;04/11/1970 00:00;S;F;lstewart@adatum.com;60000;1;0;Graduate D;Professional;0;0;6123 Lancelot Dr.;;Berkeley;CA;94704;601-555-0191
+Gabriella;E;Rogers;10/05/1965 00:00;M;F;grogers@adatum.com;50000;3;3;Bachelors;Skilled Manual;1;2;679 Pepperidge Way;;Berkeley;CA;94704;248-555-0153
+Bianca;A;Sun;25/12/1965 00:00;M;F;bsun@adatum.com;50000;3;3;Bachelors;Skilled Manual;1;3;6899 Pembroke Dr.;;Berkeley;CA;94704;796-555-0118
+Lauren;C;Martin;04/11/1964 00:00;S;F;lmartin@adatum.com;50000;4;2;Bachelors;Skilled Manual;1;2;6999 Salem St.;;Berkeley;CA;94704;700-555-0195
+Marshall;;Ma;24/03/1963 00:00;S;M;mma@adatum.com;50000;4;2;Bachelors;Professional;1;2;7569 Mt. Everest Court;;Berkeley;CA;94704;565-555-0117
+Sabrina;P;Ortega;26/03/1961 00:00;S;F;sortega@adatum.com;40000;4;3;High Schoo;Skilled Manual;1;3;8245 Pinehurst Court;;Berkeley;CA;94704;567-555-0127
+Abby;;Srini;20/04/1961 00:00;M;F;asrini@adatum.com;40000;4;3;High Schoo;Skilled Manual;1;3;9191 Camelback Ct.;;Berkeley;CA;94704;827-555-0177
+Olivia;;Bell;25/04/1961 00:00;M;F;obell@adatum.com;40000;4;2;High Schoo;Skilled Manual;1;2;9216 Sandy Way;;Berkeley;CA;94704;571-555-0116
+Pedro;R;Castro;08/11/1960 00:00;S;M;pcastro@adatum.com;50000;1;0;Partial Co;Skilled Manual;1;1;9342 Temple Drive;;Berkeley;CA;94704;184-555-0148
+Mitchell;;Goel;01/07/1958 00:00;S;M;mgoel@adatum.com;70000;5;4;Graduate D;Professional;0;1;9344 Stony Hill Circle;;Berkeley;CA;94704;346-555-0142
+Geoffrey;I;Prasad;04/11/1968 00:00;M;M;gprasad@adatum.com;60000;2;2;Bachelors;Professional;0;1;9737 Oak Creek Ct;#65;Berkeley;CA;94704;1 (11) 500 555-0175
+Adam;R;Yang;25/11/1970 00:00;S;M;ayang@adatum.com;80000;4;4;Graduate D;Management;0;1;9836 Hanson Lane;;Berkeley;CA;94704;1 (11) 500 555-0144
+Rosa;;Xu;24/12/1970 00:00;M;F;rxu@adatum.com;90000;2;0;Bachelors;Professional;0;0;9990 Sullivan Ave;;Berkeley;CA;94704;1 (11) 500 555-0116
+Kara;T;Xie;16/04/1971 00:00;S;F;kxie@adatum.com;50000;1;1;Graduate D;Skilled Manual;0;0;1342 Isla Bonita;;Beverly Hills;CA;90210;384-555-0133
+Christine;;Lal;08/09/1965 00:00;S;F;clal@adatum.com;50000;3;3;Bachelors;Skilled Manual;0;3;1386 Fillet Ave.;;Beverly Hills;CA;90210;608-555-0128
+Jessie;C;Lin;08/02/1964 00:00;M;M;jlin@adatum.com;50000;4;4;Bachelors;Skilled Manual;0;3;1726 Hacienda;;Beverly Hills;CA;90210;200-555-0181
+William;;Wilson;12/02/1964 00:00;M;M;wwilson@adatum.com;50000;4;2;Bachelors;Skilled Manual;1;2;3213 Glenside Dr;;Beverly Hills;CA;90210;863-555-0162
+Carson;E;Ross;02/05/1963 00:00;S;M;cross@adatum.com;60000;3;2;Graduate D;Professional;0;0;3556 Hoek Maple Court;;Beverly Hills;CA;90210;165-555-0110
+Mario;C;Yuan;12/05/1962 00:00;M;M;myuan@adatum.com;40000;3;2;High Schoo;Skilled Manual;1;2;3629 Warren St.;;Beverly Hills;CA;90210;840-555-0159
+Caroline;;Jenkins;20/04/1961 00:00;M;F;cjenkins@adatum.com;40000;4;3;High Schoo;Skilled Manual;1;3;4070 Orange Street;;Beverly Hills;CA;90210;446-555-0154
+Melody;P;Alonso;26/03/1960 00:00;M;F;malonso@adatum.com;40000;4;2;High Schoo;Skilled Manual;1;2;4370 Trafalgar Circle;;Beverly Hills;CA;90210;132-555-0119
+Ross;;Gomez;25/08/1960 00:00;M;M;rgomez@adatum.com;40000;4;2;High Schoo;Skilled Manual;1;2;4668 East Avenue;#7;Beverly Hills;CA;90210;193-555-0182
+Julia;E;Allen;17/04/1967 00:00;M;F;jallen@adatum.com;60000;0;0;Graduate D;Professional;1;1;4824 Discovery Bay;;Beverly Hills;ca;90210;762-555-0111
+Erica;;Li;24/11/1960 00:00;S;F;eli@adatum.com;50000;1;0;Partial Co;Skilled Manual;1;1;6133 Balhan Dr.;;Beverly Hills;CA;90210;543-555-0114
+Martha;R;Cai;19/04/1969 00:00;S;F;mcai@adatum.com;90000;1;0;Graduate D;Management;0;0;6524 Geriola Court;;Beverly Hills;CA;90210;1 (11) 500 555-0127
+Arturo;J;Bhat;14/09/1966 00:00;M;M;abhat@adatum.com;90000;0;0;Bachelors;Professional;1;0;7040 Isabel Dr.;;Beverly Hills;CA;90210;1 (11) 500 555-0199
+Tammy;;Subram;06/09/1966 00:00;M;F;tsubram@adatum.com;90000;0;0;Bachelors;Professional;0;0;7262 Pepperidge Way;;Beverly Hills;CA;90210;1 (11) 500 555-0169
+Kellie;W;Jimenez;27/03/1947 00:00;S;F;kjimenez@adatum.com;30000;2;0;Partial Co;Clerical;1;2;7549 Longview Rd.;;Beverly Hills;CA;90210;1 (11) 500 555-0155
+Brendan;;Chander;19/06/1977 00:00;S;M;bchander@adatum.com;50000;0;0;Partial Co;Skilled Manual;1;2;7853 Millfield Place;;Beverly Hills;CA;90210;760-555-0123
+Damien;P;Wu;11/05/1973 00:00;M;M;dwu@adatum.com;70000;0;0;Partial Co;Professional;1;2;8237 Gibrix Dr.;;Beverly Hills;CA;90210;156-555-0119
+Allen;;Verma;18/07/1973 00:00;S;M;averma@adatum.com;70000;0;0;Partial Co;Professional;1;2;1016 Whyte Park Avenue;;Burbank;CA;91502;525-555-0113
+Eduardo;G;Washington;16/07/1976 00:00;M;M;ewashington@adatum.com;60000;0;0;Partial Co;Professional;1;2;1060 Mcelroy Court;;Burbank;CA;91502;119-555-0128
+Lucas;N;James;17/08/1974 00:00;S;M;ljames@adatum.com;50000;0;0;High Schoo;Professional;1;2;1191 Boxwood Dr.;;Burbank;CA;91502;556-555-0110
+Zachary;;Li;10/05/1957 00:00;S;M;zli@adatum.com;80000;2;1;Bachelors;Management;1;0;2157 Clark Creek Lane;;Burbank;CA;91502;996-555-0189
+Jessie;;Gil;11/05/1962 00:00;S;F;jgil@adatum.com;60000;1;0;Bachelors;Professional;0;1;2214 Solano;;Burbank;CA;91502;1 (11) 500 555-0163
+Jamie;N;Navarro;14/10/1960 00:00;M;M;jnavarro@adatum.com;70000;5;4;Partial Co;Skilled Manual;1;3;2356 Shannon Ln.;;Burbank;CA;91502;1 (11) 500 555-0175
+Karen;;Zheng;26/09/1976 00:00;S;F;kzheng@adatum.com;30000;0;0;High Schoo;Skilled Manual;0;2;2477 Macalven Drive;;Burbank;CA;91502;756-555-0161
+Ryan;K;White;26/10/1976 00:00;M;M;rwhite@adatum.com;40000;0;0;High Schoo;Skilled Manual;1;2;2912 Guadalupe;;Burbank;CA;91502;172-555-0173
+Angel;L;Collins;18/03/1977 00:00;M;M;acollins@adventure-works.com;30000;0;0;Partial Hi;Clerical;1;2;3739 Donald Dr;;Burbank;CA;91502;643-555-0121
+Randy;J;Li;16/03/1977 00:00;S;M;rli@adventure-works.com;30000;0;0;Partial Hi;Clerical;1;2;40 Ellis St.;;Burbank;CA;91502;404-555-0174
+Eduardo;B;Wright;11/09/1967 00:00;S;M;ewright@adventure-works.com;100000;1;0;Bachelors;Management;1;2;4310 Chickpea Ct.;;Burbank;CA;91502;491-555-0149
+Jasmine;E;Morgan;19/04/1944 00:00;M;F;jmorgan@adventure-works.com;60000;4;0;Graduate D;Management;1;2;4679 Duke Way;;Burbank;CA;91502;987-555-0127
+Kimberly;A;Morris;17/05/1944 00:00;S;F;kmorris@adventure-works.com;70000;5;0;Bachelors;Management;0;2;6075 Lake Nadine Pl.;;Burbank;CA;91502;659-555-0115
+Brandy;;Verma;07/08/1945 00:00;S;F;bverma@adventure-works.com;50000;5;0;Bachelors;Management;0;2;6509 California Street;;Burbank;CA;91502;665-555-0178
+Sheila;T;Jimenez;09/09/1945 00:00;S;F;sjimenez@adventure-works.com;60000;4;0;Bachelors;Management;0;2;6702 Smike Tree Court;;Burbank;CA;91502;364-555-0187
+Candace;;Engineer;02/07/1947 00:00;S;F;cengineer@adventure-works.com;70000;4;1;Bachelors;Management;0;1;7970 Jewett Ave.;;Burbank;CA;91502;555-555-0125
+Catherine;D;Gray;24/11/1951 00:00;S;F;cgray@adventure-works.com;50000;2;1;High Schoo;Professional;0;2;8671 Appalachia Dr.;;Burbank;CA;91502;801-555-0118
+Miguel;M;Lopez;22/06/1956 00:00;M;M;mlopez@adventure-works.com;120000;3;4;High Schoo;Professional;1;4;8680 Newell Ave.;;Burbank;CA;91502;1 (11) 500 555-0171
+Paula;L;Suarez;17/10/1955 00:00;M;F;psuarez@adventure-works.com;110000;3;4;Partial Co;Professional;1;4;878 Amador Ct;;Burbank;CA;91502;1 (11) 500 555-0137
+Andy;;Ruiz;15/07/1933 00:00;M;M;aruiz@adventure-works.com;60000;2;0;Graduate D;Management;1;2;8809 Diablo View Road;;Burbank;CA;91502;174-555-0117
+Jarrod;;Sai;20/11/1933 00:00;M;M;jsai@adventure-works.com;90000;4;0;Bachelors;Management;0;1;9365 G St.;;Burbank;CA;91502;898-555-0153
+Christina;;Kelly;14/10/1964 00:00;S;F;ckelly@adventure-works.com;110000;3;2;Bachelors;Management;1;4;9919 Macarthur Avenue;;Burbank;CA;91502;402-555-0161
+Sophia;C;Collins;09/03/1956 00:00;M;F;scollins@adventure-works.com;70000;3;2;Partial Co;Professional;1;0;1435 Ash Lane;;Burlingame;CA;94010;302-555-0155
+Matthew;;Thompson;03/08/1934 00:00;M;M;mthompson@adventure-works.com;60000;2;0;Graduate D;Management;1;2;1500 Grant Street;;Burlingame;CA;94010;386-555-0130
+Louis;A;Sharma;13/09/1955 00:00;M;M;lsharma@adventure-works.com;70000;4;3;High Schoo;Professional;1;1;2098 Chilpancingo Pkwy.;;Burlingame;CA;94010;934-555-0118
+Shane;A;Perez;01/05/1955 00:00;M;M;sperez@adventure-works.com;70000;4;3;High Schoo;Professional;1;1;2118 Little Dr.;;Burlingame;CA;94010;809-555-0132
+Cameron;L;Martin;24/06/1955 00:00;M;M;cmartin@adventure-works.com;90000;2;1;High Schoo;Professional;0;1;2223 Stillwater Court;;Burlingame;CA;94010;133-555-0115
+Eddie;;Blanco;19/09/1935 00:00;M;M;eblanco@adventure-works.com;60000;2;0;Graduate D;Management;1;2;2546 Fawn Glen Circle;;Burlingame;CA;94010;737-555-0126
+Trinity;;Peterson;06/07/1960 00:00;M;F;tpeterson@adventure-works.com;80000;5;4;Partial Co;Professional;1;4;266 H Street;;Burlingame;CA;94010;933-555-0110
+Brittney;;Yang;10/12/1962 00:00;S;F;byang@adventure-works.com;10000;1;0;Graduate D;Manual;0;0;267 Aspen Drive;;Burlingame;CA;94010;1 (11) 500 555-0147
+Noah;B;Li;23/01/1962 00:00;S;M;nli@adventure-works.com;20000;1;0;Graduate D;Clerical;0;0;2807 Th Avenue;;Burlingame;CA;94010;1 (11) 500 555-0179
+Cameron;J;Davis;03/08/1962 00:00;M;M;cdavis@adventure-works.com;20000;1;0;Graduate D;Clerical;0;0;2909 Toyon Dr.;;Burlingame;CA;94010;1 (11) 500 555-0198
+Brad;P;Shen;25/07/1935 00:00;S;M;bshen@adventure-works.com;10000;1;0;Graduate D;Clerical;0;0;2914 St. George Dr.;;Burlingame;CA;94010;1 (11) 500 555-0145
+Byron;;Munoz;19/04/1980 00:00;M;M;bmunoz@adventure-works.com;10000;0;0;Bachelors;Manual;0;0;3121 Spar Court;#511;Burlingame;CA;94010;400-555-0168
+Gilbert;D;Chande;14/02/1960 00:00;M;M;gchande@adventure-works.com;20000;1;1;Partial Co;Manual;0;0;3195 Rotherham Dr.;;Burlingame;CA;94010;1 (11) 500 555-0166
+Shawna;M;Nath;13/07/1959 00:00;M;F;snath@adventure-works.com;10000;1;1;High Schoo;Manual;0;1;3788 Concord Place;;Burlingame;CA;94010;1 (11) 500 555-0125
+Clarence;T;Raje;10/01/1970 00:00;M;M;craje@adventure-works.com;20000;0;0;Partial Co;Manual;1;1;4490 Chablis Court;;Burlingame;CA;94010;1 (11) 500 555-0194
+Ruben;E;Blanco;21/06/1970 00:00;S;M;rblanco@adventure-works.com;30000;0;0;Bachelors;Clerical;1;0;491 Cali;;Burlingame;CA;94010;1 (11) 500 555-0163
+Hannah;;Taylor;19/10/1969 00:00;S;F;htaylor@adventure-works.com;50000;0;0;Graduate D;Skilled Manual;0;0;5055 Quigley St.;;Burlingame;CA;94010;1 (11) 500 555-0153
+Orlando;A;Moreno;27/10/1945 00:00;M;M;omoreno@adventure-works.com;70000;5;1;High Schoo;Professional;0;3;5245 Fraga Court;;Burlingame;CA;94010;1 (11) 500 555-0183
+Paula;A;Torres;02/08/1946 00:00;S;F;ptorres@adventure-works.com;100000;2;3;Bachelors;Management;1;4;5339 Cashew Street;;Burlingame;CA;94010;1 (11) 500 555-0154
+Marcus;;Sanchez;10/03/1952 00:00;S;M;msanchez@adventure-works.com;110000;4;5;Partial Co;Professional;1;2;5608 Montanya Court;;Burlingame;CA;94010;1 (11) 500 555-0119
+Rachel;;Brooks;02/01/1952 00:00;M;F;rbrooks@adventure-works.com;120000;4;5;Bachelors;Management;1;3;639 Bermad Drive;;Burlingame;CA;94010;1 (11) 500 555-0140
+Kristin;;Raje;17/08/1950 00:00;S;F;kraje@adventure-works.com;100000;3;4;Partial Co;Management;0;4;6751 Yosemite Ct.;;Burlingame;CA;94010;1 (11) 500 555-0132
+Aimee;M;Zhu;24/04/1976 00:00;M;F;azhu@adventure-works.com;70000;0;0;High Schoo;Management;1;3;6828 Benedict Court;;Burlingame;CA;94010;1 (11) 500 555-0117
+Julia;;Scott;19/06/1973 00:00;S;F;jscott@adventure-works.com;100000;0;5;High Schoo;Management;1;2;7248 Holiday Hills Dr.;;Burlingame;CA;94010;1 (11) 500 555-0115
+Diana;R;Diaz;24/10/1972 00:00;S;F;ddiaz@adventure-works.com;120000;0;5;Partial Hi;Professional;1;4;727 Pheasant Ct.;;Burlingame;CA;94010;1 (11) 500 555-0165
+Erika;T;Alonso;05/10/1971 00:00;M;F;ealonso@adventure-works.com;100000;0;5;High Schoo;Management;0;4;7296 Seawind Dr.;;Burlingame;CA;94010;1 (11) 500 555-0144
+Sebastian;W;Kelly;12/09/1970 00:00;S;M;skelly@adventure-works.com;110000;0;5;High Schoo;Management;0;4;7694 Furness Street;;Burlingame;CA;94010;1 (11) 500 555-0156
+Jared;E;Cooper;02/11/1971 00:00;M;M;jcooper@adventure-works.com;110000;0;5;High Schoo;Management;1;4;7907 Eagle Peak Road;;Burlingame;CA;94010;1 (11) 500 555-0177
+Clarence;R;Tang;14/02/1942 00:00;S;M;ctang@adventure-works.com;80000;5;0;Bachelors;Management;0;2;8531 Bayter Court;;Burlingame;CA;94010;384-555-0155
+Megan;R;Perry;04/08/1980 00:00;M;F;mperry@adventure-works.com;20000;0;0;Partial Hi;Manual;1;2;9324 Bohon Circle;;Burlingame;CA;94010;1 (11) 500 555-0125
+Dawn;L;Liang;14/10/1978 00:00;S;F;dliang@adventure-works.com;30000;0;0;High Schoo;Manual;0;1;9456 Augustine Dr.;;Burlingame;CA;94010;1 (11) 500 555-0191
+Orlando;K;Navarro;03/09/1972 00:00;S;M;onavarro@adventure-works.com;40000;1;1;Bachelors;Skilled Manual;0;1;9600 Sweeney Road;;Burlingame;CA;94010;1 (11) 500 555-0194
+Haley;C;Baker;23/07/1975 00:00;S;F;hbaker@adventure-works.com;40000;3;3;Partial Co;Clerical;1;0;39933 Mission Oaks Blvd;;Camarillo;CA;93010;794-555-0122
+Gloria;W;Hernandez;04/08/1966 00:00;M;F;ghernandez@adventure-works.com;50000;0;0;Graduate D;Skilled Manual;1;0;9909 W. Ventura Boulevard;;Camarillo;CA;93010;180-555-0160
+Amanda;C;Kelly;17/08/1953 00:00;M;F;akelly@adventure-works.com;30000;1;0;Bachelors;Skilled Manual;0;1;Camarillo Athletic Stores;;Camarillo;CA;93010;134-555-0150
+Candace;R;Lopez;11/03/1955 00:00;S;F;clopez@adventure-works.com;40000;1;0;Partial Co;Clerical;0;1;Topanga Plaza;;Canoga Park;CA;91303;948-555-0171
+Andre;A;Rodriguez;13/11/1957 00:00;M;M;arodriguez@adventure-works.com;40000;1;0;Partial Co;Clerical;1;1;99000 S. Avalon Blvd. Suite 750;;Carson;CA;90746;572-555-0131
+Mitchell;;Tang;16/01/1957 00:00;S;M;mtang@adventure-works.com;40000;1;0;Partial Co;Clerical;0;1;251340 E. South St.;;Cerritos;CA;90703;513-555-0160
+Dwayne;R;Diaz;08/03/1957 00:00;S;M;ddiaz@adventure-works.com;40000;1;0;Partial Co;Clerical;1;1;1071 Stanz Grace St.;;Chula Vista;CA;91910;182-555-0195
+Victor;;Navarro;22/01/1958 00:00;S;M;vnavarro@adventure-works.com;50000;4;0;Graduate D;Skilled Manual;0;0;1084 Meadow Glen Way;;Chula Vista;CA;91910;293-555-0168
+Donald;J;Rana;10/10/1966 00:00;M;M;drana@adventure-works.com;10000;4;4;Partial Hi;Manual;1;2;1168 Escobar;;Chula Vista;CA;91910;1 (11) 500 555-0169
+Peter;;Yuan;13/07/1967 00:00;S;M;pyuan@adventure-works.com;40000;0;0;Bachelors;Clerical;0;0;1343 Apple Drive;;Chula Vista;CA;91910;1 (11) 500 555-0149
+Jon;C;Raji;15/12/1966 00:00;M;M;jraji@adventure-works.com;40000;0;0;Bachelors;Skilled Manual;1;0;1343 Apple Drive;;Chula Vista;CA;91910;1 (11) 500 555-0114
+Adrienne;;Moreno;03/07/1964 00:00;M;F;amoreno@adventure-works.com;30000;2;2;Partial Co;Clerical;1;2;144 Castro Street;;Chula Vista;CA;91910;1 (11) 500 555-0135
+Robert;J;Evans;17/08/1979 00:00;M;M;revans@adventure-works.com;20000;5;5;High Schoo;Manual;0;1;144 Castro Street;;Chula Vista;CA;91910;1 (11) 500 555-0175
+Denise;V;Chandra;05/09/1963 00:00;S;F;dchandra@adventure-works.com;40000;1;0;Bachelors;Skilled Manual;1;0;1565 Esperanea Dr.;;Chula Vista;CA;91910;1 (11) 500 555-0167
+Julie;L;Rai;17/12/1959 00:00;M;F;jrai@adventure-works.com;50000;4;0;Graduate D;Skilled Manual;1;0;1792 Belmont Rd.;;Chula Vista;CA;91910;525-555-0168
+Autumn;F;Yang;21/06/1972 00:00;M;F;ayang@adventure-works.com;40000;4;4;Partial Co;Clerical;1;2;2030 Lighthouse Way;;Chula Vista;CA;91910;311-555-0171
+Charles;;Campbell;25/10/1941 00:00;S;M;ccampbell@adventure-works.com;70000;5;0;Graduate D;Management;0;2;2063 Trafalgar Circle;;Chula Vista;CA;91910;545-555-0178
+Kelli;;Zheng;17/05/1957 00:00;M;F;kzheng@adventure-works.com;10000;1;0;Partial Co;Manual;1;0;214 Via Del Sol;;Chula Vista;CA;91910;1 (11) 500 555-0165
+Madeline;L;Wright;12/02/1956 00:00;S;F;mwright@adventure-works.com;10000;2;0;Partial Co;Manual;0;0;215 Baxter Court;;Chula Vista;CA;91910;1 (11) 500 555-0174
+Vincent;G;Wu;17/07/1976 00:00;S;M;vwu@adventure-works.com;10000;1;1;High Schoo;Manual;0;0;2215 La Corte Bonita;;Chula Vista;CA;91910;1 (11) 500 555-0150
+Josue;C;Ortega;26/02/1943 00:00;M;M;jortega@adventure-works.com;30000;1;0;Bachelors;Clerical;1;0;2215 La Corte Bonita;;Chula Vista;CA;91910;1 (11) 500 555-0136
+Nicolas;M;Nath;24/04/1959 00:00;M;M;nnath@adventure-works.com;10000;1;1;High Schoo;Manual;1;1;2300 Lillian Dr;;Chula Vista;CA;91910;1 (11) 500 555-0195
+Shane;;Garcia;24/11/1958 00:00;M;M;sgarcia@adventure-works.com;30000;1;0;Graduate D;Clerical;1;0;2300 Lillian Dr;;Chula Vista;CA;91910;1 (11) 500 555-0170
+Jasmine;K;Howard;03/08/1959 00:00;M;F;jhoward@adventure-works.com;40000;3;0;Graduate D;Clerical;0;0;2775 Heather Leaf Ln.;;Chula Vista;CA;91910;1 (11) 500 555-0179
+Cindy;;Chandra;04/09/1919 00:00;S;F;cchandra@adventure-works.com;10000;3;0;Graduate D;Clerical;0;2;2775 Heather Leaf Ln.;;Chula Vista;CA;91910;1 (11) 500 555-0111
+Jessie;;Li;10/04/1969 00:00;S;M;jli@adventure-works.com;20000;0;0;Partial Co;Manual;1;1;2804 Alderwood Lane;;Chula Vista;CA;91910;1 (11) 500 555-0127
+Brandon;B;Hughes;02/09/1969 00:00;M;M;bhughes@adventure-works.com;30000;1;0;Bachelors;Clerical;1;0;288 Almaden Dr.;;Chula Vista;CA;91910;1 (11) 500 555-0112
+Denise;L;Garcia;02/03/1969 00:00;S;F;dgarcia@adventure-works.com;30000;1;0;Bachelors;Clerical;1;0;3029 Arnold Dr;#2;Chula Vista;CA;91910;1 (11) 500 555-0147
+Roger;;Li;13/02/1952 00:00;M;M;rli@adventure-works.com;20000;2;0;Partial Co;Manual;0;1;3029 Arnold Dr;#2;Chula Vista;CA;91910;1 (11) 500 555-0180
+Darryl;S;Huang;14/11/1952 00:00;S;M;dhuang@adventure-works.com;20000;2;0;Partial Co;Manual;1;1;3448 Concord;;Chula Vista;CA;91910;1 (11) 500 555-0136
+Gabrielle;;Richardson;11/07/1954 00:00;S;F;grichardson@adventure-works.com;100000;3;4;High Schoo;Professional;1;3;3448 Concord;;Chula Vista;CA;91910;1 (11) 500 555-0155
+Raquel;;Jimenez;06/05/1954 00:00;M;F;rjimenez@adventure-works.com;100000;3;4;High Schoo;Professional;0;3;3505 Graham St.;;Chula Vista;CA;91910;1 (11) 500 555-0110
+Gina;;Ramos;12/10/1952 00:00;M;F;gramos@adventure-works.com;70000;5;2;Partial Hi;Skilled Manual;1;2;3531 Brookview Drive;;Chula Vista;CA;91910;1 (11) 500 555-0134
+Roy;A;Gomez;04/11/1952 00:00;S;M;rgomez@adventure-works.com;80000;4;1;High Schoo;Professional;0;3;3531 Brookview Drive;;Chula Vista;CA;91910;1 (11) 500 555-0190
+Autumn;;Ye;09/07/1950 00:00;S;F;aye@adventure-works.com;110000;4;5;Partial Co;Management;0;2;3675 Q St.;;Chula Vista;CA;91910;1 (11) 500 555-0129
+Brendan;;Luo;16/05/1949 00:00;S;M;bluo@adventure-works.com;90000;4;1;High Schoo;Management;0;3;3858 Vista Diablo;Unit C;Chula Vista;CA;91910;1 (11) 500 555-0187
+Jon;M;Anand;06/02/1948 00:00;S;M;janand@adventure-works.com;90000;4;1;Partial Hi;Skilled Manual;1;4;3858 Vista Diablo;Unit C;Chula Vista;CA;91910;1 (11) 500 555-0154
+Tabitha;;Malhotra;05/11/1947 00:00;M;F;tmalhotra@adventure-works.com;90000;5;0;Partial Hi;Skilled Manual;0;2;3861 Las Lomas Way;;Chula Vista;CA;91910;1 (11) 500 555-0121
+Denise;;Sai;11/05/1947 00:00;S;F;dsai@adventure-works.com;100000;3;4;High Schoo;Management;0;4;3974 Central Ave.;;Chula Vista;CA;91910;1 (11) 500 555-0174
+Ernest;;Zheng;24/08/1976 00:00;S;M;ezheng@adventure-works.com;70000;0;0;High Schoo;Management;1;2;417 Silver Oak Pl;;Chula Vista;CA;91910;1 (11) 500 555-0166
+Marshall;;Zheng;17/07/1972 00:00;S;M;mzheng@adventure-works.com;100000;0;5;High Schoo;Management;0;3;417 Silver Oak Pl;;Chula Vista;CA;91910;1 (11) 500 555-0148
+Michele;;Alonso;08/06/1970 00:00;S;F;malonso@adventure-works.com;90000;0;0;Partial Hi;Professional;1;4;420 Royal Links Cirlce;;Chula Vista;CA;91910;1 (11) 500 555-0119
+Geoffrey;K;Srini;18/05/1980 00:00;S;M;gsrini@adventure-works.com;20000;0;0;Partial Hi;Manual;0;2;4257 Crown Court;;Chula Vista;CA;91910;1 (11) 500 555-0133
+Barry;L;Sanchez;03/12/1972 00:00;M;M;bsanchez@adventure-works.com;10000;0;0;Partial Hi;Manual;1;2;4414 Kendree St.;;Chula Vista;CA;91910;1 (11) 500 555-0150
+Clayton;;Luo;04/08/1972 00:00;M;M;cluo@adventure-works.com;40000;2;2;Partial Co;Clerical;1;0;4632 Pleasant Hill Rd;;Chula Vista;CA;91910;1 (11) 500 555-0161
+Alicia;L;Nath;26/06/1971 00:00;S;F;anath@adventure-works.com;10000;0;0;Partial Hi;Manual;0;2;5126 La Corte Bonita;;Chula Vista;CA;91910;1 (11) 500 555-0170
+Jose;;Powell;21/11/1970 00:00;S;M;jpowell@adventure-works.com;40000;2;2;Partial Co;Clerical;0;2;5186 Oeffler Ln.;;Chula Vista;CA;91910;1 (11) 500 555-0122
+Sarah;A;Jenkins;25/02/1966 00:00;S;F;sjenkins@adventure-works.com;50000;0;0;Graduate D;Skilled Manual;1;0;5186 Oeffler Ln.;;Chula Vista;CA;91910;244-555-0182
+Claudia;J;Zhu;19/01/1954 00:00;S;F;czhu@adventure-works.com;20000;3;0;Partial Hi;Manual;1;2;5199 James Donlon Blvd;;Chula Vista;CA;91910;255-555-0151
+Tammy;;Perez;14/02/1954 00:00;S;F;tperez@adventure-works.com;30000;1;0;High Schoo;Clerical;1;1;5254 Daylight Place;;Chula Vista;CA;91910;534-555-0170
+Courtney;;Roberts;28/07/1956 00:00;M;F;croberts@adventure-works.com;40000;1;0;Partial Co;Clerical;1;1;5254 Daylight Place;;Chula Vista;CA;91910;763-555-0189
+Kendra;;Torres;23/03/1958 00:00;S;F;ktorres@adventure-works.com;50000;4;0;Graduate D;Skilled Manual;1;0;5325 Pinecreek Way;;Chula Vista;CA;91910;461-555-0197
+Morgan;;White;11/10/1967 00:00;S;F;mwhite@adventure-works.com;10000;3;3;High Schoo;Manual;1;0;5336 Roberts Ct;;Chula Vista;CA;91910;1 (11) 500 555-0136
+Kristin;;Sharma;05/10/1966 00:00;S;F;ksharma@adventure-works.com;20000;1;1;High Schoo;Manual;0;1;5446 Via Estrella;;Chula Vista;CA;91910;1 (11) 500 555-0139
+Sydney;E;Griffin;04/07/1966 00:00;S;F;sgriffin@adventure-works.com;30000;2;2;Partial Co;Manual;0;0;5530 Melrose Pl.;;Chula Vista;CA;91910;1 (11) 500 555-0126
+Arianna;M;Perry;21/02/1966 00:00;S;F;aperry@adventure-works.com;30000;2;2;Partial Co;Manual;0;0;5728 Benedict Ct.;;Chula Vista;CA;91910;1 (11) 500 555-0186
+Angel;M;Hernandez;11/02/1964 00:00;S;M;ahernandez@adventure-works.com;30000;2;2;Partial Co;Clerical;0;2;5854 Eagle Way;;Chula Vista;CA;91910;1 (11) 500 555-0176
+Jennifer;A;Henderson;27/09/1979 00:00;M;F;jhenderson@adventure-works.com;20000;4;4;High Schoo;Manual;1;2;5973 Willow Pass Road;;Chula Vista;CA;91910;1 (11) 500 555-0199
+Luis;D;King;23/09/1975 00:00;S;M;lking@adventure-works.com;30000;0;0;Partial Co;Clerical;1;1;6121 Chilpancingo Pk;;Chula Vista;CA;91910;1 (11) 500 555-0157
+Devin;E;Scott;25/03/1973 00:00;M;M;dscott@adventure-works.com;50000;0;0;Graduate D;Skilled Manual;1;0;6187 Barquentine Court;;Chula Vista;CA;91910;916-555-0192
+Isaac;;Stewart;25/03/1972 00:00;M;M;istewart@adventure-works.com;50000;1;1;Graduate D;Skilled Manual;1;0;6187 Barquentine Court;;Chula Vista;CA;91910;163-555-0151
+Daniel;E;Robinson;11/08/1972 00:00;M;M;drobinson@adventure-works.com;50000;1;1;Graduate D;Skilled Manual;1;0;6199 Mcelroy;;Chula Vista;CA;91910;709-555-0140
+Ruth;A;Kapoor;19/08/1968 00:00;S;F;rkapoor@adventure-works.com;50000;2;2;Bachelors;Skilled Manual;0;1;6199 Mcelroy;;Chula Vista;CA;91910;978-555-0116
+Lisa;J;He;23/04/1967 00:00;M;F;lhe@adventure-works.com;40000;5;5;High Schoo;Skilled Manual;1;1;6594 Jefferson St.;;Chula Vista;CA;91910;645-555-0137
+Hailey;P;Sanchez;09/11/1966 00:00;M;F;hsanchez@adventure-works.com;70000;4;0;Graduate D;Professional;1;0;6615 Cambelback Place;;Chula Vista;CA;91910;258-555-0155
+Erick;L;Raman;20/02/1966 00:00;S;M;eraman@adventure-works.com;70000;4;0;Graduate D;Professional;1;0;6998 Courthouse Drive;;Chula Vista;CA;91910;272-555-0119
+Bryan;C;Peterson;03/02/1969 00:00;M;M;bpeterson@adventure-works.com;70000;5;0;Graduate D;Professional;1;0;6998 Courthouse Drive;;Chula Vista;CA;91910;220-555-0125
+Joe;;Munoz;11/01/1965 00:00;S;M;jmunoz@adventure-works.com;50000;3;3;Bachelors;Skilled Manual;1;3;7118 Elliott Dr.;;Chula Vista;CA;91910;370-555-0135
+Rebekah;;Gil;17/04/1963 00:00;M;F;rgil@adventure-works.com;50000;4;2;Bachelors;Professional;1;2;7136 Almond Drive;;Chula Vista;CA;91910;395-555-0179
+Morgan;R;Carter;11/05/1967 00:00;M;F;mcarter@adventure-works.com;60000;0;0;Graduate D;Professional;1;1;7136 Almond Drive;;Chula Vista;CA;91910;628-555-0196
+Blake;L;Smith;18/01/1967 00:00;S;M;bsmith@adventure-works.com;60000;0;0;Graduate D;Professional;0;1;7199 Natalie Drive;;Chula Vista;CA;91910;579-555-0146
+Monica;;Suri;19/10/1969 00:00;S;F;msuri@adventure-works.com;90000;1;0;Graduate D;Management;0;0;7208 Peach Place;;Chula Vista;CA;91910;1 (11) 500 555-0132
+Jesus;;Ruiz;24/07/1966 00:00;S;M;jruiz@adventure-works.com;90000;2;0;Bachelors;Professional;0;0;7419 San Ramon Road;;Chula Vista;CA;91910;1 (11) 500 555-0166
+Felicia;J;Hernandez;13/08/1964 00:00;S;F;fhernandez@adventure-works.com;60000;4;4;Bachelors;Professional;1;3;7419 San Ramon Road;;Chula Vista;CA;91910;1 (11) 500 555-0146
+Stephanie;;Lopez;05/11/1977 00:00;S;F;slopez@adventure-works.com;50000;0;0;Partial Co;Skilled Manual;0;2;7515 Royal Oak Rd.;;Chula Vista;CA;91910;279-555-0128
+Arthur;A;Arun;23/09/1975 00:00;S;M;aarun@adventure-works.com;50000;0;0;Partial Co;Skilled Manual;1;2;7515 Royal Oak Rd.;;Chula Vista;CA;91910;403-555-0186
+Justin;;Johnson;02/10/1975 00:00;S;M;jjohnson@adventure-works.com;50000;0;0;High Schoo;Skilled Manual;0;2;7723 Firestone Drive;;Chula Vista;CA;91910;276-555-0124
+Darren;F;Perez;12/04/1957 00:00;S;M;dperez@adventure-works.com;50000;2;0;High Schoo;Professional;0;2;7723 Firestone Drive;;Chula Vista;CA;91910;1 (11) 500 555-0125
+Elizabeth;;Foster;02/04/1974 00:00;S;F;efoster@adventure-works.com;50000;0;0;High Schoo;Professional;0;2;7754 Camino Peral;;Chula Vista;CA;91910;605-555-0186
+Alberto;;Torres;27/07/1967 00:00;S;M;atorres@adventure-works.com;80000;5;5;Bachelors;Professional;1;4;7797 Richard Place;;Chula Vista;CA;91910;1 (11) 500 555-0173
+Katie;;Raji;27/06/1967 00:00;S;F;kraji@adventure-works.com;80000;5;5;Bachelors;Professional;0;4;7832 Military East;;Chula Vista;CA;91910;1 (11) 500 555-0118
+Patrick;;Cooper;03/08/1961 00:00;M;M;pcooper@adventure-works.com;50000;1;0;Partial Co;Skilled Manual;1;1;8246 Via Del Sol;;Chula Vista;CA;91910;1 (11) 500 555-0136
+Kristi;A;Alonso;04/06/1961 00:00;M;F;kalonso@adventure-works.com;50000;1;0;Partial Co;Skilled Manual;1;1;8246 Via Del Sol;;Chula Vista;CA;91910;1 (11) 500 555-0154
+Toni;C;Chandra;24/07/1966 00:00;M;F;tchandra@adventure-works.com;110000;0;0;Graduate D;Management;1;3;8447 East Lake Court;;Chula Vista;CA;91910;1 (11) 500 555-0114
+Ann;;Perez;24/12/1959 00:00;S;F;aperez@adventure-works.com;100000;5;0;Bachelors;Professional;1;1;8490 Longbrood Way;;Chula Vista;CA;91910;1 (11) 500 555-0120
+Stanley;;Kapoor;21/12/1962 00:00;S;M;skapoor@adventure-works.com;60000;1;0;Partial Co;Skilled Manual;0;1;8494 Rollingwood Dr.;;Chula Vista;CA;91910;1 (11) 500 555-0164
+Sharon;L;Pal;10/10/1960 00:00;S;F;spal@adventure-works.com;70000;5;4;Partial Co;Skilled Manual;1;3;8502 Diver Way;;Chula Vista;CA;91910;1 (11) 500 555-0143
+Gilbert;;Lu;20/03/1960 00:00;S;M;glu@adventure-works.com;70000;5;4;Partial Co;Skilled Manual;0;3;8540 Donegal Road;;Chula Vista;CA;91910;1 (11) 500 555-0118
+Cedric;C;Aggarwal;04/05/1976 00:00;S;M;caggarwal@adventure-works.com;30000;0;0;High Schoo;Skilled Manual;0;2;8540 Donegal Road;;Chula Vista;CA;91910;981-555-0136
+Robyn;;Moreno;21/03/1976 00:00;S;F;rmoreno@adventure-works.com;40000;0;0;High Schoo;Skilled Manual;1;2;8636 St. Francis St.;;Chula Vista;CA;91910;166-555-0142
+David;;Sharma;21/05/1943 00:00;M;M;dsharma@adventure-works.com;40000;2;0;Bachelors;Management;0;2;8713 Yosemite Ct.;;Chula Vista;CA;91910;1 (11) 500 555-0143
+Ramon;;Wang;23/11/1943 00:00;S;M;rwang@adventure-works.com;50000;2;0;Graduate D;Management;0;1;8713 Yosemite Ct.;;Chula Vista;CA;91910;1 (11) 500 555-0196
+Xavier;A;Reed;18/08/1944 00:00;M;M;xreed@alpineskihouse.com;70000;5;0;Bachelors;Management;0;2;8885 Partridge Dr.;;Chula Vista;CA;91910;112-555-0181
+Lacey;R;Xie;27/10/1944 00:00;M;F;lxie@alpineskihouse.com;70000;5;0;Bachelors;Management;1;2;8947 Rio Grande Drive;;Chula Vista;CA;91910;855-555-0149
+Emma;;Wood;19/06/1947 00:00;M;F;ewood@alpineskihouse.com;60000;5;0;Bachelors;Management;1;3;9021 Onley Dr;;Chula Vista;CA;91910;655-555-0155
+Riley;;Ross;11/03/1947 00:00;S;F;rross@alpineskihouse.com;70000;4;1;Bachelors;Management;0;1;9021 Onley Dr;;Chula Vista;CA;91910;821-555-0149
+Connor;F;Carter;11/08/1955 00:00;S;M;ccarter@alpineskihouse.com;130000;3;4;Partial Co;Professional;1;3;952 Norman Ave.;;Chula Vista;CA;91910;1 (11) 500 555-0136
+Isabella;;Wilson;03/08/1933 00:00;M;F;iwilson@alpineskihouse.com;50000;2;0;Graduate D;Management;1;2;9775 Redrock Drive;;Chula Vista;CA;91910;971-555-0162
+Michael;B;Johnson;17/03/1956 00:00;M;M;mjohnson@alpineskihouse.com;70000;4;3;Partial Co;Professional;1;0;9775 Redrock Drive;;Chula Vista;CA;91910;848-555-0129
+Erika;;Jimenez;20/06/1962 00:00;S;F;ejimenez@alpineskihouse.com;100000;3;2;Partial Co;Professional;1;4;9800 St. George Dr;;Chula Vista;CA;91910;133-555-0119
+Dylan;;Yang;13/12/1955 00:00;S;M;dyang@alpineskihouse.com;50000;2;0;Partial Hi;Skilled Manual;0;2;9819 Sunsine Drive;;Chula Vista;CA;91910;274-555-0192
+Tony;R;Goel;28/07/1937 00:00;S;M;tgoel@alpineskihouse.com;130000;2;3;Bachelors;Management;0;3;9819 Sunsine Drive;;Chula Vista;CA;91910;277-555-0195
+Brianna;;Wilson;02/08/1939 00:00;S;F;bwilson@alpineskihouse.com;170000;1;2;Graduate D;Management;1;4;9966 Vallet Crest Dr.;;Chula Vista;CA;91910;406-555-0136
+Dalton;E;Allen;20/10/1943 00:00;M;M;dallen@alpineskihouse.com;90000;5;0;Bachelors;Management;1;2;463 Ahneita Dr;;Citrus Heights;CA;95610;729-555-0155
+Curtis;G;Ye;10/11/1946 00:00;M;M;cye@alpineskihouse.com;60000;4;0;Bachelors;Management;1;2;463 Ahneita Dr;;Citrus Heights;CA;95610;525-555-0183
+Rachel;C;Cooper;10/02/1946 00:00;S;F;rcooper@alpineskihouse.com;60000;5;0;Bachelors;Management;0;3;5867 Sunrise Boulevard;;Citrus Heights;CA;95610;357-555-0187
+Adrienne;E;Castro;14/07/1950 00:00;S;F;acastro@alpineskihouse.com;50000;2;1;High Schoo;Professional;1;2;5867 Sunrise Boulevard;;Citrus Heights;CA;95610;522-555-0132
+Henry;A;Rodriguez;16/03/1956 00:00;M;M;hrodriguez@alpineskihouse.com;110000;3;4;Partial Co;Professional;1;4;7243 St. George Dr.;;City Of Commerce;CA;90040;1 (11) 500 555-0197
+Douglas;;Chandra;17/09/1933 00:00;S;M;dchandra@alpineskihouse.com;90000;4;0;Bachelors;Management;0;1;The Citadel/commerce;;City Of Commerce;CA;90040;762-555-0141
+Caitlin;C;Cook;15/05/1956 00:00;M;F;ccook@alpineskihouse.com;70000;4;3;Partial Co;Professional;1;0;The Citadel/commerce;;City Of Commerce;CA;90040;744-555-0147
+Casey;;Romero;09/03/1956 00:00;S;M;cromero@alpineskihouse.com;90000;2;1;Partial Co;Professional;0;1;1005 Fremont Street;;Colma;CA;94014;683-555-0179
+Ronnie;;Zhou;13/02/1963 00:00;S;M;rzhou@alpineskihouse.com;90000;0;0;Partial Co;Professional;0;1;1024 Walnut Blvd.;;Colma;CA;94014;746-555-0129
+Todd;A;Wu;20/12/1963 00:00;S;M;twu@alpineskihouse.com;100000;0;2;Partial Co;Professional;1;1;1046 San Carlos Avenue;;Colma;CA;94014;680-555-0118
+Kelvin;;Ye;28/11/1935 00:00;M;M;kye@alpineskihouse.com;60000;2;0;Graduate D;Management;0;2;1105 Meadowbrook Drive;;Colma;CA;94014;617-555-0169
+Manuel;;Verma;23/11/1936 00:00;S;M;mverma@alpineskihouse.com;50000;2;0;Graduate D;Management;0;2;1121 Boynton Avenue;;Colma;CA;94014;468-555-0197
+Bryant;L;Prasad;21/04/1960 00:00;M;M;bprasad@alpineskihouse.com;80000;5;4;Partial Co;Professional;1;4;1157 Chilpancingo Pk.;;Colma;CA;94014;113-555-0169
+Bruce;;Romero;25/08/1960 00:00;S;M;bromero@alpineskihouse.com;100000;0;3;Partial Co;Professional;0;2;1157 Chilpancingo Pk.;;Colma;CA;94014;818-555-0169
+Roy;;Munoz;20/10/1937 00:00;S;M;rmunoz@alpineskihouse.com;100000;2;3;Graduate D;Management;0;3;1162 Relief Valley Ct;;Colma;CA;94014;626-555-0170
+Adriana;;Fernandez;14/04/1937 00:00;S;F;afernandez@alpineskihouse.com;110000;2;3;Graduate D;Management;0;4;1314 Greenview Court;;Colma;CA;94014;610-555-0111
+Holly;;Gonzalez;02/05/1938 00:00;M;F;hgonzalez@alpineskihouse.com;120000;2;4;Graduate D;Management;1;3;143 Pecan Pl.;3b;Colma;CA;94014;302-555-0110
+Steven;S;Ward;16/01/1940 00:00;S;M;sward@alpineskihouse.com;80000;4;0;Bachelors;Management;0;2;1440 Willow Pass Dr.;;Colma;CA;94014;631-555-0185
+Damien;R;Gao;28/10/1940 00:00;S;M;dgao@alpineskihouse.com;130000;2;3;Bachelors;Management;0;4;1509 Orangewood Ave.;;Colma;CA;94014;851-555-0174
+Tristan;J;Griffin;20/01/1962 00:00;S;M;tgriffin@alpineskihouse.com;30000;5;0;Graduate D;Clerical;1;0;1510 Bidwell Street;;Colma;CA;94014;1 (11) 500 555-0117
+Andrea;C;Rivera;22/11/1956 00:00;S;F;arivera@alpineskihouse.com;20000;1;0;Bachelors;Clerical;0;0;1567 W Lake Drive;;Colma;CA;94014;1 (11) 500 555-0183
+Edwin;M;Ma;08/04/1959 00:00;M;M;ema@alpineskihouse.com;20000;2;0;Partial Co;Manual;1;1;1610 Ashwood Dr.;;Colma;CA;94014;1 (11) 500 555-0177
+Damien;D;Goel;23/03/1959 00:00;S;M;dgoel@alpineskihouse.com;20000;2;0;Partial Co;Manual;0;1;1617 Cunningham Way;;Colma;CA;94014;1 (11) 500 555-0196
+Derrick;M;Gutierrez;07/06/1969 00:00;M;M;dgutierrez@alpineskihouse.com;40000;0;0;Graduate D;Clerical;1;0;1691 Boxer Blvd.;;Colma;CA;94014;1 (11) 500 555-0145
+Anthony;P;Smith;07/12/1969 00:00;S;M;asmith@alpineskihouse.com;50000;0;0;Graduate D;Skilled Manual;1;0;1693 C Northwood Dr;;Colma;CA;94014;1 (11) 500 555-0163
+Henry;;Sai;26/09/1968 00:00;M;M;hsai@alpineskihouse.com;10000;3;3;High Schoo;Manual;0;0;1710 Boyd Road;;Colma;CA;94014;1 (11) 500 555-0133
+Karen;C;Ma;18/11/1946 00:00;M;F;kma@alpineskihouse.com;100000;2;3;Bachelors;Management;1;4;174 Carlotta;;Colma;CA;94014;1 (11) 500 555-0181
+Jon;;Xie;24/08/1953 00:00;M;M;jxie@alpineskihouse.com;110000;3;4;Bachelors;Management;0;4;1769 Lislin Ct;;Colma;CA;94014;1 (11) 500 555-0191
+Christy;C;Anand;02/11/1953 00:00;S;F;canand@alpineskihouse.com;120000;3;5;Bachelors;Management;0;3;1782 Poplar Ave.;;Colma;CA;94014;1 (11) 500 555-0162
+Shawn;A;Chande;07/02/1970 00:00;M;M;schande@alpineskihouse.com;120000;0;5;Partial Hi;Professional;0;4;1926 Gill Dr.;;Colma;CA;94014;1 (11) 500 555-0180
+Tyler;;Thomas;16/11/1941 00:00;S;M;tthomas@alpineskihouse.com;100000;2;3;Graduate D;Management;1;3;1974 Heritage Oaks;;Colma;CA;94014;395-555-0166
+Derek;C;Aggarwal;21/11/1973 00:00;S;M;daggarwal@alpineskihouse.com;20000;0;0;Partial Hi;Manual;1;2;2000 Newcastle Road;;Colma;CA;94014;1 (11) 500 555-0135
+Ricky;A;Ortega;02/07/1980 00:00;M;M;rortega@alpineskihouse.com;20000;0;0;Partial Hi;Manual;0;2;212 Pheasant Circle;;Colma;CA;94014;1 (11) 500 555-0148
+Orlando;;Ruiz;18/08/1971 00:00;M;M;oruiz@alpineskihouse.com;10000;0;0;Partial Hi;Manual;0;2;2153 Hooftrail Way;;Colma;CA;94014;1 (11) 500 555-0141
+Alyssa;E;Williams;21/03/1970 00:00;S;F;awilliams@alpineskihouse.com;40000;2;2;Partial Co;Clerical;1;2;2290 Mt. Hood Circle;;Colma;CA;94014;1 (11) 500 555-0190
+Desiree;C;Hernandez;19/10/1974 00:00;S;F;dhernandez@alpineskihouse.com;40000;3;3;Partial Co;Clerical;1;2;2419 Adobe St.;;Colma;CA;94014;918-555-0117
+Marshall;;Zhang;06/12/1974 00:00;S;M;mzhang@alpineskihouse.com;40000;3;3;Partial Co;Clerical;0;2;259 Thames Drive;;Colma;CA;94014;267-555-0119
+Kristin;;Bhat;03/12/1955 00:00;M;F;kbhat@alpineskihouse.com;50000;5;0;Graduate D;Skilled Manual;1;0;259 Thames Drive;;Colma;CA;94014;794-555-0118
+Jade;R;Ramirez;04/08/1956 00:00;S;F;jramirez@alpineskihouse.com;40000;1;0;Partial Co;Clerical;0;1;2620 Tice;;Colma;CA;94014;120-555-0187
+Caleb;;Jai;08/08/1956 00:00;M;M;cjai@alpineskihouse.com;40000;1;0;Partial Co;Clerical;1;1;2685 Keith Court;;Colma;CA;94014;208-555-0168
+Patricia;L;Sai;05/05/1959 00:00;M;F;psai@alpineskihouse.com;50000;4;0;Graduate D;Skilled Manual;1;0;2685 Keith Court;;Colma;CA;94014;912-555-0146
+Damien;D;Kumar;05/05/1959 00:00;S;M;dkumar@alpineskihouse.com;50000;4;0;Graduate D;Skilled Manual;0;0;2768 Baltic Sea Ct;;Colma;CA;94014;794-555-0114
+Victor;L;Alonso;11/05/1959 00:00;S;M;valonso@alpineskihouse.com;50000;4;0;Graduate D;Skilled Manual;1;0;2788 Mt. Tamalpais Place;;Colma;CA;94014;726-555-0139
+Kari;B;Arun;25/06/1967 00:00;M;F;karun@alpineskihouse.com;10000;3;3;Partial Hi;Manual;1;1;2809 Via Montana;;Colma;CA;94014;1 (11) 500 555-0192
+Isabel;;Hughes;09/06/1931 00:00;S;F;ihughes@alpineskihouse.com;20000;2;0;Partial Co;Manual;1;1;2809 Via Montana;;Colma;CA;94014;1 (11) 500 555-0139
+Bradley;;Nath;22/05/1966 00:00;S;M;bnath@alpineskihouse.com;40000;0;0;Bachelors;Skilled Manual;1;0;2823 Napa Court;;Colma;CA;94014;1 (11) 500 555-0134
+Steve;J;Zhang;12/11/1964 00:00;M;M;szhang@alpineskihouse.com;40000;1;0;Bachelors;Skilled Manual;1;0;2887 Pinecrest Court;;Colma;CA;94014;1 (11) 500 555-0162
+Gabriel;K;Edwards;01/10/1962 00:00;M;M;gedwards@alpineskihouse.com;30000;1;0;Partial Co;Clerical;1;1;2911 Paso Del Rio Way;;Colma;CA;94014;1 (11) 500 555-0179
+Adam;;Coleman;08/07/1977 00:00;S;M;acoleman@alpineskihouse.com;20000;0;0;High Schoo;Manual;1;1;2964 St. George Dr.;;Colma;CA;94014;1 (11) 500 555-0189
+Frederick;;Lopez;10/07/1975 00:00;M;M;flopez@alpineskihouse.com;20000;0;0;High Schoo;Manual;0;1;3004 Zand;;Colma;CA;94014;1 (11) 500 555-0134
+Dylan;L;Johnson;22/04/1973 00:00;S;M;djohnson@alpineskihouse.com;50000;0;0;Graduate D;Skilled Manual;1;0;3009 Temple Court;;Colma;CA;94014;994-555-0132
+Anna;S;Bennett;07/03/1970 00:00;M;F;abennett@alpineskihouse.com;50000;1;1;Bachelors;Skilled Manual;1;0;312 Via Del Verdes;;Colma;CA;94014;433-555-0112
+Johnathan;;Mehta;18/09/1970 00:00;M;M;jmehta@alpineskihouse.com;50000;1;1;Bachelors;Skilled Manual;0;1;312 Via Del Verdes;;Colma;CA;94014;749-555-0181
+Byron;E;Alonso;17/01/1970 00:00;M;M;balonso@alpineskihouse.com;50000;1;1;Bachelors;Skilled Manual;0;1;3146 Rose Street;;Colma;CA;94014;528-555-0113
+Monica;;Engineer;07/06/1970 00:00;M;F;mengineer@alpineskihouse.com;50000;1;1;Bachelors;Skilled Manual;1;1;3177 Dover Way;;Colma;CA;94014;140-555-0181
+Grant;M;Chande;08/09/1969 00:00;S;M;gchande@alpineskihouse.com;50000;2;2;Bachelors;Skilled Manual;0;0;3260 Fountainhead Court;;Colma;CA;94014;926-555-0124
+Terrance;G;Verma;18/04/1966 00:00;S;M;tverma@alpineskihouse.com;50000;3;3;Bachelors;Skilled Manual;0;0;3271 Norse Ct;;Colma;CA;94014;775-555-0166
+Sydney;L;Martin;19/10/1966 00:00;M;F;smartin@alpineskihouse.com;60000;0;0;Graduate D;Professional;1;0;3277 Lakespring Pl.;;Colma;CA;94014;911-555-0156
+Kristen;;Liang;01/01/1966 00:00;M;F;kliang@alpineskihouse.com;70000;4;0;Graduate D;Professional;0;0;3320 North Th St;;Colma;CA;94014;288-555-0185
+Hunter;J;Alexander;03/11/1965 00:00;M;M;halexander@alpineskihouse.com;50000;3;3;Bachelors;Skilled Manual;1;2;3356 Eastgate Ave.;;Colma;CA;94014;787-555-0124
+Jason;M;Henderson;17/06/1964 00:00;M;M;jhenderson@alpineskihouse.com;50000;4;2;Bachelors;Skilled Manual;1;2;3372 Mobile Lane;;Colma;CA;94014;853-555-0155
+Kaylee;L;Ramirez;17/02/1960 00:00;S;F;kramirez@alpineskihouse.com;50000;1;0;Partial Co;Skilled Manual;0;1;3384 Malibu Place;;Colma;CA;94014;489-555-0112
+Darren;;Gomez;05/03/1970 00:00;S;M;dgomez@alpineskihouse.com;80000;4;4;Graduate D;Management;1;1;3448 Sun View Terr.;;Colma;CA;94014;1 (11) 500 555-0118
+Ross;;Chandra;20/02/1970 00:00;M;M;rchandra@alpineskihouse.com;80000;5;5;Graduate D;Management;1;2;3494 Rheem Blvd;;Colma;CA;94014;1 (11) 500 555-0115
+Leah;;Zhao;16/10/1968 00:00;S;F;lzhao@alpineskihouse.com;70000;5;5;Bachelors;Professional;0;3;3514 Citrus Ace;#2306;Colma;CA;94014;1 (11) 500 555-0120
+Devin;B;Gonzales;15/12/1968 00:00;S;M;dgonzales@alpineskihouse.com;70000;5;5;Bachelors;Professional;1;3;3545 Rotherham Dr.;;Colma;CA;94014;1 (11) 500 555-0119
+Franklin;;Kumar;19/02/1967 00:00;S;M;fkumar@alpineskihouse.com;70000;5;5;Bachelors;Professional;1;3;3591 East 18th Street;;Colma;CA;94014;1 (11) 500 555-0163
+Javier;M;Moreno;05/01/1969 00:00;M;M;jmoreno@alpineskihouse.com;100000;1;0;Graduate D;Management;0;0;3612 Vista Place;;Colma;CA;94014;1 (11) 500 555-0185
+Logan;A;Russell;18/01/1969 00:00;S;M;lrussell@alpineskihouse.com;110000;1;0;Graduate D;Management;0;0;3717 Greenway Drive;211;Colma;CA;94014;1 (11) 500 555-0182
+Sydney;E;Taylor;14/05/1968 00:00;S;F;staylor@alpineskihouse.com;110000;1;1;Graduate D;Management;0;3;375 Hillview Drive;;Colma;CA;94014;239-555-0187
+Billy;;Ramos;22/07/1979 00:00;M;M;bramos@alpineskihouse.com;40000;0;0;High Schoo;Skilled Manual;0;2;3831 Golden Gate Way;#203;Colma;CA;94014;470-555-0116
+Mackenzie;L;Howard;18/10/1974 00:00;S;F;mhoward@alpineskihouse.com;50000;0;0;High Schoo;Skilled Manual;1;2;3852 Northridge Dr.;;Colma;CA;94014;688-555-0113
+Nathan;;Gonzalez;28/08/1974 00:00;M;M;ngonzalez@alpineskihouse.com;60000;0;0;Partial Co;Professional;1;2;3859 Argyll Ave;;Colma;CA;94014;852-555-0132
+Kevin;E;Allen;14/04/1957 00:00;M;M;kallen@alpineskihouse.com;50000;2;0;Partial Hi;Skilled Manual;0;2;3919 Bayview Circle;;Colma;CA;94014;235-555-0119
+Mary;I;Campbell;05/11/1966 00:00;M;F;mcampbell@alpineskihouse.com;110000;0;0;Graduate D;Management;1;4;4137 E St.;;Colma;CA;94014;1 (11) 500 555-0168
+Savannah;J;Cooper;25/02/1958 00:00;M;F;scooper@alpineskihouse.com;80000;5;4;Bachelors;Professional;0;1;4173 Rockledge Lane;;Colma;CA;94014;1 (11) 500 555-0188
+Christy;;She;15/02/1976 00:00;M;F;cshe@alpineskihouse.com;40000;0;0;High Schoo;Skilled Manual;0;2;4250 Cross Road;;Colma;CA;94014;936-555-0168
+Brent;M;Xu;01/06/1943 00:00;M;M;bxu@alpineskihouse.com;50000;2;0;Graduate D;Management;1;1;4453 Bannock Ct.;;Colma;CA;94014;1 (11) 500 555-0194
+Kurt;E;Nath;24/06/1979 00:00;M;M;knath@alpineskihouse.com;10000;0;0;Partial Co;Manual;0;1;4496 Hurlstone Ct.;;Colma;CA;94014;1 (11) 500 555-0180
+Jillian;S;Subram;02/01/1978 00:00;M;F;jsubram@alpineskihouse.com;20000;0;0;Bachelors;Clerical;1;0;4551 Thistle Circle;;Colma;CA;94014;1 (11) 500 555-0132
+Deanna;;Rana;23/03/1960 00:00;S;F;drana@alpineskihouse.com;10000;1;1;High Schoo;Manual;0;0;4551 Thistle Circle;;Colma;CA;94014;1 (11) 500 555-0168
+Pedro;W;Alonso;14/05/1960 00:00;M;M;palonso@alpineskihouse.com;20000;1;1;Partial Co;Manual;1;0;4555 Eastgate Ave.;;Colma;CA;94014;1 (11) 500 555-0180
+Walter;W;Blanco;19/09/1959 00:00;S;M;wblanco@alpineskihouse.com;10000;1;1;High Schoo;Manual;0;1;4575 Shannondale Drive;;Colma;CA;94014;1 (11) 500 555-0153
+Trinity;B;Ward;20/05/1969 00:00;M;F;tward@alpineskihouse.com;40000;0;0;Graduate D;Clerical;1;0;4621 Candelero Dr.;;Colma;CA;94014;1 (11) 500 555-0150
+Jermaine;;Srini;26/05/1951 00:00;M;M;jsrini@alpineskihouse.com;10000;3;0;Partial Co;Manual;1;2;4645 Mehaffey Way;;Colma;CA;94014;1 (11) 500 555-0182
+Devon;S;Nath;19/11/1953 00:00;S;M;dnath@alpineskihouse.com;110000;3;4;Bachelors;Management;1;4;466 E St.;;Colma;CA;94014;1 (11) 500 555-0193
+Faith;;Cooper;18/05/1952 00:00;M;F;fcooper@alpineskihouse.com;80000;4;1;High Schoo;Professional;1;3;466 E St.;;Colma;CA;94014;1 (11) 500 555-0149
+Gabrielle;;Phillips;18/10/1975 00:00;S;F;gphillips@alpineskihouse.com;60000;0;0;Partial Hi;Skilled Manual;0;3;4683 Buchanan Pl.;;Colma;CA;94014;1 (11) 500 555-0152
+Julie;J;Raji;25/05/1975 00:00;M;F;jraji@alpineskihouse.com;90000;0;0;High Schoo;Management;1;2;4836 Stratton Circle;;Colma;CA;94014;1 (11) 500 555-0171
+Bethany;S;Sharma;25/08/1972 00:00;M;F;bsharma@alpineskihouse.com;130000;4;5;High Schoo;Management;1;4;4942 Frigate Ct;;Colma;CA;94014;1 (11) 500 555-0192
+Stacy;;Romero;02/03/1941 00:00;S;F;sromero@alpineskihouse.com;80000;4;0;Bachelors;Management;1;2;4945 Pennsylvania Blvd.;;Colma;CA;94014;113-555-0185
+Victoria;;Robinson;22/12/1942 00:00;M;F;vrobinson@alpineskihouse.com;90000;5;0;Bachelors;Management;1;2;50 Relief Valley Ct;;Colma;CA;94014;570-555-0147
+Carolyn;L;Jimenez;23/11/1942 00:00;S;F;cjimenez@alpineskihouse.com;100000;2;3;Graduate D;Management;1;3;50 Relief Valley Ct;;Colma;CA;94014;561-555-0126
+Alexis;L;Garcia;25/09/1944 00:00;M;F;agarcia@alpineskihouse.com;50000;4;0;Bachelors;Management;0;2;5038 Kenwal Rd;#126;Colma;CA;94014;581-555-0154
+Jennifer;R;Flores;22/10/1944 00:00;M;F;jflores@alpineskihouse.com;50000;4;0;Bachelors;Management;0;2;5288 Carletto Drive;;Colma;CA;94014;500-555-0117
+Marie;;Hernandez;20/04/1954 00:00;M;F;mhernandez@alpineskihouse.com;50000;2;0;Partial Co;Skilled Manual;1;2;5328 Mitchelleanjen Ln.;;Colma;CA;94014;1 (11) 500 555-0190
+Lindsay;;Yuan;10/09/1975 00:00;M;F;lyuan@alpineskihouse.com;50000;0;0;Partial Co;Skilled Manual;1;2;5378 Kentucky Drive;;Colma;CA;94014;757-555-0140
+Clifford;D;Rana;18/10/1973 00:00;M;M;crana@alpineskihouse.com;70000;0;0;Partial Co;Professional;1;2;5440 Klamath Woods Pl.;;Colma;CA;94014;626-555-0191
+Rachel;W;Watson;11/03/1956 00:00;S;F;rwatson@alpineskihouse.com;50000;2;0;High Schoo;Skilled Manual;1;2;5464 Janin Pl.;;Colma;CA;94014;1 (11) 500 555-0160
+Emmanuel;E;Mehta;26/01/1957 00:00;M;M;emehta@alpineskihouse.com;70000;2;1;Partial Co;Professional;1;0;5581 Stanford Street;;Colma;CA;94014;703-555-0174
+Janet;C;Hernandez;23/04/1957 00:00;S;F;jhernandez@alpineskihouse.com;70000;2;1;Partial Co;Professional;0;0;5585 Antone Court;;Colma;CA;94014;140-555-0154
+Bryce;K;Kelly;25/10/1961 00:00;M;M;bkelly@alpineskihouse.com;50000;1;0;Partial Co;Skilled Manual;1;1;5587 Stanley Dollar Dr.;;Colma;CA;94014;1 (11) 500 555-0125
+Raul;L;Anand;08/02/1960 00:00;S;M;ranand@alpineskihouse.com;60000;1;0;Partial Co;Skilled Manual;0;1;5592 Byers Rd.;;Colma;CA;94014;1 (11) 500 555-0117
+Nancy;L;Madan;25/07/1957 00:00;S;F;nmadan@alpineskihouse.com;50000;1;0;Partial Co;Skilled Manual;0;1;5762 Glenmount Drive;;Colma;CA;94014;1 (11) 500 555-0167
+Shaun;R;Xie;03/06/1976 00:00;S;M;sxie@alpineskihouse.com;40000;0;0;High Schoo;Skilled Manual;1;2;5812 Cincerto Circle;;Colma;CA;94014;320-555-0117
+Derek;;Deng;10/09/1977 00:00;M;M;ddeng@alpineskihouse.com;30000;0;0;Partial Hi;Clerical;1;2;5840 Delta Fair Blvd.;;Colma;CA;94014;195-555-0114
+Connor;J;Long;16/03/1977 00:00;S;M;clong@alpineskihouse.com;40000;0;0;High Schoo;Skilled Manual;1;2;5840 Delta Fair Blvd.;;Colma;CA;94014;362-555-0134
+Nelson;;Munoz;22/06/1941 00:00;S;M;nmunoz@alpineskihouse.com;40000;2;0;Bachelors;Management;1;2;5853 Peachwillow;;Colma;CA;94014;1 (11) 500 555-0160
+Gloria;;Moreno;10/09/1942 00:00;M;F;gmoreno@alpineskihouse.com;50000;2;0;Graduate D;Management;1;1;5867 North Ridge Drive;;Colma;CA;94014;1 (11) 500 555-0180
+Cesar;S;Patel;21/08/1976 00:00;S;M;cpatel@alpineskihouse.com;50000;0;0;Partial Co;Skilled Manual;0;1;5929 William Reed Dr.;;Colma;CA;94014;396-555-0180
+Samuel;;Li;02/11/1967 00:00;S;M;sli@alpineskihouse.com;100000;2;0;Bachelors;Management;1;2;5931 San Carlos;;Colma;CA;94014;829-555-0179
+Marco;B;Sanchez;03/07/1967 00:00;M;M;msanchez@alpineskihouse.com;120000;0;1;Bachelors;Management;0;4;5993 Baywood Drive;;Colma;CA;94014;394-555-0146
+Sheila;;Dominguez;06/02/1973 00:00;S;F;sdominguez@alpineskihouse.com;50000;1;0;Graduate D;Skilled Manual;1;0;6110 Joan Ave;;Colma;CA;94014;247-555-0174
+Bailey;;Edwards;14/02/1944 00:00;S;F;bedwards@alpineskihouse.com;60000;4;0;Graduate D;Management;0;2;612 Patricia Ave.;;Colma;CA;94014;133-555-0141
+Christy;;Sharma;02/09/1945 00:00;M;F;csharma@alpineskihouse.com;60000;4;0;Bachelors;Management;0;2;6120 Ethan Ct.;#126;Colma;CA;94014;826-555-0119
+Robyn;;Martin;05/03/1946 00:00;M;F;rmartin@alpineskihouse.com;60000;4;0;Bachelors;Management;0;3;6121 Pebble Glen Drive;;Colma;CA;94014;250-555-0174
+Steve;A;Zhu;28/01/1946 00:00;M;M;szhu@alpineskihouse.com;60000;5;0;Bachelors;Management;1;3;6453 Pacific;;Colma;CA;94014;511-555-0111
+Isaac;M;Roberts;04/05/1947 00:00;M;M;iroberts@alpineskihouse.com;60000;5;0;Bachelors;Management;0;3;6457 Appalachian Dr.;;Colma;CA;94014;606-555-0182
+Alexis;M;Jackson;22/08/1947 00:00;M;F;ajackson@alpineskihouse.com;70000;4;1;Bachelors;Management;1;1;651 Bridgeview St;;Colma;CA;94014;581-555-0199
+Mitchell;P;Chander;16/06/1952 00:00;S;M;mchander@alpineskihouse.com;60000;3;1;High Schoo;Professional;0;2;6538 Camelback Road;;Colma;CA;94014;174-555-0121
+Darrell;K;Nara;09/07/1955 00:00;M;M;dnara@alpineskihouse.com;110000;3;4;Partial Co;Professional;1;4;6587 B Way;;Colma;CA;94014;1 (11) 500 555-0110
+Mya;K;Hughes;14/10/1933 00:00;S;F;mhughes@alpineskihouse.com;50000;2;0;Graduate D;Management;0;2;6713 Castle Rock;#3;Colma;CA;94014;179-555-0115
+Edward;G;Allen;20/07/1965 00:00;S;M;eallen@alpineskihouse.com;90000;4;4;Partial Co;Professional;0;3;6732 Arcadia Pl.;#e;Colma;CA;94014;971-555-0175
+Lacey;;Nath;16/12/1956 00:00;M;F;lnath@alpineskihouse.com;90000;2;1;Partial Co;Professional;1;1;6749 East 23rd Street;;Colma;CA;94014;369-555-0178
+Melinda;B;Munoz;18/08/1963 00:00;M;F;mmunoz@alpineskihouse.com;100000;0;2;Partial Co;Professional;1;1;6812 Semillon Circle;#163;Colma;CA;94014;193-555-0128
+Joe;J;Ruiz;14/03/1962 00:00;M;M;jruiz@alpineskihouse.com;90000;5;4;Partial Co;Professional;1;3;6992 Mt. Whitney Way;;Colma;CA;94014;570-555-0191
+Joel;E;Suri;17/02/1955 00:00;M;M;jsuri@alpineskihouse.com;70000;4;3;High Schoo;Professional;1;1;7046 Slavio;;Colma;CA;94014;578-555-0187
+Ariana;J;Torres;04/08/1955 00:00;M;F;atorres@alpineskihouse.com;80000;3;2;Partial Co;Professional;1;1;7046 Slavio;;Colma;CA;94014;892-555-0197
+Wesley;A;She;21/10/1960 00:00;M;M;wshe@alpineskihouse.com;80000;5;4;Partial Co;Professional;1;4;705 Seaview Avenue;;Colma;CA;94014;366-555-0185
+Latoya;B;Xie;11/09/1937 00:00;S;F;lxie@alpineskihouse.com;160000;1;3;Bachelors;Management;0;3;7053 Santa Maria Ct.;;Colma;CA;94014;913-555-0169
+Geoffrey;;Mehta;23/04/1938 00:00;M;M;gmehta@alpineskihouse.com;120000;2;4;Graduate D;Management;1;3;7127 Morengo Court;;Colma;CA;94014;252-555-0126
+Christopher;C;Thompson;20/10/1939 00:00;S;M;cthompson@alpineskihouse.com;90000;5;0;Bachelors;Management;0;2;7232 Bales Court;;Colma;CA;94014;965-555-0163
+Adrienne;;Alonso;06/09/1940 00:00;M;F;aalonso@alpineskihouse.com;80000;4;0;Bachelors;Management;1;2;7264 St. Peter Court;;Colma;CA;94014;607-555-0119
+Hannah;A;Miller;04/05/1968 00:00;M;F;hmiller@alpineskihouse.com;90000;4;4;Partial Co;Skilled Manual;1;2;7368 South Royal Links;;Colma;CA;94014;604-555-0177
+Alisha;A;Zhou;21/07/1968 00:00;S;F;azhou@alpineskihouse.com;110000;2;1;Graduate D;Management;1;3;7370 Rolling Green Circle;;Colma;CA;94014;952-555-0180
+Heather;B;Ye;11/12/1947 00:00;M;F;hye@baldwinmuseumofscience.com;30000;2;0;Partial Co;Clerical;1;2;7440 Dorset Way;;Colma;CA;94014;1 (11) 500 555-0198
+Tommy;W;Luo;04/05/1957 00:00;M;M;tluo@baldwinmuseumofscience.com;10000;1;0;Partial Co;Manual;1;0;7600 Tupelp Drive;;Colma;CA;94014;1 (11) 500 555-0195
+Jerome;A;Munoz;21/10/1942 00:00;S;M;jmunoz@baldwinmuseumofscience.com;20000;1;0;Partial Co;Manual;1;0;7761 Azoras Cir;;Colma;CA;94014;1 (11) 500 555-0126
+Samantha;A;Butler;03/05/1970 00:00;M;F;sbutler@baldwinmuseumofscience.com;50000;1;1;Bachelors;Skilled Manual;1;0;7772 Golden Meadow;;Colma;CA;94014;198-555-0137
+Ruth;;Engineer;26/02/1964 00:00;M;F;rengineer@baldwinmuseumofscience.com;50000;4;4;Bachelors;Skilled Manual;0;3;7772 Golden Meadow;;Colma;CA;94014;159-555-0115
+Dalton;;Griffin;07/04/1964 00:00;M;M;dgriffin@baldwinmuseumofscience.com;50000;4;2;Bachelors;Skilled Manual;0;2;7888 Stanford Street;;Colma;CA;94014;187-555-0113
+Sydney;H;Hughes;24/08/1963 00:00;M;F;shughes@baldwinmuseumofscience.com;60000;3;2;Graduate D;Professional;1;0;7888 Stanford Street;;Colma;CA;94014;120-555-0122
+Emma;;Martin;25/05/1961 00:00;M;F;emartin@baldwinmuseumofscience.com;40000;4;3;High Schoo;Skilled Manual;0;3;7943 C. Mounthood;;Colma;CA;94014;187-555-0166
+Larry;S;Castro;05/06/1961 00:00;S;M;lcastro@baldwinmuseumofscience.com;40000;4;3;High Schoo;Skilled Manual;1;3;8042 Placer Dr.;;Colma;CA;94014;135-555-0146
+Colin;M;Nara;18/07/1967 00:00;S;M;cnara@baldwinmuseumofscience.com;50000;0;0;Partial Co;Skilled Manual;0;1;805 Rainier Dr.;;Colma;CA;94014;442-555-0188
+Melissa;;Torres;10/11/1967 00:00;S;F;mtorres@baldwinmuseumofscience.com;60000;0;0;Graduate D;Professional;0;1;8066 Peach Place;;Colma;CA;94014;801-555-0171
+Melinda;A;Alonso;06/08/1969 00:00;S;F;malonso@baldwinmuseumofscience.com;100000;1;0;Graduate D;Management;0;0;8079 Prestwick Drive;;Colma;CA;94014;1 (11) 500 555-0175
+Raul;J;Yuan;18/05/1969 00:00;M;M;ryuan@baldwinmuseumofscience.com;100000;1;0;Graduate D;Management;0;0;8085 Sunnyvale Avenue;;Colma;CA;94014;1 (11) 500 555-0155
+Leslie;H;Torres;05/03/1968 00:00;S;F;ltorres@baldwinmuseumofscience.com;70000;5;5;Bachelors;Professional;0;4;8117 Green View Court;;Colma;CA;94014;1 (11) 500 555-0119
+Dwayne;;Castro;04/11/1974 00:00;M;M;dcastro@baldwinmuseumofscience.com;30000;0;0;Partial Co;Clerical;0;1;8463 Alhambra Avenue;;Colma;CA;94014;1 (11) 500 555-0137
+Xavier;E;Lewis;21/10/1972 00:00;M;M;xlewis@baldwinmuseumofscience.com;30000;0;0;High Schoo;Manual;0;1;8552 Stillwater Court;;Colma;CA;94014;1 (11) 500 555-0114
+Jose;S;Chen;25/08/1972 00:00;M;M;jchen@baldwinmuseumofscience.com;30000;0;0;High Schoo;Manual;1;1;8627 Shenandoah Drive;;Colma;CA;94014;1 (11) 500 555-0117
+Isabelle;L;Gonzales;02/02/1971 00:00;M;F;igonzales@baldwinmuseumofscience.com;10000;0;0;Partial Hi;Manual;1;2;8645 Michigan Blvd;;Colma;CA;94014;1 (11) 500 555-0137
+Abigail;E;Flores;27/01/1953 00:00;M;F;aflores@baldwinmuseumofscience.com;30000;1;0;Bachelors;Skilled Manual;0;1;867 Maria Vega Court;;Colma;CA;94014;622-555-0116
+Wyatt;;Alexander;11/12/1956 00:00;M;M;walexander@baldwinmuseumofscience.com;40000;1;0;Partial Co;Clerical;0;1;8701 Tuolumne Way;;Colma;CA;94014;730-555-0117
+Carrie;;Ramos;08/12/1957 00:00;S;F;cramos@baldwinmuseumofscience.com;40000;1;0;Partial Co;Clerical;1;1;8716 San Remo Ct;#314;Colma;CA;94014;122-555-0173
+Colin;;Hu;20/03/1958 00:00;M;M;chu@baldwinmuseumofscience.com;50000;4;0;Graduate D;Skilled Manual;1;0;8735 Golf Club Rd.;;Colma;CA;94014;189-555-0143
+Krista;;Serrano;22/09/1967 00:00;S;F;kserrano@baldwinmuseumofscience.com;40000;0;0;Bachelors;Clerical;0;0;8743 Roanwood Way;;Colma;CA;94014;1 (11) 500 555-0192
+Lori;;Torres;10/08/1979 00:00;S;F;ltorres@baldwinmuseumofscience.com;20000;4;4;High Schoo;Manual;1;2;879 Hillview Ct;;Colma;CA;94014;1 (11) 500 555-0143
+Alejandro;;Jai;17/07/1976 00:00;S;M;ajai@baldwinmuseumofscience.com;20000;0;0;High Schoo;Manual;1;1;881 Brannan Pl.;;Colma;CA;94014;1 (11) 500 555-0126
+Isabelle;;Jenkins;23/01/1974 00:00;M;F;ijenkins@baldwinmuseumofscience.com;30000;0;0;Partial Co;Clerical;1;1;8826 Fine Drive;;Colma;CA;94014;1 (11) 500 555-0189
+Kathleen;A;Ruiz;14/05/1973 00:00;M;F;kruiz@baldwinmuseumofscience.com;10000;0;0;Partial Hi;Manual;1;2;8955 Miller Dr.;Unit B;Colma;CA;94014;1 (11) 500 555-0120
+Gloria;D;Gomez;02/12/1977 00:00;M;F;ggomez@baldwinmuseumofscience.com;40000;0;0;Partial Hi;Clerical;1;2;9011 Santa Lucia Dr.;;Colma;CA;94014;963-555-0157
+Erik;;Castro;06/05/1950 00:00;M;M;ecastro@baldwinmuseumofscience.com;30000;3;0;Partial Co;Clerical;1;2;9011 Santa Lucia Dr.;;Colma;CA;94014;1 (11) 500 555-0196
+Nicolas;;She;15/10/1980 00:00;M;M;nshe@baldwinmuseumofscience.com;40000;0;0;Partial Hi;Clerical;1;2;9022 Estudillo Street;;Colma;CA;94014;505-555-0134
+Logan;E;Lewis;19/06/1954 00:00;S;M;llewis@baldwinmuseumofscience.com;20000;3;0;Partial Hi;Manual;1;2;9050 Blue Ridge Dr.;;Colma;CA;94014;523-555-0112
+Julian;J;Price;07/10/1955 00:00;S;M;jprice@baldwinmuseumofscience.com;40000;1;0;Partial Co;Clerical;1;1;9077 Windsor Drive;;Colma;CA;94014;831-555-0182
+Joy;;Diaz;14/03/1968 00:00;S;F;jdiaz@baldwinmuseumofscience.com;30000;1;0;Bachelors;Clerical;0;0;9094 William Reed Dr;;Colma;CA;94014;1 (11) 500 555-0156
+Ian;;Turner;04/05/1965 00:00;M;M;iturner@baldwinmuseumofscience.com;30000;2;2;Partial Co;Clerical;1;1;9094 William Reed Dr;;Colma;CA;94014;1 (11) 500 555-0165
+Katie;R;Aggarwal;16/01/1965 00:00;M;F;kaggarwal@baldwinmuseumofscience.com;40000;1;0;Bachelors;Skilled Manual;0;0;9106 Edwards Ave.;;Colma;CA;94014;1 (11) 500 555-0145
+Levi;G;Martinez;16/07/1976 00:00;M;M;lmartinez@baldwinmuseumofscience.com;20000;0;0;High Schoo;Manual;1;1;9117 Jacqueline Way;;Colma;CA;94014;1 (11) 500 555-0147
+Ivan;;Sanchez;10/11/1975 00:00;S;M;isanchez@baldwinmuseumofscience.com;20000;0;0;High Schoo;Manual;0;1;9142 Altura Drive;;Colma;CA;94014;1 (11) 500 555-0114
+Amy;L;Wang;06/05/1975 00:00;M;F;awang@baldwinmuseumofscience.com;20000;0;0;High Schoo;Manual;1;1;9142 Altura Drive;;Colma;CA;94014;1 (11) 500 555-0134
+Micheal;M;Moreno;09/03/1976 00:00;M;M;mmoreno@baldwinmuseumofscience.com;20000;0;0;Partial Hi;Manual;1;1;9161 Napa St.;;Colma;CA;94014;1 (11) 500 555-0116
+Gilbert;T;Wang;27/11/1973 00:00;M;M;gwang@baldwinmuseumofscience.com;20000;0;0;Partial Hi;Manual;1;2;9183 Joan Ave;;Colma;CA;94014;1 (11) 500 555-0132
+Kari;;Rubio;03/04/1951 00:00;M;F;krubio@blueyonderairlines.com;40000;2;0;Partial Co;Clerical;0;2;9264 Claudia Drive;;Colma;CA;94014;1 (11) 500 555-0189
+Roger;;He;21/10/1976 00:00;M;M;rhe@blueyonderairlines.com;10000;1;1;High Schoo;Manual;1;0;93 N. 39th Street;;Colma;CA;94014;1 (11) 500 555-0115
+Jon;J;Kumar;21/02/1961 00:00;M;M;jkumar@blueyonderairlines.com;30000;4;0;Graduate D;Clerical;1;0;9347 Arlington Way;;Colma;CA;94014;1 (11) 500 555-0135
+Jonathon;R;Sanz;27/08/1961 00:00;S;M;jsanz@blueyonderairlines.com;30000;4;0;Graduate D;Clerical;0;0;9472 Juliet Court;;Colma;CA;94014;1 (11) 500 555-0177
+Stefanie;J;Arun;24/02/1959 00:00;M;F;sarun@blueyonderairlines.com;20000;2;0;Partial Co;Manual;1;1;9472 Juliet Court;;Colma;CA;94014;1 (11) 500 555-0161
+Bradley;J;Shan;24/03/1959 00:00;S;M;bshan@blueyonderairlines.com;20000;2;0;Partial Co;Manual;1;1;9518 Lakeview Place;;Colma;CA;94014;1 (11) 500 555-0137
+Michele;J;Diaz;09/10/1958 00:00;S;F;mdiaz@blueyonderairlines.com;30000;1;0;Graduate D;Clerical;1;0;9531 Harrison Street;;Colma;CA;94014;1 (11) 500 555-0183
+Willie;;Li;28/06/1959 00:00;S;M;wli@blueyonderairlines.com;30000;0;0;Bachelors;Clerical;0;0;9531 Harrison Street;;Colma;CA;94014;1 (11) 500 555-0149
+Lacey;K;Chander;18/05/1969 00:00;S;F;lchander@blueyonderairlines.com;20000;0;0;Partial Co;Manual;0;1;9558 Orchard View Ave.;;Colma;CA;94014;1 (11) 500 555-0177
+Bryan;A;Cook;04/02/1968 00:00;M;M;bcook@blueyonderairlines.com;10000;2;2;High Schoo;Manual;1;1;9558 Orchard View Ave.;;Colma;CA;94014;1 (11) 500 555-0179
+Cristina;G;Aggarwal;23/08/1944 00:00;M;F;caggarwal@blueyonderairlines.com;70000;5;1;High Schoo;Professional;1;2;9566 River Ash Court;;Colma;CA;94014;1 (11) 500 555-0188
+Dominique;;Madan;07/03/1944 00:00;S;F;dmadan@blueyonderairlines.com;80000;5;0;Bachelors;Management;1;2;9634 East Avenue;;Colma;CA;94014;1 (11) 500 555-0129
+Faith;Y;Sanders;09/02/1953 00:00;S;F;fsanders@blueyonderairlines.com;70000;4;3;High Schoo;Professional;1;1;9636 Palisade Court;;Colma;CA;94014;1 (11) 500 555-0162
+Isabella;K;Patterson;25/03/1950 00:00;S;F;ipatterson@blueyonderairlines.com;110000;4;5;Partial Co;Management;1;2;9707 Coggins Drive;;Colma;CA;94014;1 (11) 500 555-0123
+Maria;L;Sanchez;09/11/1974 00:00;M;F;msanchez@blueyonderairlines.com;70000;0;0;Partial Hi;Skilled Manual;1;4;9716 Holiday Hills Drive;;Colma;CA;94014;1 (11) 500 555-0173
+Jake;C;Sun;25/07/1972 00:00;M;M;jsun@blueyonderairlines.com;90000;0;0;High Schoo;Management;1;3;9754 Hilltop Dr;;Colma;CA;94014;1 (11) 500 555-0115
+Donald;;Sai;20/02/1972 00:00;M;M;dsai@blueyonderairlines.com;90000;0;0;Partial Hi;Professional;0;3;9769 Thistle Circle;;Colma;CA;94014;1 (11) 500 555-0118
+Javier;F;Alonso;04/05/1971 00:00;M;M;jalonso@blueyonderairlines.com;90000;0;0;Partial Hi;Professional;1;4;9815 Marlboro Court;;Colma;CA;94014;1 (11) 500 555-0143
+Diane;;Gutierrez;19/09/1971 00:00;S;F;dgutierrez@blueyonderairlines.com;100000;0;5;High Schoo;Management;1;3;104 Hilltop Dr.;;Concord;CA;94519;1 (11) 500 555-0116
+Jordyn;K;Hayes;25/12/1941 00:00;S;F;jhayes@blueyonderairlines.com;70000;5;0;Bachelors;Management;0;2;1190 Hill Top Rd.;;Concord;CA;94519;712-555-0169
+Wyatt;T;Long;27/11/1942 00:00;M;M;wlong@blueyonderairlines.com;80000;5;0;Bachelors;Management;0;2;1210 Tragalgar Cirlce;;Concord;CA;94519;428-555-0120
+Seth;;Martinez;19/12/1942 00:00;S;M;smartinez@blueyonderairlines.com;160000;1;3;Bachelors;Management;0;3;1434 Boxwood Drive;#208;Concord;CA;94519;835-555-0181
+Marie;;Raman;25/04/1954 00:00;S;F;mraman@blueyonderairlines.com;50000;2;0;Partial Co;Skilled Manual;1;2;1466 Aspen Drive;;Concord;CA;94519;1 (11) 500 555-0111
+Mandy;G;Wang;10/08/1973 00:00;S;F;mwang@blueyonderairlines.com;70000;0;0;Partial Co;Professional;0;2;1506 St. George Court;;Concord;CA;94519;182-555-0144
+Marshall;;Pal;26/09/1974 00:00;S;M;mpal@blueyonderairlines.com;50000;0;0;High Schoo;Professional;0;2;1536 Camino Verde Ct.;;Concord;CA;94519;124-555-0177
+Raymond;A;Patel;04/09/1974 00:00;M;M;rpatel@blueyonderairlines.com;50000;0;0;High Schoo;Professional;0;2;1562 Black Walnut;;Concord;CA;94519;196-555-0183
+Miguel;;Smith;23/06/1957 00:00;S;M;msmith@blueyonderairlines.com;50000;2;0;Partial Hi;Skilled Manual;0;2;16 Wilton Pl.;;Concord;CA;94519;549-555-0124
+Roy;;Rodriguez;04/11/1957 00:00;S;M;rrodriguez@blueyonderairlines.com;70000;2;1;Partial Co;Professional;0;0;1724 Vancover Way;;Concord;CA;94519;363-555-0124
+Nicole;C;Johnson;25/04/1963 00:00;S;F;njohnson@blueyonderairlines.com;70000;0;0;Bachelors;Professional;0;1;1950 Crown Court;;Concord;CA;94519;1 (11) 500 555-0163
+Clarence;D;Bhat;24/11/1959 00:00;S;M;cbhat@blueyonderairlines.com;90000;1;0;Bachelors;Professional;0;1;2033 Woodbury Place;;Concord;CA;94519;1 (11) 500 555-0161
+Nicholas;R;Thomas;05/03/1963 00:00;M;M;nthomas@blueyonderairlines.com;70000;0;0;Bachelors;Professional;1;2;2080 Wesley Court;;Concord;CA;94519;1 (11) 500 555-0149
+Francis;;Rubio;21/03/1963 00:00;S;M;frubio@blueyonderairlines.com;70000;0;0;Bachelors;Professional;0;2;2098 Caravelle Ct;#235;Concord;CA;94519;1 (11) 500 555-0114
+Ricardo;D;Xu;17/03/1962 00:00;M;M;rxu@blueyonderairlines.com;70000;5;4;Partial Co;Skilled Manual;1;2;2199 Laverne Way;;Concord;CA;94519;1 (11) 500 555-0144
+Caroline;;Hayes;17/12/1958 00:00;S;F;chayes@blueyonderairlines.com;90000;2;0;Bachelors;Professional;0;1;2383 Pepper Drive;;Concord;CA;94519;1 (11) 500 555-0177
+Hailey;L;Kelly;26/04/1957 00:00;S;F;hkelly@blueyonderairlines.com;50000;1;0;Partial Co;Skilled Manual;0;1;2505 N Francisco Way;;Concord;CA;94519;1 (11) 500 555-0140
+Nathan;L;Evans;01/04/1975 00:00;S;M;nevans@blueyonderairlines.com;40000;0;0;High Schoo;Skilled Manual;1;1;2594 Breaker Dr;;Concord;CA;94519;597-555-0145
+Faith;W;Richardson;25/04/1980 00:00;M;F;frichardson@blueyonderairlines.com;30000;0;0;High Schoo;Skilled Manual;1;2;2753 Rubiem Ct.;;Concord;CA;94519;361-555-0137
+Evan;V;Roberts;06/07/1968 00:00;M;M;eroberts@blueyonderairlines.com;80000;0;0;Bachelors;Management;0;1;2815 La Vuelta;;Concord;CA;94519;185-555-0153
+Cedric;W;Lal;07/06/1972 00:00;M;M;clal@blueyonderairlines.com;50000;0;0;Graduate D;Skilled Manual;0;0;2885 Hill Drive;;Concord;CA;94519;382-555-0158
+Sheena;;Yuan;27/02/1973 00:00;M;F;syuan@blueyonderairlines.com;50000;0;0;Graduate D;Skilled Manual;0;0;2886 Chaparral Court;Space #45;Concord;CA;94519;651-555-0148
+Ian;G;Hernandez;10/07/1972 00:00;M;M;ihernandez@blueyonderairlines.com;60000;1;0;Graduate D;Skilled Manual;1;0;2942 Berkhire Court;;Concord;CA;94519;765-555-0110
+Alexandria;;James;23/09/1947 00:00;M;F;ajames@blueyonderairlines.com;70000;4;1;Bachelors;Management;1;1;2953 St. Francis Drive;;Concord;CA;94519;713-555-0130
+Bryant;;Gonzalez;26/06/1950 00:00;M;M;bgonzalez@blueyonderairlines.com;50000;2;1;High Schoo;Professional;0;2;3007 Hooftrail Way;;Concord;CA;94519;574-555-0119
+Taylor;;Long;12/10/1952 00:00;M;F;tlong@blueyonderairlines.com;60000;2;1;High Schoo;Professional;1;2;3257 Toyon Dr.;;Concord;CA;94519;110-555-0170
+Abby;;Prasad;06/08/1952 00:00;S;F;aprasad@blueyonderairlines.com;60000;3;1;High Schoo;Professional;1;2;3261 Vista Bonita;;Concord;CA;94519;113-555-0174
+Mandy;A;Zhu;14/03/1956 00:00;M;F;mzhu@blueyonderairlines.com;90000;2;1;High Schoo;Professional;1;1;3390 Colfax Street;;Concord;CA;94519;1 (11) 500 555-0191
+Ronnie;;Chen;25/03/1955 00:00;S;M;rchen@blueyonderairlines.com;110000;3;4;Partial Co;Professional;1;4;3426 Fernwood Drive;;Concord;CA;94519;1 (11) 500 555-0166
+Sean;A;Bell;05/09/1954 00:00;S;M;sbell@blueyonderairlines.com;80000;3;1;Partial Co;Professional;0;2;3495 Virginia Lane;;Concord;CA;94519;1 (11) 500 555-0182
+Mitchell;D;Raji;10/03/1933 00:00;M;M;mraji@blueyonderairlines.com;50000;2;0;Graduate D;Management;1;2;3624 Garaventa Drive;;Concord;CA;94519;667-555-0116
+Peter;;Shen;02/09/1956 00:00;S;M;pshen@blueyonderairlines.com;90000;2;1;Partial Co;Professional;1;1;3663 Palm Avenue;;Concord;CA;94519;569-555-0133
+Alexandra;M;Simmons;10/11/1955 00:00;S;F;asimmons@blueyonderairlines.com;90000;2;1;High Schoo;Professional;1;1;3665 Oak Creek Ct.;;Concord;CA;94519;854-555-0172
+Destiny;L;Thomas;17/09/1936 00:00;S;F;dthomas@blueyonderairlines.com;40000;3;0;Partial Co;Professional;0;2;3725 Odin Dr.;;Concord;CA;94519;378-555-0110
+Madison;C;Rodriguez;17/08/1939 00:00;S;F;mrodriguez@blueyonderairlines.com;110000;2;4;Graduate D;Management;1;1;3783 Terra Calitina;;Concord;CA;94519;424-555-0134
+Steve;;She;24/01/1968 00:00;M;M;sshe@blueyonderairlines.com;90000;4;4;Partial Co;Skilled Manual;1;2;3829 Baltic Sea Ct.;;Concord;CA;94519;843-555-0144
+Fernando;P;Henderson;22/06/1968 00:00;M;M;fhenderson@blueyonderairlines.com;110000;2;1;Graduate D;Management;0;3;3831 Golden Gate Way;#203;Concord;CA;94519;637-555-0132
+James;;Taylor;20/08/1979 00:00;M;M;jtaylor@blueyonderairlines.com;40000;0;0;High Schoo;Skilled Manual;1;2;3939 Northridge Ct.;;Concord;CA;94519;195-555-0151
+Sydney;;Cox;09/05/1978 00:00;M;F;scox@blueyonderairlines.com;40000;0;0;High Schoo;Skilled Manual;1;2;4002 Fawn Glen Circle;;Concord;CA;94519;517-555-0130
+Gregory;;Lal;20/07/1947 00:00;M;M;glal@blueyonderairlines.com;30000;2;0;Partial Co;Clerical;0;2;4173 Willow Pass Road;;Concord;CA;94519;1 (11) 500 555-0175
+Bianca;;Zeng;21/08/1955 00:00;S;F;bzeng@blueyonderairlines.com;20000;1;0;Bachelors;Clerical;1;0;4221 Birch Bark Road;;Concord;CA;94519;1 (11) 500 555-0146
+Timothy;;Roberts;10/06/1954 00:00;S;M;troberts@blueyonderairlines.com;10000;2;0;Partial Co;Manual;0;1;4222 San Jose Dr.;;Concord;CA;94519;1 (11) 500 555-0110
+Lori;L;Castro;15/09/1942 00:00;M;F;lcastro@blueyonderairlines.com;30000;1;0;Bachelors;Clerical;1;0;4330 Reliz Valley Road;;Concord;CA;94519;1 (11) 500 555-0198
+Sierra;F;Lopez;19/08/1971 00:00;S;F;slopez@cpandl.com;60000;1;0;Graduate D;Professional;0;0;4352 Marclair Dr.;;Concord;CA;94519;310-555-0156
+Priscilla;R;Shan;02/06/1965 00:00;M;F;pshan@cpandl.com;50000;3;3;Bachelors;Skilled Manual;1;2;4392 Lakeview Pl.;;Concord;CA;94519;467-555-0168
+Kristy;G;Romero;28/04/1963 00:00;M;F;kromero@cpandl.com;50000;4;2;Bachelors;Professional;1;2;4438 Chrislend Court;;Concord;CA;94519;267-555-0181
+Kelly;;Gonzales;20/07/1960 00:00;M;F;kgonzales@cpandl.com;50000;1;0;Partial Co;Skilled Manual;1;1;4487 Ahwanee Lane;#2;Concord;CA;94519;287-555-0122
+Michael;L;Lee;02/12/1959 00:00;S;M;mlee@cpandl.com;60000;4;3;Bachelors;Professional;0;0;4596 Flora Ave;;Concord;CA;94519;130-555-0153
+Miguel;;Hughes;20/03/1958 00:00;M;M;mhughes@cpandl.com;60000;1;0;Bachelors;Professional;1;1;4705 Silverberry Court;;Concord;CA;94519;786-555-0192
+Sean;N;Phillips;21/10/1970 00:00;S;M;sphillips@cpandl.com;80000;4;4;Graduate D;Management;1;1;473 Heather Road;;Concord;CA;94519;1 (11) 500 555-0156
+Micheal;;Ortega;26/02/1965 00:00;M;M;mortega@cpandl.com;60000;3;3;Bachelors;Professional;1;1;4790 Curletto Drive;;Concord;CA;94519;1 (11) 500 555-0146
+Teresa;;Suarez;02/09/1978 00:00;M;F;tsuarez@cpandl.com;30000;0;0;High Schoo;Manual;1;1;4817 Clyde St.;;Concord;CA;94519;1 (11) 500 555-0149
+Mandy;;Zhang;25/06/1978 00:00;S;F;mzhang@cpandl.com;30000;0;0;High Schoo;Manual;0;1;4817 Gibrix Drive;;Concord;CA;94519;1 (11) 500 555-0179
+Cara;;Yang;25/06/1972 00:00;S;F;cyang@cpandl.com;10000;0;0;Partial Hi;Manual;0;2;4906 Vine Hill Way;;Concord;CA;94519;1 (11) 500 555-0159
+Brandy;R;Rodriguez;07/02/1972 00:00;M;F;brodriguez@cpandl.com;40000;2;2;Partial Co;Clerical;1;0;491 Heights Avenue;;Concord;CA;94519;1 (11) 500 555-0119
+Kate;A;Pal;12/03/1971 00:00;M;F;kpal@cpandl.com;40000;2;2;Partial Co;Clerical;1;1;4951 Carlos Dr.;;Concord;CA;94519;1 (11) 500 555-0119
+Sheena;J;Tang;18/04/1979 00:00;S;F;stang@cpandl.com;10000;0;0;Partial Co;Manual;0;1;5 View Dr.;;Concord;CA;94519;1 (11) 500 555-0110
+Deborah;;Chander;25/11/1977 00:00;S;F;dchander@cpandl.com;20000;0;0;Partial Co;Manual;0;0;5087 Bonita Ave.;;Concord;CA;94519;1 (11) 500 555-0111
+Allison;R;Hill;27/07/1960 00:00;S;F;ahill@cpandl.com;10000;1;1;High Schoo;Manual;0;1;5121 Alta Vista;;Concord;CA;94519;1 (11) 500 555-0115
+Karen;;Chen;03/09/1959 00:00;S;F;kchen@cpandl.com;20000;2;0;Partial Co;Manual;1;1;5123 Gumwood;;Concord;CA;94519;1 (11) 500 555-0185
+Sierra;H;Mitchell;06/05/1969 00:00;S;F;smitchell@cpandl.com;40000;0;0;Graduate D;Clerical;0;0;5152 Fine Dr.;;Concord;CA;94519;1 (11) 500 555-0137
+Alicia;;Kumar;20/03/1951 00:00;M;F;akumar@cpandl.com;10000;3;0;High Schoo;Manual;1;2;5217 Cordova Way;;Concord;CA;94519;1 (11) 500 555-0170
+Devin;;Rogers;11/01/1975 00:00;S;M;drogers@cpandl.com;60000;0;0;Partial Hi;Skilled Manual;0;3;5279 East L Street;;Concord;CA;94519;1 (11) 500 555-0120
+Gabrielle;;Hill;20/02/1975 00:00;M;F;ghill@cpandl.com;60000;0;0;Partial Hi;Skilled Manual;0;3;55 St. George Dr.;;Concord;CA;94519;1 (11) 500 555-0184
+Natalie;E;Hall;17/01/1973 00:00;M;F;nhall@cpandl.com;90000;0;0;High Schoo;Management;0;3;5665 Myrtle Drive;;Concord;CA;94519;1 (11) 500 555-0172
+Jake;R;Liang;20/10/1973 00:00;S;M;jliang@cpandl.com;90000;0;0;High Schoo;Management;0;3;5751 San Vincente Drive;;Concord;CA;94519;1 (11) 500 555-0198
+Erik;V;Alonso;06/07/1971 00:00;M;M;ealonso@cpandl.com;80000;0;0;Partial Hi;Professional;0;4;5805 Churchill Dr.;;Concord;CA;94519;1 (11) 500 555-0184
+Donna;A;Xu;17/08/1970 00:00;M;F;dxu@cpandl.com;100000;0;5;Partial Hi;Professional;0;4;5845 Oliveria Road;;Concord;CA;94519;1 (11) 500 555-0178
+Robert;;Gonzales;03/09/1941 00:00;M;M;rgonzales@cpandl.com;90000;5;0;Bachelors;Management;1;2;5888 Salem St.;;Concord;CA;94519;390-555-0169
+Ricky;;Hernandez;25/10/1941 00:00;S;M;rhernandez@cpandl.com;90000;5;0;Bachelors;Management;0;2;6020 Regency Dr.;;Concord;CA;94519;340-555-0131
+Rachel;C;Peterson;26/12/1955 00:00;S;F;rpeterson@cpandl.com;50000;2;0;High Schoo;Skilled Manual;0;2;6177 Arleda Lane;;Concord;CA;94519;1 (11) 500 555-0115
+Jacob;P;Garcia;21/09/1973 00:00;M;M;jgarcia@cpandl.com;80000;0;0;Bachelors;Management;1;1;6211 Blenheim Way;;Concord;CA;94519;973-555-0118
+Sabrina;B;Munoz;05/02/1974 00:00;S;F;smunoz@cpandl.com;60000;0;0;Partial Co;Professional;1;2;6270 North Star Dr.;;Concord;CA;94519;672-555-0144
+Jennifer;A;Powell;04/01/1961 00:00;S;F;jpowell@cpandl.com;60000;1;0;Bachelors;Professional;1;1;6300 Lighthouse Way;;Concord;CA;94519;1 (11) 500 555-0116
+Ana;;Gonzales;21/04/1935 00:00;M;F;agonzales@cpandl.com;30000;2;0;Partial Co;Clerical;1;2;6306 El Dorado Way;;Concord;CA;94519;1 (11) 500 555-0113
+Byron;;Blanco;06/07/1960 00:00;M;M;bblanco@cpandl.com;70000;5;4;Partial Co;Skilled Manual;1;3;6340 Olivera Rd;;Concord;CA;94519;1 (11) 500 555-0189
+David;;Wang;15/01/1976 00:00;S;M;dwang@cpandl.com;40000;0;0;High Schoo;Skilled Manual;1;2;6441 Gordon Ct.;;Concord;CA;94519;508-555-0124
+Tabitha;;Madan;27/06/1977 00:00;S;F;tmadan@cpandl.com;30000;0;0;Partial Hi;Clerical;0;2;6474 Helen Ave.;;Concord;CA;94519;269-555-0198
+Emmanuel;;Verma;21/02/1959 00:00;M;M;everma@cpandl.com;50000;4;0;Graduate D;Skilled Manual;1;0;6480 Pimlico Drive;;Concord;CA;94519;164-555-0137
+Shaun;;Yuan;23/02/1972 00:00;S;M;syuan@cpandl.com;40000;4;4;Partial Co;Clerical;0;2;651 Melody Dr.;;Concord;CA;94519;506-555-0110
+Alexia;;Patterson;20/11/1973 00:00;S;F;apatterson@cpandl.com;50000;0;0;Graduate D;Skilled Manual;0;0;6564 Bellwood Dr;;Concord;CA;94519;555-555-0194
+Darrell;R;Xu;25/04/1971 00:00;M;M;dxu@cpandl.com;50000;1;1;Graduate D;Skilled Manual;0;0;6809 El Capitan Lane;;Concord;CA;94519;286-555-0158
+Bailey;D;Watson;25/02/1972 00:00;S;F;bwatson@cpandl.com;60000;1;0;Graduate D;Skilled Manual;0;0;683 Larch Ct.;;Concord;CA;94519;437-555-0113
+Courtney;M;Collins;27/05/1944 00:00;M;F;ccollins@cpandl.com;50000;4;0;Bachelors;Management;1;2;6848 Calico Way;;Concord;CA;94519;109-555-0197
+Diana;S;Gomez;09/08/1946 00:00;M;F;dgomez@cpandl.com;60000;4;0;Bachelors;Management;0;2;6848 Calico Way;;Concord;CA;94519;653-555-0169
+Hailey;;Bell;17/06/1946 00:00;M;F;hbell@cpandl.com;60000;5;0;Bachelors;Management;0;3;6975 Olivera Road;;Concord;CA;94519;495-555-0199
+Patricia;;Martinez;02/12/1950 00:00;M;F;pmartinez@cpandl.com;40000;2;1;Partial Hi;Skilled Manual;1;3;7035 Creekridge Lane;;Concord;CA;94519;975-555-0118
+Rodney;C;Castro;24/12/1951 00:00;M;M;rcastro@cpandl.com;50000;2;1;High Schoo;Professional;1;2;7095 Thames Drive;;Concord;CA;94519;863-555-0116
+Max;;Diaz;16/02/1951 00:00;M;M;mdiaz@cpandl.com;50000;2;1;High Schoo;Professional;0;2;7191 Margo Drive;;Concord;CA;94519;954-555-0158
+Kevin;H;Foster;06/05/1952 00:00;M;M;kfoster@cpandl.com;60000;3;1;High Schoo;Professional;1;2;7405 Dolores Way;;Concord;CA;94519;749-555-0181
+Tanya;;Ortega;03/07/1952 00:00;S;F;tortega@cpandl.com;70000;5;2;Partial Co;Professional;0;2;7585 St. George Dr;;Concord;CA;94519;955-555-0116
+Dawn;;Cai;07/07/1965 00:00;M;F;dcai@cpandl.com;90000;4;4;Partial Co;Professional;0;3;7696 Ready Road;;Concord;CA;94519;138-555-0158
+Natalie;J;Washington;15/05/1964 00:00;S;F;nwashington@cpandl.com;80000;4;3;Partial Co;Professional;1;1;7740 Lacassie Ave;;Concord;CA;94519;534-555-0176
+Louis;;Cai;06/03/1964 00:00;S;M;lcai@cpandl.com;80000;4;3;Partial Co;Professional;0;1;7900 Black Walnut Ct.;;Concord;CA;94519;436-555-0113
+Marshall;;Zhou;20/06/1964 00:00;M;M;mzhou@cpandl.com;80000;4;3;Partial Co;Professional;1;1;7904 Eagle Peak Avenue;;Concord;CA;94519;313-555-0144
+Caroline;;Powell;15/11/1961 00:00;M;F;cpowell@cpandl.com;100000;3;2;Partial Co;Professional;1;4;7932 Pierce Ct.;;Concord;CA;94519;969-555-0175
+Phillip;L;Patel;25/09/1961 00:00;M;M;ppatel@cpandl.com;100000;3;2;Partial Co;Professional;0;4;8024 Azores Court;;Concord;CA;94519;320-555-0159
+Dale;R;Shan;24/07/1935 00:00;S;M;dshan@cpandl.com;40000;3;0;Partial Co;Professional;0;2;8192 Seagull Court;;Concord;CA;94519;955-555-0134
+Luke;;Scott;06/06/1936 00:00;S;M;lscott@cpandl.com;60000;2;0;Graduate D;Management;1;2;8349 Roxbury Drive;;Concord;CA;94519;279-555-0124
+Cara;;Huang;09/02/1960 00:00;M;F;chuang@cpandl.com;80000;5;4;Partial Co;Professional;0;4;8398 Kathryn Drive;;Concord;CA;94519;655-555-0137
+Shannon;;Ramos;25/07/1960 00:00;S;M;sramos@cpandl.com;100000;0;3;Partial Co;Professional;1;2;8412 Jorge;;Concord;CA;94519;778-555-0115
+Nathan;;Hall;28/07/1954 00:00;M;M;nhall@cpandl.com;50000;2;0;Partial Hi;Skilled Manual;0;2;8482 Kinross Drive;;Concord;CA;94519;814-555-0121
+Warren;;Deng;03/04/1937 00:00;S;M;wdeng@cpandl.com;70000;4;0;Graduate D;Management;1;2;861 Meadowvale Court;;Concord;CA;94519;160-555-0199
+Michele;L;Rana;13/10/1939 00:00;S;F;mrana@cpandl.com;90000;5;0;Bachelors;Management;0;2;8719 Wilbur Drive;;Concord;CA;94519;828-555-0130
+Gabrielle;;Nelson;06/11/1940 00:00;M;F;gnelson@cpandl.com;90000;5;0;Bachelors;Management;1;2;8736 E. 62nd Street;;Concord;CA;94519;556-555-0144
+Stacy;;Jimenez;16/10/1940 00:00;S;F;sjimenez@cpandl.com;100000;2;3;Graduate D;Management;0;3;874 Olivera Road;;Concord;CA;94519;698-555-0181
+Mathew;M;Gutierrez;12/12/1940 00:00;S;M;mgutierrez@cpandl.com;130000;2;3;Bachelors;Management;0;4;8786 Croyden Dr.;;Concord;CA;94519;867-555-0119
+Whitney;A;Arun;27/10/1944 00:00;M;F;warun@cpandl.com;30000;2;0;Partial Co;Clerical;1;2;8827 Ward Court;;Concord;CA;94519;1 (11) 500 555-0138
+Dwayne;;Blanco;16/04/1962 00:00;M;M;dblanco@cpandl.com;10000;1;0;Graduate D;Manual;1;0;8847 Reisling Court;;Concord;CA;94519;1 (11) 500 555-0169
+Ebony;;Navarro;15/06/1956 00:00;M;F;enavarro@cpandl.com;10000;2;0;Partial Co;Manual;0;0;8866 Alpha Way;;Concord;CA;94519;1 (11) 500 555-0193
+Devon;;Anand;24/03/1938 00:00;S;M;danand@cpandl.com;10000;2;0;Bachelors;Clerical;0;1;8904 La Salle Ave;;Concord;CA;94519;1 (11) 500 555-0127
+Megan;;Bryant;22/04/1969 00:00;S;F;mbryant@cpandl.com;50000;2;2;Bachelors;Skilled Manual;1;0;8950 Glenwood Dr.;;Concord;CA;94519;301-555-0170
+Alicia;;Deng;15/02/1970 00:00;S;F;adeng@cpandl.com;70000;4;0;Graduate D;Professional;1;0;8958 Carleton Street;;Concord;CA;94519;278-555-0139
+Pedro;;Srini;15/03/1966 00:00;S;M;psrini@cpandl.com;70000;5;0;Graduate D;Professional;1;0;8961 Abbey Court;;Concord;CA;94519;565-555-0116
+Kellie;B;Alvarez;20/05/1969 00:00;M;F;kalvarez@cpandl.com;70000;5;0;Graduate D;Professional;1;0;8967 Chrislend Court;;Concord;CA;94519;528-555-0178
+Jenny;A;Xie;12/09/1969 00:00;M;F;jxie@cpandl.com;70000;5;5;Graduate D;Professional;1;2;899 Park Blvd.;;Concord;CA;94519;481-555-0152
+Harold;D;Suri;04/05/1961 00:00;S;M;hsuri@cpandl.com;40000;4;3;High Schoo;Skilled Manual;0;3;9072 U St.;;Concord;CA;94519;774-555-0158
+Alexandra;G;Gonzalez;20/09/1960 00:00;S;F;agonzalez@cpandl.com;50000;1;0;Partial Co;Skilled Manual;0;1;9075 Calle Verde;;Concord;CA;94519;246-555-0162
+Luke;;Hill;25/10/1959 00:00;M;M;lhill@cpandl.com;60000;4;3;Bachelors;Professional;1;0;911 Nicholas Drive;;Concord;CA;94519;289-555-0139
+Maurice;F;Chande;27/05/1959 00:00;M;M;mchande@cpandl.com;80000;3;0;Graduate D;Professional;1;0;9277 Country View Lane;;Concord;CA;94519;422-555-0179
+Jarrod;;Lopez;14/05/1970 00:00;S;M;jlopez@cpandl.com;90000;2;0;Bachelors;Professional;1;0;9466 Morning Glory Dr.;;Concord;CA;94519;1 (11) 500 555-0111
+Marissa;;Alexander;02/04/1964 00:00;M;F;malexander@cpandl.com;60000;3;3;Bachelors;Professional;0;2;9474 Rose Street;Apt 24;Concord;CA;94519;1 (11) 500 555-0111
+Mya;S;Powell;04/10/1972 00:00;M;F;mpowell@cpandl.com;20000;0;0;Partial Hi;Manual;1;2;9568 Sunsine Drive;;Concord;CA;94519;1 (11) 500 555-0144
+Harold;K;Engineer;20/11/1972 00:00;S;M;hengineer@cpandl.com;30000;0;0;High Schoo;Manual;0;1;9609 W 74th St.;;Concord;CA;94519;1 (11) 500 555-0125
+Gerald;C;Fernandez;20/11/1970 00:00;M;M;gfernandez@cpandl.com;50000;0;0;Graduate D;Skilled Manual;1;0;9665 Pamploma Ct.;;Concord;CA;94519;1 (11) 500 555-0163
+Jackson;;Flores;19/09/1974 00:00;M;M;jflores@cpandl.com;40000;3;3;Partial Co;Clerical;0;1;9687 Shakespeare Drive;;Concord;CA;94519;146-555-0138
+Hector;K;Rubio;08/10/1974 00:00;S;M;hrubio@cpandl.com;40000;3;3;Partial Co;Clerical;1;2;975 Madrid;;Concord;CA;94519;805-555-0136
+Riley;S;Jenkins;19/09/1953 00:00;S;F;rjenkins@cpandl.com;30000;1;0;Bachelors;Skilled Manual;0;1;9817 Cook Street;;Concord;CA;94519;272-555-0183
+Arthur;O;Serrano;07/04/1953 00:00;S;M;aserrano@cpandl.com;30000;1;0;Bachelors;Skilled Manual;1;1;9947 Buskirk Avenue;;Concord;CA;94519;978-555-0134
+Craig;J;Alvarez;05/12/1957 00:00;S;M;calvarez@cpandl.com;40000;1;0;Partial Co;Clerical;0;1;9950 Edward Ave;;Concord;CA;94519;345-555-0189
+John;;Wilson;12/04/1959 00:00;M;M;jwilson@cpandl.com;50000;4;0;Graduate D;Skilled Manual;1;0;1061 Buskrik Avenue;;Coronado;CA;92118;993-555-0141
+Wesley;J;Ye;16/08/1968 00:00;M;M;wye@cpandl.com;40000;0;0;Graduate D;Clerical;0;0;1736 Windsor Drive;;Coronado;CA;92118;1 (11) 500 555-0166
+Dominique;;Srini;16/12/1967 00:00;M;F;dsrini@cpandl.com;30000;1;1;Bachelors;Clerical;1;0;174 Kim Court;;Coronado;CA;92118;1 (11) 500 555-0187
+Faith;E;Rivera;20/10/1967 00:00;S;F;frivera@cpandl.com;30000;1;1;Bachelors;Clerical;0;1;2128 Holland Drive.;;Coronado;CA;92118;1 (11) 500 555-0182
+Teresa;D;Sanz;07/08/1966 00:00;M;F;tsanz@cpandl.com;20000;1;1;High Schoo;Manual;1;1;2345 Yorba Linda;;Coronado;CA;92118;1 (11) 500 555-0176
+Latoya;;Kumar;22/04/1966 00:00;M;F;lkumar@cpandl.com;20000;1;1;High Schoo;Manual;0;1;3538 Esperanza Drive;;Coronado;CA;92118;1 (11) 500 555-0190
+Jenny;;Sharma;14/04/1963 00:00;S;F;jsharma@cpandl.com;10000;3;2;Partial Hi;Manual;1;2;3769 Loma Linda;;Coronado;CA;92118;1 (11) 500 555-0115
+Stephanie;P;Bennett;22/07/1964 00:00;S;F;sbennett@cpandl.com;30000;2;2;Partial Co;Clerical;1;2;419 Mills Dr.;;Coronado;CA;92118;1 (11) 500 555-0189
+Shannon;M;Rubio;21/12/1963 00:00;M;M;srubio@cpandl.com;30000;3;3;Partial Co;Clerical;0;0;4352 Acardia Pl.;;Coronado;CA;92118;1 (11) 500 555-0185
+Tabitha;;Chandra;26/04/1979 00:00;M;F;tchandra@cpandl.com;30000;3;3;Partial Co;Clerical;1;2;636 Vine Hill Way;;Coronado;CA;92118;1 (11) 500 555-0117
+Barry;;Gonzalez;22/10/1976 00:00;M;M;bgonzalez@cpandl.com;20000;0;0;High Schoo;Manual;1;1;6360 Sand Pointe Lane;;Coronado;CA;92118;1 (11) 500 555-0126
+Riley;B;Griffin;21/04/1975 00:00;S;F;rgriffin@cpandl.com;20000;0;0;Partial Hi;Manual;0;1;6627 Camelback Ct.;;Coronado;CA;92118;1 (11) 500 555-0111
+Gabrielle;D;Sanchez;25/10/1975 00:00;M;F;gsanchez@cpandl.com;30000;0;0;Partial Co;Clerical;1;1;7620 Del Vista;;Coronado;CA;92118;1 (11) 500 555-0125
+Michele;L;Sharma;22/10/1974 00:00;M;F;msharma@cpandl.com;20000;0;0;Partial Hi;Manual;1;2;7791 Black Pine Lane;;Coronado;CA;92118;1 (11) 500 555-0140
+Ivan;E;Chandra;09/10/1973 00:00;S;M;ichandra@cpandl.com;20000;0;0;Partial Hi;Manual;1;2;852 Santa Maria;;Coronado;CA;92118;1 (11) 500 555-0149
+Derek;;Luo;23/11/1977 00:00;M;M;dluo@cpandl.com;40000;0;0;Partial Hi;Clerical;0;2;8656 Lakespring Place;;Coronado;CA;92118;734-555-0143
+Clarence;;Xu;02/06/1977 00:00;M;M;cxu@cpandl.com;50000;0;0;Partial Co;Skilled Manual;1;2;9234 Westbury Drive;;Coronado;CA;92118;112-555-0176
+Alvin;;Zhou;22/08/1949 00:00;S;M;azhou@cpandl.com;30000;3;0;Partial Co;Clerical;0;2;9277 Ridgewood Court;;Coronado;CA;92118;1 (11) 500 555-0165
+Ramon;S;Liang;06/02/1950 00:00;M;M;rliang@cpandl.com;30000;3;0;Partial Co;Clerical;1;2;9667 Hermosa;;Coronado;CA;92118;1 (11) 500 555-0116
+Alyssa;L;Bennett;15/07/1953 00:00;M;F;abennett@cpandl.com;40000;3;0;Partial Co;Skilled Manual;1;2;25136 Jefferson Blvd.;;Culver City;CA;90232;1 (11) 500 555-0160
+Richard;;Scott;26/03/1954 00:00;S;M;rscott@cpandl.com;30000;1;0;High Schoo;Clerical;0;1;Fox Hills;;Culver City;CA;90232;935-555-0176
+Madeline;M;Adams;15/07/1955 00:00;S;F;madams@cpandl.com;40000;1;0;Partial Co;Clerical;0;1;1101 C Street;;Daly City;CA;94015;922-555-0132
+Lauren;L;Morris;01/12/1958 00:00;M;F;lmorris@cpandl.com;50000;4;0;Graduate D;Skilled Manual;1;0;1314 Westover Dr.;;Daly City;CA;94015;982-555-0192
+Ebony;A;Kapoor;21/04/1967 00:00;S;F;ekapoor@cpandl.com;20000;1;1;Partial Co;Manual;0;1;2383 Pepper Drive;;Daly City;CA;94015;1 (11) 500 555-0120
+Kendra;;Martin;15/07/1967 00:00;M;F;kmartin@cpandl.com;40000;0;0;Bachelors;Clerical;1;0;3421 Gehringer Drive;;Daly City;CA;94015;1 (11) 500 555-0129
+Adrienne;;Diaz;07/10/1966 00:00;S;F;adiaz@cpandl.com;30000;1;1;Bachelors;Clerical;1;1;5669 Ironwood Way;;Daly City;CA;94015;1 (11) 500 555-0117
+Xavier;N;Wilson;04/08/1964 00:00;M;M;xwilson@cpandl.com;10000;3;2;Partial Hi;Manual;0;2;603 Gellert Blvd;;Daly City;CA;94015;1 (11) 500 555-0164
+Ronnie;A;Guo;18/07/1964 00:00;S;M;rguo@cpandl.com;40000;1;0;Bachelors;Skilled Manual;1;0;6194 Via Maria;;Daly City;CA;94015;1 (11) 500 555-0193
+Pamela;E;Gonzalez;04/08/1963 00:00;S;F;pgonzalez@cpandl.com;30000;3;3;Partial Co;Clerical;0;0;6959 Lakewood Court;;Daly City;CA;94015;1 (11) 500 555-0120
+Kathleen;;Dominguez;10/09/1979 00:00;S;F;kdominguez@cpandl.com;20000;5;5;High Schoo;Manual;1;1;8028 39th Avenue;;Daly City;CA;94015;1 (11) 500 555-0149
+Damien;A;Cai;02/05/1975 00:00;S;M;dcai@cpandl.com;20000;0;0;High Schoo;Manual;0;1;811 Via Cordona;;Daly City;CA;94015;1 (11) 500 555-0112
+Briana;;Serrano;06/03/1951 00:00;M;F;bserrano@cpandl.com;30000;3;0;High Schoo;Skilled Manual;1;2;8277 Pinole Valley Rd.;;Daly City;CA;94015;1 (11) 500 555-0198
+Erica;T;Guo;05/02/1939 00:00;S;F;eguo@cpandl.com;20000;1;0;Bachelors;Clerical;0;0;9266 Trees Drive;;Daly City;CA;94015;1 (11) 500 555-0187
+Kristen;B;Zhu;14/08/1941 00:00;M;F;kzhu@cpandl.com;10000;2;0;Partial Co;Manual;0;1;3067 Maya;;Downey;CA;90241;1 (11) 500 555-0154
+Jessie;L;Lu;05/06/1978 00:00;M;M;jlu@cpandl.com;10000;0;0;Partial Co;Manual;1;1;4259 Fenway;;Downey;CA;90241;1 (11) 500 555-0182
+Corey;A;Shan;08/06/1977 00:00;M;M;cshan@cpandl.com;10000;1;1;High Schoo;Manual;1;0;4440 Algiers Drive;;Downey;CA;90241;1 (11) 500 555-0117
+Wendy;C;Jimenez;23/08/1977 00:00;S;F;wjimenez@cpandl.com;20000;0;0;Partial Co;Manual;1;0;451 Buskirk Ave.;;Downey;CA;90241;1 (11) 500 555-0143
+Brenda;N;Patel;25/09/1960 00:00;S;F;bpatel@cpandl.com;20000;1;1;Partial Co;Manual;1;0;6529 Buena Vista;;Downey;CA;90241;1 (11) 500 555-0144
+Martin;;Chandra;02/11/1970 00:00;M;M;mchandra@cpandl.com;20000;0;0;Partial Co;Manual;0;1;7227 Serafina;;Downey;CA;90241;1 (11) 500 555-0129
+James;R;Scott;05/02/1969 00:00;M;M;jscott@cpandl.com;10000;2;2;High Schoo;Manual;1;1;7861 Yosemite Dr.;;Downey;CA;90241;1 (11) 500 555-0179
+Albert;;Munoz;21/06/1969 00:00;M;M;amunoz@cpandl.com;30000;0;0;Bachelors;Clerical;1;0;9371 Corte Del Sol;;Downey;CA;90241;1 (11) 500 555-0177
+Brendan;O;Sharma;22/09/1968 00:00;M;M;bsharma@cpandl.com;10000;2;2;High Schoo;Manual;1;1;9494 Buena Vista;;Downey;CA;90241;1 (11) 500 555-0135
+Harold;;Verma;25/08/1954 00:00;S;M;hverma@cpandl.com;130000;3;4;Partial Co;Professional;0;4;Stonewood Mall;;Downey;CA;90241;1 (11) 500 555-0184
+Kaitlyn;S;Davis;13/02/1953 00:00;S;F;kdavis@cpandl.com;110000;3;4;Bachelors;Management;1;4;3086 Indigo Ct;;El Cajon;CA;92020;1 (11) 500 555-0151
+Kari;;Jimenez;17/01/1975 00:00;S;F;kjimenez@cpandl.com;90000;0;0;High Schoo;Management;0;2;3410 Hemlock Ave.;;El Cajon;CA;92020;1 (11) 500 555-0119
+Cristina;A;Nath;25/06/1972 00:00;S;F;cnath@cpandl.com;90000;0;0;Partial Hi;Professional;1;3;3422 Meadowvale Court;;El Cajon;CA;92020;1 (11) 500 555-0115
+Carrie;R;Dominguez;16/04/1972 00:00;S;F;cdominguez@cpandl.com;100000;0;5;High Schoo;Management;1;3;80 Sunview Terrace;;El Cajon;CA;92020;1 (11) 500 555-0139
+Jake;O;Lu;27/01/1972 00:00;S;M;jlu@cpandl.com;100000;0;5;High Schoo;Management;0;3;8487 Amador;;El Cajon;CA;92020;1 (11) 500 555-0117
+Frederick;E;Arun;14/07/1971 00:00;S;M;farun@cpandl.com;100000;0;5;High Schoo;Management;1;4;8778 So. Silver Spring;;El Cajon;CA;92020;1 (11) 500 555-0197
+Elijah;J;Turner;02/05/1942 00:00;S;M;eturner@cpandl.com;90000;5;0;Bachelors;Management;0;2;Parkway Plaza;;El Cajon;CA;92020;793-555-0146
+Willie;D;Hu;22/11/1955 00:00;M;M;whu@cohovineyard.com;50000;2;0;High Schoo;Skilled Manual;1;2;2500 N Sepulveda Blvd 19th Fl;;El Segundo;CA;90245;1 (11) 500 555-0119
+Gloria;F;Jimenez;20/08/1958 00:00;M;F;gjimenez@cohovineyard.com;130000;0;0;Graduate D;Management;1;4;Corp Ofc  Accts Payable;;El Segundo;CA;90245;1 (11) 500 555-0171
+Dustin;J;Tang;02/06/1957 00:00;M;M;dtang@cohovineyard.com;70000;2;1;Partial Co;Professional;1;0;Corporate Office;;El Segundo;CA;90245;336-555-0179
+Joanna;L;Rubio;26/07/1962 00:00;M;F;jrubio@cohovineyard.com;60000;1;0;Bachelors;Professional;1;1;7505 Laguna Boulevard;;Elk Grove;CA;95624;1 (11) 500 555-0158
+Laura;B;Yang;21/06/1962 00:00;S;F;lyang@cohovineyard.com;60000;1;0;Bachelors;Professional;1;1;Escondido S/c;;Escondido;CA;92025;1 (11) 500 555-0111
+Francisco;;Malhotra;24/07/1961 00:00;S;M;fmalhotra@cohovineyard.com;50000;1;0;Partial Co;Skilled Manual;1;1;Bayshore Mall;;Eureka;CA;95501;1 (11) 500 555-0191
+Franklin;R;Nara;21/11/1961 00:00;M;M;fnara@cohovineyard.com;60000;1;0;Partial Co;Skilled Manual;1;1;25472 Marlay Ave;;Fontana;CA;92335;1 (11) 500 555-0152
+Sebastian;R;Bailey;05/07/1964 00:00;S;M;sbailey@cohovineyard.com;70000;0;0;Bachelors;Professional;0;1;385 Joan Ave;;Fremont;CA;94536;1 (11) 500 555-0197
+Natalie;;Davis;06/11/1978 00:00;S;F;ndavis@cohovineyard.com;40000;0;0;High Schoo;Skilled Manual;0;2;4822 Center Street;;Fremont;CA;94536;651-555-0126
+Byron;M;Alvarez;08/08/1977 00:00;M;M;balvarez@cohovineyard.com;30000;0;0;Partial Hi;Clerical;1;2;482505 Warm Springs Blvd.;;Fremont;CA;94536;360-555-0135
+Raul;L;Lal;24/05/1979 00:00;S;M;rlal@cohovineyard.com;30000;0;0;Partial Hi;Clerical;1;2;5717 Shenandoah Drive;;Fremont;CA;94536;539-555-0171
+Pedro;G;Garcia;27/02/1941 00:00;M;M;pgarcia@cohovineyard.com;40000;2;0;Bachelors;Management;0;2;5927 Mt. Hood Circle;;Fremont;CA;94536;1 (11) 500 555-0110
+Terrance;;Prasad;14/09/1943 00:00;S;M;tprasad@cohovineyard.com;50000;2;0;Graduate D;Management;1;1;598 Marfargoa Drive;;Fremont;CA;94536;1 (11) 500 555-0119
+Miguel;M;Campbell;11/04/1959 00:00;M;M;mcampbell@cohovineyard.com;50000;4;0;Graduate D;Skilled Manual;1;0;6681 Pestana Way;;Fremont;CA;94536;957-555-0139
+Alex;R;Hall;02/09/1973 00:00;S;M;ahall@cohovineyard.com;50000;0;0;Graduate D;Skilled Manual;1;0;9115 Arthur Rd.;;Fremont;CA;94536;640-555-0113
+Juan;;Stewart;08/08/1945 00:00;S;M;jstewart@cohovineyard.com;50000;5;0;Bachelors;Management;0;2;Receiving;;Fullerton;CA;92831;703-555-0115
+Douglas;M;Lopez;13/06/1946 00:00;M;M;dlopez@cohovineyard.com;70000;5;0;Bachelors;Management;1;2;Pacific West Outlet;;Gilroy;CA;95020;202-555-0112
+Curtis;D;Sun;02/07/1949 00:00;M;M;csun@cohovineyard.com;50000;2;1;Partial Co;Professional;1;2;1220 Bradford Way;;Glendale;CA;91203;406-555-0195
+Courtney;C;Perez;02/02/1949 00:00;S;F;cperez@cohovineyard.com;50000;2;1;Partial Co;Professional;0;2;1277 Argenta Dr.;;Glendale;CA;91203;677-555-0148
+Jonathan;M;Wang;03/11/1950 00:00;M;M;jwang@cohovineyard.com;50000;2;1;Partial Co;Professional;1;2;1413 Bridgeview St;;Glendale;CA;91203;134-555-0160
+Melissa;;James;28/03/1957 00:00;S;F;mjames@cohovineyard.com;120000;2;4;High Schoo;Professional;1;4;1745 Marina Hill Pkwy.;;Glendale;CA;91203;1 (11) 500 555-0185
+Stephanie;E;Carter;22/02/1956 00:00;M;F;scarter@cohovineyard.com;120000;3;4;High Schoo;Professional;1;4;3197 Thornhill Place;;Glendale;CA;91203;1 (11) 500 555-0154
+Leah;R;Lin;21/03/1955 00:00;S;F;llin@cohovineyard.com;110000;3;4;Partial Co;Professional;1;4;3554 Trinity Ave;;Glendale;CA;91203;1 (11) 500 555-0161
+Elijah;;Gonzalez;20/09/1954 00:00;S;M;egonzalez@cohovineyard.com;80000;3;2;Partial Co;Professional;0;1;3711 Amargosa Drive;;Glendale;CA;91203;1 (11) 500 555-0151
+Morgan;D;Moore;13/08/1965 00:00;M;F;mmoore@cohovineyard.com;80000;0;0;Bachelors;Management;1;1;5293 Juliet Court;;Glendale;CA;91203;952-555-0172
+Karla;D;Rai;14/09/1934 00:00;M;F;krai@cohovineyard.com;50000;2;0;Graduate D;Management;1;2;5402 Panorama Drive;;Glendale;CA;91203;855-555-0159
+Nathan;V;Allen;08/08/1962 00:00;S;M;nallen@cohovineyard.com;80000;5;4;Partial Co;Professional;0;3;586 Willow Pass Dr.;;Glendale;CA;91203;164-555-0135
+Nicolas;L;Shen;24/11/1961 00:00;M;M;nshen@cohovineyard.com;70000;5;4;Partial Co;Professional;0;3;6745 Blue Ridge Drive;;Glendale;CA;91203;481-555-0128
+Jesse;R;Collins;24/07/1955 00:00;S;M;jcollins@cohovineyard.com;70000;4;3;High Schoo;Professional;0;0;7128 Joan Ave.;;Glendale;CA;91203;212-555-0144
+Warren;;Liang;13/10/1935 00:00;S;M;wliang@cohovineyard.com;40000;3;0;Partial Co;Professional;0;2;8420 Dayton Court;;Glendale;CA;91203;884-555-0124
+Chad;;Bhat;05/02/1937 00:00;S;M;cbhat@cohovineyard.com;70000;4;0;Graduate D;Management;0;2;8634 Forte Way;;Glendale;CA;91203;282-555-0199
+Colleen;C;Ye;13/09/1937 00:00;S;F;cye@cohovineyard.com;130000;2;3;Bachelors;Management;0;4;9571 Live Oak Dr.;;Glendale;CA;91203;153-555-0195
+Alexander;R;Moore;09/10/1979 00:00;M;M;amoore@cohovineyard.com;40000;0;0;High Schoo;Skilled Manual;1;2;9713 Amhurst Way;;Glendale;CA;91203;711-555-0180
+Erika;;Ramos;10/07/1962 00:00;S;F;eramos@cohovineyard.com;10000;1;0;Graduate D;Manual;0;0;206 Kirkwood Ct.;;Grossmont;CA;91941;1 (11) 500 555-0130
+Clarence;;Ma;09/02/1962 00:00;M;M;cma@cohovineyard.com;10000;1;0;Bachelors;Manual;1;0;2559 Gumwood;;Grossmont;CA;91941;1 (11) 500 555-0132
+Jenny;;Gao;27/05/1962 00:00;S;F;jgao@cohovineyard.com;30000;5;0;Graduate D;Clerical;0;0;6150 San Antonio;;Grossmont;CA;91941;1 (11) 500 555-0137
+Alyssa;M;Peterson;25/08/1971 00:00;S;F;apeterson@cohovineyard.com;60000;1;0;Graduate D;Professional;1;0;6332 N. Thompson Rd;;Grossmont;CA;91941;910-555-0146
+Alyssa;C;Griffin;18/10/1970 00:00;S;F;agriffin@cohovineyard.com;60000;1;0;Graduate D;Professional;1;0;6916 Azores;;Grossmont;CA;91941;862-555-0186
+Samuel;;Clark;01/06/1967 00:00;M;M;sclark@cohovineyard.com;50000;2;2;Bachelors;Skilled Manual;1;1;77 Birchwood;;Grossmont;CA;91941;130-555-0137
+Timothy;;Carter;10/10/1961 00:00;S;M;tcarter@cohovineyard.com;50000;1;0;Partial Co;Skilled Manual;1;1;7941 Cristobal;;Grossmont;CA;91941;330-555-0110
+Haley;J;Roberts;24/09/1959 00:00;S;F;hroberts@cohovineyard.com;70000;2;0;Graduate D;Professional;0;1;8031 Danesta Dr.;;Grossmont;CA;91941;923-555-0153
+Barbara;;Yang;22/05/1968 00:00;M;F;byang@cohovineyard.com;60000;2;2;Bachelors;Professional;1;1;9177 Concord Royale;;Grossmont;CA;91941;1 (11) 500 555-0110
+Ronald;M;Malhotra;04/05/1967 00:00;M;M;rmalhotra@cohovineyard.com;70000;5;5;Bachelors;Professional;1;3;9590 Galloway Dr;;Grossmont;CA;91941;1 (11) 500 555-0176
+Joy;B;Vazquez;07/06/1967 00:00;S;F;jvazquez@cohovineyard.com;80000;5;5;Graduate D;Management;0;2;9899 Geary Court;;Grossmont;CA;91941;1 (11) 500 555-0195
+Lindsey;;Nara;03/12/1972 00:00;S;F;lnara@cohovineyard.com;30000;0;0;High Schoo;Manual;0;1;Hanford Mall;;Hanford;CA;93230;1 (11) 500 555-0173
+Leah;;He;08/04/1970 00:00;M;F;lhe@cohovineyard.com;40000;2;2;Partial Co;Clerical;1;0;60750 San Clemente;;Hayward;CA;94541;1 (11) 500 555-0113
+Seth;B;Richardson;06/07/1970 00:00;S;M;srichardson@cohovineyard.com;40000;2;2;Partial Co;Clerical;1;2;1371 Rogers Ave;;Imperial Beach;CA;91932;1 (11) 500 555-0159
+Xavier;;Wright;04/07/1974 00:00;S;M;xwright@cohovineyard.com;50000;0;0;Graduate D;Skilled Manual;1;0;1654 Bonari Court;;Imperial Beach;CA;91932;759-555-0123
+Nicholas;L;Johnson;04/03/1953 00:00;S;M;njohnson@cohovineyard.com;30000;1;0;Bachelors;Skilled Manual;1;1;3158 B Avenue I;;Imperial Beach;CA;91932;257-555-0143
+Seth;D;Coleman;21/05/1944 00:00;M;M;scoleman@cohovineyard.com;40000;4;0;High Schoo;Professional;1;2;5678 Arlington Way;;Imperial Beach;CA;91932;208-555-0181
+Bryan;;Watson;21/04/1945 00:00;M;M;bwatson@cohovineyard.com;40000;5;0;High Schoo;Professional;1;2;6030 Withers Drive;#4d;Imperial Beach;CA;91932;798-555-0183
+Devin;L;Bailey;25/11/1946 00:00;M;M;dbailey@cohovineyard.com;50000;5;0;Bachelors;Management;1;3;6097 Mt. Mckinley Ct.;;Imperial Beach;CA;91932;571-555-0185
+Briana;A;Rubio;15/11/1946 00:00;S;F;brubio@cohovineyard.com;50000;5;0;Bachelors;Management;1;4;6152 Del Mar Ave;;Imperial Beach;CA;91932;258-555-0161
+Devin;;Miller;04/03/1947 00:00;S;M;dmiller@cohovineyard.com;50000;2;1;Partial Co;Professional;0;1;6621 Polaris Dr.;;Imperial Beach;CA;91932;278-555-0184
+Karl;E;Chande;22/04/1948 00:00;M;M;kchande@cohovineyard.com;50000;2;1;Partial Co;Professional;0;2;6951 Harmony Way;;Imperial Beach;CA;91932;118-555-0118
+Arthur;A;Martinez;06/05/1955 00:00;M;M;amartinez@cohovineyard.com;110000;3;4;Partial Co;Professional;1;4;9265 La Paz;;Imperial Beach;CA;91932;1 (11) 500 555-0116
+Wesley;;Ma;16/11/1946 00:00;M;M;wma@cohovineyard.com;100000;2;3;Bachelors;Management;1;4;9558 Orchard View Ave.;;Imperial Beach;CA;91932;1 (11) 500 555-0175
+Ian;D;Butler;27/02/1953 00:00;S;M;ibutler@cohovineyard.com;80000;4;2;Partial Co;Professional;1;2;West Park Plaza;;Irvine;CA;92614;1 (11) 500 555-0160
+Barbara;E;Guo;11/05/1954 00:00;S;F;bguo@cohovineyard.com;90000;4;2;High Schoo;Professional;0;1;1239 Linnet Court;;La Jolla;CA;92806;1 (11) 500 555-0138
+Bradley;;Deng;14/04/1947 00:00;M;M;bdeng@cohovineyard.com;120000;5;5;High Schoo;Management;1;4;1246 Glenside Ct.;;La Jolla;CA;92806;1 (11) 500 555-0112
+Martha;B;Liu;20/05/1972 00:00;S;F;mliu@cohovineyard.com;80000;0;0;Partial Hi;Professional;1;3;2687 Gilberto;;La Jolla;CA;92806;1 (11) 500 555-0122
+Kayla;;Clark;06/04/1970 00:00;M;F;kclark@cohovineyard.com;90000;0;0;Partial Hi;Professional;1;4;3255 Marsh Elder;;La Jolla;CA;92806;1 (11) 500 555-0199
+Robyn;V;Serrano;07/08/1964 00:00;M;F;rserrano@cohovineyard.com;80000;4;3;Partial Co;Professional;1;1;4566 La Jolla;;La Jolla;CA;92806;533-555-0166
+Corey;;Nath;13/02/1967 00:00;M;M;cnath@cohovineyard.com;70000;5;5;Bachelors;Professional;1;3;4904 Hillview Drive;;La Jolla;CA;92806;1 (11) 500 555-0162
+Kenneth;;Raji;16/07/1964 00:00;S;M;kraji@cohovineyard.com;60000;4;4;Bachelors;Professional;1;3;521 Red Leaf Way;;La Jolla;CA;92806;1 (11) 500 555-0122
+Nathan;;Coleman;14/02/1963 00:00;S;M;ncoleman@cohovineyard.com;60000;3;2;Bachelors;Professional;1;1;5436 Via Del Sol;;La Jolla;CA;92806;1 (11) 500 555-0165
+Frank;;Ortega;19/11/1961 00:00;S;M;fortega@cohovineyard.com;50000;1;0;Partial Co;Skilled Manual;1;1;5634 Blue Ridge Drive;;La Jolla;CA;92806;1 (11) 500 555-0159
+Daniel;R;Smith;09/05/1949 00:00;S;M;dsmith@cohovineyard.com;10000;2;1;High Schoo;Skilled Manual;0;2;6814 Gatewood Court;;La Jolla;CA;92806;1 (11) 500 555-0132
+Victoria;A;Harris;09/01/1975 00:00;M;F;vharris@cohovineyard.com;40000;0;0;High Schoo;Skilled Manual;0;1;7226 Casa Real;;La Jolla;CA;92806;433-555-0169
+Alan;;Wu;23/06/1980 00:00;S;M;awu@cohovineyard.com;30000;0;0;Partial Hi;Clerical;1;2;8168 Eaker Way;;La Jolla;CA;92806;913-555-0176
+Tamara;;Zhang;06/10/1977 00:00;S;F;tzhang@cohovineyard.com;30000;0;0;Partial Hi;Clerical;1;2;8198 Mt. Whitney Dr.;;La Jolla;CA;92806;776-555-0145
+William;;Garcia;03/08/1972 00:00;M;M;wgarcia@cohovineyard.com;80000;0;0;Bachelors;Management;1;1;Lake Elisnor Place;;Lake Elsinore;CA;92530;980-555-0181
+Heather;A;Liu;11/02/1967 00:00;M;F;hliu@cohovineyard.com;120000;0;1;Bachelors;Management;0;4;1663 Park Glen Court;;Lakewood;CA;90712;345-555-0167
+Robert;;Edwards;24/01/1968 00:00;M;M;redwards@cohovineyard.com;110000;1;1;Graduate D;Management;1;3;3284 Bynum Way;;Lakewood;CA;90712;426-555-0112
+Ivan;;Srini;15/07/1979 00:00;S;M;isrini@cohovineyard.com;50000;0;0;Partial Co;Skilled Manual;1;1;3974 Diver Way;;Lakewood;CA;90712;920-555-0143
+Diana;D;Blanco;25/05/1978 00:00;M;F;dblanco@cohovineyard.com;50000;0;0;Partial Co;Skilled Manual;1;1;4498 Dennis Circle;;Lakewood;CA;90712;804-555-0150
+Isabella;D;Turner;25/05/1978 00:00;M;F;iturner@cohovineyard.com;50000;0;0;Partial Co;Skilled Manual;1;1;5375 Clearland Circle;;Lakewood;CA;90712;921-555-0188
+Jonathon;;Blanco;20/09/1978 00:00;S;M;jblanco@cohovineyard.com;50000;0;0;Partial Co;Skilled Manual;0;1;7942 Palms;;Lakewood;CA;90712;562-555-0118
+Maria;;Allen;19/10/1972 00:00;M;F;mallen@cohovineyard.com;50000;1;1;Graduate D;Skilled Manual;0;0;8115 Royal Links Ct;;Lakewood;CA;90712;336-555-0133
+Claudia;T;Wang;08/07/1972 00:00;M;F;cwang@cohovineyard.com;50000;1;1;Graduate D;Skilled Manual;1;0;8210 Mines Road;;Lakewood;CA;90712;992-555-0181
+Jeffery;J;Xu;03/02/1964 00:00;M;M;jxu@cohovineyard.com;110000;3;2;Bachelors;Management;1;4;9443 Oaxaca;;Lakewood;CA;90712;114-555-0184
+Natalie;C;Bennett;24/02/1955 00:00;S;F;nbennett@cohovineyard.com;60000;2;0;High Schoo;Professional;1;2;Lakewood Mall;;Lakewood;CA;90712;317-555-0142
+Reginald;;Jimenez;18/01/1955 00:00;S;M;rjimenez@cohovineyard.com;70000;4;3;High Schoo;Professional;0;1;4469 Dellwood Court;;Lemon Grove;CA;91945;622-555-0133
+Curtis;G;Zhu;22/02/1935 00:00;S;M;czhu@cohovineyard.com;40000;3;0;Partial Co;Professional;1;2;5009 Grasswood Circle;;Lemon Grove;CA;91945;778-555-0130
+Eugene;W;Zhou;19/09/1937 00:00;M;M;ezhou@cohovineyard.com;60000;3;0;Graduate D;Management;0;2;504 O St.;;Lemon Grove;CA;91945;182-555-0149
+Kristen;R;He;14/06/1938 00:00;M;F;khe@cohovineyard.com;70000;4;0;Graduate D;Management;1;2;5351 N. Civic Dr.;;Lemon Grove;CA;91945;942-555-0145
+Gilbert;D;Chander;05/12/1938 00:00;M;M;gchander@cohovineyard.com;70000;5;0;Graduate D;Management;1;2;5974 N St.;;Lemon Grove;CA;91945;796-555-0156
+Rodney;B;Gil;24/05/1951 00:00;M;M;rgil@cohovineyard.com;20000;2;1;Partial Hi;Clerical;1;2;9067 Argonne Drive;;Lemon Grove;CA;91945;1 (11) 500 555-0186
+Andrea;;Nelson;25/07/1975 00:00;S;F;anelson@cohovineyard.com;50000;0;0;Partial Co;Skilled Manual;1;2;9584 Logan Ct;;Lemon Grove;CA;91945;608-555-0185
+Beth;;Ramos;09/01/1975 00:00;S;F;bramos@cohovineyard.com;50000;0;0;High Schoo;Skilled Manual;0;2;9875 Prestwick Court;;Lemon Grove;CA;91945;592-555-0141
+Brandi;J;Torres;06/07/1973 00:00;S;F;btorres@cohovineyard.com;70000;0;0;Partial Co;Professional;1;2;9906 Oak Grove Road;;Lemon Grove;CA;91945;217-555-0116
+Bethany;C;Xie;24/11/1973 00:00;S;F;bxie@cohovineyard.com;70000;0;0;Partial Co;Professional;1;2;9991 El Pintado Road;;Lemon Grove;CA;91945;119-555-0117
+Bryce;E;Gray;14/05/1965 00:00;M;M;bgray@cohovineyard.com;80000;0;0;Bachelors;Management;1;1;1796 Westbury Dr.;;Lincoln Acres;CA;91950;428-555-0138
+Francis;;Diaz;28/03/1962 00:00;M;M;fdiaz@cohovineyard.com;40000;3;2;High Schoo;Skilled Manual;1;2;207 Barquentine Court;;Lincoln Acres;CA;91950;151-555-0119
+Marvin;;Martin;12/03/1962 00:00;S;M;mmartin@cohovineyard.com;50000;1;0;Bachelors;Professional;0;1;3469 Gill Ct.;;Lincoln Acres;CA;91950;186-555-0116
+Caleb;;Adams;25/07/1943 00:00;S;M;cadams@cohovineyard.com;70000;5;0;Bachelors;Management;1;2;4195 San Paolo;;Lincoln Acres;CA;91950;756-555-0175
+Curtis;M;Zhao;12/03/1971 00:00;S;M;czhao@cohovineyard.com;60000;1;0;Graduate D;Professional;0;0;5566 Brook Way;;Lincoln Acres;CA;91950;360-555-0120
+Kelvin;M;Liu;02/06/1968 00:00;M;M;kliu@cohovineyard.com;50000;2;2;Bachelors;Skilled Manual;1;1;6110 Price Lane;;Lincoln Acres;CA;91950;563-555-0181
+Lori;D;Alonso;16/05/1966 00:00;S;F;lalonso@cohovineyard.com;50000;3;3;Bachelors;Skilled Manual;0;0;6323 Benedict Court;;Lincoln Acres;CA;91950;662-555-0146
+Michael;H;Walker;09/03/1966 00:00;S;M;mwalker@cohovineyard.com;60000;0;0;Graduate D;Professional;1;0;6868 West;;Lincoln Acres;CA;91950;483-555-0150
+Stacey;N;Zhang;08/02/1966 00:00;S;F;szhang@cohovineyard.com;70000;5;0;Graduate D;Professional;0;0;7826 W. Hookston Road;;Lincoln Acres;CA;91950;871-555-0115
+Julia;E;Powell;26/08/1971 00:00;S;F;jpowell@cohovineyard.com;40000;2;2;Partial Co;Clerical;0;1;867 La Orinda Place;;Lincoln Acres;CA;91950;1 (11) 500 555-0114
+Arianna;;Rogers;03/12/1974 00:00;M;F;arogers@cohovineyard.com;50000;0;0;Graduate D;Skilled Manual;0;0;2775 Robinson Ave.;;Long Beach;CA;90802;969-555-0116
+Sabrina;;Gil;09/01/1956 00:00;M;F;sgil@cohovineyard.com;30000;2;0;High Schoo;Skilled Manual;0;2;3328 Via Cortez;;Long Beach;CA;90802;618-555-0115
+Fernando;A;Parker;17/04/1958 00:00;S;M;fparker@cohovineyard.com;40000;2;0;Partial Co;Clerical;1;1;4023 Glen Court;;Long Beach;CA;90802;481-555-0177
+Isaiah;A;Kelly;03/04/1959 00:00;S;M;ikelly@cohovineyard.com;50000;4;0;Graduate D;Skilled Manual;0;0;4910 Melinda Court;;Long Beach;CA;90802;666-555-0182
+Melanie;;Cook;15/05/1962 00:00;M;F;mcook@cohovineyard.com;10000;1;0;Graduate D;Manual;1;0;5386 Salvio St.;;Long Beach;CA;90802;1 (11) 500 555-0111
+Marie;E;Alonso;27/10/1961 00:00;S;F;malonso@cohovineyard.com;10000;1;0;Bachelors;Manual;1;0;732 Estudillo Street;;Long Beach;CA;90802;1 (11) 500 555-0123
+Andy;;Moreno;22/05/1939 00:00;S;M;amoreno@cohovineyard.com;20000;1;0;Bachelors;Clerical;0;0;8202 Lyon Circle;;Long Beach;CA;90802;1 (11) 500 555-0113
+Margaret;T;Zhao;16/11/1942 00:00;M;F;mzhao@cohovineyard.com;20000;1;0;Partial Co;Manual;1;0;8597 Sandra;;Long Beach;CA;90802;1 (11) 500 555-0132
+Carolyn;L;Hernandez;13/09/1979 00:00;M;F;chernandez@cohovineyard.com;10000;0;0;Partial Co;Manual;1;1;893 Thornwood Drive;;Long Beach;CA;90802;1 (11) 500 555-0199
+Jake;;Ye;16/02/1977 00:00;S;M;jye@cohovineyard.com;10000;1;1;High Schoo;Manual;1;0;8957 Maureen Circle;;Long Beach;CA;90802;1 (11) 500 555-0117
+Raul;D;Aggarwal;27/03/1960 00:00;S;M;raggarwal@cohovineyard.com;10000;1;1;High Schoo;Manual;1;1;9030 Louisiana Dr.;;Long Beach;CA;90802;1 (11) 500 555-0180
+Oscar;D;Powell;05/05/1959 00:00;M;M;opowell@cohovineyard.com;10000;1;1;High Schoo;Manual;1;1;9742 Anderson Way;;Long Beach;CA;90802;1 (11) 500 555-0110
+Kristina;L;Prasad;25/06/1959 00:00;S;F;kprasad@cohovineyard.com;30000;0;0;Bachelors;Clerical;1;0;9846 Powell Drive;;Long Beach;CA;90802;1 (11) 500 555-0136
+Ian;;Garcia;12/03/1919 00:00;M;M;igarcia@cohovineyard.com;10000;3;0;Bachelors;Clerical;1;2;1318 Lasalle Street;;Los Angeles;CA;90012;1 (11) 500 555-0119
+Arianna;K;Long;21/07/1969 00:00;M;F;along@cohovineyard.com;10000;2;2;High Schoo;Manual;1;1;1349 Palm Ave.;;Los Angeles;CA;90012;1 (11) 500 555-0196
+Karl;;Anand;28/06/1969 00:00;M;M;kanand@cohovineyard.com;30000;0;0;Bachelors;Clerical;1;0;1397 Paraiso Ct.;;Los Angeles;CA;90012;1 (11) 500 555-0133
+Clarence;R;Shen;09/11/1969 00:00;M;M;cshen@cohovineyard.com;40000;0;0;Graduate D;Clerical;0;0;2944 North Main St.;;Los Angeles;CA;90012;1 (11) 500 555-0188
+April;;Rai;22/07/1951 00:00;M;F;arai@cohovineyard.com;10000;3;0;Partial Co;Manual;1;2;3029 Heather Leaf Ln.;;Los Angeles;CA;90012;1 (11) 500 555-0121
+Oscar;A;Diaz;25/08/1968 00:00;S;M;odiaz@cohovineyard.com;20000;1;1;Partial Co;Manual;0;1;500 35th Ave NE;;Los Angeles;CA;90012;1 (11) 500 555-0121
+Ruben;;Martinez;05/10/1967 00:00;M;M;rmartinez@cohovineyard.com;30000;1;1;Bachelors;Clerical;1;0;5473 Hillridge Way;;Los Angeles;CA;90012;1 (11) 500 555-0115
+Alvin;;Chander;01/04/1966 00:00;S;M;achander@cohovineyard.com;30000;1;1;Bachelors;Clerical;1;1;6538 Camelback Road;;Los Angeles;CA;90012;1 (11) 500 555-0151
+Edward;;Bennett;26/10/1965 00:00;M;M;ebennett@cohovineyard.com;30000;1;1;Bachelors;Skilled Manual;1;2;7496 Sunset Meadows;;Los Angeles;CA;90012;1 (11) 500 555-0192
+Darren;;Mehta;06/02/1964 00:00;M;M;dmehta@cohovineyard.com;10000;3;2;Partial Hi;Manual;1;1;7651 Smike Tree Court;Space 55;Los Angeles;CA;90012;1 (11) 500 555-0120
+Seth;J;Cooper;28/02/1932 00:00;S;M;scooper@cohovineyard.com;10000;4;0;High Schoo;Manual;0;2;7765 Sunsine Drive;;Los Angeles;CA;90012;1 (11) 500 555-0121
+April;M;Chande;09/03/1966 00:00;S;F;achande@cohovineyard.com;30000;2;2;Partial Co;Manual;1;0;7939 Bayview Court;;Los Angeles;CA;90012;1 (11) 500 555-0112
+Gina;E;Ortega;25/06/1964 00:00;S;F;gortega@cohovineyard.com;40000;1;0;Bachelors;Skilled Manual;1;0;9068 Muir Road;;Los Angeles;CA;90012;1 (11) 500 555-0192
+Brianna;R;Brown;11/02/1976 00:00;M;F;bbrown@cohovineyard.com;20000;0;0;High Schoo;Manual;1;1;2099 San Jose;;Mill Valley;CA;94941;1 (11) 500 555-0184
+Omar;;Wu;21/11/1960 00:00;S;M;owu@cohovineyard.com;40000;4;2;High Schoo;Skilled Manual;0;2;2305 Glazier Drive;;Mill Valley;CA;94941;532-555-0155
+Cheryl;;Gomez;14/02/1957 00:00;M;F;cgomez@cohovineyard.com;10000;1;0;Partial Co;Manual;1;0;2775 Delta View Ln.;#9;Mill Valley;CA;94941;1 (11) 500 555-0116
+Kathryn;C;Pal;24/09/1959 00:00;M;F;kpal@cohovineyard.com;10000;1;1;High Schoo;Manual;0;1;5118 Boxwood Dr.;;Mill Valley;CA;94941;1 (11) 500 555-0133
+Julie;;Chande;27/11/1970 00:00;S;F;jchande@cohovineyard.com;30000;0;0;Bachelors;Clerical;1;0;5370 Adobe Drive;;Mill Valley;CA;94941;1 (11) 500 555-0114
+Arthur;C;Lopez;05/03/1968 00:00;M;M;alopez@cohovineyard.com;40000;0;0;Graduate D;Clerical;1;0;7549 Longview Rd.;;Mill Valley;CA;94941;1 (11) 500 555-0141
+Jocelyn;M;Butler;10/09/1967 00:00;M;F;jbutler@cohovineyard.com;10000;3;3;High Schoo;Manual;0;0;8343 Briowes Valley Rd;;Mill Valley;CA;94941;1 (11) 500 555-0173
+David;S;Zhang;24/07/1967 00:00;S;M;dzhang@cohovineyard.com;20000;1;1;Partial Co;Manual;1;1;9130 San Ramon Road;;Mill Valley;CA;94941;1 (11) 500 555-0125
+Gary;C;Suarez;27/05/1967 00:00;S;M;gsuarez@cohovineyard.com;30000;1;1;Bachelors;Clerical;0;1;9838 Carob Way;;Mill Valley;CA;94941;1 (11) 500 555-0167
+Diane;B;Ortega;08/11/1966 00:00;M;F;dortega@cohovineyard.com;30000;1;1;Bachelors;Clerical;1;1;25001 Montague Exressway;;Milpitas;CA;95035;1 (11) 500 555-0161
+Kevin;;Henderson;02/04/1965 00:00;M;M;khenderson@cohovineyard.com;30000;1;1;Bachelors;Skilled Manual;1;2;6900 Sisk Road;;Modesto;CA;95354;1 (11) 500 555-0129
+Clayton;C;Lal;27/05/1964 00:00;M;M;clal@cohovineyard.com;10000;3;2;Partial Hi;Manual;1;2;9700 Sisk Road;;Modesto;CA;95354;1 (11) 500 555-0111
+Rachael;J;Malhotra;19/12/1977 00:00;S;F;rmalhotra@cohovineyard.com;20000;0;0;High Schoo;Manual;0;1;440 West Huntington Dr.;;Monrovia;CA;91016;1 (11) 500 555-0199
+Eduardo;;Jones;24/03/1961 00:00;M;M;ejones@cohovineyard.com;50000;1;0;Partial Co;Skilled Manual;1;1;1275 West Street;;National City;CA;91950;855-555-0187
+Shannon;;Diaz;06/01/1967 00:00;M;M;sdiaz@cohovineyard.com;50000;0;0;Partial Co;Skilled Manual;0;1;1867 Seville;;National City;CA;91950;170-555-0128
+Kathleen;R;Blanco;20/05/1947 00:00;S;F;kblanco@cohovineyard.com;50000;2;1;Partial Co;Professional;0;1;1955 Montgomery Ave;;National City;CA;91950;967-555-0142
+Jesse;E;Hill;15/05/1950 00:00;M;M;jhill@cohovineyard.com;40000;2;1;Partial Hi;Skilled Manual;1;3;3217 Elm St;;National City;CA;91950;383-555-0134
+Donna;D;Aggarwal;15/02/1950 00:00;S;F;daggarwal@cohovineyard.com;50000;2;1;Partial Co;Professional;0;2;3628 Mt. Mckinley Ct.;;National City;CA;91950;734-555-0184
+Eduardo;C;Hayes;16/11/1951 00:00;S;M;ehayes@cohovineyard.com;50000;2;1;High Schoo;Professional;1;2;3981 Augustine Drive;;National City;CA;91950;202-555-0132
+Austin;L;Wilson;18/01/1951 00:00;M;M;awilson@cohovineyard.com;60000;2;1;Partial Co;Professional;0;1;4305 Madrid;;National City;CA;91950;924-555-0187
+Gavin;M;Flores;02/09/1952 00:00;M;M;gflores@cohovineyard.com;60000;2;1;High Schoo;Professional;1;2;4704 Tustin Court;;National City;CA;91950;579-555-0121
+Lydia;J;Madan;15/07/1951 00:00;S;F;lmadan@cohovineyard.com;70000;5;2;Partial Hi;Skilled Manual;0;2;4996 Hillview Drive;;National City;CA;91950;1 (11) 500 555-0185
+Ronnie;;She;19/10/1950 00:00;M;M;rshe@cohovineyard.com;100000;3;4;Partial Co;Management;1;4;6155 Wilbur Drive;;National City;CA;91950;1 (11) 500 555-0117
+Lacey;;Tang;14/05/1947 00:00;S;F;ltang@cohovineyard.com;100000;3;4;High Schoo;Management;1;4;6282 Mcneil Place;;National City;CA;91950;1 (11) 500 555-0121
+Chase;;Torres;06/02/1976 00:00;S;M;ctorres@cohovineyard.com;70000;0;0;High Schoo;Management;0;2;6574 Hemlock Ave.;;National City;CA;91950;1 (11) 500 555-0181
+Kathryn;D;Kumar;07/07/1973 00:00;S;F;kkumar@cohovineyard.com;90000;0;0;High Schoo;Management;0;3;6657 Camino Solano;;National City;CA;91950;1 (11) 500 555-0114
+Teresa;L;Hernandez;03/03/1971 00:00;S;F;thernandez@cohovineyard.com;130000;5;5;Partial Hi;Management;1;4;9595 Barbie Dr.;;National City;CA;91950;1 (11) 500 555-0112
+Valerie;A;Ma;03/07/1960 00:00;M;F;vma@cohovineyard.com;50000;1;0;Partial Co;Skilled Manual;1;1;9693 Mellowood Street;;National City;CA;91950;480-555-0121
+Nathan;;Jackson;07/09/1958 00:00;M;M;njackson@cohovineyard.com;60000;1;0;Bachelors;Professional;1;1;6756 Mowry;;Newark;CA;94560;622-555-0158
+Orlando;;Ortega;05/12/1969 00:00;M;M;oortega@cohovineyard.com;80000;4;4;Graduate D;Management;1;0;1147 Mellowood Street;;Newport Beach;CA;92625;1 (11) 500 555-0164
+Kenneth;;Shan;10/08/1969 00:00;M;M;kshan@cohovineyard.com;110000;1;0;Graduate D;Management;1;0;4393 Ridge Road;;Newport Beach;CA;92625;1 (11) 500 555-0160
+Emmanuel;;Sara;24/04/1967 00:00;S;M;esara@cohovineyard.com;80000;5;5;Graduate D;Management;0;2;4460 Newport Center Drive;;Newport Beach;CA;92625;1 (11) 500 555-0193
+Jesus;B;Torres;16/07/1966 00:00;S;M;jtorres@cohovineyard.com;80000;5;5;Graduate D;Management;0;3;4915 Pear Dr.;;Newport Beach;CA;92625;1 (11) 500 555-0173
+Reginald;I;Rubio;05/11/1966 00:00;M;M;rrubio@cohovineyard.com;120000;0;0;Graduate D;Management;1;2;6146 Holland Drive;;Newport Beach;CA;92625;1 (11) 500 555-0187
+Cedric;I;Lu;19/08/1959 00:00;S;M;clu@cohovineyard.com;90000;1;0;Bachelors;Professional;1;1;7178 Cancroft Road;;Newport Beach;CA;92625;1 (11) 500 555-0167
+Darrell;;Sharma;19/06/1962 00:00;M;M;dsharma@cohovineyard.com;60000;1;0;Partial Co;Skilled Manual;0;1;7480 Linton Terr;;Newport Beach;CA;92625;1 (11) 500 555-0165
+Pamela;;Perez;11/10/1960 00:00;M;F;pperez@cohovineyard.com;70000;5;4;Partial Co;Skilled Manual;0;3;7739 Pineknoll;;Newport Beach;CA;92625;1 (11) 500 555-0155
+Melvin;P;Sharma;26/07/1942 00:00;S;M;msharma@cohovineyard.com;50000;2;0;Graduate D;Management;0;1;8238 D Kiska Ct.;;Newport Beach;CA;92625;1 (11) 500 555-0184
+Bobby;M;Patel;15/03/1943 00:00;M;M;bpatel@cohovineyard.com;50000;2;0;Graduate D;Management;1;1;8882 Weatherly Way;;Newport Beach;CA;92625;1 (11) 500 555-0173
+Jeremiah;W;Kelly;03/05/1972 00:00;S;M;jkelly@cohovineyard.com;80000;0;0;Bachelors;Management;0;1;25620 Firestone Boulevard;;Norwalk;CA;90650;552-555-0133
+Ruth;P;Patel;08/01/1968 00:00;M;F;rpatel@cohovineyard.com;110000;1;1;Graduate D;Management;1;3;Norwalk Square;;Norwalk;CA;90650;847-555-0157
+Katelyn;;Reed;24/09/1972 00:00;M;F;kreed@cohovineyard.com;50000;1;1;Graduate D;Skilled Manual;1;0;3883 Kirkwood Dr;;Novato;CA;94947;112-555-0144
+Damien;T;Nath;20/11/1963 00:00;S;M;dnath@cohovineyard.com;80000;4;3;Partial Co;Professional;1;2;4622 Andrea Lane;;Novato;CA;94947;932-555-0175
+Briana;A;Blanco;12/11/1956 00:00;M;F;bblanco@cohovineyard.com;50000;2;0;High Schoo;Skilled Manual;1;2;5765 Mellowood St.;;Novato;CA;94947;1 (11) 500 555-0114
+Kelvin;O;Lu;24/06/1958 00:00;S;M;klu@cohovineyard.com;100000;1;1;Bachelors;Management;1;3;5899 Mt. Wilson Place;;Novato;CA;94947;1 (11) 500 555-0182
+Nicholas;W;Smith;08/04/1959 00:00;M;M;nsmith@cohovineyard.com;110000;1;1;Bachelors;Management;1;4;8281 Rhoda Way;;Novato;CA;94947;1 (11) 500 555-0191
+Krystal;;Lin;02/07/1957 00:00;S;F;klin@cohovineyard.com;70000;3;2;Partial Co;Professional;1;0;9825 Coralie Drive;;Novato;CA;94947;150-555-0112
+Clarence;;Wang;18/04/1956 00:00;S;M;cwang@cohovineyard.com;70000;3;0;Partial Co;Professional;0;2;1996 Sand Pointe Lane;;Oakland;CA;94611;478-555-0135
+Monique;M;Castro;27/12/1962 00:00;S;F;mcastro@cohovineyard.com;40000;3;2;High Schoo;Skilled Manual;1;2;2217 Pueblo Dr.;;Oakland;CA;94611;298-555-0143
+Charles;;Nelson;06/09/1970 00:00;S;M;cnelson@cohovineyard.com;50000;1;1;Bachelors;Skilled Manual;1;0;4836 Stratton Circle;;Oakland;CA;94611;206-555-0147
+Nina;A;Shan;12/06/1968 00:00;M;F;nshan@cohovineyard.com;50000;2;2;Bachelors;Skilled Manual;1;1;555 Moretti Drive;;Oakland;CA;94611;185-555-0156
+Ethan;;Li;07/07/1969 00:00;M;M;eli@cohovineyard.com;70000;5;0;Graduate D;Professional;1;0;6787 Pheasant Circle;;Oakland;CA;94611;328-555-0183
+Samuel;A;Hall;15/05/1964 00:00;M;M;shall@cohovineyard.com;50000;4;4;Bachelors;Skilled Manual;1;2;782 Veale Avenue;;Oakland;CA;94611;168-555-0110
+Damien;A;Yang;17/04/1964 00:00;S;M;dyang@cohovineyard.com;50000;4;4;Bachelors;Skilled Manual;0;3;8249 La Jolla;;Oakland;CA;94611;113-555-0114
+Ramon;;Zhu;22/08/1973 00:00;S;M;rzhu@cohovineyard.com;40000;1;1;Bachelors;Skilled Manual;0;1;Incom Sports Center;;Ontario;CA;91764;1 (11) 500 555-0162
+Kathryn;L;Rai;12/02/1972 00:00;S;F;krai@cohovineyard.com;30000;0;0;High Schoo;Manual;0;1;Ontario Mills;;Ontario;CA;91764;1 (11) 500 555-0145
+Ian;C;Nelson;24/02/1971 00:00;S;M;inelson@cohovineyard.com;30000;0;0;High Schoo;Manual;0;1;Mall Of Orange;;Orange;CA;92867;1 (11) 500 555-0185
+Mario;H;Deng;16/06/1971 00:00;M;M;mdeng@cohovineyard.com;30000;0;0;High Schoo;Manual;1;1;123 Camelia Avenue;;Oxnard;CA;93030;1 (11) 500 555-0154
+Kathleen;C;Suarez;27/07/1974 00:00;S;F;ksuarez@cohovineyard.com;40000;3;3;Partial Co;Clerical;1;2;Oxnard Outlet;;Oxnard;CA;93030;955-555-0188
+Faith;;Bennett;05/08/1974 00:00;M;F;fbennett@cohovineyard.com;50000;0;0;Graduate D;Skilled Manual;1;0;1326 Greenwood Place;;Palo Alto;CA;94303;166-555-0173
+Dalton;L;King;23/04/1966 00:00;M;M;dking@cohovineyard.com;50000;0;0;Graduate D;Skilled Manual;1;0;1487 Franklin Canyon Road;;Palo Alto;CA;94303;377-555-0153
+Katherine;;Peterson;26/08/1953 00:00;S;F;kpeterson@cohovineyard.com;10000;2;1;High Schoo;Manual;1;2;1706 Vallejo;;Palo Alto;CA;94303;941-555-0150
+Courtney;;Scott;09/06/1953 00:00;S;F;cscott@cohovineyard.com;20000;2;0;High Schoo;Manual;0;2;1874 Vallejo;;Palo Alto;CA;94303;521-555-0183
+Sara;L;Hall;25/03/1955 00:00;S;F;shall@cohovineyard.com;30000;1;0;High Schoo;Clerical;0;2;2519 Gill Ct.;;Palo Alto;CA;94303;950-555-0168
+Raymond;A;Garcia;05/01/1970 00:00;S;M;rgarcia@cohovineyard.com;90000;2;0;Bachelors;Professional;1;0;3068 Altura;;Palo Alto;CA;94303;1 (11) 500 555-0140
+Devin;;Edwards;22/09/1966 00:00;M;M;dedwards@cohovineyard.com;90000;0;0;Bachelors;Professional;1;0;4992 Yorba Linda;;Palo Alto;CA;94303;1 (11) 500 555-0199
+Diane;S;Gomez;18/05/1966 00:00;S;F;dgomez@cohovineyard.com;110000;0;0;Graduate D;Management;0;3;5754 Glenhaven Ave;;Palo Alto;CA;94303;1 (11) 500 555-0129
+Ebony;;Sanchez;01/06/1964 00:00;M;F;esanchez@cohovineyard.com;70000;0;0;Bachelors;Professional;1;1;6488 Dublin Blvd.;;Palo Alto;CA;94303;1 (11) 500 555-0191
+Shannon;;Blanco;26/04/1963 00:00;S;M;sblanco@cohovineyard.com;70000;0;0;Bachelors;Professional;0;2;6498 Pasa Del Rio;;Palo Alto;CA;94303;1 (11) 500 555-0175
+Devin;G;Lewis;18/08/1961 00:00;M;M;dlewis@cohovineyard.com;60000;1;0;Partial Co;Skilled Manual;1;1;7650 Northridge Drive;;Palo Alto;CA;94303;1 (11) 500 555-0121
+Tamara;M;Shan;08/09/1958 00:00;M;F;tshan@cohovineyard.com;90000;2;0;Bachelors;Professional;0;1;805 Willow Lane;;Palo Alto;CA;94303;1 (11) 500 555-0147
+Tracy;J;Luo;23/11/1976 00:00;M;F;tluo@cohovineyard.com;30000;0;0;High Schoo;Skilled Manual;1;2;8671 Westwood Lane;;Palo Alto;CA;94303;683-555-0118
+Aimee;D;Zhao;10/06/1976 00:00;S;F;azhao@cohovineyard.com;40000;0;0;High Schoo;Skilled Manual;1;2;8722 East View Place;;Palo Alto;CA;94303;619-555-0140
+Alexandra;;Butler;20/10/1977 00:00;S;F;abutler@cohovineyard.com;30000;0;0;Partial Hi;Clerical;1;2;5967 W Las Positas Blvd;;Pleasanton;CA;94566;469-555-0136
+Alvin;L;Liang;18/03/1977 00:00;M;M;aliang@cohovineyard.com;30000;0;0;Partial Hi;Clerical;1;2;Pavillion @ Redlands;;Redlands;CA;92373;222-555-0192
+Emma;;Alexander;07/10/1967 00:00;M;F;ealexander@cohovineyard.com;100000;1;0;Bachelors;Management;1;2;1403 Mcmillan Ave.;;Redwood City;CA;94063;150-555-0174
+Alexandria;L;Cooper;07/12/1967 00:00;S;F;acooper@cohovineyard.com;120000;0;0;Bachelors;Management;1;3;1624 Carlisle Way;;Redwood City;CA;94063;295-555-0145
+Joy;;Blanco;17/03/1967 00:00;M;F;jblanco@cohovineyard.com;120000;0;1;Bachelors;Management;1;4;3586 Everett Court;;Redwood City;CA;94063;570-555-0114
+Evelyn;S;Sanchez;11/05/1963 00:00;S;F;esanchez@cohovineyard.com;90000;0;0;Partial Co;Professional;1;1;4404 Mildred Avenue;;Redwood City;CA;94063;122-555-0161
+Emma;R;Powell;07/06/1963 00:00;S;F;epowell@cohovineyard.com;100000;0;2;Partial Co;Professional;0;1;5300 Turrin Dr.;;Redwood City;CA;94063;311-555-0145
+Lauren;T;Smith;14/12/1962 00:00;S;F;lsmith@cohovineyard.com;100000;3;2;Partial Co;Professional;0;4;6615 Winterglenn Way;;Redwood City;CA;94063;360-555-0137
+Autumn;;She;11/06/1961 00:00;S;F;ashe@cohovineyard.com;80000;5;4;Partial Co;Professional;0;3;3664 Colt Ct.;;Richmond;CA;94801;963-555-0174
+Peter;V;Aggarwal;10/04/1935 00:00;S;M;paggarwal@cohovineyard.com;40000;3;0;Partial Co;Professional;0;2;Natomas Marketplace;;Sacramento;CA;95814;215-555-0144
+Kelvin;L;Pal;28/01/1935 00:00;M;M;kpal@cohovineyard.com;40000;3;0;Partial Co;Professional;1;2;25150 El Camino Real;;San Bruno;CA;94066;774-555-0134
+Emily;C;Lewis;10/09/1935 00:00;S;F;elewis@cohovineyard.com;60000;2;0;Graduate D;Management;0;2;1692 Detroit Ave;;San Carlos;CA;94070;489-555-0174
+Brenda;P;Raman;04/11/1937 00:00;M;F;braman@cohovineyard.com;60000;3;0;Graduate D;Management;1;2;2012 Reisling Court;;San Carlos;CA;94070;132-555-0113
+Isabella;;Cooper;27/04/1939 00:00;S;F;icooper@cohovineyard.com;60000;3;0;Graduate D;Management;0;2;2134 Royal Links Ct;;San Carlos;CA;94070;401-555-0123
+Molly;A;Garcia;07/05/1939 00:00;M;F;mgarcia@cohovineyard.com;70000;5;0;Graduate D;Management;1;2;467 Moccasin Ct.;;San Carlos;CA;94070;533-555-0118
+Janelle;L;Sara;05/06/1977 00:00;S;F;jsara@contoso.com;40000;0;0;Partial Hi;Clerical;0;2;5242 Marvelle Ln.;;San Carlos;CA;94070;301-555-0155
+Gary;K;Sanz;16/01/1977 00:00;M;M;gsanz@contoso.com;40000;0;0;Partial Hi;Clerical;1;2;6316 Parkway Drive;;San Carlos;CA;94070;201-555-0110
+Julia;C;Rivera;09/12/1977 00:00;S;F;jrivera@contoso.com;50000;0;0;Partial Co;Skilled Manual;0;2;8452 Dewing Avenue;;San Carlos;CA;94070;723-555-0157
+Makayla;E;Cook;26/11/1951 00:00;S;F;mcook@contoso.com;30000;3;0;High Schoo;Skilled Manual;0;2;9520 Milburn Dr.;;San Carlos;CA;94070;1 (11) 500 555-0197
+Noah;;Wang;22/06/1954 00:00;S;M;nwang@contoso.com;40000;3;0;Partial Hi;Clerical;0;2;22555 Paseo De Las Americas;;San Diego;CA;92102;1 (11) 500 555-0132
+Glenn;;He;02/08/1954 00:00;S;M;ghe@contoso.com;50000;2;0;Partial Co;Skilled Manual;0;2;3030 Blackburn Ct.;;San Diego;CA;92102;1 (11) 500 555-0166
+Kara;W;Raje;19/01/1975 00:00;S;F;kraje@contoso.com;50000;0;0;Partial Co;Skilled Manual;0;2;3162 Asilomaar Dr;;San Diego;CA;92102;967-555-0151
+Derrick;X;Alvarez;20/03/1975 00:00;S;M;dalvarez@contoso.com;50000;0;0;High Schoo;Skilled Manual;0;2;639 Bermad Drive;;San Diego;CA;92102;487-555-0167
+Philip;M;Serrano;20/11/1975 00:00;M;M;pserrano@contoso.com;50000;0;0;High Schoo;Skilled Manual;1;2;6754 Pamploma Ct.;#19;San Diego;CA;92102;531-555-0112
+Theresa;C;Gil;05/04/1957 00:00;M;F;tgil@contoso.com;70000;2;1;Partial Co;Professional;1;0;6936 Andrews Drive;;San Diego;CA;92102;829-555-0151
+Wayne;F;Goel;21/09/1961 00:00;M;M;wgoel@contoso.com;40000;4;3;High Schoo;Skilled Manual;1;3;764 Nahua;;San Diego;CA;92102;823-555-0158
+Suzanne;;Zhao;17/08/1942 00:00;S;F;szhao@contoso.com;60000;3;0;Graduate D;Management;0;2;8314 Brandywine Way;;San Diego;CA;92102;146-555-0116
+Maria;;Parker;12/04/1944 00:00;S;F;mparker@contoso.com;30000;5;0;Partial Hi;Clerical;0;2;8627 Laguna Street;;San Diego;CA;92102;894-555-0111
+Edwin;;Cai;24/07/1945 00:00;M;M;ecai@contoso.com;40000;5;0;High Schoo;Professional;0;2;8859 Wood Ranch Circle;;San Diego;CA;92102;915-555-0148
+Robert;L;Wilson;01/04/1945 00:00;M;M;rwilson@contoso.com;40000;5;0;High Schoo;Professional;1;2;9671 Leewood Place;;San Diego;CA;92102;709-555-0167
+Catherine;T;Bell;17/07/1945 00:00;S;F;cbell@contoso.com;40000;5;0;High Schoo;Professional;1;3;9913 Mt. Whitney Way;;San Diego;CA;92102;821-555-0153
+Noah;D;Sharma;10/09/1948 00:00;S;M;nsharma@contoso.com;40000;2;1;High Schoo;Professional;0;2;University Town Center;;San Diego;CA;92102;864-555-0159
+Linda;T;Blanco;18/06/1948 00:00;M;F;lblanco@contoso.com;40000;2;1;High Schoo;Professional;1;2;1234 Seaside Way;;San Francisco;CA;94109;138-555-0198
+Joanna;;Navarro;08/11/1949 00:00;S;F;jnavarro@contoso.com;50000;2;1;Partial Co;Professional;0;2;1460 Jasper Court;;San Francisco;CA;94109;690-555-0179
+Allen;L;Prasad;26/02/1949 00:00;S;M;aprasad@contoso.com;50000;2;1;Partial Co;Professional;0;2;1589 Mt. Tamalpais Place;;San Francisco;CA;94109;147-555-0179
+Rebekah;;Rodriguez;13/07/1957 00:00;S;F;rrodriguez@contoso.com;130000;3;4;Partial Co;Professional;1;3;2773 Kirkwood Dr;;San Francisco;CA;94109;1 (11) 500 555-0187
+Bruce;R;Verma;09/08/1955 00:00;M;M;bverma@contoso.com;110000;3;4;Partial Co;Professional;1;4;3588 Vancouver Way;;San Francisco;CA;94109;1 (11) 500 555-0166
+Alyssa;F;Long;09/10/1953 00:00;S;F;along@contoso.com;90000;4;2;Partial Co;Professional;0;1;4698 Royal Oak Rd.;;San Francisco;CA;94109;1 (11) 500 555-0199
+Alexia;W;Gonzales;02/04/1953 00:00;S;F;agonzales@contoso.com;90000;4;2;Partial Co;Professional;0;1;5097 Waterfall Way;;San Francisco;CA;94109;1 (11) 500 555-0140
+Clayton;G;Huang;19/11/1952 00:00;S;M;chuang@contoso.com;90000;4;1;Partial Co;Professional;1;2;5333 Adria Drive;;San Francisco;CA;94109;1 (11) 500 555-0186
+Anne;G;Suarez;05/03/1972 00:00;S;F;asuarez@contoso.com;110000;0;5;Partial Co;Management;1;3;5725 Glazier Drive;;San Francisco;CA;94109;1 (11) 500 555-0179
+Melinda;;Blanco;27/08/1970 00:00;M;F;mblanco@contoso.com;100000;0;5;Partial Hi;Professional;0;4;9149 San Simeon Drive;;San Francisco;CA;94109;1 (11) 500 555-0118
+Gina;G;Gomez;20/02/1971 00:00;S;F;ggomez@contoso.com;110000;0;5;Partial Hi;Management;0;4;978 Mozden Lane;;San Francisco;CA;94109;1 (11) 500 555-0116
+Micheal;C;Jimenez;22/09/1971 00:00;S;M;mjimenez@contoso.com;130000;5;5;Partial Hi;Management;0;4;1278 Holly Oak Drive;;San Gabriel;CA;91776;1 (11) 500 555-0141
+Billy;D;Vazquez;11/11/1964 00:00;S;M;bvazquez@contoso.com;80000;4;3;Partial Co;Professional;1;1;1880 Birchwood;;San Gabriel;CA;91776;401-555-0114
+Lucas;K;Patterson;21/04/1964 00:00;S;M;lpatterson@contoso.com;80000;4;3;Partial Co;Professional;0;1;3124 Fall Creek;;San Gabriel;CA;91776;471-555-0199
+Sergio;;Perez;08/06/1972 00:00;M;M;sperez@contoso.com;60000;1;0;Graduate D;Skilled Manual;1;0;313 Ladera;;San Gabriel;CA;91776;169-555-0190
+Edward;C;Simmons;04/01/1969 00:00;S;M;esimmons@contoso.com;60000;1;0;Graduate D;Professional;0;0;3200 Wren Ave.;#307;San Gabriel;CA;91776;196-555-0119
+Donna;;Jai;09/04/1968 00:00;M;F;djai@contoso.com;50000;2;2;Bachelors;Skilled Manual;1;1;3761 Cancroft Road;;San Gabriel;CA;91776;836-555-0163
+Brad;S;Luo;08/05/1970 00:00;S;M;bluo@contoso.com;60000;1;0;Graduate D;Professional;1;0;4111 Vista Diablo;;San Gabriel;CA;91776;481-555-0140
+Hailey;;Powell;20/06/1966 00:00;M;F;hpowell@contoso.com;50000;3;3;Bachelors;Skilled Manual;0;0;4217 Almond Avenue;;San Gabriel;CA;91776;412-555-0186
+Julian;A;Gonzales;08/08/1966 00:00;S;M;jgonzales@contoso.com;60000;0;0;Graduate D;Professional;1;0;4655 Shuey Ave;;San Gabriel;CA;91776;500-555-0177
+Cedric;I;Jai;14/08/1966 00:00;M;M;cjai@contoso.com;70000;5;0;Graduate D;Professional;1;0;4911 Dubhe Court;;San Gabriel;CA;91776;311-555-0193
+Matthew;R;Wilson;24/03/1969 00:00;S;M;mwilson@contoso.com;70000;5;5;Graduate D;Professional;1;2;7185 Westcliffe Place;;San Gabriel;CA;91776;983-555-0113
+Christian;M;Diaz;08/10/1965 00:00;M;M;cdiaz@contoso.com;50000;3;3;Bachelors;Skilled Manual;1;2;7254 Buchanan Road;11;San Gabriel;CA;91776;766-555-0132
+Joe;C;Rodriguez;28/06/1964 00:00;M;M;jrodriguez@contoso.com;50000;4;4;Bachelors;Skilled Manual;1;3;8924 Lindley Ct.;;San Gabriel;CA;91776;368-555-0147
+Marissa;;Jenkins;03/04/1964 00:00;M;F;mjenkins@contoso.com;50000;4;2;Bachelors;Skilled Manual;1;2;630 N. Capitol Ave.;;San Jose;CA;95112;725-555-0124
+Carson;D;Bennett;14/09/1972 00:00;M;M;cbennett@contoso.com;30000;0;0;High Schoo;Manual;1;1;Stevens Creek Shopping Center;;San Jose;CA;95112;1 (11) 500 555-0192
+Sheena;L;Sharma;19/07/1972 00:00;M;F;ssharma@contoso.com;40000;2;2;Partial Co;Clerical;0;0;9920 Bridgepointe Parkway;;San Mateo;CA;94404;1 (11) 500 555-0118
+Jacob;M;Martin;02/06/1970 00:00;M;M;jmartin@contoso.com;40000;2;2;Partial Co;Clerical;1;2;60025 Bollinger Canyong Road;;San Ramon;CA;94583;1 (11) 500 555-0158
+Bruce;R;Malhotra;13/11/1966 00:00;S;M;bmalhotra@contoso.com;50000;0;0;Graduate D;Skilled Manual;1;0;San Diego Factory;;San Ysidro;CA;92173;725-555-0129
+Jordan;Y;Hayes;28/05/1966 00:00;M;M;jhayes@contoso.com;50000;0;0;Graduate D;Skilled Manual;0;0;99040 California Avenue;;Sand City;CA;93955;167-555-0137
+Jerry;;Goel;13/08/1955 00:00;M;M;jgoel@contoso.com;40000;1;0;Partial Co;Clerical;1;1;25600 E St Andrews Pl;;Santa Ana;CA;92701;568-555-0158
+Blake;H;King;06/02/1958 00:00;S;M;bking@contoso.com;40000;2;0;Partial Co;Clerical;1;1;Po Box 252525;;Santa Ana;CA;92701;156-555-0190
+Franklin;;Cai;08/08/1959 00:00;S;M;fcai@contoso.com;50000;4;0;Graduate D;Skilled Manual;0;0;2904 Bay View Drive;;Santa Cruz;CA;95062;433-555-0156
+Gerald;M;Garcia;02/09/1973 00:00;S;M;ggarcia@contoso.com;50000;1;0;Graduate D;Skilled Manual;0;0;4405 Balboa Court;;Santa Cruz;CA;95062;246-555-0168
+Mariah;;Alexander;21/12/1973 00:00;M;F;malexander@contoso.com;50000;1;0;Graduate D;Skilled Manual;1;0;4416 Harvard Drive;;Santa Cruz;CA;95062;390-555-0121
+Candace;;Garcia;13/11/1962 00:00;M;F;cgarcia@contoso.com;10000;1;0;Graduate D;Manual;1;0;5255 Corte Valencia;;Santa Cruz;CA;95062;1 (11) 500 555-0117
+Kari;;Diaz;13/09/1962 00:00;M;F;kdiaz@contoso.com;10000;1;0;Graduate D;Manual;1;0;7086 C Wharton Way;;Santa Cruz;CA;95062;1 (11) 500 555-0161
+Meagan;;Garcia;08/10/1962 00:00;S;F;mgarcia@contoso.com;10000;1;0;Bachelors;Manual;0;0;7090 C. Mount Hood;;Santa Cruz;CA;95062;1 (11) 500 555-0190
+George;L;Malhotra;03/05/1961 00:00;M;M;gmalhotra@contoso.com;10000;1;0;Bachelors;Manual;1;0;7214 Peachwillow;;Santa Cruz;CA;95062;1 (11) 500 555-0118
+Holly;;Rodriguez;21/06/1977 00:00;S;F;hrodriguez@contoso.com;10000;0;0;High Schoo;Manual;0;2;7350 Pinon;;Santa Cruz;CA;95062;1 (11) 500 555-0140
+Javier;;Romero;13/07/1968 00:00;S;M;jromero@contoso.com;20000;1;1;Partial Co;Manual;1;0;8892 Columbia River Ct.;;Santa Cruz;CA;95062;1 (11) 500 555-0116
+Lindsey;;Rai;24/12/1967 00:00;M;F;lrai@contoso.com;20000;1;1;Partial Co;Manual;1;1;9006 Woodside Way;;Santa Cruz;CA;95062;1 (11) 500 555-0186
+Charles;A;Roberts;12/08/1967 00:00;M;M;croberts@contoso.com;30000;1;1;Bachelors;Clerical;1;1;1267 Scenic Drive;;Santa Monica;CA;90401;1 (11) 500 555-0195
+Rosa;S;Zhu;04/03/1966 00:00;S;F;rzhu@contoso.com;10000;4;4;Partial Hi;Manual;1;1;3723 Mt. Sequoia Ct.;;Santa Monica;CA;90401;1 (11) 500 555-0193
+Leah;L;Gao;12/07/1966 00:00;S;F;lgao@contoso.com;30000;2;2;Partial Co;Manual;0;0;409 Santa Monica Blvd.;;Santa Monica;CA;90401;1 (11) 500 555-0164
+Colin;;Sharma;11/02/1964 00:00;M;M;csharma@contoso.com;30000;2;2;Partial Co;Clerical;1;2;438 Mt. Etna;;Santa Monica;CA;90401;1 (11) 500 555-0139
+Vincent;C;Zeng;25/06/1962 00:00;M;M;vzeng@contoso.com;40000;1;0;Bachelors;Skilled Manual;0;1;4999 Corte Segunda;;Santa Monica;CA;90401;1 (11) 500 555-0133
+Thomas;L;Scott;13/10/1976 00:00;M;M;tscott@contoso.com;20000;0;0;High Schoo;Manual;0;1;5254 Daylight Place;;Santa Monica;CA;90401;1 (11) 500 555-0141
+Jacob;A;Jackson;12/10/1975 00:00;S;M;jjackson@contoso.com;30000;0;0;Partial Co;Clerical;0;1;6703 Milburn Dr.;;Santa Monica;CA;90401;1 (11) 500 555-0124
+Isabella;C;Ramirez;24/02/1980 00:00;M;F;iramirez@contoso.com;20000;0;0;Partial Hi;Manual;0;2;6891 Relis Valley Road;;Santa Monica;CA;90401;1 (11) 500 555-0187
+Derrick;D;Suarez;11/02/1978 00:00;S;M;dsuarez@contoso.com;30000;0;0;High Schoo;Manual;1;1;8354 Ponderosa Drive;;Santa Monica;CA;90401;1 (11) 500 555-0194
+Dennis;;Lu;10/03/1967 00:00;M;M;dlu@contoso.com;50000;0;0;Partial Co;Skilled Manual;1;1;Riverside/woodman;;Sherman Oaks;CA;91403;479-555-0164
+Wendy;B;Alonso;24/12/1960 00:00;M;F;walonso@contoso.com;50000;1;0;Partial Co;Skilled Manual;1;1;Simi @ The Plaza;;Simi Valley;CA;93065;723-555-0118
+Dalton;;Harris;22/02/1959 00:00;M;M;dharris@contoso.com;70000;1;0;Graduate D;Professional;1;1;298 Sunnybrook Drive;;Spring Valley;CA;91977;545-555-0120
+Joy;M;Gil;13/08/1960 00:00;S;F;jgil@contoso.com;30000;3;0;Bachelors;Clerical;1;0;3159 C Wharton Way;;Spring Valley;CA;91977;1 (11) 500 555-0131
+Holly;;Madan;11/04/1969 00:00;S;F;hmadan@contoso.com;10000;2;2;High Schoo;Manual;0;0;3382 Greer Ave;;Spring Valley;CA;91977;1 (11) 500 555-0198
+Renee;C;Blanco;09/06/1970 00:00;S;F;rblanco@contoso.com;30000;0;0;Bachelors;Clerical;0;0;3596 Kingsford Dr.;;Spring Valley;CA;91977;1 (11) 500 555-0167
+Roberto;M;Castro;09/07/1969 00:00;M;M;rcastro@contoso.com;30000;0;0;Bachelors;Clerical;1;0;4016 Boyd;;Spring Valley;CA;91977;1 (11) 500 555-0159
+Byron;;Torres;09/04/1969 00:00;M;M;btorres@contoso.com;40000;0;0;Graduate D;Clerical;1;0;6835 Lynwood Drive;;Spring Valley;CA;91977;1 (11) 500 555-0154
+Donna;;Nara;26/10/1968 00:00;S;F;dnara@contoso.com;40000;0;0;Graduate D;Clerical;1;0;8166 Starflower Dr;;Spring Valley;CA;91977;1 (11) 500 555-0114
+Mallory;M;Torres;06/11/1925 00:00;S;F;mtorres@contoso.com;40000;1;0;Graduate D;Skilled Manual;0;0;8380 Paso Del Rio Court;;Spring Valley;CA;91977;1 (11) 500 555-0175
+Mariah;;Morris;22/09/1967 00:00;S;F;mmorris@contoso.com;40000;0;0;Bachelors;Clerical;0;0;8756 Nottingham Pl.;;Spring Valley;CA;91977;1 (11) 500 555-0139
+Max;;Castro;03/02/1964 00:00;S;M;mcastro@contoso.com;20000;3;3;High Schoo;Manual;0;0;54254 Pacific Ave.;;Stockton;CA;95202;1 (11) 500 555-0132
+Bryce;D;Sanchez;15/10/1965 00:00;M;M;bsanchez@contoso.com;30000;2;2;Partial Co;Clerical;1;1;1657 Morengo Ct.;;Torrance;CA;90505;1 (11) 500 555-0193
+Shannon;S;Moreno;10/05/1964 00:00;S;M;smoreno@contoso.com;40000;1;0;Bachelors;Skilled Manual;0;0;1707 Willowwood Ct.;;Torrance;CA;90505;1 (11) 500 555-0159
+Joel;;Lopez;04/03/1963 00:00;M;M;jlopez@contoso.com;30000;2;2;Partial Co;Clerical;1;2;2863 Polk Street;;Torrance;CA;90505;1 (11) 500 555-0170
+Megan;D;Lee;14/02/1979 00:00;M;F;mlee@contoso.com;20000;4;4;High Schoo;Manual;1;3;3475 Chablis Court;;Torrance;CA;90505;1 (11) 500 555-0148
+Nicole;;Garcia;03/02/1975 00:00;M;F;ngarcia@contoso.com;20000;0;0;Partial Hi;Manual;0;1;3919 El Pintado Road;;Torrance;CA;90505;1 (11) 500 555-0163
+Sydney;;Nelson;04/04/1975 00:00;S;F;snelson@contoso.com;30000;0;0;Partial Co;Clerical;1;1;6067 Mt. Diablo St.;;Torrance;CA;90505;1 (11) 500 555-0178
+Drew;C;Nath;17/09/1975 00:00;M;M;dnath@contoso.com;30000;0;0;Partial Co;Clerical;1;1;639 La Corte Bonita;;Torrance;CA;90505;1 (11) 500 555-0172
+Lydia;;Mehta;02/04/1979 00:00;M;F;lmehta@contoso.com;30000;0;0;Partial Co;Clerical;0;1;7179 Montana;;Torrance;CA;90505;1 (11) 500 555-0114
+Taylor;W;Sanchez;09/02/1961 00:00;S;F;tsanchez@contoso.com;50000;1;0;Partial Co;Skilled Manual;1;1;7413 Alpine Drive;;Torrance;CA;90505;939-555-0169
+Carly;;Pal;12/11/1963 00:00;M;F;cpal@contoso.com;60000;3;2;Bachelors;Professional;0;2;8624 Pepperidge Way;;Torrance;CA;90505;1 (11) 500 555-0153
+Jodi;;Raji;23/06/1963 00:00;M;F;jraji@contoso.com;70000;0;0;Bachelors;Professional;1;1;8714 St. Paul Way;;Torrance;CA;90505;1 (11) 500 555-0111
+Carrie;M;Navarro;01/12/1967 00:00;M;F;cnavarro@contoso.com;80000;5;5;Bachelors;Professional;1;4;99235 Hawthorne Blvd.;;Torrance;CA;90505;1 (11) 500 555-0116
+Barbara;T;Chander;22/03/1957 00:00;M;F;bchander@contoso.com;50000;1;0;Partial Co;Skilled Manual;1;1;3065 Santa Margarita Parkway;;Trabuco Canyon;CA;92679;1 (11) 500 555-0139
+Omar;N;Luo;12/05/1976 00:00;S;M;oluo@contoso.com;30000;0;0;High Schoo;Skilled Manual;0;2;9992 Whipple Rd;;Union City;CA;94587;167-555-0125
+Deborah;A;Jai;15/09/1980 00:00;S;F;djai@contoso.com;30000;0;0;High Schoo;Skilled Manual;1;2;Mountain Square;;Upland;CA;91786;230-555-0186
+Katie;E;Tang;27/04/1937 00:00;M;F;ktang@contoso.com;40000;2;0;Bachelors;Management;0;2;Nut Tree Factory;;Vacaville;CA;95688;1 (11) 500 555-0115
+Catherine;C;Cook;10/11/1978 00:00;S;F;ccook@contoso.com;40000;0;0;High Schoo;Skilled Manual;0;2;57251 Sepulveda Blvd;;Van Nuys;CA;91411;965-555-0148
+Ethan;;Miller;13/10/1972 00:00;M;M;emiller@contoso.com;70000;0;0;Partial Co;Skilled Manual;1;2;70259 West Sunnyview Ave;;Visalia;CA;93291;861-555-0119
+Pamela;;Arun;14/02/1971 00:00;M;F;parun@contoso.com;50000;1;1;Graduate D;Skilled Manual;0;0;25751 University Drive;;Vista;CA;92084;841-555-0117
+Karl;G;Bhat;17/07/1962 00:00;S;M;kbhat@contoso.com;80000;5;4;Partial Co;Professional;0;3;North County Square;;Vista;CA;92084;383-555-0197
+Natalie;P;Price;22/08/1936 00:00;M;F;nprice@contoso.com;50000;2;0;Graduate D;Management;1;2;25871 North Main Street;;Walnut Creek;CA;94596;720-555-0119
+Erin;L;Ward;10/05/1953 00:00;M;F;eward@contoso.com;50000;3;0;Graduate D;Management;1;2;1265 Gloria Terr.;;West Covina;CA;91791;277-555-0184
+Alexandra;L;Kelly;25/06/1952 00:00;M;F;akelly@contoso.com;40000;3;0;Partial Co;Professional;0;2;1667 Warren Street;;West Covina;CA;91791;711-555-0167
+Eric;;Butler;27/06/1939 00:00;M;M;ebutler@contoso.com;70000;5;0;Graduate D;Management;1;2;1941 Hacienda;;West Covina;CA;91791;196-555-0126
+Stefanie;O;Madan;14/05/1941 00:00;M;F;smadan@contoso.com;50000;4;0;Bachelors;Management;1;2;218 Fall Creek Road;;West Covina;CA;91791;640-555-0169
+Andrea;B;Carter;17/02/1977 00:00;M;F;acarter@contoso.com;50000;0;0;Partial Co;Skilled Manual;1;2;220 Rose Ann Ave.;#103;West Covina;CA;91791;616-555-0135
+Ethan;B;Washington;05/11/1955 00:00;S;M;ewashington@contoso.com;50000;2;0;High Schoo;Skilled Manual;0;2;2258 Pablo Neruda;;West Covina;CA;91791;1 (11) 500 555-0125
+Bobby;;Malhotra;13/04/1955 00:00;M;M;bmalhotra@contoso.com;50000;2;0;High Schoo;Skilled Manual;1;2;3326 Indianhead Ct.;;West Covina;CA;91791;1 (11) 500 555-0112
+Raul;J;Xie;16/11/1956 00:00;S;M;rxie@contoso.com;50000;2;0;High Schoo;Skilled Manual;0;2;5508 Trembath Court;;West Covina;CA;91791;1 (11) 500 555-0119
+Mariah;;Cook;12/04/1965 00:00;S;F;mcook@contoso.com;90000;4;4;Partial Co;Professional;0;3;5518 San Rafael;;West Covina;CA;91791;772-555-0120
+Joshua;;Moore;01/06/1942 00:00;M;M;jmoore@contoso.com;60000;3;0;Graduate D;Management;1;2;6206 Heavenly Drive;;West Covina;CA;91791;138-555-0168
+Jessica;A;Washington;20/03/1947 00:00;M;F;jwashington@contoso.com;50000;2;1;Partial Co;Professional;0;1;6742 Cleaveland Road;;West Covina;CA;91791;584-555-0192
+Pedro;L;Perez;13/11/1949 00:00;S;M;pperez@contoso.com;40000;2;1;High Schoo;Professional;1;2;6957 Corte Poquito;;West Covina;CA;91791;932-555-0196
+Mackenzie;;Turner;15/01/1951 00:00;M;F;mturner@contoso.com;50000;2;1;High Schoo;Professional;0;2;8844 Garcia;;West Covina;CA;91791;648-555-0148
+Julia;;Gray;18/10/1952 00:00;S;F;jgray@contoso.com;50000;2;1;Partial Hi;Skilled Manual;1;3;9435 Breck Court;;West Covina;CA;91791;534-555-0111
+Sabrina;E;Gomez;09/04/1944 00:00;S;F;sgomez@contoso.com;70000;5;1;High Schoo;Professional;0;2;The Quad @ Whittier;;Whittier;CA;90605;1 (11) 500 555-0112
+Savannah;;Nelson;24/08/1953 00:00;S;F;snelson@contoso.com;90000;3;2;Partial Co;Professional;0;1;1064 William Way;;Woodland Hills;CA;91364;1 (11) 500 555-0153
+Krista;A;Rubio;19/11/1954 00:00;M;F;krubio@contoso.com;100000;3;4;High Schoo;Professional;0;3;1168 Escobar;;Woodland Hills;CA;91364;1 (11) 500 555-0183
+Matthew;;Lewis;12/03/1952 00:00;M;M;mlewis@contoso.com;90000;4;1;Partial Co;Professional;1;2;1342 Isla Bonita;;Woodland Hills;CA;91364;1 (11) 500 555-0170
+Cameron;L;Ross;22/03/1952 00:00;M;M;cross@contoso.com;90000;4;1;Partial Co;Professional;1;2;3795 Tabora Drive;;Woodland Hills;CA;91364;1 (11) 500 555-0116
+Omar;E;Guo;17/08/1948 00:00;S;M;oguo@contoso.com;90000;4;1;High Schoo;Management;1;3;6793 Bonifacio St.;;Woodland Hills;CA;91364;1 (11) 500 555-0114
+Bryant;J;Madan;08/06/1975 00:00;M;M;bmadan@contoso.com;70000;0;0;High Schoo;Management;1;2;734 Selena Court;;Woodland Hills;CA;91364;1 (11) 500 555-0137
+Makayla;L;Morris;28/09/1976 00:00;M;F;mmorris@contoso.com;70000;0;0;High Schoo;Management;1;2;8157 W. Buchanan;;Woodland Hills;CA;91364;1 (11) 500 555-0126
+Johnny;;Bhat;05/07/1974 00:00;M;M;jbhat@contoso.com;80000;0;0;High Schoo;Management;1;3;8309 Colonial Way;;Woodland Hills;CA;91364;1 (11) 500 555-0185
+Nicole;M;Morgan;01/02/1974 00:00;S;F;nmorgan@contoso.com;80000;0;0;High Schoo;Management;1;3;8885 Partridge Dr.;;Woodland Hills;CA;91364;1 (11) 500 555-0169
+Clinton;D;Ortega;06/10/1971 00:00;M;M;cortega@contoso.com;100000;0;5;High Schoo;Management;1;4;8942 Sierra Road;;Woodland Hills;CA;91364;1 (11) 500 555-0113
+Kathryn;;Tang;26/02/1971 00:00;M;F;ktang@contoso.com;100000;0;5;High Schoo;Management;1;4;2000 300th Street;;Denver;CO;80203;1 (11) 500 555-0115
+Steve;L;Huang;06/07/1970 00:00;M;M;shuang@contoso.com;50000;1;1;Bachelors;Skilled Manual;1;1;2342 Peachwillow;;Denver;CO;80203;585-555-0145
+Mason;;Reed;19/08/1967 00:00;M;M;mreed@contoso.com;50000;2;2;Bachelors;Skilled Manual;1;1;2530 South Colorado Blvd.;;Denver;CO;80203;731-555-0113
+Noah;;Kumar;11/04/1966 00:00;M;M;nkumar@contoso.com;70000;4;0;Graduate D;Professional;1;0;955 E. County Line Rd.;;Englewood;CO;80110;169-555-0168
+Lisa;J;Sun;03/07/1978 00:00;M;F;lsun@contoso.com;30000;0;0;High Schoo;Manual;1;1;5525 South Hover Road;;Longmont;CO;80501;1 (11) 500 555-0199
+Sabrina;;Navarro;22/04/1972 00:00;M;F;snavarro@contoso.com;40000;1;1;Bachelors;Skilled Manual;0;1;2575 Rocky Mountain Ave.;;Loveland;CO;80537;1 (11) 500 555-0172
+Brandon;E;Griffin;04/02/1971 00:00;S;M;bgriffin@contoso.com;10000;0;0;Partial Hi;Manual;0;2;Rocky Mountain Pines Outlet;;Loveland;CO;80537;1 (11) 500 555-0133
+Richard;C;Perry;07/12/1971 00:00;S;M;rperry@contoso.com;30000;0;0;High Schoo;Manual;0;1;8525 South Parker Road;;Parker;CO;80138;1 (11) 500 555-0160
+Richard;;Hall;25/06/1974 00:00;S;M;rhall@contoso.com;40000;3;3;Partial Co;Clerical;0;2;5650 West 88th Ave.;;Westminster;CO;80030;156-555-0156
+Shawna;;Nara;14/09/1966 00:00;M;F;snara@contoso.com;50000;0;0;Graduate D;Skilled Manual;1;0;789 West Alameda;;Westminster;CO;80030;266-555-0124
+Ian;;Parker;15/02/1966 00:00;S;M;iparker@contoso.com;50000;0;0;Graduate D;Skilled Manual;0;0;Saltonstall Parkway;;East Haven;CT;6512;923-555-0187
+Meagan;A;Rodriguez;08/03/1954 00:00;S;F;mrodriguez@contoso.com;30000;1;0;High Schoo;Clerical;1;1;225 Hyde Rd;;Farmington;CT;6032;409-555-0197
+Dylan;W;White;23/11/1959 00:00;S;M;dwhite@contoso.com;40000;2;0;Partial Co;Clerical;0;1;99200 Dixwell Ave.;;Hamden;CT;6518;922-555-0131
+Rafael;W;Guo;25/08/1959 00:00;S;M;rguo@contoso.com;50000;4;0;Graduate D;Skilled Manual;0;0;630 Oldgate Lane;;Milford;CT;6460;882-555-0197
+Andres;;Xu;03/04/1973 00:00;M;M;axu@contoso.com;10000;0;0;Graduate D;Manual;1;0;Connecticut Post Mall;;Milford;CT;6460;1 (11) 500 555-0179
+Amanda;R;Sanchez;22/07/1957 00:00;S;F;asanchez@contoso.com;10000;1;0;Bachelors;Clerical;1;0;Amity Plaza;;New Haven;CT;6510;1 (11) 500 555-0122
+Krista;;Dominguez;19/12/1955 00:00;S;F;kdominguez@contoso.com;10000;2;0;Partial Co;Manual;0;1;9963 Tresser Blvd.;;Stamford;CT;6901;1 (11) 500 555-0133
+Kristi;A;Jimenez;08/10/1960 00:00;S;F;kjimenez@contoso.com;10000;1;1;High Schoo;Manual;1;1;9975 Union St.;;Waterbury;CT;6710;1 (11) 500 555-0185
+Gabrielle;P;Allen;20/06/1958 00:00;M;F;gallen@contoso.com;30000;1;0;Graduate D;Clerical;1;0;25850 Post Road;;Westport;CT;6880;1 (11) 500 555-0170
+Darren;T;Martinez;21/05/1974 00:00;S;M;dmartinez@contoso.com;30000;0;0;Partial Co;Clerical;1;1;650 E Altamonte Dr;;Altamonte Springs;FL;32701;1 (11) 500 555-0141
+Christy;G;Zhao;07/09/1959 00:00;S;F;czhao@contoso.com;70000;5;5;Graduate D;Professional;0;3;2530 C Del Rio Circle;;Bradenton;FL;34205;753-555-0191
+Allison;;Hall;10/06/1958 00:00;S;F;ahall@contoso.com;80000;5;4;Graduate D;Professional;0;0;Desoto Square;;Bradenton;FL;34205;162-555-0176
+Bailey;;Nelson;11/01/1969 00:00;S;F;bnelson@contoso.com;80000;4;4;Graduate D;Management;1;1;23456 Calumet St;;Clearwater;FL;33755;1 (11) 500 555-0126
+Charles;A;Edwards;17/04/1969 00:00;S;M;cedwards@contoso.com;90000;2;0;Bachelors;Professional;0;0;2530 Willow Court;;Clearwater;FL;33755;1 (11) 500 555-0153

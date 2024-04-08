@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="allOrders">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="orders">
+          <xs:complexType>
+            <xs:attribute name="OrderID" type="xs:unsignedShort" use="optional" />
+            <xs:attribute name="CustomerID" type="xs:string" use="optional" />
+            <xs:attribute name="EmployeeID" type="xs:unsignedByte" use="optional" />
+            <xs:attribute name="OrderDate" type="xs:dateTime" use="optional" />
+            <xs:attribute name="RequiredDate" type="xs:dateTime" use="optional" />
+            <xs:attribute name="ShippedDate" type="xs:dateTime" use="optional" />
+            <xs:attribute name="ShipVia" type="xs:unsignedByte" use="optional" />
+            <xs:attribute name="Freight" type="xs:decimal" use="optional" />
+            <xs:attribute name="ShipName" type="xs:string" use="optional" />
+            <xs:attribute name="ShipAddress" type="xs:string" use="optional" />
+            <xs:attribute name="ShipCity" type="xs:string" use="optional" />
+            <xs:attribute name="ShipPostalCode" type="xs:string" use="optional" />
+            <xs:attribute name="ShipCountryRegion" type="xs:string" use="optional" />
+            <xs:attribute name="ShipCountryRegionRegion" type="xs:string" use="optional" />
+            <xs:attribute name="ShipRegion" type="xs:string" use="optional" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

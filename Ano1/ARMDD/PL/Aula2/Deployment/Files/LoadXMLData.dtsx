@@ -1,0 +1,1202 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="1/26/2006 2:12:13 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="ComputerName"
+  DTS:CreatorName="Domain\UserName"
+  DTS:DelayValidation="True"
+  DTS:DTSID="{A6CDDF8F-2ADA-4DBE-9C01-5557BEA48A92}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="12.0.4100.1"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="LoadXMLData"
+  DTS:PackageType="5"
+  DTS:VersionBuild="34"
+  DTS:VersionGUID="{45C46EBB-10DD-439C-9BFF-9AC210EF5F8C}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[(local).AdventureWorks]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{F1343EDC-6F38-4481-A059-B58484D301F2}"
+      DTS:ObjectName="(local).AdventureWorks">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=(local);Initial Catalog=AdventureWorks2012;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-LoadXMLData-{F1343EDC-6F38-4481-A059-B58484D301F2}(local).AdventureWorks;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Create or truncate table"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{F4D99FD2-A12F-41D4-BC72-A4668B0B0194}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Create or truncate table"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{F1343EDC-6F38-4481-A059-B58484D301F2}"
+          SQLTask:BypassPrepare="False"
+          SQLTask:SqlStatementSource="IF NOT EXISTS (SELECT * FROM sys.tables WHERE type ='U' and name = 'OrderDatesByCountryRegion')&#xA;CREATE TABLE [OrderDatesByCountryRegion]&#xA;(&#xA;    [ShipCountryRegion] NVARCHAR(50),&#xA;    [ShipCountryRegionCount] INT,&#xA;    [OldestOrderDate] DATETIME,&#xA;    [NewestOrderDate] DATETIME&#xA;)&#xA;ELSE&#xA;TRUNCATE TABLE OrderDatesByCountryRegion&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Load XML Data"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{96F95B36-1D05-4522-92FC-1181AB9A45F1}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load XML Data"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server v9; (C) 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          BLOBTempStoragePath=""
+          bufferTempStoragePath=""
+          engineThreads="5"
+          version="1">
+          <components>
+            <component
+              refId="Package\Load XML Data\Aggregate"
+              componentClassID="Microsoft.Aggregate"
+              contactInfo="Aggregate;Microsoft Corporation;Microsoft SqlServer v9; (C) 2005 Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;3"
+              description="Aggregates and groups values in a dataset."
+              name="Aggregate"
+              version="3">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the approximate number of group by keys that the aggregation produces. Low indicates 500,000 key values, Medium indicates 5 million key values, and High indicates more than 25 million key values. Unspecified indicates no KeyScale value is used."
+                  name="KeyScale"
+                  typeConverter="KeyScaleType">0</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the exact number of group by keys that the aggregation produces. If a KeyScale value is specified, the value in Keys takes precedence."
+                  name="Keys" />
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the approximate number of distinct values in a column that the aggregation counts distinctly. Low indicates 500,000 key values, Medium indicates 5 million key values, and High indicates more than 25 million key values. Unspecified indicates no CountDistinctScale value is used."
+                  name="CountDistinctScale"
+                  typeConverter="KeyScaleType">0</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the exact number of distinct values in a column that the aggregation counts distinctly. If a CountDistinctScale value is specified, the value in CountDistinctKeys takes precedence."
+                  name="CountDistinctKeys" />
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage by which memory can be extended during the aggregation. Valid values are between 1 and 100."
+                  name="AutoExtendFactor">25</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Load XML Data\Aggregate.Inputs[Aggregate Input 1]"
+                  name="Aggregate Input 1">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load XML Data\Aggregate.Inputs[Aggregate Input 1].Columns[ShipCountryRegion]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="ShipCountryRegion"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders].Columns[ShipCountryRegion]" />
+                    <inputColumn
+                      refId="Package\Load XML Data\Aggregate.Inputs[Aggregate Input 1].Columns[OrderDate]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="OrderDate"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders].Columns[OrderDate]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load XML Data\Aggregate.Outputs[Aggregate Output 1]"
+                  name="Aggregate Output 1">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the approximate number of group by keys that the aggregation produces. Low indicates 500,000 key values, Medium indicates 5 million key values, and High indicates more than 25 million key values. Unspecified indicates no KeyScale value is used."
+                      name="KeyScale"
+                      typeConverter="KeyScaleType">0</property>
+                    <property
+                      dataType="System.Null"
+                      description="Specifies the exact number of group by keys that the aggregation produces. If a KeyScale value is specified, the value in Keys takes precedence."
+                      name="Keys" />
+                  </properties>
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load XML Data\Aggregate.Outputs[Aggregate Output 1].Columns[ShipCountryRegion]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Load XML Data\Aggregate.Outputs[Aggregate Output 1].Columns[ShipCountryRegion]"
+                      name="ShipCountryRegion">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column used in the aggregation."
+                          name="AggregationColumnId">#{Package\Load XML Data\XML Source.Outputs[orders].Columns[ShipCountryRegion]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the type of aggregation."
+                          name="AggregationType"
+                          typeConverter="AggregationType">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indicates whether the column requires special handling because it may contain oversized data or it requires precision beyond a float data type."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the string comparison options."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load XML Data\Aggregate.Outputs[Aggregate Output 1].Columns[ShipCountryRegionCount]"
+                      dataType="ui8"
+                      lineageId="Package\Load XML Data\Aggregate.Outputs[Aggregate Output 1].Columns[ShipCountryRegionCount]"
+                      name="ShipCountryRegionCount">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column used in the aggregation."
+                          name="AggregationColumnId">#{Package\Load XML Data\XML Source.Outputs[orders].Columns[ShipCountryRegion]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the type of aggregation."
+                          name="AggregationType"
+                          typeConverter="AggregationType">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indicates whether the column requires special handling because it may contain oversized data or it requires precision beyond a float data type."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the string comparison options."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load XML Data\Aggregate.Outputs[Aggregate Output 1].Columns[OldestOrderDate]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Load XML Data\Aggregate.Outputs[Aggregate Output 1].Columns[OldestOrderDate]"
+                      name="OldestOrderDate">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column used in the aggregation."
+                          name="AggregationColumnId">#{Package\Load XML Data\XML Source.Outputs[orders].Columns[OrderDate]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the type of aggregation."
+                          name="AggregationType"
+                          typeConverter="AggregationType">6</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indicates whether the column requires special handling because it may contain oversized data or it requires precision beyond a float data type."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the string comparison options."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load XML Data\Aggregate.Outputs[Aggregate Output 1].Columns[NewestOrderDate]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Load XML Data\Aggregate.Outputs[Aggregate Output 1].Columns[NewestOrderDate]"
+                      name="NewestOrderDate">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column used in the aggregation."
+                          name="AggregationColumnId">#{Package\Load XML Data\XML Source.Outputs[orders].Columns[OrderDate]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the type of aggregation."
+                          name="AggregationType"
+                          typeConverter="AggregationType">7</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indicates whether the column requires special handling because it may contain oversized data or it requires precision beyond a float data type."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the string comparison options."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load XML Data\Conditional Split"
+              componentClassID="Microsoft.ConditionalSplit"
+              contactInfo="Conditional Split;Microsoft Corporation;Microsoft SqlServer v9; (C) 2005 Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Evaluates and directs rows in a dataset."
+              name="Conditional Split"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Load XML Data\Conditional Split.Inputs[Conditional Split Input]"
+                  description="Input to the Conditional Split Transformation"
+                  name="Conditional Split Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load XML Data\Conditional Split.Inputs[Conditional Split Input].Columns[ShipCountryRegion]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="ShipCountryRegion"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders].Columns[ShipCountryRegion]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load XML Data\Conditional Split.Outputs[HasCountryRegion]"
+                  description="Output 1 of the Conditional Split Transformation"
+                  errorOrTruncationOperation="Computation"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="HasCountryRegion"
+                  synchronousInputId="Package\Load XML Data\Conditional Split.Inputs[Conditional Split Input]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                      name="Expression">![ISNULL](#{Package\Load XML Data\XML Source.Outputs[orders].Columns[ShipCountryRegion]})</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the friendly version of the expression. This expression version uses column names."
+                      expressionType="Notify"
+                      name="FriendlyExpression">!ISNULL(ShipCountryRegion)</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                      name="EvaluationOrder">0</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load XML Data\Conditional Split.Outputs[Conditional Split Default Output]"
+                  description="Default Output of the Conditional Split Transformation"
+                  exclusionGroup="1"
+                  name="Conditional Split Default Output"
+                  synchronousInputId="Package\Load XML Data\Conditional Split.Inputs[Conditional Split Input]">
+                  <properties>
+                    <property
+                      dataType="System.Boolean"
+                      name="IsDefaultOut">true</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load XML Data\Conditional Split.Outputs[Conditional Split Error Output]"
+                  description="Error Output of the Conditional Split Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Conditional Split Error Output"
+                  synchronousInputId="Package\Load XML Data\Conditional Split.Inputs[Conditional Split Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load XML Data\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load XML Data\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load XML Data\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load XML Data\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load XML Data\OLE DB Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation;Microsoft SqlServer v9; (C) 2005 Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[OrderDatesByCountryRegion]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destinaton. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">0</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load XML Data\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[(local).AdventureWorks]"
+                  connectionManagerRefId="Package.ConnectionManagers[(local).AdventureWorks]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Load XML Data\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load XML Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ShipCountryRegion]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ShipCountryRegion"
+                      externalMetadataColumnId="Package\Load XML Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ShipCountryRegion]"
+                      lineageId="Package\Load XML Data\Aggregate.Outputs[Aggregate Output 1].Columns[ShipCountryRegion]" />
+                    <inputColumn
+                      refId="Package\Load XML Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ShipCountryRegionCount]"
+                      cachedDataType="ui8"
+                      cachedName="ShipCountryRegionCount"
+                      externalMetadataColumnId="Package\Load XML Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ShipCountryRegionCount]"
+                      lineageId="Package\Load XML Data\Aggregate.Outputs[Aggregate Output 1].Columns[ShipCountryRegionCount]" />
+                    <inputColumn
+                      refId="Package\Load XML Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[OldestOrderDate]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="OldestOrderDate"
+                      externalMetadataColumnId="Package\Load XML Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[OldestOrderDate]"
+                      lineageId="Package\Load XML Data\Aggregate.Outputs[Aggregate Output 1].Columns[OldestOrderDate]" />
+                    <inputColumn
+                      refId="Package\Load XML Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[NewestOrderDate]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="NewestOrderDate"
+                      externalMetadataColumnId="Package\Load XML Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NewestOrderDate]"
+                      lineageId="Package\Load XML Data\Aggregate.Outputs[Aggregate Output 1].Columns[NewestOrderDate]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ShipCountryRegion]"
+                      dataType="wstr"
+                      length="50"
+                      name="ShipCountryRegion" />
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ShipCountryRegionCount]"
+                      dataType="i4"
+                      name="ShipCountryRegionCount" />
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[OldestOrderDate]"
+                      dataType="dbTimeStamp"
+                      name="OldestOrderDate" />
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NewestOrderDate]"
+                      dataType="dbTimeStamp"
+                      name="NewestOrderDate" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load XML Data\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Load XML Data\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load XML Data\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load XML Data\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load XML Data\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load XML Data\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load XML Data\XML Source"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Extracts data from an XML data file.;Microsoft Corporation;Microsoft SqlServer v9;  2004 Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Extracts data from an XML data file."
+              name="XML Source"
+              usesDispositions="true"
+              version="2">
+              <properties>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.XmlSourceAdapter</property>
+                <property
+                  dataType="System.String"
+                  description="The XML data used by the XML source adapter."
+                  expressionType="Notify"
+                  name="XMLData">D:\Temp\DeploymentTutorial\orders.xml</property>
+                <property
+                  dataType="System.String"
+                  description="The variable used by the XML source adapter to specify XML data."
+                  name="XMLDataVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Defines how the XML source adapter gets XML data."
+                  name="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="The XML schema definition used by the XML source adapter."
+                  expressionType="Notify"
+                  name="XMLSchemaDefinition">D:\Temp\DeploymentTutorial\orders.xsd</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Identifies whether or not to use inline schema."
+                  name="UseInlineSchema">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Defines how XML integer types are mapped."
+                  name="XMLIntegerMapping"
+                  typeConverter="Microsoft.SqlServer.Dts.Pipeline.XmlSourceAdapter+XMLIntegerMappingConverter">1</property>
+              </properties>
+              <outputs>
+                <output
+                  refId="Package\Load XML Data\XML Source.Outputs[orders]"
+                  name="orders">
+                  <properties>
+                    <property
+                      dataType="System.String"
+                      description="Identifies the rowset associated with the output."
+                      name="RowsetID">orders</property>
+                  </properties>
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].Columns[OrderID]"
+                      dataType="ui2"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[OrderID]"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders].Columns[OrderID]"
+                      name="OrderID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].Columns[CustomerID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[CustomerID]"
+                      length="255"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders].Columns[CustomerID]"
+                      name="CustomerID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].Columns[EmployeeID]"
+                      dataType="ui1"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[EmployeeID]"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders].Columns[EmployeeID]"
+                      name="EmployeeID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].Columns[OrderDate]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[OrderDate]"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders].Columns[OrderDate]"
+                      name="OrderDate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].Columns[RequiredDate]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[RequiredDate]"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders].Columns[RequiredDate]"
+                      name="RequiredDate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].Columns[ShippedDate]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[ShippedDate]"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders].Columns[ShippedDate]"
+                      name="ShippedDate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].Columns[ShipVia]"
+                      dataType="ui1"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[ShipVia]"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders].Columns[ShipVia]"
+                      name="ShipVia"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].Columns[Freight]"
+                      dataType="decimal"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[Freight]"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders].Columns[Freight]"
+                      name="Freight"
+                      scale="10"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].Columns[ShipName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[ShipName]"
+                      length="255"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders].Columns[ShipName]"
+                      name="ShipName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].Columns[ShipAddress]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[ShipAddress]"
+                      length="255"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders].Columns[ShipAddress]"
+                      name="ShipAddress"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].Columns[ShipCity]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[ShipCity]"
+                      length="255"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders].Columns[ShipCity]"
+                      name="ShipCity"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].Columns[ShipPostalCode]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[ShipPostalCode]"
+                      length="255"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders].Columns[ShipPostalCode]"
+                      name="ShipPostalCode"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].Columns[ShipCountryRegion]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[ShipCountryRegion]"
+                      length="255"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders].Columns[ShipCountryRegion]"
+                      name="ShipCountryRegion"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].Columns[ShipCountryRegionRegion]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[ShipCountryRegionRegion]"
+                      length="255"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders].Columns[ShipCountryRegionRegion]"
+                      name="ShipCountryRegionRegion"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].Columns[ShipRegion]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[ShipRegion]"
+                      length="255"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders].Columns[ShipRegion]"
+                      name="ShipRegion"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[OrderID]"
+                      dataType="ui2"
+                      name="OrderID">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="CLRType">System.UInt16</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[CustomerID]"
+                      dataType="wstr"
+                      length="255"
+                      name="CustomerID">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="CLRType">System.String</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[EmployeeID]"
+                      dataType="ui1"
+                      name="EmployeeID">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="CLRType">System.Byte</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[OrderDate]"
+                      dataType="dbTimeStamp"
+                      name="OrderDate">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="CLRType">System.DateTime</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[RequiredDate]"
+                      dataType="dbTimeStamp"
+                      name="RequiredDate">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="CLRType">System.DateTime</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[ShippedDate]"
+                      dataType="dbTimeStamp"
+                      name="ShippedDate">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="CLRType">System.DateTime</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[ShipVia]"
+                      dataType="ui1"
+                      name="ShipVia">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="CLRType">System.Byte</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[Freight]"
+                      dataType="decimal"
+                      name="Freight"
+                      scale="10">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="CLRType">System.Decimal</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[ShipName]"
+                      dataType="wstr"
+                      length="255"
+                      name="ShipName">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="CLRType">System.String</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[ShipAddress]"
+                      dataType="wstr"
+                      length="255"
+                      name="ShipAddress">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="CLRType">System.String</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[ShipCity]"
+                      dataType="wstr"
+                      length="255"
+                      name="ShipCity">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="CLRType">System.String</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[ShipPostalCode]"
+                      dataType="wstr"
+                      length="255"
+                      name="ShipPostalCode">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="CLRType">System.String</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[ShipCountryRegion]"
+                      dataType="wstr"
+                      length="255"
+                      name="ShipCountryRegion">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="CLRType">System.String</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[ShipCountryRegionRegion]"
+                      dataType="wstr"
+                      length="255"
+                      name="ShipCountryRegionRegion">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="CLRType">System.String</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders].ExternalColumns[ShipRegion]"
+                      dataType="wstr"
+                      length="255"
+                      name="ShipRegion">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="CLRType">System.String</property>
+                      </properties>
+                    </externalMetadataColumn>
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Load XML Data\XML Source.Outputs[orders Error Output]"
+                  isErrorOut="true"
+                  name="orders Error Output">
+                  <properties>
+                    <property
+                      dataType="System.String"
+                      description="Identifies the rowset associated with the output."
+                      name="RowsetID">orders</property>
+                  </properties>
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[OrderID]"
+                      dataType="nText"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[OrderID]"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[OrderID]"
+                      name="OrderID" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[CustomerID]"
+                      dataType="nText"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[CustomerID]"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[CustomerID]"
+                      name="CustomerID" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[EmployeeID]"
+                      dataType="nText"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[EmployeeID]"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[EmployeeID]"
+                      name="EmployeeID" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[OrderDate]"
+                      dataType="nText"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[OrderDate]"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[OrderDate]"
+                      name="OrderDate" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[RequiredDate]"
+                      dataType="nText"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[RequiredDate]"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[RequiredDate]"
+                      name="RequiredDate" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[ShippedDate]"
+                      dataType="nText"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[ShippedDate]"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[ShippedDate]"
+                      name="ShippedDate" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[ShipVia]"
+                      dataType="nText"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[ShipVia]"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[ShipVia]"
+                      name="ShipVia" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[Freight]"
+                      dataType="nText"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[Freight]"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[Freight]"
+                      name="Freight" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[ShipName]"
+                      dataType="nText"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[ShipName]"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[ShipName]"
+                      name="ShipName" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[ShipAddress]"
+                      dataType="nText"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[ShipAddress]"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[ShipAddress]"
+                      name="ShipAddress" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[ShipCity]"
+                      dataType="nText"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[ShipCity]"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[ShipCity]"
+                      name="ShipCity" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[ShipPostalCode]"
+                      dataType="nText"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[ShipPostalCode]"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[ShipPostalCode]"
+                      name="ShipPostalCode" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[ShipCountryRegion]"
+                      dataType="nText"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[ShipCountryRegion]"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[ShipCountryRegion]"
+                      name="ShipCountryRegion" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[ShipCountryRegionRegion]"
+                      dataType="nText"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[ShipCountryRegionRegion]"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[ShipCountryRegionRegion]"
+                      name="ShipCountryRegionRegion" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[ShipRegion]"
+                      dataType="nText"
+                      externalMetadataColumnId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[ShipRegion]"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[ShipRegion]"
+                      name="ShipRegion" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load XML Data\XML Source.Outputs[orders Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[OrderID]"
+                      dataType="nText"
+                      name="OrderID" />
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[CustomerID]"
+                      dataType="nText"
+                      name="CustomerID" />
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[EmployeeID]"
+                      dataType="nText"
+                      name="EmployeeID" />
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[OrderDate]"
+                      dataType="nText"
+                      name="OrderDate" />
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[RequiredDate]"
+                      dataType="nText"
+                      name="RequiredDate" />
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[ShippedDate]"
+                      dataType="nText"
+                      name="ShippedDate" />
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[ShipVia]"
+                      dataType="nText"
+                      name="ShipVia" />
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[Freight]"
+                      dataType="nText"
+                      name="Freight" />
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[ShipName]"
+                      dataType="nText"
+                      name="ShipName" />
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[ShipAddress]"
+                      dataType="nText"
+                      name="ShipAddress" />
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[ShipCity]"
+                      dataType="nText"
+                      name="ShipCity" />
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[ShipPostalCode]"
+                      dataType="nText"
+                      name="ShipPostalCode" />
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[ShipCountryRegion]"
+                      dataType="nText"
+                      name="ShipCountryRegion" />
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[ShipCountryRegionRegion]"
+                      dataType="nText"
+                      name="ShipCountryRegionRegion" />
+                    <externalMetadataColumn
+                      refId="Package\Load XML Data\XML Source.Outputs[orders Error Output].ExternalColumns[ShipRegion]"
+                      dataType="nText"
+                      name="ShipRegion" />
+                  </externalMetadataColumns>
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Load XML Data.Paths[Aggregate Output 1]"
+              endId="Package\Load XML Data\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Aggregate Output 1"
+              startId="Package\Load XML Data\Aggregate.Outputs[Aggregate Output 1]" />
+            <path
+              refId="Package\Load XML Data.Paths[HasCountryRegion]"
+              endId="Package\Load XML Data\Aggregate.Inputs[Aggregate Input 1]"
+              name="HasCountryRegion"
+              startId="Package\Load XML Data\Conditional Split.Outputs[HasCountryRegion]" />
+            <path
+              refId="Package\Load XML Data.Paths[orders]"
+              endId="Package\Load XML Data\Conditional Split.Inputs[Conditional Split Input]"
+              name="orders"
+              startId="Package\Load XML Data\XML Source.Outputs[orders]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{7132F5E0-AF45-4C3D-A82F-70310AF2CD78}"
+      DTS:From="Package\Create or truncate table"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\Load XML Data" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="sql12">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="156,46"
+          Id="Package\Create or truncate table"
+          TopLeft="142.5,19.5" />
+        <NodeLayout
+          Size="136,44"
+          Id="Package\Load XML Data"
+          TopLeft="155.5,107.349056603774" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="222,65.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,41.849056603774"
+              Start="0,0"
+              End="0,34.349056603774">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,34.349056603774" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Load XML Data">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="155,42"
+          Id="Package\Load XML Data\Conditional Split"
+          TopLeft="13.5,107.5" />
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Load XML Data\OLE DB Destination"
+          TopLeft="5.50000000000003,311.5" />
+        <NodeLayout
+          Size="127,42"
+          Id="Package\Load XML Data\Aggregate"
+          TopLeft="27.5,209.5" />
+        <NodeLayout
+          Size="134,42"
+          Id="Package\Load XML Data\XML Source"
+          TopLeft="24,5.5" />
+        <EdgeLayout
+          Id="Package\Load XML Data.Paths[Aggregate Output 1]"
+          TopLeft="91,251.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load XML Data.Paths[orders]"
+          TopLeft="91,47.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load XML Data.Paths[HasCountryRegion]"
+          TopLeft="91,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-40.95693359375,20.51611328125,81.9138671875,11.4677734375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load XML Data\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

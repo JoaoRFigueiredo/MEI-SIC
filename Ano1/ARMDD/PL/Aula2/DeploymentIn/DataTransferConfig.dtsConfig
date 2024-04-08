@@ -1,0 +1,144 @@
+<DTSConfiguration><DTSConfigurationHeading><DTSConfigurationFileInfo GeneratedBy="Domain\UserName" GeneratedFromPackageName="DataTransfer" GeneratedFromPackageID="{AFDB73DF-D391-436D-809B-C55446576E23}" GeneratedDate="03/10/2023 21:30:58" /></DTSConfigurationHeading><Configuration ConfiguredType="Property" Path="\Package.LogProviders[SSIS log provider for XML files].Properties[ConfigString]" ValueType="String"><ConfiguredValue>Deployment Tutorial Log</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.LogProviders[SSIS log provider for XML files].Properties[Description]" ValueType="String"><ConfiguredValue>Writes log entries for events to an XML file</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.LogProviders[SSIS log provider for XML files].Properties[Name]" ValueType="String"><ConfiguredValue>SSIS log provider for XML files</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[Deployment Tutorial Log].Properties[ConnectionString]" ValueType="String"><ConfiguredValue>C:\ARMDD\PL\Aula2\Deployment\DeploymentTutorial\Deployment Tutorial Log</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[NewCustomers].Properties[ConnectionString]" ValueType="String"><ConfiguredValue>C:\ARMDD\PL\Aula2\SSIS-Import-Export\Deployment Tutorial\Deployment Tutorial\NewCustomers.txt</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[CheckpointFileName]" ValueType="String"><ConfiguredValue></ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[CheckpointUsage]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[CreationDate]" ValueType="DateTime"><ConfiguredValue>12/20/2005 9:09:01 AM</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[CreatorComputerName]" ValueType="String"><ConfiguredValue>ComputerName</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[CreatorName]" ValueType="String"><ConfiguredValue>Domain\UserName</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[DelayValidation]" ValueType="Boolean"><ConfiguredValue>-1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[Description]" ValueType="String"><ConfiguredValue>DTS Wizard-generated package</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[DesignTimeProperties]" ValueType="String"><ConfiguredValue>&lt;?xml version="1.0"?&gt;
+&lt;!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.--&gt;
+&lt;!--If you manually edit this section and make a mistake, you can delete it. --&gt;
+&lt;!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.--&gt;
+&lt;Objects
+  Version="sql12"&gt;
+  &lt;!--Each node below will contain properties that do not affect runtime behavior.--&gt;
+  &lt;Package
+    design-time-name="package-diagram"&gt;
+    &lt;LayoutInfo&gt;
+      &lt;GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml"&gt;
+        &lt;NodeLayout
+          Size="188,44"
+          Id="{}{65B5C923-EC02-4F5A-AA33-0B72B23587F7}"
+          TopLeft="5.5,5.5" /&gt;
+        &lt;NodeLayout
+          Size="175,44"
+          Id="{}{D2B28A41-1E4A-4B18-A6F5-BA95E08B0BBA}"
+          TopLeft="11.5,81.1603773584906" /&gt;
+        &lt;EdgeLayout
+          Id="{}{FFD0D718-B589-429E-850C-B56F4E649EC4}"
+          TopLeft="99.311320754717,49.4245283018868"&gt;
+          &lt;EdgeLayout.Curve&gt;
+            &lt;mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-0.490566037735846,31.7358490566038"
+              Start="0,0"
+              End="-0.490566037735846,24.2358490566038"&gt;
+              &lt;mssgle:Curve.Segments&gt;
+                &lt;mssgle:SegmentCollection
+                  Capacity="5"&gt;
+                  &lt;mssgle:LineSegment
+                    End="0,15.8490566037736" /&gt;
+                  &lt;mssgle:LineSegment
+                    End="-0.490566037735846,15.8490566037736" /&gt;
+                  &lt;mssgle:LineSegment
+                    End="-0.490566037735846,24.2358490566038" /&gt;
+                &lt;/mssgle:SegmentCollection&gt;
+              &lt;/mssgle:Curve.Segments&gt;
+            &lt;/mssgle:Curve&gt;
+          &lt;/EdgeLayout.Curve&gt;
+          &lt;EdgeLayout.Labels&gt;
+            &lt;EdgeLabelCollection /&gt;
+          &lt;/EdgeLayout.Labels&gt;
+        &lt;/EdgeLayout&gt;
+      &lt;/GraphLayout&gt;
+    &lt;/LayoutInfo&gt;
+  &lt;/Package&gt;
+  &lt;TaskHost
+    design-time-name="{D2B28A41-1E4A-4B18-A6F5-BA95E08B0BBA}"&gt;
+    &lt;LayoutInfo&gt;
+      &lt;GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph"&gt;
+        &lt;NodeLayout
+          Size="155,42"
+          Id="2"
+          TopLeft="52.5,107.5" /&gt;
+        &lt;NodeLayout
+          Size="151,42"
+          Id="71"
+          TopLeft="54.5,5.5" /&gt;
+        &lt;NodeLayout
+          Size="249,42"
+          Id="14"
+          TopLeft="5.50000000000003,209.5" /&gt;
+        &lt;EdgeLayout
+          Id="160"
+          TopLeft="130,47.5"&gt;
+          &lt;EdgeLayout.Curve&gt;
+            &lt;mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5"&gt;
+              &lt;mssgle:Curve.Segments&gt;
+                &lt;mssgle:SegmentCollection
+                  Capacity="5"&gt;
+                  &lt;mssgle:LineSegment
+                    End="0,52.5" /&gt;
+                &lt;/mssgle:SegmentCollection&gt;
+              &lt;/mssgle:Curve.Segments&gt;
+            &lt;/mssgle:Curve&gt;
+          &lt;/EdgeLayout.Curve&gt;
+          &lt;EdgeLayout.Labels&gt;
+            &lt;mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" /&gt;
+          &lt;/EdgeLayout.Labels&gt;
+        &lt;/EdgeLayout&gt;
+        &lt;EdgeLayout
+          Id="161"
+          TopLeft="130,149.5"&gt;
+          &lt;EdgeLayout.Curve&gt;
+            &lt;mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5"&gt;
+              &lt;mssgle:Curve.Segments&gt;
+                &lt;mssgle:SegmentCollection
+                  Capacity="5"&gt;
+                  &lt;mssgle:LineSegment
+                    End="0,52.5" /&gt;
+                &lt;/mssgle:SegmentCollection&gt;
+              &lt;/mssgle:Curve.Segments&gt;
+            &lt;/mssgle:Curve&gt;
+          &lt;/EdgeLayout.Curve&gt;
+          &lt;EdgeLayout.Labels&gt;
+            &lt;mssgm:EdgeLabel
+              BoundingBox="-27.08134765625,20.41845703125,54.1626953125,11.6630859375"
+              RelativePosition="Any" /&gt;
+          &lt;/EdgeLayout.Labels&gt;
+        &lt;/EdgeLayout&gt;
+      &lt;/GraphLayout&gt;
+    &lt;/LayoutInfo&gt;
+  &lt;/TaskHost&gt;
+&lt;/Objects&gt;</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[Disable]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[DisableEventHandlers]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[DumpDescriptor]" ValueType="String"><ConfiguredValue></ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[DumpOnAnyError]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[EnableDump]" ValueType="Boolean"><ConfiguredValue>-1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[EncryptCheckpoints]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[FailPackageOnFailure]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[FailParentOnFailure]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[ForcedExecutionValue]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[ForceExecutionResult]" ValueType="Int32"><ConfiguredValue>-1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[ForceExecutionValue]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[IgnoreConfigurationsOnLoad]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[InteractiveMode]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[IsolationLevel]" ValueType="Int32"><ConfiguredValue>1048576</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[LocaleID]" ValueType="Int32"><ConfiguredValue>1033</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[LoggingMode]" ValueType="Int32"><ConfiguredValue>2</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[MaxConcurrentExecutables]" ValueType="Int32"><ConfiguredValue>-1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[MaximumErrorCount]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[Name]" ValueType="String"><ConfiguredValue>DataTransfer</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[OfflineMode]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[PackagePassword]" ValueType="String"><ConfiguredValue></ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[PackagePriorityClass]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[PackageType]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[ProtectionLevel]" ValueType="Int32"><ConfiguredValue>1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[SafeRecursiveProjectPackageExecution]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[SaveCheckpoints]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[SQLFolder]" ValueType="String"><ConfiguredValue>\</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[SuppressConfigurationWarnings]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[TransactionOption]" ValueType="Int32"><ConfiguredValue>1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[UpdateObjects]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[UpdatePackage]" ValueType="Boolean"><ConfiguredValue>-1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[VersionBuild]" ValueType="Int32"><ConfiguredValue>44</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[VersionComments]" ValueType="String"><ConfiguredValue></ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[VersionMajor]" ValueType="Int32"><ConfiguredValue>1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[VersionMinor]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[BypassPrepare]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[CodePage]" ValueType="UInt32"><ConfiguredValue>1252</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[Connection]" ValueType="String"><ConfiguredValue>(local).AdventureWorks</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[DelayValidation]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[Description]" ValueType="String"><ConfiguredValue></ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[Disable]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[DisableEventHandlers]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[ExecuteOnProxy]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[FailPackageOnFailure]" ValueType="Boolean"><ConfiguredValue>-1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[FailParentOnFailure]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[ForcedExecutionValue]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[ForceExecutionResult]" ValueType="Int32"><ConfiguredValue>-1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[ForceExecutionValue]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[IsolationLevel]" ValueType="Int32"><ConfiguredValue>1048576</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[IsStoredProcedure]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[LocaleID]" ValueType="Int32"><ConfiguredValue>1033</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[LoggingMode]" ValueType="Int32"><ConfiguredValue>1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[MaximumErrorCount]" ValueType="Int32"><ConfiguredValue>1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[Name]" ValueType="String"><ConfiguredValue>Create or Truncate Table</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[ResultSetType]" ValueType="Int32"><ConfiguredValue>1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[SqlStatementSource]" ValueType="String"><ConfiguredValue>IF NOT EXISTS (SELECT * FROM sys.tables WHERE type ='U' and name = 'HighIncomeCustomers')
+CREATE TABLE dbo.HighIncomeCustomers 
+(
+[FirstName] nvarchar(50),
+[MiddleInitial] nchar(1),
+[LastName] nvarchar(50),
+[BirthDate] datetime,
+[MaritalStatus] nchar(1),
+[Gender] nchar(1),
+[EmailAddress] nvarchar(50),
+[YearlyIncome] money,
+[TotalChildren] tinyint,
+[NumberChildrenAtHome] tinyint,
+[Education] nvarchar(50),
+[Occupation] nvarchar(50),
+[HouseOwnerFlag] bit,
+[NumberCarsOwned] tinyint,
+[AddressLine1] nvarchar(60),
+[AddressLine2] nvarchar(60),
+[City] nvarchar(30),
+[State] nvarchar(3),
+[ZIP] nvarchar(10),
+[Phone] nvarchar(50)
+)
+ELSE
+TRUNCATE TABLE dbo.HighIncomeCustomers 
+</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[SqlStatementSourceType]" ValueType="Int32"><ConfiguredValue>1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[TargetServerVersion]" ValueType="Int32"><ConfiguredValue>160</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[TimeOut]" ValueType="UInt32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[TransactionOption]" ValueType="Int32"><ConfiguredValue>1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Create or Truncate Table.Properties[TypeConversionMode]" ValueType="Int32"><ConfiguredValue>2</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Transfer Data.Properties[[Conditional Split].[HighIncome].[FriendlyExpression]]" ValueType="String"><ConfiguredValue>YearlyIncome &gt; 100000</ConfiguredValue></Configuration></DTSConfiguration>
