@@ -1,0 +1,117 @@
+<mxfile host="Electron" modified="2024-06-30T17:44:14.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="VXfr7mVte-IkfY2AFuzK" version="24.5.3" type="device">
+  <diagram name="Página-1" id="3FrWqmJzJH2K1IIYcxPa">
+    <mxGraphModel dx="1050" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OtI7GB6e_rv95gwWXJ3J-1" target="OtI7GB6e_rv95gwWXJ3J-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-1" value="ticket chega" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-2" value="ticket aguarda análise" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="346" y="200" width="136" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OtI7GB6e_rv95gwWXJ3J-3" target="OtI7GB6e_rv95gwWXJ3J-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-17" value="25%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OtI7GB6e_rv95gwWXJ3J-12">
+          <mxGeometry x="-0.5" y="-1" relative="1" as="geometry">
+            <mxPoint x="-21" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OtI7GB6e_rv95gwWXJ3J-3" target="OtI7GB6e_rv95gwWXJ3J-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-18" value="75%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OtI7GB6e_rv95gwWXJ3J-16">
+          <mxGeometry x="-0.7653" relative="1" as="geometry">
+            <mxPoint y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-3" value="ticket é analisado" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OtI7GB6e_rv95gwWXJ3J-4" target="OtI7GB6e_rv95gwWXJ3J-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-4" value="Análise de ticket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.437;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OtI7GB6e_rv95gwWXJ3J-2" target="OtI7GB6e_rv95gwWXJ3J-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OtI7GB6e_rv95gwWXJ3J-8" target="OtI7GB6e_rv95gwWXJ3J-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-8" value="ticket aguarda procedimento" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="470" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OtI7GB6e_rv95gwWXJ3J-9" target="OtI7GB6e_rv95gwWXJ3J-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-9" value="Proceidmento técnico do ticket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-10" value="Validação do ticket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OtI7GB6e_rv95gwWXJ3J-11" target="OtI7GB6e_rv95gwWXJ3J-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-11" value="ticket aguarda validação" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OtI7GB6e_rv95gwWXJ3J-20" target="OtI7GB6e_rv95gwWXJ3J-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="510" />
+              <mxPoint x="130" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-20" value="Livre" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="470" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OtI7GB6e_rv95gwWXJ3J-24" target="OtI7GB6e_rv95gwWXJ3J-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-24" value="Procedimento técnico do ticket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OtI7GB6e_rv95gwWXJ3J-26" target="OtI7GB6e_rv95gwWXJ3J-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="725" />
+              <mxPoint x="140" y="615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-26" value="Livre" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="685" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OtI7GB6e_rv95gwWXJ3J-28" target="OtI7GB6e_rv95gwWXJ3J-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-28" value="Validação do ticket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="730" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OtI7GB6e_rv95gwWXJ3J-30" target="OtI7GB6e_rv95gwWXJ3J-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-30" value="Livre" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="840" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-31" value="Ticket" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="515" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-34" value="Departamento técnico" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="525" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OtI7GB6e_rv95gwWXJ3J-35" value="Departamento técnico" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="515" y="640" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

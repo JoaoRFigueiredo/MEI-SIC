@@ -6,9 +6,9 @@
 - [Exame 21-22 normal](#exame-21-22-normal)
 
 
-### Exame 22-23 Normal (resolvido no documento)
+## Exame 22-23 Normal (resolvido no documento)
 
-### Exame 21-22 (normal)
+## Exame 21-22 (normal)
 
 #### a)
 Entidades : Cliente e funcionários. Existem 3 funcionários:
@@ -295,3 +295,210 @@ Conclusão
 **Digital Twins** e **Simulação** são ferramentas poderosas para a análise e otimização de sistemas. DTs, com sua capacidade de conectar-se em tempo real a ativos físicos, oferecem uma vantagem significativa em termos de monitoramento contínuo, manutenção preditiva e otimização dinâmica. No entanto, isso vem com maior complexidade e custo. A simulação, por outro lado, oferece flexibilidade, escalabilidade e uma abordagem menos dispendiosa para testar e analisar sistemas, mas pode não ser tão precisa ou atualizada como um DT.
 
 A escolha entre usar DTs ou simulação depende dos objetivos específicos, recursos disponíveis e a complexidade do sistema em questão. Muitas vezes, uma abordagem combinada pode ser a mais benéfica, utilizando DTs para monitoramento e otimização em tempo real e simulação para análise detalhada e planejamento estratégico.
+
+
+## Exame 20-21 (normal)
+
+#### a)
+| Entidade  | Estado  |   
+|---|---|
+| Ticket  | Novo; Em análise; Em procedimento técnico; Em validação; encerrado  |    
+|  Departamento técnico | Disponível; ocupado  |  
+
+
+Atividades:
+
+|Atividade| Descrição|Entrada|Saída|Tempo|Pré-condições|Pós-condições|
+|---|---|---|---|---|---|---|
+| Receber ticket |Ticket novo |Receção de um novo ticket  | Ticket com Status "novo"  |exponencial (3 min)  |nenhuma  | ticket disponível para análise |  
+| Analisar ticket | Análise inicial do ticket |ticket com status novo  | ticket com status "em procedimento" ou "em validação"|20-120 segundos  |ticket deve estar no estado novo  | ticket encaminhado para procedimento técnico ou validação |   
+| Procedimento técnico |Realização do procedimento técnico  |ticket com status " em procedimento técnico"  | ticket com status "em análise" | Exponencial (5 min)  | ticket deve estar no estado "em procedimento técnico"  | ticket volta para a análise  |  
+| Validar ticket |Validação do ticket  | ticket com status "em validação"  |ticket com status "encerrado"  | exponencial (2 min)  | ticket tem de estar no estado "em validação"  | ticket é encerrado |  
+
+
+Ciclo de atividades: ![ciclo](images/20-21_ciclo_atividades.png)
+
+
+#### b)
+
+Eventos
+
+1. **Chegada de Ticket (ChegadaTicket)**
+   - Ocorre quando um novo ticket chega ao sistema.
+   - Gera o próximo evento de chegada de ticket.
+
+2. **Início da Análise de Ticket (InicioAnalise)**
+   - Ocorre quando um ticket é selecionado para análise.
+
+3. **Fim da Análise de Ticket (FimAnalise)**
+   - Ocorre quando a análise de um ticket é concluída.
+   - Decide se o ticket vai para o procedimento técnico ou para a validação/encerramento.
+
+4. **Início do Procedimento Técnico (InicioProcedimentoTecnico)**
+   - Ocorre quando um ticket necessita de procedimento técnico e é encaminhado ao departamento técnico.
+
+5. **Fim do Procedimento Técnico (FimProcedimentoTecnico)**
+   - Ocorre quando o procedimento técnico é concluído e o ticket retorna para a análise.
+
+6. **Início da Validação/Encerramento (InicioValidacaoEncerramento)**
+   - Ocorre quando um ticket é encaminhado para a validação/encerramento.
+
+7. **Fim da Validação/Encerramento (FimValidacaoEncerramento)**
+   - Ocorre quando a validação/encerramento de um ticket é concluída.
+
+Grafo de eventos: ![grafo_20_21](images/grafoEventos2021.png)
+
+
+#### c)
+
+Chegada de ticket
+```
+Evento ChegadaTicket
+    NovoTicket = CriarTicket()
+    AgendarEvento(InicioAnalise, TempoAtual)
+    AgendarEvento(ChegadaTicket, TempoAtual + DistribuicaoExponencial(3 minutos))
+FimEvento
+```
+
+Inicio de analise
+```
+Evento InicioAnalise(Ticket)
+    AgendarEvento(FimAnalise, TempoAtual + TempoUniforme(20 segundos, 120 segundos), Ticket)
+FimEvento
+```
+
+Fim de analise
+```
+Evento FimAnalise(Ticket)
+    Se DistribuicaoUniforme(0, 1) < 0.25 Então
+        // 25% dos tickets vão para o procedimento técnico
+        AgendarEvento(InicioProcedimentoTecnico, TempoAtual, Ticket)
+    Senão
+        // 75% dos tickets vão para validação/encerramento
+        AgendarEvento(InicioValidacaoEncerramento, TempoAtual, Ticket)
+    FimSe
+FimEvento
+```
+
+
+Inicio de procedimento
+```
+Evento InicioProcedimentoTecnico(Ticket)
+    AgendarEvento(FimProcedimentoTecnico, TempoAtual + DistribuicaoExponencial(5 minutos), Ticket)
+FimEvento
+```
+
+
+Fim de procedimento
+```
+Evento FimProcedimentoTecnico(Ticket)
+    AgendarEvento(InicioAnalise, TempoAtual, Ticket)
+FimEvento
+```
+
+
+Inicio de validação
+```
+Evento InicioValidacaoEncerramento(Ticket)
+    AgendarEvento(FimValidacaoEncerramento, TempoAtual + DistribuicaoExponencial(2 minutos), Ticket)
+FimEvento
+```
+
+Fim de validação
+```
+Evento FimValidacaoEncerramento(Ticket)
+    EncerrarTicket(Ticket)
+FimEvento
+```
+
+
+#### d)
+Medidas de desempenho:
+- Tempo de resolução (tempo desde que chega e encerra o ticket)
+- Tempo médio de espera nas filas
+- Número médio de tickets em espera
+
+Cenários alternativos:
+1. Adicionar mais técnicos ao departamento técnino
+2. Implementação de um sistema de prioridades em relação aos tickets
+
+
+#### e)
+Eis as caraceterísticas importantes de um bom gerador de números alestórios:
+- Os números devem parecer uniformemente
+distribuídos no intervalo [0,1], e não devem exibir
+correlação entre eles, caso contrário os resultados
+da simulação podem ser completamente inválidos
+- Do ponto de vista da utilização prática, devem ser
+rápidos e não exigir grande memória para
+armazenamento
+- Será desejável conseguir reproduzir a mesma
+sequência de números aleatórios
+    - Debug e verificação de resultados
+    -  Comparar diferentes sistemas, ou configurações de um
+mesmo sistema, com os mesmos dados
+- Deve permitir gerar várias sequências
+independentes de números
+    - Utilizador pode assim dedicar cada sequência a uma fonte de aleatoriedade da simulação
+    - Usar sequências independentes para representar
+diferentes aspectos facilita a reprodução e comparação de
+resultados
+
+
+
+#### f)
+
+Passos a seguir:
+1. Calcular a diferença entre cada par de observações.
+
+Diferença = Sistema - simulação
+D=[0.10,−0.04,−1.00,0.54,−0.59,0.09,0.19,0.10,0.50,0.90]
+
+2. Calcular a média e o desvio padrão das diferenças.
+
+Calcular a média das diferenças
+
+D_average = 0.078
+
+Desvio padrao = 0.548
+
+
+3. Calcular o valor do teste t.
+
+ $$
+   t = \frac{\bar{D}}{S_D / \sqrt{n}} = \frac{0.079}{0.548 / \sqrt{10}} \approx 0.456
+   $$
+
+
+4. Determinar os graus de liberdade.
+
+Os graus de liberdade (df) para este teste são 
+𝑛
+−
+1
+n−1, onde 
+𝑛
+n é o número de pares.
+
+$$
+   df = 9
+   $$
+5. Comparar o valor do teste t com o valor crítico de t para a confiança de 95%
+
+$$
+   t_{crit} = 2.262
+   $$
+
+
+- Interpretação dos Resultados
+    - Para uma confiança de 95%, com 9 graus de liberdade, o valor crítico de t é aproximadamente 2.262.
+
+    - O valor calculado de t (0.456) é muito menor do que o valor crítico de t (2.262). Portanto, a diferença média entre os atrasos no sistema e na simulação não é estatisticamente significativa ao nível de confiança de 95%.
+
+- Conclusão
+    - Com base nos dados das 10 corridas de simulação, não há evidências suficientes para concluir que há uma diferença significativa entre os valores médios do atraso total por automóvel no sistema e nos resultados da simulação. Em outras palavras, a simulação parece estar alinhada com o comportamento observado no sistema real, considerando a margem de erro aceitável.
+
+#### g)
+
+Esta pergunta é realtiva a cada grupo, mas no meu caso:
+- Tempos de espera: registo, consulta, observação, cirurgia, tratamento, emergência, e mais alguns
