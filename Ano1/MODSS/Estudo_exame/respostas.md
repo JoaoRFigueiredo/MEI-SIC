@@ -4,6 +4,8 @@
 ## Index
 - [Exame 22-23 normal](#exame-22-23-normal-resolvido-no-documento)
 - [Exame 21-22 normal](#exame-21-22-normal)
+- [Exame 20-21 normal](#exame-20-21-normal)
+- [Exame 19-20 normal](#exame-19-20-normal)
 
 
 ## Exame 22-23 Normal (resolvido no documento)
@@ -502,3 +504,137 @@ $$
 
 Esta pergunta é realtiva a cada grupo, mas no meu caso:
 - Tempos de espera: registo, consulta, observação, cirurgia, tratamento, emergência, e mais alguns
+
+## Exame 19-20 (normal)
+#### a)
+
+| Entidade/Atividade              | Descrição                                                                                          | Distribuição de Tempo                |
+|---------------------------------|----------------------------------------------------------------------------------------------------|--------------------------------------|
+| **Clientes**                    | Chegada dos clientes na loja                                                                       | Exponencial (média de 5 minutos)     |
+| Higienização das mãos           | Realizada pelo funcionário na entrada                                                              | -                                    |
+| Direcionamento aos provadores   | 30% dos clientes dirigem-se aos provadores                                                         | -                                    |
+| **Provadores**                  | Gabinetes para experimentar roupas                                                                 | -                                    |
+| Higienização dos provadores     | Realizada pelo segundo funcionário                                                                 | Uniforme (30 a 80 segundos)          |
+| **Funcionário na entrada**      | Responsável pela higienização das mãos dos clientes                                                | -                                    |
+| **Funcionário na loja**         | Responsável pela higienização dos provadores e atendimento no balcão de registos/pagamentos         | -                                    |
+| Atendimento no balcão           | Atendimento de registos e pagamentos                                                               | Exponencial (média de 4 minutos)     |
+| **Prioridade de atendimento**   | Prioridade para higienização dos provadores se houver fila de clientes aguardando para usá-los     | -                                    |
+
+
+ciclo de atividades: ![ciclo1920](images/19-20_ciclo_atividades.png)
+
+
+#### b)
+
+Eventos:
+- Chegada o cliente
+    - O cliente chega à loja
+- Higienização das mãos
+    - O cliente passa gel nas mãos
+- Decisão de experimentar roupa
+    - o cliente pode experimentar a roupa no provador ou pagar diretamente
+- Entrar na fila do provador
+- Inicio da higienização do provador
+- Fim da higienização do provador
+- Uso do provador
+- saida do provador
+- entrada na fila de pagar
+- realizar pagamento
+- terminar pagamento/sair
+
+grafo de eventos: ![grafo](images/grafoEventos1920.png)
+
+
+#### c)
+
+Entrar fila de pagamento
+```
+ SE funcionarioDisponivel():
+        GERAR inicioAtendimentoBalcão()  // Gera evento de início do atendimento no balcão
+```
+
+inicio pagamento
+```
+TEMPO atendimentoBalcão EXPO(4)  // Tempo de atendimento no balcão
+    AGUARDAR atendimentoBalcão
+    GERAR terminoAtendimentoBalcão()  // Gera evento de término do atendimento no balcão
+
+```
+
+
+fim pagamento
+```
+ // Implementação do término do atendimento no balcão
+    SE filaDeEsperaBalcão NÃO estáVazia:
+        PRÓXIMO cliente <- REMOVER primeiroCliente filaDeEsperaBalcão
+        GERAR inicioAtendimentoBalcão()  // Inicia atendimento para próximo cliente
+```
+
+
+#### d)
+
+Medidas de desempenho:
+- Tempos de médio de espera nas filas (pagamento e provadores)
+- Número médio de clientes em espera
+- Taxa de ocupação de provadores
+- Taxa de utilização de funcionário
+- Pagamentos por unidade de tempo
+
+Cenários alternativos:
+- Adicionar mais funcionários
+- Adicionar self-checkout
+- Aumentar taxa de higienização dos provadores
+- Introdução de Agendamento de Horários para Uso dos Provadores
+
+
+#### e)
+fontes:
+- Chegada de clientes
+- Higienização dos provadores
+- pagamentos
+
+
+#### f)
+
+Passos:
+1. calcular média
+
+5.62
+
+
+
+2. Calcular variancia
+
+8.71955
+
+
+3. descobrir t critico
+
+t critico = 1.833
+
+4. Calcular intervalo de confiança
+
+alfa = 1 - 0.95 = 0.05
+
+
+IC=(3.509,7.731)
+
+
+Conclusões
+Com base no intervalo de confiança calculado:
+
+Rejeição da Hipótese Nula: Como 2.5 minutos não está dentro do intervalo de confiança de 95%, temos evidências estatísticas para rejeitar a hipótese nula de que o tempo médio de espera pelo provador é 2.5 minutos.
+
+Aceitação da Hipótese Alternativa: Portanto, com base nos dados das simulações, podemos concluir que o tempo médio de espera pelo provador não é 2.5 minutos. A média real pode estar significativamente maior, como indicado pelo intervalo de confiança observado.
+
+Assim, a análise estatística dos tempos médios de espera pelo provador sugere que o valor de 2.5 minutos para o tempo médio de espera é improvável, com base na amostra analisada.
+
+#### g)
+
+
+- penso que não calha
+
+
+
+
+
