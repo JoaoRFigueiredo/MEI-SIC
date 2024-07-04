@@ -6,9 +6,9 @@
 - [Collaborative filtering](#collaborative-filtering)
 - [Content-based](#content-based-filtering)
 - [AHP](#ahp-analytical-hyerarquical-processing)
-- 
-- 
-- 
+- [Hybrid](#hybrid-recommender-systems) 
+- [Evaluating Recommender Systems](#evaluating-recommender-systems)
+-[Ethics and privacy concerns](#recommender-systems-privacy-and-ethical-issues)
 
 
 ## Sistemas de recomendação overview
@@ -428,3 +428,171 @@ as input for the second technique, this approach uses the entire model
 - Addressing Cold Start Problem: By integrating collaborative and content data, these systems mitigate the cold start problem, ensuring that new or minimally rated users receive relevant and accurate recommendations.
 - Dynamic Weighting Based on Confidence: Each recommendation technique's contribution is weighted by a confidence parameter (ranging from 0 to 1), which adjusts based on the number of items rated by the user, enhancing the overall prediction accuracy.
 
+## Evaluating Recommender Systems 
+
+- Avaliar os sistemas de recomendação é crucial.
+    - Que bom seria, ter um sistema de recomendação que fornece recomendações erradas ou que não vão de encontro aos gostos do utilizador?
+        - Tal como SINFE, seria inútil!
+
+
+#### Statistical methods
+
+- Decision support precision metrics
+    - Podemos avaliar as recomendações em base do seu tipo de outcome, ou seja:
+        - TP -> true postive
+        - TN -> True Negative
+        - FN -> False Negative
+        - FP -> False Positive
+    - Com base nesta informação, poderemos calcular:
+        - Accuracy
+        - Precision
+        - Recall
+        - Coverage
+        - F-measure
+- Rank Score
+    - Uma versão diferente da precision, em que a posição de itens correto também importa.
+    - Rank Score is defined as the ratio of the Rank Score of the correct items to best theoretical Rank Score
+achievable for the user
+- Metrics measure error rate
+    - Mean Absolute Error (MAE)
+    - Root Mean Square Error (RMSE)
+- Data sparsity
+    - Quantidade de entradas vazias num dataset
+    - Sparsity = 1  -|Ratings|/|Items| * |Users|
+- Other metrics
+    - Normalized Cumulative Gain
+    - Discounted Cumulative Gain
+    - Mean Average Precision
+    - Liftindex
+
+#### Non-statistical methods of evaluating SRs
+
+- Surveys
+- Longitudinal research
+- Case studies
+- Focus groups
+- Interviews
+
+
+
+#### Explanations
+
+- Porque é que existem explicações e os SRs devem forneceê-las?
+    - This transparency helps users assess relevance and suitability, ultimately fostering
+trust and confidence in the recommendation process
+
+
+- Tipos de explicações
+    - Funcionais
+        - Exemplo: "The car type Jumbo-Family-Van of brand Rising-Sun would be well suited to your
+family because you have four children and the car has seven seats"
+    - Causal
+        - " X porque y"
+    - Intencional
+        - "I washed the dishes because my brother did it last time"
+    - Explicação científica
+        - Expressa as relações entre conceitos formulados em várias áreas da ciência e são tipicamente baseado em teorias refutáveis
+
+#### The goals behind providing explanations
+- Transparência
+    - Fornecer informação ao utilizador, de forma a que este possa compreender
+- Validação
+    - Permitir ao user verificar a validade de uma recomendação
+    - Não necessariamente relacionado com transparência
+- Eficácia
+    - Ajudar o utilizador a descobrir as suas preferências
+- Confiabilidade
+    - Reduzir a incerteza acerca da qualidade das recomendações
+- Persuasão
+    - EXplicações que têm o objetivo de alterar o comportamento de consumo do utilizador
+- Eficiência
+    - Reduzir o esforço de tomar decisões
+- Satisfação
+    - Melhorar a satisfação em geral através do uso do sistema de recomendaçáo
+- Relevância
+    - Por vezes, informação adicional é necessária. Portanto, as explicações ajudam a justificar o porquê dessa necessidade
+- Compreensão
+    - poiar o utilizador, relacionando os conceitos conhecidos do utilizador com os conceitos
+utilizados pelo recomendador
+- Educativo
+    - Ensiar os users e ajudá-los a perceber melhor sobre uma dada área
+
+
+
+
+## Recommender Systems Privacy and Ethical issues
+
+
+- 3 conceitos:
+    - Legality
+    - Privacy
+    - Ethics
+
+#### Legal Issues
+
+- If an enterprise finds itself bankrupt as a result of using the advice of an RS-based application? Who is liable?
+    - The enterprise itself be held responsible for not testing the
+system adequately before entrusting it with sensitive or volatile
+issues?
+    - Auditing and accounting firms share the liability for failing to
+apply adequate auditing tests?
+    - Software developers of recommender systems be jointly liable?
+
+
+#### Privacy
+
+- O direito a não ser incomodado e ser livre de invasões pessoais
+- Relacionado com aspetos legais, éticos e sociais de vários países
+- Existem 2 regras que se aplicam na interpretação de privacidade:
+    - O direito à privacidade não é absoluto
+    - O direito do publico ter conhecimento é superior ao direito indivudal da privacidade
+- Quem possui dados privados?
+
+- Privacy issues are considered in many cases as important components of ethics
+
+
+#### Privacy Issues
+
+![alt text](images/privacy.png)
+
+
+## Ethics
+
+- Algo complexo
+    - Algo pode não ser ilegal, mas também não ser ético
+        - Exemplo: Incorporar SINFE num plano de estudos!
+            - É ético e correto? Claro que não
+- É necessário haver transparência, de forma, a que vendedores e consumidores, saibam se é ético.
+- Assim pode haver honestidade e o SR pode desempenhar um papel significativo na nossas vidas e trabalho.
+
+#### The Importance of Ethics in Recommender Systems
+
+- Impacto social e económico
+- Benefícios
+    - Melhorar a experiência do utilizador
+    - Ajudar a descobrir novo conteúdo
+    - Melhorar a eficiência de negócios online
+- Riscos
+    - Pode perpetuar bias, invadir a privacidade do user, criar filtros de bolhas e promover desinformação
+
+
+
+#### Ethical Principles in Recommender Systems
+
+- Transparência
+    - Ser capaz de explicar
+    - Existir consentimento
+- Privacidade
+    - Proteção de dados
+    - Minização de dados
+- Justiça e equidade
+    - Não discriminar
+    - Haver diversidade
+- Responsabilidade
+    - Responsabilidade do cnoteúdo
+    - Mitigação de impactos negativos
+- Benefício do user
+    - Utilidade
+    - Bem-estar
+        - Não ter sinfe!
+ 
