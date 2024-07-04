@@ -4,7 +4,7 @@
 - [Sistemas de recomendação](#sistemas-de-recomendação-overview)
 - [User modelling](#user-modelling)
 - [Collaborative filtering](#collaborative-filtering)
--
+- [Content-based](#content-based-filtering)
 -
 
 
@@ -250,3 +250,73 @@ profile to provide personalised services
     - Procuramos os itens mais semelhantes e fazemos recomendações/previsões assim
 - User-based
     - Procuramos os utilizadores mais semelhantes e fazemos recomendações/previsões assim
+
+
+
+## Content-based Filtering
+
+- Qual é a premissa aqui?
+    - Em base de um produto, vamos recomendar produtos semelhantes
+    - Produtos com características semelhantes serão recomendados
+
+#### What is content?
+
+- Conteúdo é qualquer item que possua informação assoociada.
+- E no caso de recomendações, que possa ser usada para descobrir outros itens semelhantes
+
+![alt text](images/content.png)
+
+
+#### Approaches
+
+- Utilizar o dice coefficient
+    - Calcula semelhanças de itens não vistos ainda
+    - Usa keywords e informação associada. Eis a fórmula
+        - ![alt text](images/DICE.png)
+- Term-Frequency - Inverse Document Frequency (TF-IDF)
+    - NO fundo, estamos a ver quantas words existem a sua frequência ao longo de todos os documentos (filmes, produtos, etc)
+    - Poderemos usar esta técnica para calcular produtos semelhantes
+    - Exemplos: Os produtos têm tags associadas
+        - Produtos parecidos deverão ter as mesmas tags
+    - TF ![alt text](images/TF.png) 
+    - IDF ![alt text](images/IDF.png)
+    - ![alt text](images/exemploTFIDF.png)
+    - Aplicar regras de text mining para melhorar este processo
+        - remoce stop words
+        - apply stemming
+        - size cut-offs
+
+
+
+#### Recomending items
+
+- Método simples
+    - Descobrir os vizinhos mais próximos
+    - aka, elementos mais semelhantes
+- Métodos probabilísticos
+- Classificadores lineares
+- Query-based retrieval: Rocchio's method
+    - Rocchio's method is a classical technique in information retrieval used to improve query results by refining the user's search query. It is based on the concept of relevance feedback, where initial search results are used to adjust the search query to better match the user's information needs
+- Explicit decision models
+- Naive bayes
+
+
+#### Limitations of content-based recommendations methods
+
+- Keywords alone may not be sufficient to judge quality/relevance of a document or web page
+- Ramp-up phase required
+- Overspecialization
+
+
+#### Conclusion
+
+- In contrast to collaborative approaches, content-based techniques do not require
+user community in order to work
+
+- Evaluations show that a good recommendation accuracy can be achieved with help
+of machine learning techniques. These techniques do not require a user community
+
+- Danger exists that recommendation lists contain too many similar items    
+    - All learning techniques require a certain amount of training data
+    - Some learning methods tend to overfit the training data
+- Pure content-based systems are rarely found in commercial Environments
