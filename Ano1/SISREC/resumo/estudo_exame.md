@@ -5,7 +5,10 @@
 - [User modelling](#user-modelling)
 - [Collaborative filtering](#collaborative-filtering)
 - [Content-based](#content-based-filtering)
--
+- [AHP](#ahp-analytical-hyerarquical-processing)
+- 
+- 
+- 
 
 
 ## Sistemas de recomendação overview
@@ -320,3 +323,108 @@ of machine learning techniques. These techniques do not require a user community
     - All learning techniques require a certain amount of training data
     - Some learning methods tend to overfit the training data
 - Pure content-based systems are rarely found in commercial Environments
+
+
+
+
+## AHP (Analytical Hyerarquical Processing)
+
+
+- AHP can be used to determine the relative importance of each criterion,
+allowing the recommendation system to adjust its recommendations based
+on these weights
+- Users make informed decisions when choosing between different
+recommendation options
+- AHP can be incorporated into recommendation systems to personalize
+recommendations based on individual user preferences
+- Users can be asked to assess the importance of different criteria, and the
+recommendation system can then generate recommendations that best meet
+those preferences
+- Considering multiple criteria and their weights, AHP can help improve the
+accuracy of recommendations
+
+
+#### Steps and levels
+
+- Multi-criteria decision making
+- Top of the hierarchy: the objective
+- Second level: how the three criteria contribute to the objective
+- Third level: how each of the three alternatives contributes to each of the
+criteria
+
+#### Criteria and stuff
+
+- Problem structuring and definition of the hierarchy
+- Elicitation of pairwise comparisons
+- Derivation of priority vectors
+- Check consistency
+- Calculate overall scores
+
+
+
+#### Conclusion
+
+- Calculating Relative Priorities
+    - Based on the comparisons made by users, the relative priorities of
+each criterion and sub-criterion are calculated using the
+normalization method and weighted averages calculation of AHP.
+- Personalized Recommendations:
+    - The recommendation system utilizes the calculated priorities to
+generate personalized recommendations for each user. For example,
+if a user assigns greater importance to the ”Market" criterion, the
+system may prioritize cities' with higher ratings in this aspect
+
+
+## Hybrid Recommender Systems
+
+- Premissa aqui: Combinar as várias técnicas de recomendação para melhorar a qualidade das mesmas
+    - Cada técnica tem entraves que enfretam, portanto, ao juntá-las, estamos a resolver esse problema
+
+
+#### Methods
+
+- Weighted
+    - A cada técnica no nosso modelo híbrido, associamos um peso.
+- Switching
+    - Em base dos dados, o sistema escolhe a técnica a usar
+- Mixed
+    - Used when a large number of recommendations need to be made simultaneously
+    - Can employ multiple techniques together, avoiding the item cold start initialization problem
+- Feature combination
+    - Involve cmobinar as características de várias técnicas de recomendação num só algoritmo
+- Cascade
+    - Suponhamos que temos várias técnicas
+    - Cada uma cria uma lista de recomendações e a técnica subsequente vai refinando essa lista
+- Feature Augmentation
+    - involves using a first recommendation technique to produce a rating or classification of an item
+    - which is then integrated as input into the recommendation process of the second technique
+    - This type of hybrid system uses one recommendation technique to rate an item and delivers
+that information to be used by the following recommendation technique
+    - This hybrid RS is used to improve recommender performance without changing its internals,
+only with the inclusion of the first RS provided data
+- Meta-level
+    - Involves using the learned model as a parameter input to another system
+    - The generated model is always richer in information compared to a single classification
+    - Approach combine two recommendation techniques is by using as input for the second
+recommender technique, the model produced by the first technique
+    - The main difference from feature augmentation is that instead of using only some feature data
+as input for the second technique, this approach uses the entire model
+
+#### Hybrid recommender design
+
+- Monolithic exploiting different features
+    - ![alt text](images/monolithic.png)
+
+- Parallel use of several systems
+    - ![alt text](images/parallelized.png)
+    - Pode ser weighted, switching, Mixed
+
+- Pipelined invocation of different systems
+    - ![alt text](images/pipeline.png)
+
+#### Dynamic Weighted
+
+- Combining Techniques for Recommendations: Weighted hybrid recommendation systems use a linear combination of content-based and collaborative filtering techniques, utilizing available methods to generate a recommendation list or prediction for users.
+- Addressing Cold Start Problem: By integrating collaborative and content data, these systems mitigate the cold start problem, ensuring that new or minimally rated users receive relevant and accurate recommendations.
+- Dynamic Weighting Based on Confidence: Each recommendation technique's contribution is weighted by a confidence parameter (ranging from 0 to 1), which adjusts based on the number of items rated by the user, enhancing the overall prediction accuracy.
+
