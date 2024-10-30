@@ -8,7 +8,7 @@
 - [AHP](#ahp-analytical-hyerarquical-processing)
 - [Hybrid](#hybrid-recommender-systems) 
 - [Evaluating Recommender Systems](#evaluating-recommender-systems)
--[Ethics and privacy concerns](#recommender-systems-privacy-and-ethical-issues)
+- [Ethics and privacy concerns](#recommender-systems-privacy-and-ethical-issues)
 
 
 ## Sistemas de recomendação overview
