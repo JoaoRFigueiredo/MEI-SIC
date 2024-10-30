@@ -1,0 +1,16 @@
+<div class="container">
+  <h2 class="text-center">Desativar Conta</h2>
+  <div class="confirmation-message">
+      <p *ngIf="isDeleted; else confirmationMessage">
+          <span class="text-success">Conta apagada com sucesso!</span>
+      </p>
+      <ng-template #confirmationMessage>
+          <p class="text-info">Tem certeza de que deseja apagar a conta associada a este email?</p>
+          <p class="text-info">Email: {{ userEmail }}</p>
+      </ng-template>
+  </div>
+  <div class="buttons">
+      <button (click)="confirmDelete(true)" class="btn btn-primary">Sim</button>
+      <button (click)="confirmDelete(false)" class="btn btn-danger">Não</button>
+  </div>
+</div>

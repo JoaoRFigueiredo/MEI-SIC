@@ -1,0 +1,25 @@
+<div>
+  <h2>Log-In</h2>
+  <form (ngSubmit)="onSubmit()">
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" [(ngModel)]="email" required>
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" [(ngModel)]="password" required>
+    </div>
+    <button type="submit">Login</button>
+    <div *ngIf="registrationAttempted">
+      <div *ngIf="isSuccessful === null">
+        <button class="btn btn-primary" type="button" disabled>
+          <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+          Loading...
+        </button>
+      </div>
+      <div *ngIf="isSuccessful === false" class="alert alert-danger">
+        {{ errorMessage }}
+      </div>
+    </div>
+  </form>
+</div>

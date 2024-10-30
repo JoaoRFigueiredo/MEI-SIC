@@ -1,0 +1,19 @@
+<div *ngIf="pastRatings.length > 0; else noFavoriteMovies">
+  <h2>Last Ratings</h2>
+  <div class="movie-list">
+    <div *ngFor="let movie of pastRatings" class="movie-item">
+      <div class="movie-content">
+        <img [src]="movie.url" alt="Capa do Filme" class="movie-image">
+        <div class="movie-title">{{ movie.title }}</div>
+        <div class="movie-nelson">({{ movie.stars | number:'1.2-2' }} ★)</div>
+
+      </div>
+    </div>
+  </div><div class="button-container">
+    <button mat-raised-button (click)="goBack()">Go back</button>
+  </div>
+</div>
+
+<ng-template #noFavoriteMovies>
+  <p>No ratings made.</p>
+</ng-template>

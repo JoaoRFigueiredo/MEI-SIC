@@ -1,0 +1,28 @@
+/*{
+    "appService.defaultWebAppToDeploy": "None",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "jgaspar",
+            "database": "MyDb",
+            "username": "jgasparalfredo"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "FirstConnection",
+            "database": "myDatabase",
+            "username": "josealberto",
+            "password": "josealberto"
+        }
+    ]
+}*/

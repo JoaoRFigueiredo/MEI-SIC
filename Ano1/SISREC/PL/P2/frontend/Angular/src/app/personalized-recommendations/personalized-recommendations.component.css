@@ -1,0 +1,219 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+  }
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row; /* Align items vertically */
+    margin-top: 20px; /* Adjust as needed */
+    gap:10px;
+    margin-left: 400px;
+  }
+  
+  .search-container input[type="text"] {
+
+    flex-grow: 2;
+    padding: 10px; /* Adjust padding for a larger input */
+    font-size: 16px; /* Adjust font size for better readability */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding does not affect total width */
+  }
+
+  .search-label {
+    font-size: 20px; /* Tamanho da fonte desejado */
+    font-weight: bold; /* Opcional: Deixar o texto em negrito */
+    display: inline-block; /* Garante que a label e o input estejam na mesma linha */
+    margin-right: 10px; /* Espaço entre a label e o input */
+  }
+  
+  
+  .dropbtn {
+    width: 15%; /* Full width button to match input */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #0e64ef;
+  border-radius: 4px;
+  }
+  
+  .dropdown-content {
+    display: block; /* Display the list initially */
+    position: absolute; /* Position it relative to its parent */
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 100%; /* Full width content to match input */
+
+  }
+  
+  
+  .dropdown-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dropdown-content li {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+  }
+  
+  
+  .dropdown-content li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .movie-image {
+    width: 200px; /* Defina o tamanho desejado para a largura */
+    height: auto; /* Permita que a altura seja ajustada proporcionalmente */
+    max-height: 300px; /* Defina um valor máximo para a altura, se necessário */
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    margin-top: 100px;
+  }
+  h2 {
+    text-align: center; /* Centraliza o título h2 */
+    margin-top: 50px;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center; /* Centraliza o título h2 */
+    font-size: 20px;
+  }
+  
+  .movie-item {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .movie-content {
+    text-align: center;
+  }
+  
+  .movie-image {
+    width: 150px; /* Defina a largura desejada para as imagens dos filmes */
+    height: 225px; /* Defina a altura desejada para as imagens dos filmes */
+    object-fit: cover; /* Garante que a imagem cubra o espaço especificado */
+  }
+  
+  .movie-title {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 250px; /* Defina o comprimento fixo desejado */
+    white-space: nowrap; /* Garante que o texto não irá quebrar para uma nova linha */
+    overflow: hidden; /* Oculta o excesso de texto que não cabe no contêiner */
+    text-overflow: ellipsis; /* Adiciona "..." no final do texto que não cabe */
+  }
+  
+  .movie-nelson {
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 250px; /* Define a largura fixa desejada */
+    white-space: nowrap; /* Impede que o texto quebre para a próxima linha */
+    overflow: hidden; /* Oculta o texto que excede a largura */
+    text-overflow: ellipsis; /* Adiciona "..." no final do texto que excede a largura */
+    text-align: center; /* Opcional: centraliza o texto horizontalmente */
+    font-size: 10px; /* Define um tamanho de fonte consistente */
+    line-height: 1.5; /* Ajusta a altura da linha para uma melhor legibilidade */
+  }
+  .filter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter-container label {
+    margin-right: 10px;
+  }
+  
+  .filter-container select,
+  .filter-container input {
+    margin-right: 20px;
+    padding: 5px;
+  }
+  .no-movies-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100%; /* Ajusta a altura conforme necessário */
+    min-height: 200px; /* Ajusta a altura mínima conforme necessário */
+  }
+  
+  .no-movies-text {
+    margin-top: 200px;
+    text-align: center; /* Centraliza o texto */
+    font-size: 50px; /* Ajusta o tamanho da fonte conforme necessário */
+    font-weight: bold; /* Ajusta o peso da fonte conforme necessário */
+  }
+  .selected-movie-container {
+    text-align: center; /* Centraliza o conteúdo */
+    margin-top: 20px; /* Espaçamento superior */
+  }
+  
+  .selected-movie-container h2,
+  .selected-movie-container img,
+  .selected-movie-container p,
+  .selected-movie-container .rating {
+    display: block;
+    margin: 0 auto; /* Centraliza os elementos */
+    margin-top: 10px; /* Espaçamento entre elementos */
+  }
+
+  .selected-movie-container {
+    text-align: center;
+    margin-top: 20px; /* Ajuste conforme necessário */
+  }
+  
+  .selected-movie-container h2 {
+    font-size: 2em; /* Aumenta o tamanho do texto do título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+  }
+  
+  .selected-movie-container .movie-image {
+    display: block;
+    margin: 0 auto 20px; /* Centraliza a imagem e adiciona espaço abaixo */
+  }
+  
+  .selected-movie-container .weighted-rating {
+    font-size: 1.5em; /* Aumenta o tamanho do texto da classificação */
+    margin-bottom: 20px; /* Espaço abaixo da classificação */
+  }
+  
+  .selected-movie-container .rating {
+    font-size: 1.2em; /* Aumenta o tamanho do texto da seção de avaliação */
+    margin-bottom: 20px; /* Espaço abaixo da seção de avaliação */
+  }
+  
+  .selected-movie-container .rating p {
+    margin-bottom: 10px; /* Espaço abaixo do texto "Rate this movie!" */
+  }
+  
+  .selected-movie-container .rating span {
+    font-size: 1.5em; /* Aumenta o tamanho dos ícones de estrelas */
+    cursor: pointer; /* Muda o cursor para pointer ao passar sobre as estrelas */
+  }
+  
+  .selected-movie-container p {
+    font-size: 1.2em; /* Aumenta o tamanho do texto da classificação do usuário */
+    margin-top: 20px; /* Espaço acima da classificação do usuário */
+  }
+  

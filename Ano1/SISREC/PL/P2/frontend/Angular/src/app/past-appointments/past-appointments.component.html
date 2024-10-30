@@ -1,0 +1,29 @@
+<!-- past-ratings.component.html -->
+
+<div class="container">
+    <h2>Rating History</h2>
+  
+    <div *ngIf="pastRatings.length === 0">
+      <p>There are no ratings.</p>
+    </div>
+  
+    <div *ngIf="pastRatings.length > 0">
+      <table class="table table-bordered table-striped">
+        <thead>
+          <tr>
+            <th>Data</th>
+            <th>Hora</th>
+            <th>Local</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let appointment of pastRatings">
+            <td>{{ appointment.day | date: 'dd/MM/yyyy' }}</td>
+            <td>{{ appointment.day | date: 'HH:mm' }}</td>
+            <td>{{ appointment.place }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  

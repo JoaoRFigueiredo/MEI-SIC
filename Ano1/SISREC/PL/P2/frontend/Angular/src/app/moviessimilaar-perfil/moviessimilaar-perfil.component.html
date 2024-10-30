@@ -1,0 +1,12 @@
+<div class="personalized-movies-container" *ngIf="personalizedMoviesCollaborative.length > 0">
+    <h2>Personalized Recommendations</h2>
+    <div class="movie-list">
+      <div *ngFor="let movie of personalizedMoviesCollaborative" class="movie-item"(click)="selectMovie(movie)">
+        <div class="movie-content">
+          <img [src]="movie.url" alt="Capa do Filme" class="movie-image">
+          <div class="movie-title">{{ movie.title }}</div>
+          <div class="movie-nelson">({{ movie.count }} rates , {{ movie.weighted_rating | number:'1.2-2' }} ★,{{ movie.genres}})</div>
+        </div>
+      </div>
+    </div>
+  </div>

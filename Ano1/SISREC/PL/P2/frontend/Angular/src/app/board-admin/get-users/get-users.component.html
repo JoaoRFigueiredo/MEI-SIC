@@ -1,0 +1,47 @@
+<h2>My Warehouses</h2>
+<ul class="warehouses">
+  <table class="table table-striped table-dark table-hover">
+    <thead><tr>
+      <th>
+      First Name
+      </th>
+      <th>
+      Last Name
+      </th>
+      <th>
+      email
+      </th>
+      <th>
+      PhoneNumber
+      </th>
+      <th>
+      Role
+      </th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor=" let user of users; let i=index">
+        <td>
+          {{user.firstName}}
+        </td>
+        <td>
+            {{user.lastName}}
+        </td>
+        <td>
+            {{user.email}}
+        </td>
+        <td>
+            {{user.phoneNumber}}
+        </td>
+        <td>
+            {{user.role}}
+        </td>
+        <td>
+          <button *ngIf="user.email!='aaa@aaa.com'" type="button" (click)="deactivate(user.email)">Deactivate</button>
+      </td>
+      </tr>
+    </tbody>
+  </table> 
+  <br>
+  <button type="button" (click)="goBack()">GoBack</button>
+</ul>

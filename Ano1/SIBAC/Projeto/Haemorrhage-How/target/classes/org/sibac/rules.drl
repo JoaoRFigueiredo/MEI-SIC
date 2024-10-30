@@ -1,0 +1,516 @@
+/*
+ * Copyright 2015 Red Hat, Inc. and/or its affiliates.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+*/
+
+package org.sibac;
+
+import org.sibac.model.UserInput;
+
+import org.sibac.model.Evidence;
+import org.sibac.model.Hypothesis;
+import org.sibac.model.Conclusion;
+import org.sibac.model.Fact;
+
+import function org.sibac.view.UI.answer
+import org.sibac.fcl.FuzzyLogicHelper
+import org.junit.validator.AnnotationsValidator;
+
+query "Conclusions"
+	$conclusion : Conclusion()
+end
+
+// Cistoscopia with something, analyze PSA
+rule "r1"
+    when
+        eval(answer(Evidence.CISTOSCOPIA_FACT, "sim"))
+    then
+        Hypothesis h = new Hypothesis("Analisar dado", "PSA");
+        insert(h);
+end
+
+// Analyze PSA with high result, perform Tomografia
+rule "r2"
+    when
+        Hypothesis(description == "Analisar dado", value == "PSA")
+        eval(answer(Evidence.CISTOSCOPIA_PSA, "sim"))
+    then
+        Hypothesis h = new Hypothesis("Realizar exame", "Tomografia");
+        insert(h);
+end
+
+// Perform Tomografia with positive result, perform Biopsia
+rule "r3"
+    when
+        Hypothesis(description == "Realizar exame", value == "Tomografia")
+        eval(answer(Evidence.CISTOSCOPIA_TOMOGRAFIA, "sim"))
+    then
+        Hypothesis h = new Hypothesis("Realizar exame", "Biopsia");
+        insert(h);
+end
+
+// Perform Biopsia with positive result, analyze patient expectations
+rule "r4"
+    when
+        Hypothesis(description == "Realizar exame", value == "Biopsia")
+        eval(answer(Evidence.CISTOSCOPIA_BIOPSIA, "sim"))
+    then
+        Hypothesis h = new Hypothesis("Analisar paciente expetativa", "expetativa");
+        insert(h);
+        // Trigger rule 25
+        Hypothesis h1 = new Hypothesis("Analisar paciente", "idade");
+        insert(h1);
+end
+
+// Handle patient expectation analysis, viable patient
+rule "r25"
+    when
+        Hypothesis(description == "Analisar paciente expetativa", value == "expetativa")
+        eval(answer(Evidence.EXPECTATIVA_UTENTE, "sim"))
+    then
+        Hypothesis h = new Hypothesis("Analisar paciente", "idade");
+        insert(h);
+end
+
+// Handle patient expectation analysis and viability calculation
+rule "r30"
+    when
+        Hypothesis(description == "Analisar paciente expetativa", value == "expetativa")
+        $input: UserInput()
+    then
+        double age = Double.parseDouble($input.getAge());
+        double physicalCondition = Double.parseDouble($input.getPhysicalCondition());
+
+        FuzzyLogicHelper fuzzyHelper = new FuzzyLogicHelper("Haemorrhage-How/src/main/java/org/sibac/fcl/health.fcl");
+        double viability = fuzzyHelper.getViability(age, physicalCondition);
+        Hypothesis c = fuzzyHelper.returnconclusion(viability);
+        insert(c);
+
+end
+
+rule "r31"
+    salience 10
+    when
+        Hypothesis(description == "Prosseguir tratamento", value == "apto")
+        eval(answer(Evidence.CANCRO_RISCO, "psa"))
+    then
+        Hypothesis h = new Hypothesis("Availar cancro", "psa");
+        insert(h);
+end
+
+rule "r39"
+    salience 10
+    when
+        Hypothesis(description == "Prosseguir tratamento", value == "nao apto")
+    then
+        Conclusion c = new Conclusion(Conclusion.PALEATIVO);
+        insert(c);
+end
+
+
+rule "r32"
+    salience 10
+    when
+            Hypothesis(description == "Prosseguir tratamento", value == "apto")
+            eval(answer(Evidence.CANCRO_RISCO, "gg"))
+        then
+            Hypothesis h = new Hypothesis("Availar cancro", "gg");
+            insert(h);
+end
+
+rule "r33"
+    when
+            Hypothesis(description == "Prosseguir tratamento", value == "apto")
+            eval(answer(Evidence.CANCRO_RISCO, "ct2"))
+        then
+            Hypothesis h = new Hypothesis("Verificar cancro", "ct2");
+            insert(h);
+end
+
+
+
+rule "r34"
+    when
+        Hypothesis(description == "Verificar cancro", value == "ct2")
+        eval(answer(Evidence.CANCRO_CT2, "b"))
+    then
+        // Asserting a new hypothesis to trigger rule "r5"
+        Hypothesis h = new Hypothesis("avaliar urotac", "sim");
+        insert(h);
+
+         // adicionar a uma estrutura de dados para futuro processamento
+
+
+end
+
+rule "r35"
+    when
+                Hypothesis(description == "Verificar cancro", value == "ct2")
+                eval(answer(Evidence.CANCRO_CT2, "c"))
+            then
+                Conclusion c = new Conclusion(Conclusion.ALTO);
+                insert(c);
+end
+
+rule "r36"
+    when
+                Hypothesis(description == "Verificar cancro", value == "ct2")
+                eval(answer(Evidence.CANCRO_CT2, "d"))
+            then
+                Conclusion c = new Conclusion(Conclusion.AVANCADO);
+                insert(c);
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Handle Urotac with something, identify disease presence
+rule "r5"
+    when
+        Hypothesis(description == "avaliar urotac", value == "sim")
+        eval(answer(Evidence.UROTAC_FACT, "sim"))
+    then
+        Hypothesis h = new Hypothesis("Doença", "Presença de doença");
+        insert(h);
+end
+
+// Handle Urotac stones analysis with different treatments based on stone size
+rule "r6"
+    salience 10
+    when
+        Hypothesis(description == "Doença", value == "Presença de doença")
+        eval(answer(Evidence.UROTAC_RESULT, "pedras"))
+    then
+        Conclusion c = new Conclusion(Conclusion.PEDRAS_RINS);
+        insert(c);
+end
+
+rule "r7"
+    salience 5
+    when
+        Conclusion(description == Conclusion.PEDRAS_RINS)
+        eval(answer(Evidence.UROTAC_PEDRAS, "pequeno"))
+    then
+        Conclusion c = new Conclusion(Conclusion.BEBER_AGUA);
+        insert(c);
+end
+
+rule "r8"
+    salience 5
+    when
+        Conclusion(description == Conclusion.PEDRAS_RINS)
+        eval(answer(Evidence.UROTAC_PEDRAS, "medio"))
+    then
+        Conclusion c = new Conclusion(Conclusion.TOMAR_MEDICAMENTO);
+        insert(c);
+end
+
+rule "r9"
+    salience 5
+    when
+        Conclusion(description == Conclusion.PEDRAS_RINS)
+        eval(answer(Evidence.UROTAC_PEDRAS, "grande"))
+    then
+        Conclusion c = new Conclusion(Conclusion.REALIZAR_CIRURGIA);
+        insert(c);
+end
+
+// Handle Urotac with HBP, analyze ultrasonography results
+rule "r10"
+    when
+        Hypothesis(description == "Doença", value == "Presença de doença")
+        eval(answer(Evidence.UROTAC_RESULT, "hbp"))
+    then
+        Hypothesis h = new Hypothesis("Doença", "Presença de HBP");
+        insert(h);
+end
+
+rule "r11"
+    when
+        Hypothesis(description == "Doença", value == "Presença de HBP")
+        eval(answer(Evidence.UROTAC_HBP_ULTRASSONOGRAFIA, "anormal"))
+    then
+        Conclusion c = new Conclusion(Conclusion.HBP_ANORMAL);
+        insert(c);
+        Conclusion c1 = new Conclusion(Conclusion.TRATAMENTO_HBP);
+        insert(c1);
+end
+
+rule "r12"
+    when
+        Hypothesis(description == "Doença", value == "Presença de HBP")
+        eval(answer(Evidence.UROTAC_HBP_ULTRASSONOGRAFIA, "normal"))
+    then
+        Conclusion c = new Conclusion(Conclusion.HBP_NORMAL);
+        insert(c);
+        Conclusion c1 = new Conclusion(Conclusion.NAO_HA_TRATAMENTO);
+        insert(c1);
+end
+
+// Handle PSA analysis with negative result, no treatment necessary
+rule "r16"
+    when
+        Hypothesis(description == "Analisar dado", value == "PSA")
+        eval(answer(Evidence.CISTOSCOPIA_PSA, "nao"))
+    then
+        Hypothesis h = new Hypothesis("avaliar urotac", "sim");
+        insert(h);
+end
+
+// Handle Tomografia analysis with negative result, no treatment necessary
+rule "r17"
+    when
+        Hypothesis(description == "Realizar exame", value == "Tomografia")
+        eval(answer(Evidence.CISTOSCOPIA_TOMOGRAFIA, "nao"))
+    then
+        Hypothesis h = new Hypothesis("avaliar urotac", "sim");
+        insert(h);
+end
+
+// Handle Biopsia analysis with negative result, no treatment necessary
+rule "r18"
+    when
+        Hypothesis(description == "Realizar exame", value == "Biopsia")
+        eval(answer(Evidence.CISTOSCOPIA_BIOPSIA, "nao"))
+    then
+        Hypothesis h = new Hypothesis("avaliar urotac", "sim");
+        insert(h);
+end
+
+// Handle both Cistoscopia and Urotac with negative results, perform Ecografia
+rule "r19"
+    when
+        eval(answer(Evidence.CISTOSCOPIA_FACT, "nao"))
+        eval(answer(Evidence.UROTAC_FACT, "nao"))
+    then
+        Hypothesis h = new Hypothesis("Realizar Exame", "Ecografia bsic prostatic");
+        insert(h);
+end
+
+// Handle Ecografia with negative result, no treatment necessary
+rule "r20"
+    when
+        Hypothesis(description == "Realizar Exame", value == "Ecografia bsic prostatic")
+        eval(answer(Evidence.ECOGRAFIA_BASIC, "nao"))
+    then
+        Conclusion c = new Conclusion(Conclusion.NAO_HA_TRATAMENTO);
+        insert(c);
+end
+
+// Handle Ecografia with positive result, identify disease type
+rule "r21"
+    when
+        Hypothesis(description == "Realizar Exame", value == "Ecografia bsic prostatic")
+        eval(answer(Evidence.ECOGRAFIA_BASIC, "sim"))
+    then
+        Hypothesis h = new Hypothesis("Doença", "Qual o tipo");
+        insert(h);
+end
+
+// Handle Ecografia disease type identification (cancer)
+rule "r22"
+    when
+        Hypothesis(description == "Doença", value == "Qual o tipo")
+        eval(answer(Evidence.ECOGRAFIA_BASIC_SIM, "cancro"))
+    then
+        Hypothesis h = new Hypothesis("Analisar paciente expetativa - uro", "expetativa-uro");
+        insert(h);
+end
+
+// Handle Ecografia disease type identification (HBP)
+rule "r23"
+    when
+        Hypothesis(description == "Doença", value == "Qual o tipo")
+        eval(answer(Evidence.ECOGRAFIA_BASIC_SIM, "hbp"))
+    then
+        Hypothesis h = new Hypothesis("Doença", "Presença de HBP");
+        insert(h);
+end
+
+// Handle Urotac result with cancer in urinary tracts
+rule "r24"
+    when
+        Hypothesis(description == "Doença", value == "Presença de doença")
+        eval(answer(Evidence.UROTAC_RESULT, "cancrovias"))
+    then
+        Hypothesis h = new Hypothesis("Analisar paciente expetativa - uro", "expetativa-uro");
+        insert(h);
+end
+
+
+// Handle patient expectation analysis, viable patient
+rule "r70"
+    when
+        Hypothesis(description == "Analisar paciente expetativa - uro", value == "expetativa-uro")
+        eval(answer(Evidence.EXPECTATIVA_UTENTE, "sim"))
+    then
+        Hypothesis h = new Hypothesis("Analisar paciente - uro", "idade");
+        insert(h);
+end
+
+// Handle patient expectation analysis and viability calculation
+rule "r71"
+    when
+        Hypothesis(description == "Analisar paciente expetativa - uro", value == "expetativa-uro")
+        $input: UserInput()
+    then
+        double age = Double.parseDouble($input.getAge());
+        double physicalCondition = Double.parseDouble($input.getPhysicalCondition());
+
+        FuzzyLogicHelper fuzzyHelper = new FuzzyLogicHelper("Haemorrhage-How/src/main/java/org/sibac/fcl/health.fcl");
+        double viability = fuzzyHelper.getViability(age, physicalCondition);
+        Hypothesis c = fuzzyHelper.returnconclusion_uro(viability);
+        insert(c);
+
+end
+
+rule "r72"
+    salience 10
+    when
+        Hypothesis(description == "Prosseguir tratamento-uro", value == "apto-uro")
+        eval(answer(Evidence.CANCRO_RISCO, "psa"))
+    then
+        Hypothesis h = new Hypothesis("Verificar cancro - uro", "psa");
+        insert(h);
+end
+
+rule "r73"
+    salience 10
+    when
+        Hypothesis(description == "Prosseguir tratamento-uro", value == "nao apto-uro")
+    then
+        Conclusion c = new Conclusion(Conclusion.PALEATIVO);
+        insert(c);
+end
+
+
+rule "r74"
+    salience 10
+    when
+            Hypothesis(description == "Prosseguir tratamento-uro", value == "apto-uro")
+            eval(answer(Evidence.CANCRO_RISCO, "gg"))
+        then
+            Hypothesis h = new Hypothesis("Verificar cancro", "gg");
+            insert(h);
+end
+
+rule "r75"
+    when
+            Hypothesis(description == "Prosseguir tratamento-uro", value == "apto-uro")
+            eval(answer(Evidence.CANCRO_RISCO, "ct2"))
+        then
+            Hypothesis h = new Hypothesis("Verificar cancro-uro", "ct2");
+            insert(h);
+end
+
+
+
+rule "r76"
+    when
+        Hypothesis(description == "Verificar cancro-uro", value == "ct2")
+        eval(answer(Evidence.CANCRO_CT2, "b"))
+    then
+        // Asserting a new hypothesis to trigger rule "r5"
+        Conclusion c = new Conclusion(Conclusion.MEDIO);
+        insert(c);
+
+         // adicionar a uma estrutura de dados para futuro processamento
+
+
+end
+
+rule "r77"
+    when
+                Hypothesis(description == "Verificar cancro-uro", value == "ct2")
+                eval(answer(Evidence.CANCRO_CT2, "c"))
+            then
+                Conclusion c = new Conclusion(Conclusion.ALTO);
+                insert(c);
+end
+
+rule "r78"
+    when
+                Hypothesis(description == "Verificar cancro-uro", value == "ct2")
+                eval(answer(Evidence.CANCRO_CT2, "d"))
+            then
+                Conclusion c = new Conclusion(Conclusion.AVANCADO);
+                insert(c);
+end
+
+
+
+
+
+
+
+// Handle patient expectation analysis for cancer in urinary tracts
+rule "r26"
+    when
+        Conclusion(description == Conclusion.CANCRO_VIAS)
+        eval(answer(Evidence.EXPECTATIVA_UTENTE, "nao"))
+    then
+        Conclusion c = new Conclusion(Conclusion.VIGILANCIA_ATIVA);
+        insert(c);
+end
+
+// Handle Urotac result with prostate cancer
+rule "r27"
+    when
+        Hypothesis(description == "Doença", value == "Presença de doença")
+        eval(answer(Evidence.UROTAC_RESULT, "cancro"))
+    then
+        Conclusion c = new Conclusion(Conclusion.CANCRO_PROSTATA);
+        insert(c);
+end
+
+// Handle patient expectation analysis for prostate cancer (no)
+rule "r28"
+    when
+        Conclusion(description == Conclusion.CANCRO_PROSTATA)
+        eval(answer(Evidence.EXPECTATIVA_UTENTE, "nao"))
+    then
+        Conclusion c = new Conclusion(Conclusion.VIGILANCIA_ATIVA);
+        insert(c);
+end
+
+// Handle patient expectation analysis for prostate cancer (yes)
+rule "r29"
+    when
+        Conclusion(description == Conclusion.CANCRO_PROSTATA)
+        eval(answer(Evidence.EXPECTATIVA_UTENTE, "sim"))
+    then
+        Hypothesis h = new Hypothesis("Analisar paciente", "idade");
+        insert(h);
+end
+
+// Handle unknown cases
+rule "unknown"
+    when
+        not Conclusion()
+    then
+        Conclusion c = new Conclusion(Conclusion.UNKNOWN);
+        insert(c);
+end
+
+query "evidence"(String ev, String v)
+    e : Evidence(evidence == ev, value == v)
+end

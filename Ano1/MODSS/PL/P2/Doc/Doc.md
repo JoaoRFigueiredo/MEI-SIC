@@ -1,0 +1,14 @@
+# Paciente
+- Id
+- Nome
+- Sexo
+- Data de nascimento
+- Idade
+- Motivo de vinda (consulta/exame/cirúrgia/emergência)
+- Doença (atribuído mais tarde)
+- Prioridade
+    - 1 -> Adultos entre as idades de 18-64 (não prioritário)
+    - 2 -> adultos entre as idades de 18-64 e com condições urgentes (mas não em risco de vida)
+    - 3 -> Pessoas com mobilidade reduzida
+    - 4 -> Idosos, crianças e grávidas
+    - 5 -> Condições que colocam a vida em risco (Mais prioritário)

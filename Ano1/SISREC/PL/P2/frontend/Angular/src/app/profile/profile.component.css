@@ -1,0 +1,18 @@
+/* Estilos para o contêiner que envolve os botões */
+.button-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    gap: 20px; /* Espaçamento entre os botões */
+    height: 65vh; /* Faz o contêiner ocupar toda a altura da tela */
+  }
+  
+  /* Estilos para os botões */
+  .button-container button {
+    width: 250px; /* Largura dos botões */
+    height: 80px; /* Altura dos botões */
+    font-size: 18px; /* Tamanho da fonte dentro dos botões */
+    margin: 0 20px; /* Espaçamento horizontal adicional entre os botões, se necessário */
+
+  }
+  

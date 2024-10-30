@@ -1,0 +1,24 @@
+.genres-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 colunas */
+    gap: 10px; /* Espaço entre os itens */
+    justify-content: center; /* Centraliza o grid horizontalmente */
+    margin-top: 20px; /* Espaço opcional acima do contêiner */
+  }
+  
+  .genre-item {
+
+    font-size: 20px;
+    margin: 5px 0; /* Espaço opcional entre cada item de gênero */
+    text-align: center; /* Centraliza o texto dentro de cada item */
+  }
+  .h2 {
+    text-align: center; /* Centraliza o título h2 */
+    margin-top: 70px;
+    font-size: 100px;}
+.nelson{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}

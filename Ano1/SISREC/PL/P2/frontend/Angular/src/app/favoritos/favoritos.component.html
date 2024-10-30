@@ -1,0 +1,27 @@
+<!-- solarios.component.html -->
+<button mat-raised-button>Favoritos</button>
+<!--
+<div>
+  <mat-form-field>
+    <input matInput placeholder="Pesquisar" [(ngModel)]="searchTerm" (input)="filtrarSolarios()">
+  </mat-form-field>
+</div>-->
+
+<button mat-raised-button (click)="goBack()">Go back</button>
+
+<div *ngIf="favoritos && favoritos.length > 0" class="favoritos-container">
+  <h2>Favoritos:</h2>
+  <div class="favoritos-items">
+    <div *ngFor="let favorito of favoritos" class="favorito-item" (click)="redirect(favorito.name)">
+      <div class="favorito-info">
+        {{ favorito.name }} - {{ favorito.address }}
+      </div>
+      <img
+        *ngIf="favorito.image"
+        [src]="'/assets/images/' + favorito.image"
+        alt="Imagem do Solário"
+        class="favorito-image"
+      >
+    </div>
+  </div>
+</div>

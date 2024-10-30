@@ -1,0 +1,49 @@
+
+X	java:S125<"<This block of commented-out lines of code should be removed.(ñ•éË8ÜŒÓ.
+
+java:S11864"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡¯¿8ÜŒÓ.
+p
+java:S1104"NMake BR a static final constant or non-public and provide accessors if needed.(ÈâÌ£üÿÿÿÿ8ÜŒÓ.
+V
+java:S1444"4Make this "public static justifications" field final(‘‚Ô‰üÿÿÿÿ8ÜŒÓ.
+K
+java:S2386'")Make member "justifications" "protected".(äµ—ıÿÿÿÿ8ÚÇ¬’Ó.
+£
+java:S1186F"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÔÖ¼şÿÿÿÿ8ÜŒÓ.
+]	java:S125N"<This block of commented-out lines of code should be removed.(Æ¢Ùúÿÿÿÿ8ÜŒÓ.
+k
+java:S1104"NMake KS a static final constant or non-public and provide accessors if needed.(¾ö¹í8ÜŒÓ.
+E
+java:S1444"(Make this "public static KS" field final(¾ö¹í8ÜŒÓ.
+J
+java:S1444"(Make this "public static BR" field final(ÈâÌ£üÿÿÿÿ8ÜŒÓ.
+U
+java:S1444"9Make this "public static agendaEventListener" field final(‡ˆªp8ÜŒÓ.
+X
+java:S1128"6Remove this unused import 'org.engcia.model.Evidence'.(‰á×©ûÿÿÿÿ8†ÈÓ.
+{
+java:S2293'"YReplace the type specification in this constructor call with the diamond operator ("<>").(äµ—ıÿÿÿÿ8­ÚüÓ.
+d
+java:S1128"GRemove this unused import 'org.kie.api.event.rule.AgendaEventListener'.(÷ÒÊ8ÜŒÓ.
+S
+java:S1128"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8ÜŒÓ.
+{
+java:S1104"_Make agendaEventListener a static final constant or non-public and provide accessors if needed.(‡ˆªp8ÜŒÓ.
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8ÜŒÓ.
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ÜŒÓ.
+G
+java:S1181R"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ8ÜŒÓ.
+j
+java:S3008"MRename this field "KS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ö¹í8ÜŒÓ.
+o
+java:S3008"MRename this field "BR" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈâÌ£üÿÿÿÿ8ÜŒÓ.
+|
+java:S1104"ZMake justifications a static final constant or non-public and provide accessors if needed.(‘‚Ô‰üÿÿÿÿ8ÜŒÓ.
+U	java:S106>"9Replace this use of System.out or System.err by a logger.(ÊÀÕõ8ÜŒÓ.
+Z	java:S106:"9Replace this use of System.out or System.err by a logger.(£šƒ‰úÿÿÿÿ8ÜŒÓ.
+T
+java:S1128"2Remove this unused import 'org.engcia.model.Fact'.(¢Çç¢øÿÿÿÿ8†ÈÓ.
+^
+java:S1128"BRemove this unused import 'org.kie.api.runtime.ClassObjectFilter'.(±²”y8ÜŒÓ.

@@ -1,0 +1,17 @@
+
+X	java:S125S"<This block of commented-out lines of code should be removed.(³Ò·ë8ÙÔñƒÕ.
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(€÷å£üÿÿÿÿ8²ÚüÓ.
+V
+java:S2864N"4Iterate over the "entrySet" instead of the "keySet".(‚¶‰ëşÿÿÿÿ8§ÏšÓ.
+X	java:S125'"<This block of commented-out lines of code should be removed.(Ü¤ÙĞ8…ÛÚ„Õ.
+X	java:S125;"<This block of commented-out lines of code should be removed.(ËÊãª8§ÏšÓ.
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(§‡¥³8²ÚüÓ.
+X	java:S125>"<This block of commented-out lines of code should be removed.(³íè8§ÏšÓ.
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ğì˜ø8²ÚüÓ.
+X	java:S1253"<This block of commented-out lines of code should be removed.(İş8§ÏšÓ.
+C
+java:S1481:"&Remove this unused "f" local variable.(´±Ş¤8§ÏšÓ.
+X	java:S125@"<This block of commented-out lines of code should be removed.(ËÊãª8§ÏšÓ.

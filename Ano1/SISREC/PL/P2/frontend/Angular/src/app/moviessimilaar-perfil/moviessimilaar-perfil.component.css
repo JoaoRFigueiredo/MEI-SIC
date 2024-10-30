@@ -1,0 +1,150 @@
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    margin-top: 100px;
+  }
+  
+  h2 {
+    text-align: center; /* Centraliza o título h2 */
+    margin-top: 50px;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .movie-item {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .movie-content {
+    text-align: center;
+  }
+  
+  .movie-image {
+    width: 150px; /* Defina a largura desejada para as imagens dos filmes */
+    height: 225px; /* Defina a altura desejada para as imagens dos filmes */
+    object-fit: cover; /* Garante que a imagem cubra o espaço especificado */
+  }
+  
+  .movie-title {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 250px; /* Defina o comprimento fixo desejado */
+    white-space: nowrap; /* Garante que o texto não irá quebrar para uma nova linha */
+    overflow: hidden; /* Oculta o excesso de texto que não cabe no contêiner */
+    text-overflow: ellipsis; /* Adiciona "..." no final do texto que não cabe */
+  }
+  
+  .movie-nelson {
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 250px; /* Define a largura fixa desejada */
+    white-space: nowrap; /* Impede que o texto quebre para a próxima linha */
+    overflow: hidden; /* Oculta o texto que excede a largura */
+    text-overflow: ellipsis; /* Adiciona "..." no final do texto que excede a largura */
+    text-align: center; /* Opcional: centraliza o texto horizontalmente */
+    font-size: 10px; /* Define um tamanho de fonte consistente */
+    line-height: 1.5; /* Ajusta a altura da linha para uma melhor legibilidade */
+  }.filter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter-container label {
+    margin-right: 10px;
+  }
+  
+  .filter-container select,
+  .filter-container input {
+    margin-right: 20px;
+    padding: 5px;
+  }
+  .no-movies-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100%; /* Ajusta a altura conforme necessário */
+    min-height: 200px; /* Ajusta a altura mínima conforme necessário */
+  }
+  
+  .no-movies-text {
+    margin-top: 200px;
+    text-align: center; /* Centraliza o texto */
+    font-size: 50px; /* Ajusta o tamanho da fonte conforme necessário */
+    font-weight: bold; /* Ajusta o peso da fonte conforme necessário */
+  }
+  .filter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Espaçamento entre os elementos */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    background-color: transparent; /* Remove o fundo branco */
+  }
+  
+  .filter-container label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .filter-container select,
+  .filter-container input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Garantir que o preenchimento não afete a largura total */
+  }
+  
+  .filter-container select:focus,
+  .filter-container input:focus {
+    outline: none;
+    border-color: #0e64ef; /* Cor da borda ao focar */
+    box-shadow: 0 0 5px rgba(14, 100, 239, 0.5); /* Efeito de sombra ao focar */
+  }
+  
+  .filter-container button {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #2f00ff; /* Cor do botão */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .filter-container button:hover {
+    background-color: #6ba1ff; /* Cor do botão ao passar o mouse */
+  }
+  
+  @media (max-width: 600px) {
+    .filter-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .filter-container input,
+    .filter-container label,
+    .filter-container select,
+    .filter-container button {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: auto;
+    }
+  
+    .filter-container button {
+      margin-bottom: 0;
+    }
+  }
+  

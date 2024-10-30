@@ -1,0 +1,119 @@
+#app{
+    min-width: 1000px;
+	max-width: 100%; 
+	/* Alterado de width para max-width */	min-height: 1500px; /* Default height */
+  	height: auto; 
+    background: linear-gradient(90deg, #C7C5F4, #776BCC);		
+	/*background: none;*/ /* Remova o plano de fundo do #app */
+
+}
+#logOut{
+	padding-left: 5px;
+	padding-right: 5px;
+    height: fit-content;
+	margin-left: 1200px; /* Mantenha a margem esquerda como 'auto' para centralizar na barra */
+	margin-right: 10px; /* Ajuste conforme necessário para o espaçamento desejado e mova para o canto direito */ 
+	border-radius: 5px;
+}
+#bar{
+	padding: 5px;
+}
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+	font-family: Raleway, sans-serif;
+}
+
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.screen {		
+	background: linear-gradient(90deg, #5D54A4, #7C78B8);		
+	position: relative;	
+	height: 600px;
+	width: 360px;	
+	box-shadow: 0px 0px 24px #5C5696;
+}
+
+.screen__content {
+	z-index: 1;
+	position: relative;	
+	height: 100%;
+}
+
+.screen__background {		
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+	-webkit-clip-path: inset(0 0 0 0);
+	clip-path: inset(0 0 0 0);	
+}
+
+.screen__background__shape {
+	transform: rotate(45deg);
+	position: absolute;
+}
+
+.screen__background__shape1 {
+	height: 520px;
+	width: 520px;
+	background: #FFF;	
+	top: -50px;
+	right: 120px;	
+	border-radius: 0 72px 0 0;
+}
+
+.screen__background__shape2 {
+	height: 220px;
+	width: 220px;
+	background: #6C63AC;	
+	top: -172px;
+	right: 0;	
+	border-radius: 32px;
+}
+
+.screen__background__shape3 {
+	height: 540px;
+	width: 190px;
+	background: linear-gradient(270deg, #5D54A4, #6A679E);
+	top: -24px;
+	right: 0;	
+	border-radius: 32px;
+}
+
+.screen__background__shape4 {
+	height: 400px;
+	width: 200px;
+	background: #7E7BB9;	
+	top: 420px;
+	right: 50px;	
+	border-radius: 60px;
+}
+
+.login {
+	width: 320px;
+	padding: 30px;
+	padding-top: 190px;
+}
+
+.profile-icon {
+	cursor: pointer; /* Adicione isso para indicar que é clicável */
+    margin-left: auto; /* Mantenha a margem esquerda como 'auto' para centralizar na barra */
+	margin-right: 10px; /* Ajuste conforme necessário para o espaçamento desejado e mova para o canto direito */  
+	color: white; /* Defina a cor desejada para o ícone, por exemplo, branco */
+}
+  
+
+
+

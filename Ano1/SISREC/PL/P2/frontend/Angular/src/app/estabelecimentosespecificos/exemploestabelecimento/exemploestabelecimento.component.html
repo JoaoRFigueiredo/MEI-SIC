@@ -1,0 +1,14 @@
+<div class="solario-item">
+      <div class="solario-info">
+        {{ name }} - {{ address }}
+      </div>
+      <img
+        *ngIf="image"
+        [src]="'/assets/images/' + image"
+        alt="Imagem do Solário"
+        class="solario-image"
+      >
+    </div>
+<button mat-raised-button (click)="redirectDescription()" >Descrição </button>
+<button mat-raised-button (click)="redirectAppointment()">Marcações</button>
+<button mat-raised-button (click)="goBack()">Go back</button>

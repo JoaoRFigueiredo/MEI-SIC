@@ -1,0 +1,34 @@
+<div class="form-container">
+  <form (submit)="onSubmitClient()">
+    <div class="form-group">
+      <label for="email">E-mail</label>
+      <input type="text" id="email" name="email" class="form-control" [(ngModel)]="form.email">
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="text" id="password" name="password" class="form-control" [(ngModel)]="form.password">
+    </div>
+    <div class="form-group">
+      <label for="name">Username</label>
+      <input type="name" id="name" name="name" class="form-control" [(ngModel)]="form.name">
+    </div>
+    <!--<div class="form-group">
+      <label for="genre">Géneros Preferidos</label>
+      <input type="tel" id="genre" name="genre" class="form-control" >
+    </div>-->
+    <button type="submit" class="btn btn-primary">Register</button>
+    <button class="btn btn-primary" (click)="goBack(); hideRegistrationForm()">Go back</button>
+
+    <div *ngIf="registrationAttempted">
+      <div *ngIf="isSuccessful === null || isSuccessful === true">
+        <button class="btn btn-primary" type="button" disabled>
+          <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+          Loading...
+        </button>
+      </div>
+      <div *ngIf="isSuccessful === false" class="alert alert-danger">
+        {{ errorMessage }}
+      </div>
+    </div>
+  </form>
+</div>

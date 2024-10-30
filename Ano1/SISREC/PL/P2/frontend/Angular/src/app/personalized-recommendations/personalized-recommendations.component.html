@@ -1,0 +1,63 @@
+<div class="personalized-movies-container" *ngIf="personalizedMovies.length > 0">
+  <h2>Personalized Recommendations</h2>
+  <div class="movie-list">
+    <div *ngFor="let movie of personalizedMovies" class="movie-item"(click)="selectMovie(movie)">
+      <div class="movie-content">
+        <img [src]="movie.url" alt="Capa do Filme" class="movie-image">
+        <div class="movie-title">{{ movie.title }}</div>
+        <div class="movie-nelson">({{ movie.count }} rates, {{ movie.weighted_rating | number:'1.2-2' }} ★, {{ movie.genres}})</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="search-container">
+  <label class="search-label">Search Movie: </label>
+  <input type="text" [(ngModel)]="searchQuery" (input)="searchMovies()" placeholder="Search Movies">
+  <div class="dropdown" *ngIf="movies.length > 0">
+    <button class="dropbtn" (mouseenter)="openDropdown()">Choose Movie</button>
+    <div class="dropdown-content" *ngIf="isDropdownOpen" (mouseleave)="closeDropdown()">
+      <ul>
+        <li *ngFor="let movie of filteredMovies" (click)="selectMovie(movie)">
+          {{ movie.title }}
+        </li>
+        <li *ngIf="!isLoading && filteredMovies.length === 0">
+          No movies found.
+        </li>
+        <li *ngIf="isLoading">
+          Loading...
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+<div *ngIf="selectedMovie" class="selected-movie-container">
+  <h2>{{ selectedMovie.title }} ({{selectedMovie.year}})</h2>
+  <img [src]="selectedMovie.url" alt="Capa do Filme" class="movie-image">
+  <div class="rating">
+    <p>Rate this movie!</p>
+    <span *ngFor="let star of [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]" (click)="rateMovie(star, selectedMovie.movie_id)">
+      <i class="fas fa-star" [class.active]="star <= rating"></i>
+    </span>
+    <div *ngIf="hasRated">
+      <p>Your Rating: {{rating}} stars</p>
+    </div>
+</div>
+
+
+
+<div class="personalized-content-movies-container" *ngIf="personalizedMoviesContent.length > 0">
+  <h2>Movies Recommended Based on "{{ title }}"</h2>
+  <div class="movie-list">
+    <div *ngFor="let movie of personalizedMoviesContent"  class="movie-item"(click)="selectMovie(movie)">
+      <div class="movie-content">
+        <img [src]="movie.url" alt="Capa do Filme" class="movie-image">
+        <div class="movie-title">{{ movie.title }}</div>
+        <div class="movie-nelson">({{ movie.count }} rates , {{ movie.weighted_rating | number:'1.2-2' }} ★,{{ movie.genres}})</div>
+      </div>
+    </div>
+  </div>
+</div>

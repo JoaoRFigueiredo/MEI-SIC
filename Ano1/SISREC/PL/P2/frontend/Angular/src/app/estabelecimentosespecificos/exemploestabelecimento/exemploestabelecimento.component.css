@@ -1,0 +1,35 @@
+/* solarios.component.css */
+.solarios-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Adicionado para centralizar os itens verticalmente */
+    text-align: center; /* Adicionado para centralizar o texto */
+  }
+  
+  .solarios-items {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Adicionado para centralizar os itens verticalmente */
+    flex-direction: column; /* Alteração para empilhar os itens verticalmente */
+    margin-top: 10px;
+  }
+  
+  .solario-item {
+    width: 400px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .solario-info {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .solario-image {
+    max-width: 100%;
+    height: auto;
+  }
+  

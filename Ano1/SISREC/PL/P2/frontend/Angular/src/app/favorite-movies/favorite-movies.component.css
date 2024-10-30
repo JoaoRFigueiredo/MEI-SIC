@@ -1,0 +1,46 @@
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    margin-top: 100px;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center; /* Isso centraliza o botão horizontalmente */
+    margin-top: 20px; /* Espaço opcional acima do botão */
+  }
+  .movie-nelson {
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  }
+  
+  h2 {
+    text-align: center; /* Centraliza o título h2 */
+    margin-top: 50px;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  
+  .movie-item {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .movie-content {
+    text-align: center;
+  }
+  
+  .movie-image {
+    width: 150px; /* Defina a largura desejada para as imagens dos filmes */
+    height: 225px; /* Defina a altura desejada para as imagens dos filmes */
+    object-fit: cover; /* Garante que a imagem cubra o espaço especificado */
+  }
+  
+  .movie-title {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  

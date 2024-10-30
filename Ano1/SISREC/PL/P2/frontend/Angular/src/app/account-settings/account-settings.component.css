@@ -1,0 +1,19 @@
+h2 {
+    text-align: center; /* Centraliza o título h2 */
+    margin-top: 50px;
+    margin-bottom: 120px;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+p {
+    text-align: center; /* Centraliza o título h2 */
+    margin-top: 50px;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .button-container {
+
+    display: flex;
+    justify-content: center; /* Isso centraliza o botão horizontalmente */
+    margin-top: 100px; /* Espaço opcional acima do botão */
+  }

@@ -1,0 +1,56 @@
+.appointment-details {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  max-width: 300px; /* Defina a largura máxima conforme desejado */
+  margin: 20px auto; /* Isso centralizará a caixa de detalhes */
+}
+
+.appointment-details h3 {
+  color: #333;
+  text-align: center; /* Centralizar o texto */
+}
+
+.appointment-details p {
+  margin: 5px 0;
+  color: #555;
+  text-align: center; /* Centralizar o texto */
+}
+
+  .fc-event-main-frame > .fc-event-time {
+    display: none;
+  }
+
+.fc-event-time {
+  display: none !important;
+}
+/* Adicione isso ao seu arquivo de estilo CSS */
+
+.fc-timegrid-event .fc-event-time,
+.fc-timegrid-event .fc-event-time span {
+    display: none !important;
+}
+
+.fc-timegrid-event {
+  margin-bottom: 10px !important; /* Ajuste o valor conforme necessário */
+}
+
+/* Adicione isso ao seu arquivo de estilo CSS */
+
+.fc-timegrid-event .fc-event-time,
+.fc-timegrid-event .fc-event-main-frame .fc-event-time {
+    display: none !important;
+}
+.fc-timegrid-slot {
+  margin-bottom: 10px; /* Ajuste o valor conforme necessário */
+}
+
+.fc-timegrid-slots tr > td {
+  min-height: 400px !important; /* Ajuste a altura conforme necessário */
+}
+
+  
+  
+  

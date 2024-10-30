@@ -1,0 +1,28 @@
+<div class="nelson"> <h2>Choose your favourite movie genres</h2></div>
+
+<div class="genres-container">
+  <div *ngFor="let genre of genres" class="genre-item">
+    <label>
+      <input type="checkbox" [checked]="genre.selected" (change)="toggleSelection(genre)">
+      {{ genre.name }}
+    </label>
+  </div>
+</div>
+
+<div class="nelson"> <h2>Choose your least favourite movie genres</h2></div>
+
+<div class="genres-container">
+  <div *ngFor="let genre2 of genres1" class="genre-item">
+    <label>
+      <input type="checkbox" [checked]="genre2.selected" (change)="toggle1Selection(genre2)">
+      {{ genre2.name }}
+    </label>
+  </div>
+</div>
+
+<div  class="nelson" *ngIf="selectedGenres.length < 3" style="color: red;">
+  At least 3 favourite genres should be selected!
+</div>
+<div class="nelson">
+<button *ngIf="selectedGenres.length >= 3" (click)="submitGenres()">Submit</button>
+</div>

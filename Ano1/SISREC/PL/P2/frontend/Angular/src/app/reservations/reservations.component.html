@@ -1,0 +1,14 @@
+<!-- reservations.component.html -->
+<div class="calendar-container">
+    <div #calendar></div>
+  
+  
+<div class="appointment-details" *ngIf="selectedAppointment">
+  <h3>{{ selectedAppointment.name }}</h3>
+  <p>Local: {{ selectedAppointment.place }}</p>
+  <p>Dia e Hora: {{ formatDateAndTime(selectedAppointment.day) }}</p>
+  <p>Tipo: {{ selectedAppointment.type }}</p>
+  <!-- Adicione outras informações relevantes aqui -->
+</div>
+
+  </div>

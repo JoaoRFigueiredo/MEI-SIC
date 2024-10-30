@@ -1,0 +1,46 @@
+@startuml
+
+state Arrival
+state WaitingBeforeRegistration as "Waiting (before registration)"
+state Registration
+state WaitingConsultation as "Waiting consultation"
+state Consultation
+state Relocation
+state Treatment
+state Observation
+state DischargePlanning as "Discharge Planning"
+state Departure
+state EmergencyIntervention as "Emergency intervention"
+state Death
+
+[*] --> Arrival : Critical patients
+Arrival --> WaitingBeforeRegistration : If front desk staff is occupied, keep waiting
+WaitingBeforeRegistration --> Registration : If 1 front desk staff is available, proceed to register
+Arrival --> Registration : If 1 front desk staff is available, proceed to register
+Registration --> WaitingConsultation
+WaitingConsultation --> Consultation : Once 1 room and 1 doctor are available, proceed to a consultation
+Consultation --> Relocation : If required and 1 nurse is available\nbe relocated to a room with an available bed
+Consultation --> Treatment : If immediate treatment is needed and resources are available
+Consultation --> Observation : If observation is required and resources are available
+Consultation --> EmergencyIntervention : If emergency intervention is needed
+
+Relocation --> Treatment : If treatment is required and resources are available
+Relocation --> Observation : If observation is required and resources are available
+
+Treatment --> Observation : If treatment is successful and observation is required
+Treatment --> DischargePlanning : If treatment is successful and no further observation is required
+Treatment --> EmergencyIntervention : If further emergency intervention is needed
+
+Observation --> DischargePlanning : If patient condition is stable
+Observation --> Treatment : If further treatment is required
+
+DischargePlanning --> Departure : Discharge process complete
+
+EmergencyIntervention --> Observation : Stabilization and move to observation
+EmergencyIntervention --> Treatment : Immediate treatment required
+EmergencyIntervention --> Relocation : Transfer to specialized care
+EmergencyIntervention --> Death : If patient does not survive
+
+Departure --> [*] : Process complete
+
+@enduml

@@ -1,0 +1,45 @@
+FUNCTION_BLOCK HealthRisk
+
+VAR_INPUT
+    age : REAL;
+    physicalCondition : REAL;
+END_VAR
+
+VAR_OUTPUT
+    risk : REAL;
+END_VAR
+
+FUZZIFY age
+    TERM young := (0, 1) (25, 1) (45, 0);
+    TERM middleAged := (30, 0) (45, 1) (60, 1) (75, 0);
+    TERM old := (60, 0) (75, 1) (100, 1);
+END_FUZZIFY
+
+FUZZIFY physicalCondition
+    TERM poor := (0, 1) (30, 1) (50, 0);
+    TERM average := (30, 0) (50, 1) (70, 0);
+    TERM good := (50, 0) (70, 1) (100, 1);
+END_FUZZIFY
+
+DEFUZZIFY risk
+    TERM low := (0, 1) (25, 1) (50, 0);
+    TERM intermediate := (25, 0) (50, 1) (75, 0);
+    TERM high := (50, 0) (75, 1) (100, 1);
+    METHOD : COG;
+END_DEFUZZIFY
+
+RULEBLOCK No1
+    RULE 1 : IF age IS young AND physicalCondition IS good THEN risk IS low;
+    RULE 2 : IF age IS young AND physicalCondition IS average THEN risk IS low;
+    RULE 3 : IF age IS young AND physicalCondition IS poor THEN risk IS intermediate;
+
+    RULE 4 : IF age IS middleAged AND physicalCondition IS good THEN risk IS low;
+    RULE 5 : IF age IS middleAged AND physicalCondition IS average THEN risk IS intermediate;
+    RULE 6 : IF age IS middleAged AND physicalCondition IS poor THEN risk IS high;
+
+    RULE 7 : IF age IS old AND physicalCondition IS good THEN risk IS intermediate;
+    RULE 8 : IF age IS old AND physicalCondition IS average THEN risk IS high;
+    RULE 9 : IF age IS old AND physicalCondition IS poor THEN risk IS high;
+END_RULEBLOCK
+
+END_FUNCTION_BLOCK
